@@ -1,0 +1,35 @@
+# oshascorm.org — search engines and AI assistants are welcome.
+# AI index: https://oshascorm.org/llms.txt · Full catalog: https://oshascorm.org/llms-full.txt
+# Agent guide: https://oshascorm.org/agents.md · Commerce (UCP): https://oshascorm.org/.well-known/ucp
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+Disallow: /cart
+Disallow: /search
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: DuckAssistBot
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: Meta-ExternalFetcher
+User-agent: MistralAI-User
+User-agent: cohere-ai
+User-agent: YouBot
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://oshascorm.org/sitemap.xml

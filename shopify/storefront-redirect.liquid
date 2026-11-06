@@ -1,0 +1,34 @@
+{%- comment -%}
+  OSHASCORM.org — Shopify storefront → static site hand-off
+  ---------------------------------------------------------
+  Paste this snippet into the Shopify theme's layout/theme.liquid, directly
+  after the opening <head> tag, AFTER shop.oshascorm.org is the store's
+  primary domain (see README.md → "Cutover").
+
+  What it does on the Shopify storefront domain:
+    • Cart, checkout, customer accounts, orders, policies and the contact
+      endpoint stay on Shopify (they must, for payments and email).
+    • Every other page (products, collections, pages, home) tells search
+      engines the canonical copy lives on https://oshascorm.org, is marked
+      noindex, and sends human visitors to the same path on oshascorm.org.
+  This prevents the Shopify storefront from competing with the static site
+  as duplicate content.
+{%- endcomment -%}
+{%- liquid
+  assign path = request.path
+  assign keep_on_shopify = false
+  if path contains '/cart' or path contains '/checkout' or path contains '/account' or path contains '/orders'
+    assign keep_on_shopify = true
+  endif
+  if path == '/contact' or path contains '/challenge' or path contains '/password' or path contains '/policies/' or path contains '/apps/' or path contains '/tools/'
+    assign keep_on_shopify = true
+  endif
+  if request.design_mode
+    assign keep_on_shopify = true
+  endif
+-%}
+{%- unless keep_on_shopify -%}
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://oshascorm.org{{ path }}">
+  <script>location.replace('https://oshascorm.org' + location.pathname + location.search + location.hash);</script>
+{%- endunless -%}

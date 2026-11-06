@@ -1,0 +1,23 @@
+{
+  "name": "oshascorm.org",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for oshascorm.org: OSHA-compliant SCORM safety training packages. Shopify remains the commerce back office; this repo renders a fast, SEO/AI-optimized storefront for GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "serve": "node scripts/serve.mjs",
+    "all": "npm run sync && npm run build && npm run verify"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "cheerio": "1.2.0",
+    "esbuild": "^0.25.12",
+    "sharp": "0.35.5"
+  }
+}
