@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** USACE – EM 385-1-1 (2024, annual)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $129.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/em-385-1-1-8-hour-refresher-training-for-site-safety-and-health-officers-sshos#buy
+- **Buy:** https://oshascorm.org/checkout?item=em-385-1-1-8-hour-refresher-training-for-site-safety-and-health-officers-sshos&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $97.99 | $979.90 |
-| 25 | $97.99 | $2,449.76 |
-| 50 | $94.99 | $4,749.53 |
-| 75 | $89.99 | $6,749.33 |
-| 100 | $89.99 | $8,999.10 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $129.99 | $1,299.90 |
+| 25 | $129.99 | $3,249.75 |
+| 50 | $129.99 | $6,499.50 |
+| 100 | $129.99 | $12,999.00 |
+| 200 | $129.99 | $25,998.00 |
 
 ## Overview
 
@@ -87,7 +85,7 @@ EM 385-1-1 8 Hour Refresher Training for Site Safety and Health Officers (SSHOs)
 
 ### How much does EM 385-1-1 8 Hour Refresher Training for Site Safety and Health Officers (SSHOs) cost?
 
-Pricing is per learner seat for a 12-month license: $979.90 for 10 seats ($97.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$129.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,299.90 for 10 seats or $25,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the EM 385-1-1 8 Hour Refresher Training for Site Safety and Health Officers (SSHOs) course?
 

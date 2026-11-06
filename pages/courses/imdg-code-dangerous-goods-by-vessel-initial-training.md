@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** IMO/DOT – IMDG Code Chapter 1.3 / 49 CFR 172.704
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $149.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/imdg-code-dangerous-goods-by-vessel-initial-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=imdg-code-dangerous-goods-by-vessel-initial-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $127.49 | $1,274.91 |
-| 25 | $84.87 | $2,121.63 |
-| 50 | $70.66 | $3,532.83 |
-| 75 | $65.92 | $4,944.02 |
-| 100 | $63.55 | $6,355.22 |
-| 150 | $61.18 | $9,177.61 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $149.99 | $1,499.90 |
+| 25 | $149.99 | $3,749.75 |
+| 50 | $149.99 | $7,499.50 |
+| 100 | $149.99 | $14,999.00 |
+| 200 | $149.99 | $29,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ IMDG Code Dangerous Goods by Vessel Initial Training is delivered as an LMS-read
 
 ### How much does IMDG Code Dangerous Goods by Vessel Initial Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,274.91 for 10 seats ($127.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$149.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,499.90 for 10 seats or $29,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the IMDG Code Dangerous Goods by Vessel Initial Training course?
 

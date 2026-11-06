@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** Cal/OSHA/EPA – 8 CCR 5192(p) / RCRA
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $249.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cal-osha-24-hour-hazwoper-tsdf-rcra-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-24-hour-hazwoper-tsdf-rcra-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $199.99 | $1,999.92 |
-| 25 | $111.58 | $2,789.40 |
-| 50 | $82.10 | $4,105.20 |
-| 75 | $72.28 | $5,421.00 |
-| 100 | $67.37 | $6,736.80 |
-| 150 | $62.46 | $9,368.40 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $249.99 | $2,499.90 |
+| 25 | $249.99 | $6,249.75 |
+| 50 | $249.99 | $12,499.50 |
+| 100 | $249.99 | $24,999.00 |
+| 200 | $249.99 | $49,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Cal/OSHA 24 hour HAZWOPER TSDF RCRA Training is delivered as an LMS-ready SCORM 
 
 ### How much does Cal/OSHA 24 hour HAZWOPER TSDF RCRA Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,999.92 for 10 seats ($199.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$249.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,499.90 for 10 seats or $49,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cal/OSHA 24 hour HAZWOPER TSDF RCRA Training course?
 

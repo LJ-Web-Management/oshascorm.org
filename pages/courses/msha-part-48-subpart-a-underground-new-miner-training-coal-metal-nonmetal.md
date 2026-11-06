@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** MSHA – 30 CFR Part 48 Subpart A
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $199.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/msha-part-48-subpart-a-underground-new-miner-training-coal-metal-nonmetal#buy
+- **Buy:** https://oshascorm.org/checkout?item=msha-part-48-subpart-a-underground-new-miner-training-coal-metal-nonmetal&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $159.99 | $1,599.92 |
-| 25 | $96.84 | $2,420.98 |
-| 50 | $75.79 | $3,789.41 |
-| 75 | $68.77 | $5,157.84 |
-| 100 | $65.26 | $6,526.27 |
-| 150 | $61.75 | $9,263.14 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $199.99 | $1,999.90 |
+| 25 | $199.99 | $4,999.75 |
+| 50 | $199.99 | $9,999.50 |
+| 100 | $199.99 | $19,999.00 |
+| 200 | $199.99 | $39,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ MSHA Part 48 Subpart A - Underground New Miner Training (Coal & Metal/Nonmetal) 
 
 ### How much does MSHA Part 48 Subpart A - Underground New Miner Training (Coal & Metal/Nonmetal) cost?
 
-Pricing is per learner seat for a 12-month license: $1,599.92 for 10 seats ($159.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$199.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,999.90 for 10 seats or $39,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the MSHA Part 48 Subpart A - Underground New Miner Training (Coal & Metal/Nonmetal) course?
 

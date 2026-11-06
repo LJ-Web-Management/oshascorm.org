@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** MSHA – 30 CFR Part 46
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $89.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/msha-part-46-new-miner-site-entry-training-part-1#buy
+- **Buy:** https://oshascorm.org/checkout?item=msha-part-46-new-miner-site-entry-training-part-1&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $93.49 | $934.91 |
-| 25 | $72.34 | $1,808.47 |
-| 50 | $65.29 | $3,264.41 |
-| 75 | $62.94 | $4,720.34 |
-| 100 | $61.76 | $6,176.27 |
-| 150 | $60.59 | $9,088.14 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $89.99 | $899.90 |
+| 25 | $89.99 | $2,249.75 |
+| 50 | $89.99 | $4,499.50 |
+| 100 | $89.99 | $8,999.00 |
+| 200 | $89.99 | $17,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ MSHA Part 46 New Miner Site Entry Training (Part 1) is delivered as an LMS-ready
 
 ### How much does MSHA Part 46 New Miner Site Entry Training (Part 1) cost?
 
-Pricing is per learner seat for a 12-month license: $934.91 for 10 seats ($93.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$89.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $899.90 for 10 seats or $17,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the MSHA Part 46 New Miner Site Entry Training (Part 1) course?
 

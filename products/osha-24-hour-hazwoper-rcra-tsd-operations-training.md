@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** HAZWOPER Training (29 CFR 1910.120)
 - **Duration:** 24 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $229.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-24-hour-hazwoper-rcra-tsd-operations-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-24-hour-hazwoper-rcra-tsd-operations-training&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $225.39 | $2,253.90 |
-| 25 | $225.39 | $5,634.76 |
-| 50 | $151.05 | $7,552.50 |
-| 75 | $117.20 | $8,789.90 |
-| 100 | $97.90 | $9,789.90 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $229.99 | $2,299.90 |
+| 25 | $229.99 | $5,749.75 |
+| 50 | $229.99 | $11,499.50 |
+| 100 | $229.99 | $22,999.00 |
+| 200 | $229.99 | $45,998.00 |
 
 ## Overview
 
@@ -70,7 +68,7 @@ OSHA 24 Hour HAZWOPER - RCRA TSD Operations Training is delivered as an LMS-read
 
 ### How much does OSHA 24 Hour HAZWOPER - RCRA TSD Operations Training cost?
 
-Pricing is per learner seat for a 12-month license: $2,253.90 for 10 seats ($225.39 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$229.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,299.90 for 10 seats or $45,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 24 Hour HAZWOPER - RCRA TSD Operations Training course?
 

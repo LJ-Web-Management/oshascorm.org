@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** Ammonia Refrigeration Training
 - **Duration:** 4 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $44.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/basic-incident-command-system-for-initial-response-ics-200-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=basic-incident-command-system-for-initial-response-ics-200-training&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $78.39 | $783.90 |
-| 25 | $78.39 | $1,959.76 |
-| 50 | $75.99 | $3,799.53 |
-| 75 | $71.99 | $5,399.33 |
-| 100 | $71.99 | $7,199.10 |
-| 150 | $67.99 | $10,198.73 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $44.99 | $449.90 |
+| 25 | $44.99 | $1,124.75 |
+| 50 | $44.99 | $2,249.50 |
+| 100 | $44.99 | $4,499.00 |
+| 200 | $44.99 | $8,998.00 |
 
 ## Overview
 
@@ -91,7 +89,7 @@ Basic Incident Command System for Initial Response (ICS 200) Training is deliver
 
 ### How much does Basic Incident Command System for Initial Response (ICS 200) Training cost?
 
-Pricing is per learner seat for a 12-month license: $783.90 for 10 seats ($78.39 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$44.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $449.90 for 10 seats or $8,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Basic Incident Command System for Initial Response (ICS 200) Training course?
 

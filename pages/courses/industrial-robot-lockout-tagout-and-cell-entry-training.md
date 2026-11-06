@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1910.147 / ANSI/RIA R15.06
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $59.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/industrial-robot-lockout-tagout-and-cell-entry-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=industrial-robot-lockout-tagout-and-cell-entry-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $50.99 | $509.91 |
-| 25 | $41.52 | $1,037.98 |
-| 50 | $38.36 | $1,918.10 |
-| 75 | $37.31 | $2,798.22 |
-| 100 | $36.78 | $3,678.33 |
-| 150 | $36.26 | $5,438.57 |
-| 200 | $35.99 | $7,198.80 |
+| 10 | $59.99 | $599.90 |
+| 25 | $59.99 | $1,499.75 |
+| 50 | $59.99 | $2,999.50 |
+| 100 | $59.99 | $5,999.00 |
+| 200 | $59.99 | $11,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Industrial Robot Lockout/Tagout and Cell Entry Training is delivered as an LMS-r
 
 ### How much does Industrial Robot Lockout/Tagout and Cell Entry Training cost?
 
-Pricing is per learner seat for a 12-month license: $509.91 for 10 seats ($50.99 per seat), down to $35.99 per seat at 200 seats ($7,198.80). Need more seats? Contact us for enterprise pricing.
+$59.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $599.90 for 10 seats or $11,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Industrial Robot Lockout/Tagout and Cell Entry Training course?
 

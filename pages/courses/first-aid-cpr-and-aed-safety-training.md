@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** OSHA/AHA – 29 CFR 1910.151 (general duty for first aid)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $59.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/first-aid-cpr-and-aed-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=first-aid-cpr-and-aed-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $31.49 | $314.91 |
-| 25 | $24.86 | $621.53 |
-| 50 | $22.65 | $1,132.57 |
-| 75 | $21.91 | $1,643.61 |
-| 100 | $21.55 | $2,154.65 |
-| 150 | $21.18 | $3,176.72 |
-| 200 | $20.99 | $4,198.80 |
+| 10 | $59.99 | $599.90 |
+| 25 | $59.99 | $1,499.75 |
+| 50 | $59.99 | $2,999.50 |
+| 100 | $59.99 | $5,999.00 |
+| 200 | $59.99 | $11,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ First Aid, CPR & AED Training is delivered as an LMS-ready SCORM package — you
 
 ### How much does First Aid, CPR & AED Training cost?
 
-Pricing is per learner seat for a 12-month license: $314.91 for 10 seats ($31.49 per seat), down to $20.99 per seat at 200 seats ($4,198.80). Need more seats? Contact us for enterprise pricing.
+$59.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $599.90 for 10 seats or $11,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the First Aid, CPR & AED Training course?
 

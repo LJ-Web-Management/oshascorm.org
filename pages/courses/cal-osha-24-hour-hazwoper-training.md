@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** Cal/OSHA – 8 CCR 5192(e)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $169.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cal-osha-24-hour-hazwoper-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-24-hour-hazwoper-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $151.99 | $1,519.92 |
-| 25 | $93.89 | $2,347.29 |
-| 50 | $74.53 | $3,726.25 |
-| 75 | $68.07 | $5,105.21 |
-| 100 | $64.84 | $6,484.17 |
-| 150 | $61.61 | $9,242.08 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $169.99 | $1,699.90 |
+| 25 | $169.99 | $4,249.75 |
+| 50 | $169.99 | $8,499.50 |
+| 100 | $169.99 | $16,999.00 |
+| 200 | $169.99 | $33,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Cal/OSHA 24-Hour HAZWOPER Training is delivered as an LMS-ready SCORM package �
 
 ### How much does Cal/OSHA 24-Hour HAZWOPER Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,519.92 for 10 seats ($151.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$169.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,699.90 for 10 seats or $33,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cal/OSHA 24-Hour HAZWOPER Training course?
 

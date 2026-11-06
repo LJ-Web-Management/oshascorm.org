@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1910.119
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $149.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-process-safety-management-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-process-safety-management-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $39.19 | $391.90 |
-| 25 | $39.19 | $979.76 |
-| 50 | $37.99 | $1,899.53 |
-| 75 | $35.99 | $2,699.33 |
-| 100 | $35.99 | $3,599.10 |
-| 150 | $33.99 | $5,098.73 |
-| 200 | $33.99 | $6,798.30 |
+| 10 | $149.99 | $1,499.90 |
+| 25 | $149.99 | $3,749.75 |
+| 50 | $149.99 | $7,499.50 |
+| 100 | $149.99 | $14,999.00 |
+| 200 | $149.99 | $29,998.00 |
 
 ## Overview
 
@@ -115,7 +113,7 @@ OSHA Process Safety Management Training is delivered as an LMS-ready SCORM packa
 
 ### How much does OSHA Process Safety Management Training cost?
 
-Pricing is per learner seat for a 12-month license: $391.90 for 10 seats ($39.19 per seat), down to $33.99 per seat at 200 seats ($6,798.30). Need more seats? Contact us for enterprise pricing.
+$149.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,499.90 for 10 seats or $29,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Process Safety Management Training course?
 

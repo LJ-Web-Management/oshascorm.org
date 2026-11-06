@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** FMCSA/DOT – 49 CFR Part 380 / 383.93
 - **Languages:** English
-- **License:** 12 months per learner seat
+- **Price:** $109.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/eldt-tanker-n-endorsement-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=eldt-tanker-n-endorsement-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $44.99 | $449.91 |
-| 25 | $35.52 | $887.98 |
-| 50 | $32.36 | $1,618.10 |
-| 75 | $31.31 | $2,348.21 |
-| 100 | $30.78 | $3,078.33 |
-| 150 | $30.26 | $4,538.57 |
-| 200 | $29.99 | $5,998.80 |
+| 10 | $109.99 | $1,099.90 |
+| 25 | $109.99 | $2,749.75 |
+| 50 | $109.99 | $5,499.50 |
+| 100 | $109.99 | $10,999.00 |
+| 200 | $109.99 | $21,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ ELDT Tanker (N) Endorsement Training is delivered as an LMS-ready SCORM package 
 
 ### How much does ELDT Tanker (N) Endorsement Training cost?
 
-Pricing is per learner seat for a 12-month license: $449.91 for 10 seats ($44.99 per seat), down to $29.99 per seat at 200 seats ($5,998.80). Need more seats? Contact us for enterprise pricing.
+$109.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,099.90 for 10 seats or $21,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the ELDT Tanker (N) Endorsement Training course?
 

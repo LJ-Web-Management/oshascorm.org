@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 16 hours
 - **Regulation:** USACE – EM 385-1-1 (2024)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $149.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/em-385-1-1-16-hour-training-for-workers#buy
+- **Buy:** https://oshascorm.org/checkout?item=em-385-1-1-16-hour-training-for-workers&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $122.49 | $1,224.90 |
-| 25 | $122.49 | $3,062.26 |
-| 50 | $118.74 | $5,937.03 |
-| 75 | $112.49 | $8,436.83 |
-| 100 | $112.49 | $11,249.10 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $149.99 | $1,499.90 |
+| 25 | $149.99 | $3,749.75 |
+| 50 | $149.99 | $7,499.50 |
+| 100 | $149.99 | $14,999.00 |
+| 200 | $149.99 | $29,998.00 |
 
 ## Overview
 
@@ -93,7 +91,7 @@ EM 385-1-1 16-Hour Training for Workers is delivered as an LMS-ready SCORM packa
 
 ### How much does EM 385-1-1 16-Hour Training for Workers cost?
 
-Pricing is per learner seat for a 12-month license: $1,224.90 for 10 seats ($122.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$149.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,499.90 for 10 seats or $29,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the EM 385-1-1 16-Hour Training for Workers course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** OSHA/ANSI – 29 CFR 1926.1425-.1435 / ASME B30.3
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $179.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/tower-crane-erection-and-dismantling-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=tower-crane-erection-and-dismantling-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $143.99 | $1,439.92 |
-| 25 | $90.94 | $2,273.61 |
-| 50 | $73.26 | $3,663.09 |
-| 75 | $67.37 | $5,052.58 |
-| 100 | $64.42 | $6,442.06 |
-| 150 | $61.47 | $9,221.03 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $179.99 | $1,799.90 |
+| 25 | $179.99 | $4,499.75 |
+| 50 | $179.99 | $8,999.50 |
+| 100 | $179.99 | $17,999.00 |
+| 200 | $179.99 | $35,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Tower Crane Erection and Dismantling Safety Training is delivered as an LMS-read
 
 ### How much does Tower Crane Erection and Dismantling Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,439.92 for 10 seats ($143.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$179.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,799.90 for 10 seats or $35,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Tower Crane Erection and Dismantling Safety Training course?
 

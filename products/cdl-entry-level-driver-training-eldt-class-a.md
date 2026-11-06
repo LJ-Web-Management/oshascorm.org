@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** CDL Entry-Level Driver Training (ELDT)
 - **Duration:** 20 hours
 - **Languages:** English
-- **License:** 12 months per learner seat
+- **Price:** $299.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/cdl-entry-level-driver-training-eldt-class-a#buy
+- **Buy:** https://oshascorm.org/checkout?item=cdl-entry-level-driver-training-eldt-class-a&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $195.99 | $1,959.90 |
-| 25 | $195.99 | $4,899.76 |
-| 50 | $151.05 | $7,552.50 |
-| 75 | $117.20 | $8,789.90 |
-| 100 | $97.90 | $9,789.90 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $299.99 | $2,999.90 |
+| 25 | $299.99 | $7,499.75 |
+| 50 | $299.99 | $14,999.50 |
+| 100 | $299.99 | $29,999.00 |
+| 200 | $299.99 | $59,998.00 |
 
 ## Overview
 
@@ -90,7 +88,7 @@ CDL Entry Level Driver Training (ELDT) – Class A is delivered as an LMS-ready 
 
 ### How much does CDL Entry Level Driver Training (ELDT) – Class A cost?
 
-Pricing is per learner seat for a 12-month license: $1,959.90 for 10 seats ($195.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$299.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,999.90 for 10 seats or $59,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the CDL Entry Level Driver Training (ELDT) – Class A course?
 

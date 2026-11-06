@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** OSHA General Duty Clause / 29 CFR 1904
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $44.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-incident-investigation-for-healthcare-risk-management#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-incident-investigation-for-healthcare-risk-management&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $40.49 | $404.91 |
-| 25 | $31.97 | $799.16 |
-| 50 | $29.13 | $1,456.26 |
-| 75 | $28.18 | $2,113.35 |
-| 100 | $27.70 | $2,770.44 |
-| 150 | $27.23 | $4,084.62 |
-| 200 | $26.99 | $5,398.80 |
+| 10 | $44.99 | $449.90 |
+| 25 | $44.99 | $1,124.75 |
+| 50 | $44.99 | $2,249.50 |
+| 100 | $44.99 | $4,499.00 |
+| 200 | $44.99 | $8,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ OSHA Incident Investigation for Healthcare Risk Management is delivered as an LM
 
 ### How much does OSHA Incident Investigation for Healthcare Risk Management cost?
 
-Pricing is per learner seat for a 12-month license: $404.91 for 10 seats ($40.49 per seat), down to $26.99 per seat at 200 seats ($5,398.80). Need more seats? Contact us for enterprise pricing.
+$44.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $449.90 for 10 seats or $8,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Incident Investigation for Healthcare Risk Management course?
 

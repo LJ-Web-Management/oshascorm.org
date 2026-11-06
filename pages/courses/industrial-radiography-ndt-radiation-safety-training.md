@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** OSHA/NRC – 29 CFR 1910.1096 / 10 CFR 34
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $99.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/industrial-radiography-ndt-radiation-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=industrial-radiography-ndt-radiation-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $84.99 | $849.91 |
-| 25 | $69.21 | $1,730.18 |
-| 50 | $63.95 | $3,197.30 |
-| 75 | $62.19 | $4,664.42 |
-| 100 | $61.32 | $6,131.53 |
-| 150 | $60.44 | $9,065.77 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $99.99 | $999.90 |
+| 25 | $99.99 | $2,499.75 |
+| 50 | $99.99 | $4,999.50 |
+| 100 | $99.99 | $9,999.00 |
+| 200 | $99.99 | $19,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Industrial Radiography (NDT) Radiation Safety Training is delivered as an LMS-re
 
 ### How much does Industrial Radiography (NDT) Radiation Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $849.91 for 10 seats ($84.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$99.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $999.90 for 10 seats or $19,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Industrial Radiography (NDT) Radiation Safety Training course?
 

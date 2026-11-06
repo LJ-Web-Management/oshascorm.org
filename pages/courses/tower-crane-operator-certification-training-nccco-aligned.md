@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** OSHA/NCCCO – 29 CFR 1926.1427 / NCCCO Standards
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $279.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/tower-crane-operator-certification-training-nccco-aligned#buy
+- **Buy:** https://oshascorm.org/checkout?item=tower-crane-operator-certification-training-nccco-aligned&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $223.99 | $2,239.92 |
-| 25 | $120.42 | $3,010.45 |
-| 50 | $85.89 | $4,294.67 |
-| 75 | $74.39 | $5,578.89 |
-| 100 | $68.63 | $6,863.12 |
-| 150 | $62.88 | $9,431.56 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $279.99 | $2,799.90 |
+| 25 | $279.99 | $6,999.75 |
+| 50 | $279.99 | $13,999.50 |
+| 100 | $279.99 | $27,999.00 |
+| 200 | $279.99 | $55,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Tower Crane Operator Certification Training (NCCCO-Aligned) is delivered as an L
 
 ### How much does Tower Crane Operator Certification Training (NCCCO-Aligned) cost?
 
-Pricing is per learner seat for a 12-month license: $2,239.92 for 10 seats ($223.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$279.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,799.90 for 10 seats or $55,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Tower Crane Operator Certification Training (NCCCO-Aligned) course?
 

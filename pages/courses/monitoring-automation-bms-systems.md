@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – ASHRAE Guideline 36 / BACnet (ASHRAE 135) / DCIM best practice
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $276.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/monitoring-automation-bms-systems#buy
+- **Buy:** https://oshascorm.org/checkout?item=monitoring-automation-bms-systems&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $221.59 | $2,215.92 |
-| 25 | $119.53 | $2,988.35 |
-| 50 | $85.51 | $4,275.73 |
-| 75 | $74.17 | $5,563.11 |
-| 100 | $68.50 | $6,850.48 |
-| 150 | $62.83 | $9,425.24 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $276.99 | $2,769.90 |
+| 25 | $276.99 | $6,924.75 |
+| 50 | $276.99 | $13,849.50 |
+| 100 | $276.99 | $27,699.00 |
+| 200 | $276.99 | $55,398.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Monitoring, Automation & BMS Systems is delivered as an LMS-ready SCORM package 
 
 ### How much does Monitoring, Automation & BMS Systems cost?
 
-Pricing is per learner seat for a 12-month license: $2,215.92 for 10 seats ($221.59 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$276.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,769.90 for 10 seats or $55,398.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Monitoring, Automation & BMS Systems course?
 

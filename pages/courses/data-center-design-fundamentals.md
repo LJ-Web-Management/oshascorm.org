@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – ANSI/TIA-942 / Uptime Institute Tier Standard / ISO 14644
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $312.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/data-center-design-fundamentals#buy
+- **Buy:** https://oshascorm.org/checkout?item=data-center-design-fundamentals&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $234.74 | $2,347.43 |
-| 25 | $124.38 | $3,109.47 |
-| 50 | $87.59 | $4,379.55 |
-| 75 | $75.33 | $5,649.62 |
-| 100 | $69.20 | $6,919.70 |
-| 150 | $63.07 | $9,459.85 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $312.99 | $3,129.90 |
+| 25 | $312.99 | $7,824.75 |
+| 50 | $312.99 | $15,649.50 |
+| 100 | $312.99 | $31,299.00 |
+| 200 | $312.99 | $62,598.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Data Center Design Fundamentals is delivered as an LMS-ready SCORM package — y
 
 ### How much does Data Center Design Fundamentals cost?
 
-Pricing is per learner seat for a 12-month license: $2,347.43 for 10 seats ($234.74 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$312.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $3,129.90 for 10 seats or $62,598.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Data Center Design Fundamentals course?
 

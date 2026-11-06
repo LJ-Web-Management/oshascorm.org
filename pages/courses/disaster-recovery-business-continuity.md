@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – ISO 22301 / NIST SP 800-34 / NFPA 1600
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $307.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/disaster-recovery-business-continuity#buy
+- **Buy:** https://oshascorm.org/checkout?item=disaster-recovery-business-continuity&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $230.99 | $2,309.93 |
-| 25 | $123.00 | $3,074.93 |
-| 50 | $87.00 | $4,349.94 |
-| 75 | $75.00 | $5,624.95 |
-| 100 | $69.00 | $6,899.96 |
-| 150 | $63.00 | $9,449.98 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $307.99 | $3,079.90 |
+| 25 | $307.99 | $7,699.75 |
+| 50 | $307.99 | $15,399.50 |
+| 100 | $307.99 | $30,799.00 |
+| 200 | $307.99 | $61,598.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Disaster Recovery & Business Continuity is delivered as an LMS-ready SCORM packa
 
 ### How much does Disaster Recovery & Business Continuity cost?
 
-Pricing is per learner seat for a 12-month license: $2,309.93 for 10 seats ($230.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$307.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $3,079.90 for 10 seats or $61,598.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Disaster Recovery & Business Continuity course?
 

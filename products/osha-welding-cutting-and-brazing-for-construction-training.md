@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** 29 CFR 1926 Subpart J
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-welding-cutting-and-brazing-for-construction-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-welding-cutting-and-brazing-for-construction-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $29.39 | $293.90 |
-| 25 | $29.39 | $734.76 |
-| 50 | $28.49 | $1,424.53 |
-| 75 | $26.99 | $2,024.33 |
-| 100 | $26.99 | $2,699.10 |
-| 150 | $25.49 | $3,823.73 |
-| 200 | $25.49 | $5,098.30 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -98,7 +96,7 @@ OSHA Welding, Cutting, and Brazing for Construction Training is delivered as an 
 
 ### How much does OSHA Welding, Cutting, and Brazing for Construction Training cost?
 
-Pricing is per learner seat for a 12-month license: $293.90 for 10 seats ($29.39 per seat), down to $25.49 per seat at 200 seats ($5,098.30). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Welding, Cutting, and Brazing for Construction Training course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** OSHA General Duty Clause / ASME Pressure Vessel Code
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $54.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/autoclave-safety-for-composite-curing-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=autoclave-safety-for-composite-curing-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $46.74 | $467.41 |
-| 25 | $38.06 | $951.47 |
-| 50 | $35.16 | $1,758.23 |
-| 75 | $34.20 | $2,564.99 |
-| 100 | $33.72 | $3,371.76 |
-| 150 | $33.24 | $4,985.28 |
-| 200 | $32.99 | $6,598.80 |
+| 10 | $54.99 | $549.90 |
+| 25 | $54.99 | $1,374.75 |
+| 50 | $54.99 | $2,749.50 |
+| 100 | $54.99 | $5,499.00 |
+| 200 | $54.99 | $10,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Autoclave Safety for Composite Curing Training is delivered as an LMS-ready SCOR
 
 ### How much does Autoclave Safety for Composite Curing Training cost?
 
-Pricing is per learner seat for a 12-month license: $467.41 for 10 seats ($46.74 per seat), down to $32.99 per seat at 200 seats ($6,598.80). Need more seats? Contact us for enterprise pricing.
+$54.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $549.90 for 10 seats or $10,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Autoclave Safety for Composite Curing Training course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 6 hours
 - **Regulation:** 29 CFR 1910.1026
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $44.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-hexavalent-chromium-safety-and-remediation-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-hexavalent-chromium-safety-and-remediation-training&seats=10
 
 ## Key details
 
@@ -30,19 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $152.64 | $1,526.40 |
-| 25 | $148.67 | $3,716.63 |
-| 50 | $146.28 | $7,314.00 |
-| 75 | $143.10 | $10,732.50 |
-| 100 | $139.92 | $13,992.00 |
-| 150 | $135.15 | $20,272.50 |
-| 200 | $133.56 | $26,712.00 |
-| 250 | $131.97 | $32,992.50 |
-| 300 | $130.38 | $39,114.00 |
-| 350 | $128.79 | $45,076.50 |
-| 400 | $127.20 | $50,880.00 |
-| 450 | $122.43 | $55,093.50 |
-| 500 | $119.25 | $59,625.00 |
+| 10 | $44.99 | $449.90 |
+| 25 | $44.99 | $1,124.75 |
+| 50 | $44.99 | $2,249.50 |
+| 100 | $44.99 | $4,499.00 |
+| 200 | $44.99 | $8,998.00 |
 
 ## Overview
 
@@ -83,7 +75,7 @@ OSHA Hexavalent Chromium Safety and Remediation Training is delivered as an LMS-
 
 ### How much does OSHA Hexavalent Chromium Safety and Remediation Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,526.40 for 10 seats ($152.64 per seat), down to $119.25 per seat at 500 seats ($59,625.00). Need more seats? Contact us for enterprise pricing.
+$44.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $449.90 for 10 seats or $8,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Hexavalent Chromium Safety and Remediation Training course?
 

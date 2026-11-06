@@ -1,13 +1,13 @@
 ---
 title: "Hydrogen Sulfide (H2S) Safety Training — SCORM Courses"
 url: https://oshascorm.org/collections/hydrogen-sulfide-h2s-training
-description: "H2S training SCORM courses for your LMS: 2 courses from $6.60/seat. Hydrogen sulfide is a toxic, flammable gas found in oil and gas production, wastewater…"
+description: "H2S training SCORM courses for your LMS: 2 courses from $19.95/seat. Hydrogen sulfide is a toxic, flammable gas found in oil and gas production, wastewater…"
 updated: 2026-11-06
 ---
 
 # Hydrogen Sulfide (H2S) Safety Training — SCORM Courses
 
-> H2S training SCORM courses for your LMS: 2 courses from $6.60/seat. Hydrogen sulfide is a toxic, flammable gas found in oil and gas production, wastewater…
+> H2S training SCORM courses for your LMS: 2 courses from $19.95/seat. Hydrogen sulfide is a toxic, flammable gas found in oil and gas production, wastewater…
 
 Hydrogen sulfide is a toxic, flammable gas found in oil and gas production, wastewater, pulp and paper, and agriculture. These SCORM courses cover H2S properties and health effects, gas detection and monitoring, respiratory protection, and emergency response and rescue procedures.
 
@@ -15,8 +15,8 @@ Hydrogen sulfide is a toxic, flammable gas found in oil and gas production, wast
 
 ## Courses
 
-- [Comprehensive Hydrogen Sulfide (H2S) Safety Training for the Oil & Gas Industry](https://oshascorm.org/products/comprehensive-hydrogen-sulfide-h2s-safety-training-for-the-oil-gas-industry) — 4 hours, from $60.00/seat
-- [OSHA Hydrogen Sulfide (H2S) Awareness Training](https://oshascorm.org/products/osha-hydrogen-sulfide-awareness-training) — 3 hours, from $6.60/seat
+- [Comprehensive Hydrogen Sulfide (H2S) Safety Training for the Oil & Gas Industry](https://oshascorm.org/products/comprehensive-hydrogen-sulfide-h2s-safety-training-for-the-oil-gas-industry) — 4 hours, from $129.99/seat
+- [OSHA Hydrogen Sulfide (H2S) Awareness Training](https://oshascorm.org/products/osha-hydrogen-sulfide-awareness-training) — 3 hours, from $19.95/seat
 
 ## FAQ
 
@@ -26,7 +26,7 @@ Each H2S training course is delivered as a SCORM 1.2 or SCORM 2004 ZIP package b
 
 ### How much do H2S training courses cost?
 
-This series includes 2 courses, starting from $6.60 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
+This series includes 2 courses, starting from $19.95 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
 
 ### Which regulations do these courses cover?
 

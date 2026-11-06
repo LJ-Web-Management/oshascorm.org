@@ -1,13 +1,13 @@
 ---
 title: "RCRA Hazardous Waste Management Training — SCORM Courses"
 url: https://oshascorm.org/collections/rcra-hazardous-waste-management
-description: "RCRA training SCORM courses for your LMS: 2 courses from $60.00/seat. Master safe and compliant hazardous waste management with RCRA training designed to…"
+description: "RCRA training SCORM courses for your LMS: 2 courses from $59.99/seat. Master safe and compliant hazardous waste management with RCRA training designed to…"
 updated: 2026-11-06
 ---
 
 # RCRA Hazardous Waste Management Training — SCORM Courses
 
-> RCRA training SCORM courses for your LMS: 2 courses from $60.00/seat. Master safe and compliant hazardous waste management with RCRA training designed to…
+> RCRA training SCORM courses for your LMS: 2 courses from $59.99/seat. Master safe and compliant hazardous waste management with RCRA training designed to…
 
 Master safe and compliant hazardous waste management with RCRA training designed to meet EPA requirements and protect people, operations, and the environment.
 
@@ -15,8 +15,8 @@ Master safe and compliant hazardous waste management with RCRA training designed
 
 ## Courses
 
-- [RCRA Hazardous Waste Generator Refresher Training](https://oshascorm.org/products/rcra-hazardous-waste-generator-refresher-training) — 4 hours, from $60.00/seat
-- [RCRA Hazardous Waste Generator Training](https://oshascorm.org/products/rcra-hazardous-waste-generator-training) — 4 hours, from $60.00/seat
+- [RCRA Hazardous Waste Generator Refresher Training](https://oshascorm.org/products/rcra-hazardous-waste-generator-refresher-training) — 4 hours, from $59.99/seat
+- [RCRA Hazardous Waste Generator Training](https://oshascorm.org/products/rcra-hazardous-waste-generator-training) — 4 hours, from $89.99/seat
 
 ## FAQ
 
@@ -26,7 +26,7 @@ Each RCRA training course is delivered as a SCORM 1.2 or SCORM 2004 ZIP package 
 
 ### How much do RCRA training courses cost?
 
-This series includes 2 courses, starting from $60.00 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
+This series includes 2 courses, starting from $59.99 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
 
 ### Which regulations do these courses cover?
 

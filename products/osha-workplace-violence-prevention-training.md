@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** OSHA General Duty Clause / State-specific
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $34.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-workplace-violence-prevention-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-workplace-violence-prevention-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $29.39 | $293.90 |
-| 25 | $29.39 | $734.76 |
-| 50 | $28.49 | $1,424.53 |
-| 75 | $26.99 | $2,024.33 |
-| 100 | $26.99 | $2,699.10 |
-| 150 | $25.49 | $3,823.73 |
-| 200 | $25.49 | $5,098.30 |
+| 10 | $34.99 | $349.90 |
+| 25 | $34.99 | $874.75 |
+| 50 | $34.99 | $1,749.50 |
+| 100 | $34.99 | $3,499.00 |
+| 200 | $34.99 | $6,998.00 |
 
 ## Overview
 
@@ -99,7 +97,7 @@ OSHA Workplace Violence Prevention Training is delivered as an LMS-ready SCORM p
 
 ### How much does OSHA Workplace Violence Prevention Training cost?
 
-Pricing is per learner seat for a 12-month license: $293.90 for 10 seats ($29.39 per seat), down to $25.49 per seat at 200 seats ($5,098.30). Need more seats? Contact us for enterprise pricing.
+$34.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $349.90 for 10 seats or $6,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Workplace Violence Prevention Training course?
 

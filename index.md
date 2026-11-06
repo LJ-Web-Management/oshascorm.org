@@ -13,7 +13,7 @@ Empower your workforce with ready-to-deploy SCORM packages for HAZWOPER, NFPA 70
 
 ## Key facts
 
-- 778 SCORM courses (SCORM 1.2 and SCORM 2004 ZIP packages)
+- 776 SCORM courses (SCORM 1.2 and SCORM 2004 ZIP packages)
 - Licensed per learner seat for 12 months; tiers from 10 to 200 seats
 - Delivered by email within 24 hours of purchase
 - IACET accredited provider; certificate of completion included
@@ -108,7 +108,7 @@ Empower your workforce with ready-to-deploy SCORM packages for HAZWOPER, NFPA 70
 
 ## How SCORM delivery works
 
-1. **Select courses** — Choose from our compliance library with transparent, real-time seat pricing.
+1. **Select courses** — Choose from our compliance library with transparent per-seat pricing.
 2. **Set seat count & order** — Pick learner seats — licensed per user, per year — and check out securely.
 3. **Receive your SCORM ZIP** — Your SCORM 1.2 or SCORM 2004 package is emailed within 24 hours of purchase.
 4. **Upload to your LMS** — Import the ZIP into your LMS. No technical setup or customization required.
@@ -190,7 +190,7 @@ SCORM 1.2 is the most widely supported version and tracks a single lesson status
 
 ### How does seat-based pricing work?
 
-Each course is licensed per learner seat for 12 months (365 days). You choose a seat tier — typically 10, 25, 50, 75, 100, 150 or 200 seats — and the per-seat price drops as the tier grows. Every course page lists the full price for every tier. Need more than 200 seats or an enterprise library license? [Contact us for a quote](/pages/contact).
+Each course has one price per learner seat for a 12-month (365-day) license. Your total is simply that price × the number of seats you need (minimum 10). Every course page shows the per-seat price and totals for common seat counts. Need an enterprise library license or purchase-order billing? [Contact us](/pages/contact).
 
 ### Are the courses OSHA-compliant and accredited?
 

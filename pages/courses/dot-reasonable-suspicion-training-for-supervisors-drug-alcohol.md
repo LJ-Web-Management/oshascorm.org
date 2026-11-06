@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** DOT/FMCSA – 49 CFR Part 382 / 40
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $89.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/dot-reasonable-suspicion-training-for-supervisors-drug-alcohol#buy
+- **Buy:** https://oshascorm.org/checkout?item=dot-reasonable-suspicion-training-for-supervisors-drug-alcohol&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $41.39 | $413.91 |
-| 25 | $32.68 | $816.93 |
-| 50 | $29.77 | $1,488.62 |
-| 75 | $28.80 | $2,160.32 |
-| 100 | $28.32 | $2,832.02 |
-| 150 | $27.84 | $4,175.41 |
-| 200 | $27.59 | $5,518.80 |
+| 10 | $89.99 | $899.90 |
+| 25 | $89.99 | $2,249.75 |
+| 50 | $89.99 | $4,499.50 |
+| 100 | $89.99 | $8,999.00 |
+| 200 | $89.99 | $17,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ DOT Reasonable Suspicion Training for Supervisors (Drug & Alcohol) is delivered 
 
 ### How much does DOT Reasonable Suspicion Training for Supervisors (Drug & Alcohol) cost?
 
-Pricing is per learner seat for a 12-month license: $413.91 for 10 seats ($41.39 per seat), down to $27.59 per seat at 200 seats ($5,518.80). Need more seats? Contact us for enterprise pricing.
+$89.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $899.90 for 10 seats or $17,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the DOT Reasonable Suspicion Training for Supervisors (Drug & Alcohol) course?
 

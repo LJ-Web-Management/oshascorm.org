@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** FDA – 21 CFR Part 117 Subpart B
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $79.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/current-good-manufacturing-practices-for-food-facilities-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=current-good-manufacturing-practices-for-food-facilities-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $67.99 | $679.91 |
-| 25 | $62.94 | $1,573.61 |
-| 50 | $61.26 | $3,063.09 |
-| 75 | $60.70 | $4,552.58 |
-| 100 | $60.42 | $6,042.06 |
-| 150 | $60.14 | $9,021.03 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $79.99 | $799.90 |
+| 25 | $79.99 | $1,999.75 |
+| 50 | $79.99 | $3,999.50 |
+| 100 | $79.99 | $7,999.00 |
+| 200 | $79.99 | $15,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Current Good Manufacturing Practices for Food Facilities Training is delivered a
 
 ### How much does Current Good Manufacturing Practices for Food Facilities Training cost?
 
-Pricing is per learner seat for a 12-month license: $679.91 for 10 seats ($67.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$79.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $799.90 for 10 seats or $15,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Current Good Manufacturing Practices for Food Facilities Training course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – NFPA 70 (NEC) Art. 645 / NFPA 75 / IEEE 3006.x
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $303.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/power-systems-electrical-fundamentals#buy
+- **Buy:** https://oshascorm.org/checkout?item=power-systems-electrical-fundamentals&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $227.99 | $2,279.93 |
-| 25 | $121.89 | $3,047.30 |
-| 50 | $86.53 | $4,326.26 |
-| 75 | $74.74 | $5,605.21 |
-| 100 | $68.84 | $6,884.17 |
-| 150 | $62.95 | $9,442.09 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $303.99 | $3,039.90 |
+| 25 | $303.99 | $7,599.75 |
+| 50 | $303.99 | $15,199.50 |
+| 100 | $303.99 | $30,399.00 |
+| 200 | $303.99 | $60,798.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Power Systems & Electrical Fundamentals is delivered as an LMS-ready SCORM packa
 
 ### How much does Power Systems & Electrical Fundamentals cost?
 
-Pricing is per learner seat for a 12-month license: $2,279.93 for 10 seats ($227.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$303.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $3,039.90 for 10 seats or $60,798.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Power Systems & Electrical Fundamentals course?
 

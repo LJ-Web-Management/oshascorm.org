@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** Cal/OSHA – 8 CCR 3342 (SB 553) / Labor Code 6401.9
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $49.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cal-osha-active-shooter-workplace-violence-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-active-shooter-workplace-violence-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $44.99 | $449.91 |
-| 25 | $35.52 | $887.98 |
-| 50 | $32.36 | $1,618.10 |
-| 75 | $31.31 | $2,348.21 |
-| 100 | $30.78 | $3,078.33 |
-| 150 | $30.26 | $4,538.57 |
-| 200 | $29.99 | $5,998.80 |
+| 10 | $49.99 | $499.90 |
+| 25 | $49.99 | $1,249.75 |
+| 50 | $49.99 | $2,499.50 |
+| 100 | $49.99 | $4,999.00 |
+| 200 | $49.99 | $9,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Cal/OSHA Active Shooter & Workplace Violence Awareness Training is delivered as 
 
 ### How much does Cal/OSHA Active Shooter & Workplace Violence Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $449.91 for 10 seats ($44.99 per seat), down to $29.99 per seat at 200 seats ($5,998.80). Need more seats? Contact us for enterprise pricing.
+$49.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $499.90 for 10 seats or $9,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cal/OSHA Active Shooter & Workplace Violence Awareness Training course?
 

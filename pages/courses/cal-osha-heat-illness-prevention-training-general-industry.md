@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** Cal/OSHA – 8 CCR 3395 (Outdoor) / 8 CCR 3396 (Indoor)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $47.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cal-osha-heat-illness-prevention-training-general-industry#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-heat-illness-prevention-training-general-industry&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $43.19 | $431.91 |
-| 25 | $34.10 | $852.45 |
-| 50 | $31.07 | $1,553.36 |
-| 75 | $30.06 | $2,254.27 |
-| 100 | $29.55 | $2,955.17 |
-| 150 | $29.05 | $4,356.99 |
-| 200 | $28.79 | $5,758.80 |
+| 10 | $47.99 | $479.90 |
+| 25 | $47.99 | $1,199.75 |
+| 50 | $47.99 | $2,399.50 |
+| 100 | $47.99 | $4,799.00 |
+| 200 | $47.99 | $9,598.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Cal/OSHA Heat Illness Prevention Training (General Industry) is delivered as an 
 
 ### How much does Cal/OSHA Heat Illness Prevention Training (General Industry) cost?
 
-Pricing is per learner seat for a 12-month license: $431.91 for 10 seats ($43.19 per seat), down to $28.79 per seat at 200 seats ($5,758.80). Need more seats? Contact us for enterprise pricing.
+$47.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $479.90 for 10 seats or $9,598.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cal/OSHA Heat Illness Prevention Training (General Industry) course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – Uptime Institute M&O Stamp of Approval / ISO 20000 / ITIL
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $325.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/data-center-operations-management#buy
+- **Buy:** https://oshascorm.org/checkout?item=data-center-operations-management&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $244.49 | $2,444.93 |
-| 25 | $127.97 | $3,199.27 |
-| 50 | $89.13 | $4,456.52 |
-| 75 | $76.18 | $5,713.77 |
-| 100 | $69.71 | $6,971.01 |
-| 150 | $63.24 | $9,485.51 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $325.99 | $3,259.90 |
+| 25 | $325.99 | $8,149.75 |
+| 50 | $325.99 | $16,299.50 |
+| 100 | $325.99 | $32,599.00 |
+| 200 | $325.99 | $65,198.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Data Center Operations Management is delivered as an LMS-ready SCORM package —
 
 ### How much does Data Center Operations Management cost?
 
-Pricing is per learner seat for a 12-month license: $2,444.93 for 10 seats ($244.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$325.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $3,259.90 for 10 seats or $65,198.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Data Center Operations Management course?
 

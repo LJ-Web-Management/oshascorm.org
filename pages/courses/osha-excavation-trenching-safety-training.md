@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1926 Subpart P
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-excavation-trenching-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-excavation-trenching-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $50.99 | $509.91 |
-| 25 | $41.52 | $1,037.98 |
-| 50 | $38.36 | $1,918.10 |
-| 75 | $37.31 | $2,798.22 |
-| 100 | $36.78 | $3,678.33 |
-| 150 | $36.26 | $5,438.57 |
-| 200 | $35.99 | $7,198.80 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Excavation & Trenching Safety Training is delivered as an LMS-ready SCORM p
 
 ### How much does OSHA Excavation & Trenching Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $509.91 for 10 seats ($50.99 per seat), down to $35.99 per seat at 200 seats ($7,198.80). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Excavation & Trenching Safety Training course?
 

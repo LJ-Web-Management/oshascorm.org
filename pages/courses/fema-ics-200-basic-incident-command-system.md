@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** FEMA/NIMS – FEMA NIMS / ICS-200
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $44.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/fema-ics-200-basic-incident-command-system#buy
+- **Buy:** https://oshascorm.org/checkout?item=fema-ics-200-basic-incident-command-system&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $67.99 | $679.91 |
-| 25 | $62.94 | $1,573.61 |
-| 50 | $61.26 | $3,063.09 |
-| 75 | $60.70 | $4,552.58 |
-| 100 | $60.42 | $6,042.06 |
-| 150 | $60.14 | $9,021.03 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $44.99 | $449.90 |
+| 25 | $44.99 | $1,124.75 |
+| 50 | $44.99 | $2,249.50 |
+| 100 | $44.99 | $4,499.00 |
+| 200 | $44.99 | $8,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ FEMA ICS-200 Basic Incident Command System is delivered as an LMS-ready SCORM pa
 
 ### How much does FEMA ICS-200 Basic Incident Command System cost?
 
-Pricing is per learner seat for a 12-month license: $679.91 for 10 seats ($67.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$44.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $449.90 for 10 seats or $8,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the FEMA ICS-200 Basic Incident Command System course?
 

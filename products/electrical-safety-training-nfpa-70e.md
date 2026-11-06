@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** NFPA 70E Electrical & Arc Flash Safety
 - **Duration:** 3 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $44.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/electrical-safety-training-nfpa-70e#buy
+- **Buy:** https://oshascorm.org/checkout?item=electrical-safety-training-nfpa-70e&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $48.99 | $489.90 |
-| 25 | $48.99 | $1,224.76 |
-| 50 | $47.49 | $2,374.53 |
-| 75 | $44.99 | $3,374.33 |
-| 100 | $44.99 | $4,499.10 |
-| 150 | $42.49 | $6,373.73 |
-| 200 | $42.49 | $8,498.30 |
+| 10 | $44.99 | $449.90 |
+| 25 | $44.99 | $1,124.75 |
+| 50 | $44.99 | $2,249.50 |
+| 100 | $44.99 | $4,499.00 |
+| 200 | $44.99 | $8,998.00 |
 
 ## Overview
 
@@ -110,7 +108,7 @@ Electrical Safety Training (NFPA 70E 2024) is delivered as an LMS-ready SCORM pa
 
 ### How much does Electrical Safety Training (NFPA 70E 2024) cost?
 
-Pricing is per learner seat for a 12-month license: $489.90 for 10 seats ($48.99 per seat), down to $42.49 per seat at 200 seats ($8,498.30). Need more seats? Contact us for enterprise pricing.
+$44.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $449.90 for 10 seats or $8,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Electrical Safety Training (NFPA 70E 2024) course?
 

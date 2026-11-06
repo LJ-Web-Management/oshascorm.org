@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 7 hours
 - **Regulation:** DOT/ICAO/IMO – 49 CFR 173.185 / IATA DGR / IMDG
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $299.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/shipping-lithium-batteries-fully-regulated-and-excepted-cells-and-batteries-training-u-s-dot-icao-iata-imo-imdg#buy
+- **Buy:** https://oshascorm.org/checkout?item=shipping-lithium-batteries-fully-regulated-and-excepted-cells-and-batteries-training-u-s-dot-icao-iata-imo-imdg&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $293.99 | $2,939.90 |
-| 25 | $173.99 | $4,349.76 |
-| 50 | $151.05 | $7,552.50 |
-| 75 | $117.20 | $8,789.90 |
-| 100 | $97.90 | $9,789.90 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $299.99 | $2,999.90 |
+| 25 | $299.99 | $7,499.75 |
+| 50 | $299.99 | $14,999.50 |
+| 100 | $299.99 | $29,999.00 |
+| 200 | $299.99 | $59,998.00 |
 
 ## Overview
 
@@ -76,7 +74,7 @@ Shipping Lithium Batteries: Fully Regulated and Excepted Cells and Batteries Tra
 
 ### How much does Shipping Lithium Batteries: Fully Regulated and Excepted Cells and Batteries Training (U.S. DOT, ICAO/IATA, IMO/IMDG) cost?
 
-Pricing is per learner seat for a 12-month license: $2,939.90 for 10 seats ($293.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$299.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,999.90 for 10 seats or $59,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Shipping Lithium Batteries: Fully Regulated and Excepted Cells and Batteries Training (U.S. DOT, ICAO/IATA, IMO/IMDG) course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 6 hours
 - **Regulation:** State (varies) – State mold assessor/remediator licensing statutes
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $299.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/mold-inspector-certification-for-prevention-remediation-and-removal-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=mold-inspector-certification-for-prevention-remediation-and-removal-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $329.97 | $3,299.70 |
-| 25 | $259.98 | $6,499.50 |
-| 50 | $179.98 | $8,999.00 |
-| 75 | $131.99 | $9,899.10 |
-| 100 | $104.99 | $10,499.00 |
-| 150 | $76.66 | $11,499.00 |
-| 200 | $59.99 | $11,999.00 |
+| 10 | $299.99 | $2,999.90 |
+| 25 | $299.99 | $7,499.75 |
+| 50 | $299.99 | $14,999.50 |
+| 100 | $299.99 | $29,999.00 |
+| 200 | $299.99 | $59,998.00 |
 
 ## Overview
 
@@ -93,7 +91,7 @@ Mold Inspector Certification for Prevention, Remediation, and Removal Training i
 
 ### How much does Mold Inspector Certification for Prevention, Remediation, and Removal Training cost?
 
-Pricing is per learner seat for a 12-month license: $3,299.70 for 10 seats ($329.97 per seat), down to $59.99 per seat at 200 seats ($11,999.00). Need more seats? Contact us for enterprise pricing.
+$299.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,999.90 for 10 seats or $59,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Mold Inspector Certification for Prevention, Remediation, and Removal Training course?
 

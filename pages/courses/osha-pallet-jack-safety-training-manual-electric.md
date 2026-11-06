@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** 29 CFR 1910.178 (general PIT requirements)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $24.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-pallet-jack-safety-training-manual-electric#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-pallet-jack-safety-training-manual-electric&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $59.49 | $594.91 |
-| 25 | $59.81 | $1,495.32 |
-| 50 | $59.92 | $2,995.99 |
-| 75 | $59.96 | $4,496.65 |
-| 100 | $59.97 | $5,997.32 |
-| 150 | $59.99 | $8,998.66 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $24.99 | $249.90 |
+| 25 | $24.99 | $624.75 |
+| 50 | $24.99 | $1,249.50 |
+| 100 | $24.99 | $2,499.00 |
+| 200 | $24.99 | $4,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Pallet Jack Safety Training (Manual & Electric) is delivered as an LMS-read
 
 ### How much does OSHA Pallet Jack Safety Training (Manual & Electric) cost?
 
-Pricing is per learner seat for a 12-month license: $594.91 for 10 seats ($59.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$24.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $249.90 for 10 seats or $4,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Pallet Jack Safety Training (Manual & Electric) course?
 

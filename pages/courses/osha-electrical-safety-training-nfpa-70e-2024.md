@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** NFPA/OSHA – 29 CFR 1910.332 / NFPA 70E (2024)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $44.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-electrical-safety-training-nfpa-70e-2024#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-electrical-safety-training-nfpa-70e-2024&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $50.99 | $509.91 |
-| 25 | $41.52 | $1,037.98 |
-| 50 | $38.36 | $1,918.10 |
-| 75 | $37.31 | $2,798.22 |
-| 100 | $36.78 | $3,678.33 |
-| 150 | $36.26 | $5,438.57 |
-| 200 | $35.99 | $7,198.80 |
+| 10 | $44.99 | $449.90 |
+| 25 | $44.99 | $1,124.75 |
+| 50 | $44.99 | $2,249.50 |
+| 100 | $44.99 | $4,499.00 |
+| 200 | $44.99 | $8,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Electrical Safety Training (NFPA 70E 2024) is delivered as an LMS-ready SCO
 
 ### How much does OSHA Electrical Safety Training (NFPA 70E 2024) cost?
 
-Pricing is per learner seat for a 12-month license: $509.91 for 10 seats ($50.99 per seat), down to $35.99 per seat at 200 seats ($7,198.80). Need more seats? Contact us for enterprise pricing.
+$44.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $449.90 for 10 seats or $8,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Electrical Safety Training (NFPA 70E 2024) course?
 

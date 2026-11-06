@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 30 hours
 - **Regulation:** FMCSA/DOT – 49 CFR Part 380 Subpart F
 - **Languages:** English
-- **License:** 12 months per learner seat
+- **Price:** $299.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/eldt-class-a-cdl-theory-training-fmcsa#buy
+- **Buy:** https://oshascorm.org/checkout?item=eldt-class-a-cdl-theory-training-fmcsa&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $127.99 | $1,279.92 |
-| 25 | $85.05 | $2,126.24 |
-| 50 | $70.74 | $3,536.78 |
-| 75 | $65.96 | $4,947.32 |
-| 100 | $63.58 | $6,357.85 |
-| 150 | $61.19 | $9,178.93 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $299.99 | $2,999.90 |
+| 25 | $299.99 | $7,499.75 |
+| 50 | $299.99 | $14,999.50 |
+| 100 | $299.99 | $29,999.00 |
+| 200 | $299.99 | $59,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ ELDT Class A CDL Theory Training (FMCSA) is delivered as an LMS-ready SCORM pack
 
 ### How much does ELDT Class A CDL Theory Training (FMCSA) cost?
 
-Pricing is per learner seat for a 12-month license: $1,279.92 for 10 seats ($127.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$299.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,999.90 for 10 seats or $59,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the ELDT Class A CDL Theory Training (FMCSA) course?
 

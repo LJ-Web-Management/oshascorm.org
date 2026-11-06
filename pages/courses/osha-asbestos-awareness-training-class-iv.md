@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** OSHA/EPA – 29 CFR 1910.1001 / 1926.1101 / AHERA 40 CFR 763
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $29.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-asbestos-awareness-training-class-iv#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-asbestos-awareness-training-class-iv&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $44.99 | $449.91 |
-| 25 | $35.52 | $887.98 |
-| 50 | $32.36 | $1,618.10 |
-| 75 | $31.31 | $2,348.21 |
-| 100 | $30.78 | $3,078.33 |
-| 150 | $30.26 | $4,538.57 |
-| 200 | $29.99 | $5,998.80 |
+| 10 | $29.99 | $299.90 |
+| 25 | $29.99 | $749.75 |
+| 50 | $29.99 | $1,499.50 |
+| 100 | $29.99 | $2,999.00 |
+| 200 | $29.99 | $5,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Asbestos Awareness Training (Class IV) is delivered as an LMS-ready SCORM p
 
 ### How much does OSHA Asbestos Awareness Training (Class IV) cost?
 
-Pricing is per learner seat for a 12-month license: $449.91 for 10 seats ($44.99 per seat), down to $29.99 per seat at 200 seats ($5,998.80). Need more seats? Contact us for enterprise pricing.
+$29.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $299.90 for 10 seats or $5,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Asbestos Awareness Training (Class IV) course?
 

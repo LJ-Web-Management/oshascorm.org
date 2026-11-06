@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** FEMA/NIMS – NIMS Training Program guidance
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $349.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/intermediate-incident-command-system-ics-300-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=intermediate-incident-command-system-ics-300-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $262.49 | $2,624.93 |
-| 25 | $134.60 | $3,365.06 |
-| 50 | $91.97 | $4,598.63 |
-| 75 | $77.76 | $5,832.19 |
-| 100 | $70.66 | $7,065.75 |
-| 150 | $63.55 | $9,532.88 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $349.99 | $3,499.90 |
+| 25 | $349.99 | $8,749.75 |
+| 50 | $349.99 | $17,499.50 |
+| 100 | $349.99 | $34,999.00 |
+| 200 | $349.99 | $69,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Intermediate Incident Command System (ICS-300) Training is delivered as an LMS-r
 
 ### How much does Intermediate Incident Command System (ICS-300) Training cost?
 
-Pricing is per learner seat for a 12-month license: $2,624.93 for 10 seats ($262.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$349.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $3,499.90 for 10 seats or $69,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Intermediate Incident Command System (ICS-300) Training course?
 

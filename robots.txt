@@ -1,11 +1,12 @@
 # oshascorm.org — search engines and AI assistants are welcome.
 # AI index: https://oshascorm.org/llms.txt · Full catalog: https://oshascorm.org/llms-full.txt
-# Agent guide: https://oshascorm.org/agents.md · Commerce (UCP): https://oshascorm.org/.well-known/ucp
+# Agent guide: https://oshascorm.org/agents.md · JSON catalog: https://oshascorm.org/api/catalog.json
 
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 Disallow: /cart
+Disallow: /checkout
 Disallow: /search
 
 User-agent: GPTBot

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 5 hours
 - **Regulation:** FMCSA/DOT – 49 CFR Part 380 / 383.93
 - **Languages:** English
-- **License:** 12 months per learner seat
+- **Price:** $109.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/eldt-passenger-p-endorsement-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=eldt-passenger-p-endorsement-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $67.99 | $679.91 |
-| 25 | $62.94 | $1,573.61 |
-| 50 | $61.26 | $3,063.09 |
-| 75 | $60.70 | $4,552.58 |
-| 100 | $60.42 | $6,042.06 |
-| 150 | $60.14 | $9,021.03 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $109.99 | $1,099.90 |
+| 25 | $109.99 | $2,749.75 |
+| 50 | $109.99 | $5,499.50 |
+| 100 | $109.99 | $10,999.00 |
+| 200 | $109.99 | $21,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ ELDT Passenger (P) Endorsement Training is delivered as an LMS-ready SCORM packa
 
 ### How much does ELDT Passenger (P) Endorsement Training cost?
 
-Pricing is per learner seat for a 12-month license: $679.91 for 10 seats ($67.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$109.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,099.90 for 10 seats or $21,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the ELDT Passenger (P) Endorsement Training course?
 

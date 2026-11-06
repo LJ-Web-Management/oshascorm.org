@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 0.33 hours
 - **Regulation:** 29 CFR 1910.147
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $14.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/loto-micro-module-writing-machine-specific-energy-control-procedures#buy
+- **Buy:** https://oshascorm.org/checkout?item=loto-micro-module-writing-machine-specific-energy-control-procedures&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $13.49 | $134.91 |
-| 25 | $12.07 | $301.77 |
-| 50 | $11.60 | $579.88 |
-| 75 | $11.44 | $857.98 |
-| 100 | $11.36 | $1,136.08 |
-| 150 | $11.28 | $1,692.29 |
-| 200 | $11.24 | $2,248.50 |
+| 10 | $14.99 | $149.90 |
+| 25 | $14.99 | $374.75 |
+| 50 | $14.99 | $749.50 |
+| 100 | $14.99 | $1,499.00 |
+| 200 | $14.99 | $2,998.00 |
 
 ## Overview
 
@@ -53,7 +51,7 @@ LOTO Micro-Module: Writing Machine-Specific Energy Control Procedures is deliver
 
 ### How much does LOTO Micro-Module: Writing Machine-Specific Energy Control Procedures cost?
 
-Pricing is per learner seat for a 12-month license: $134.91 for 10 seats ($13.49 per seat), down to $11.24 per seat at 200 seats ($2,248.50). Need more seats? Contact us for enterprise pricing.
+$14.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $149.90 for 10 seats or $2,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the LOTO Micro-Module: Writing Machine-Specific Energy Control Procedures course?
 

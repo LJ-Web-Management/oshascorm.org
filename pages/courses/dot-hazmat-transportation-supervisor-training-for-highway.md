@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** DOT – 49 CFR 172.704(a)(3)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $159.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/dot-hazmat-transportation-supervisor-training-for-highway#buy
+- **Buy:** https://oshascorm.org/checkout?item=dot-hazmat-transportation-supervisor-training-for-highway&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $175.99 | $1,759.92 |
-| 25 | $102.73 | $2,568.35 |
-| 50 | $78.31 | $3,915.73 |
-| 75 | $70.17 | $5,263.11 |
-| 100 | $66.10 | $6,610.48 |
-| 150 | $62.03 | $9,305.24 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $159.99 | $1,599.90 |
+| 25 | $159.99 | $3,999.75 |
+| 50 | $159.99 | $7,999.50 |
+| 100 | $159.99 | $15,999.00 |
+| 200 | $159.99 | $31,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ DOT Hazmat Supervisor Training (Highway) is delivered as an LMS-ready SCORM pack
 
 ### How much does DOT Hazmat Supervisor Training (Highway) cost?
 
-Pricing is per learner seat for a 12-month license: $1,759.92 for 10 seats ($175.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$159.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,599.90 for 10 seats or $31,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the DOT Hazmat Supervisor Training (Highway) course?
 

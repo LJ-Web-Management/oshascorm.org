@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 6 hours
 - **Regulation:** N/A (Voluntary/Technical Skills) – No specific regulation - foundational trade skill
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $119.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/residential-hvac-systems#buy
+- **Buy:** https://oshascorm.org/checkout?item=residential-hvac-systems&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $101.99 | $1,019.91 |
-| 25 | $75.47 | $1,886.76 |
-| 50 | $66.63 | $3,331.51 |
-| 75 | $63.68 | $4,776.26 |
-| 100 | $62.21 | $6,221.01 |
-| 150 | $60.74 | $9,110.50 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $119.99 | $1,199.90 |
+| 25 | $119.99 | $2,999.75 |
+| 50 | $119.99 | $5,999.50 |
+| 100 | $119.99 | $11,999.00 |
+| 200 | $119.99 | $23,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Residential HVAC Systems is delivered as an LMS-ready SCORM package — you can 
 
 ### How much does Residential HVAC Systems cost?
 
-Pricing is per learner seat for a 12-month license: $1,019.91 for 10 seats ($101.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$119.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,199.90 for 10 seats or $23,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Residential HVAC Systems course?
 

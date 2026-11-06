@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 0.25 hours
 - **Regulation:** 29 CFR 1910.38
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $12.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/emergency-action-plan-micro-module-shelter-in-place-procedures#buy
+- **Buy:** https://oshascorm.org/checkout?item=emergency-action-plan-micro-module-shelter-in-place-procedures&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $11.69 | $116.91 |
-| 25 | $10.46 | $261.51 |
-| 50 | $10.05 | $502.51 |
-| 75 | $9.91 | $743.51 |
-| 100 | $9.85 | $984.51 |
-| 150 | $9.78 | $1,466.50 |
-| 200 | $9.74 | $1,948.50 |
+| 10 | $12.99 | $129.90 |
+| 25 | $12.99 | $324.75 |
+| 50 | $12.99 | $649.50 |
+| 100 | $12.99 | $1,299.00 |
+| 200 | $12.99 | $2,598.00 |
 
 ## Overview
 
@@ -53,7 +51,7 @@ Emergency Action Plan Micro-Module: Shelter-in-Place Procedures is delivered as 
 
 ### How much does Emergency Action Plan Micro-Module: Shelter-in-Place Procedures cost?
 
-Pricing is per learner seat for a 12-month license: $116.91 for 10 seats ($11.69 per seat), down to $9.74 per seat at 200 seats ($1,948.50). Need more seats? Contact us for enterprise pricing.
+$12.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $129.90 for 10 seats or $2,598.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Emergency Action Plan Micro-Module: Shelter-in-Place Procedures course?
 

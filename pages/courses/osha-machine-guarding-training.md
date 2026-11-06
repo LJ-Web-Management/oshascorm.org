@@ -1,22 +1,22 @@
 ---
 title: "OSHA Machine Guarding Training"
 url: https://oshascorm.org/pages/courses/osha-machine-guarding-training
-description: "OSHA Machine Guarding Training SCORM course (29 CFR 1910.212): 2 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, from…"
+description: "OSHA Machine Guarding Training SCORM course (29 CFR 1910.212): 2 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, $39.99 per…"
 updated: 2026-11-06
 ---
 
 # OSHA Machine Guarding Training
 
-> OSHA Machine Guarding Training SCORM course (29 CFR 1910.212): 2 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, from…
+> OSHA Machine Guarding Training SCORM course (29 CFR 1910.212): 2 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, $39.99 per…
 
 - **Type:** SCORM course (SCORM 1.2 and SCORM 2004 ZIP)
 - **Category:** Lifts, Rigging & Powered Equipment
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1910.212
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-machine-guarding-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-machine-guarding-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $35.99 | $359.91 |
-| 25 | $28.41 | $710.35 |
-| 50 | $25.89 | $1,294.41 |
-| 75 | $25.05 | $1,878.48 |
-| 100 | $24.63 | $2,462.54 |
-| 150 | $24.20 | $3,630.67 |
-| 200 | $23.99 | $4,798.80 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Machine Guarding Training is delivered as an LMS-ready SCORM package — yo
 
 ### How much does OSHA Machine Guarding Training cost?
 
-Pricing is per learner seat for a 12-month license: $359.91 for 10 seats ($35.99 per seat), down to $23.99 per seat at 200 seats ($4,798.80). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Machine Guarding Training course?
 

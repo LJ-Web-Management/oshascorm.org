@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – Uptime Institute Tier Classification (I-IV) / ANSI/TIA-942 Rated 1-4
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $280.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/tier-infrastructure-fundamentals#buy
+- **Buy:** https://oshascorm.org/checkout?item=tier-infrastructure-fundamentals&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $224.79 | $2,247.92 |
-| 25 | $120.71 | $3,017.82 |
-| 50 | $86.02 | $4,300.99 |
-| 75 | $74.46 | $5,584.16 |
-| 100 | $68.67 | $6,867.33 |
-| 150 | $62.89 | $9,433.66 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $280.99 | $2,809.90 |
+| 25 | $280.99 | $7,024.75 |
+| 50 | $280.99 | $14,049.50 |
+| 100 | $280.99 | $28,099.00 |
+| 200 | $280.99 | $56,198.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Tier Infrastructure Fundamentals is delivered as an LMS-ready SCORM package — 
 
 ### How much does Tier Infrastructure Fundamentals cost?
 
-Pricing is per learner seat for a 12-month license: $2,247.92 for 10 seats ($224.79 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$280.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,809.90 for 10 seats or $56,198.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Tier Infrastructure Fundamentals course?
 

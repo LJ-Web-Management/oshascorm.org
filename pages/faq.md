@@ -298,7 +298,7 @@ SCORM 1.2 is the most widely supported version and tracks a single lesson status
 
 ## How does seat-based pricing work?
 
-Each course is licensed per learner seat for 12 months (365 days). You choose a seat tier — typically 10, 25, 50, 75, 100, 150 or 200 seats — and the per-seat price drops as the tier grows. Every course page lists the full price for every tier. Need more than 200 seats or an enterprise library license? [Contact us for a quote](/pages/contact).
+Each course has one price per learner seat for a 12-month (365-day) license. Your total is simply that price × the number of seats you need (minimum 10). Every course page shows the per-seat price and totals for common seat counts. Need an enterprise library license or purchase-order billing? [Contact us](/pages/contact).
 
 ## Are the courses OSHA-compliant and accredited?
 

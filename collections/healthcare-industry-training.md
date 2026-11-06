@@ -1,13 +1,13 @@
 ---
 title: "Healthcare Safety & OSHA Compliance Training — SCORM Courses"
 url: https://oshascorm.org/collections/healthcare-industry-training
-description: "healthcare safety training SCORM courses for your LMS: 3 courses from $16.99/seat. LMS-ready Healthcare Industry Training courses delivered as SCORM 1.2 and…"
+description: "healthcare safety training SCORM courses for your LMS: 3 courses from $29.99/seat. LMS-ready Healthcare Industry Training courses delivered as SCORM 1.2 and…"
 updated: 2026-11-06
 ---
 
 # Healthcare Safety & OSHA Compliance Training — SCORM Courses
 
-> healthcare safety training SCORM courses for your LMS: 3 courses from $16.99/seat. LMS-ready Healthcare Industry Training courses delivered as SCORM 1.2 and…
+> healthcare safety training SCORM courses for your LMS: 3 courses from $29.99/seat. LMS-ready Healthcare Industry Training courses delivered as SCORM 1.2 and…
 
 LMS-ready Healthcare Industry Training courses delivered as SCORM 1.2 and SCORM 2004 packages.
 
@@ -15,9 +15,9 @@ LMS-ready Healthcare Industry Training courses delivered as SCORM 1.2 and SCORM 
 
 ## Courses
 
-- [Pandemic Awareness, Preparedness, and Response Training](https://oshascorm.org/products/pandemic-awareness-preparedness-and-response-training) — 2 hours, from $16.99/seat
-- [OSHA Bloodborne Pathogens Training](https://oshascorm.org/products/osha-bloodborne-pathogens-training) — 2 hours, from $33.99/seat
-- [HIPAA General Awareness Training](https://oshascorm.org/products/hipaa-general-awareness-training) — 2 hours, from $50.99/seat
+- [Pandemic Awareness, Preparedness, and Response Training](https://oshascorm.org/products/pandemic-awareness-preparedness-and-response-training) — 2 hours, from $39.99/seat
+- [OSHA Bloodborne Pathogens Training](https://oshascorm.org/products/osha-bloodborne-pathogens-training) — 2 hours, from $29.99/seat
+- [HIPAA General Awareness Training](https://oshascorm.org/products/hipaa-general-awareness-training) — 2 hours, from $34.99/seat
 
 ## FAQ
 
@@ -27,7 +27,7 @@ Each healthcare safety training course is delivered as a SCORM 1.2 or SCORM 2004
 
 ### How much do healthcare safety training courses cost?
 
-This series includes 3 courses, starting from $16.99 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
+This series includes 3 courses, starting from $29.99 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
 
 ### Which regulations do these courses cover?
 
