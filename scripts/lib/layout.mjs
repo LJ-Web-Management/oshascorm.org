@@ -31,8 +31,9 @@ const social = {
   facebook: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.2C16.7 2.1 15.7 2 14.6 2 12.2 2 10.6 3.4 10.6 6.1v2.4H8v3.4h2.6V22H14V11.9h2.7l.4-3.4z"/></svg>',
   instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>',
 };
-// Brand assets (self-hosted copies of the OSHA SCORM wordmark and seals).
-export const LOGO = { src: '/assets/img/brand/logo-wordmark.webp', w: 560, h: 90 };
+// Brand assets: the original OSHASCORM.org logo files (unaltered), plus seals.
+export const LOGO = { src: '/assets/img/brand/logo-header.png', w: 400, h: 64 }; // header, 2x of 200x32
+export const LOGO_FULL = { src: '/assets/img/brand/logo-wordmark.jpg', w: 907, h: 146 }; // original master
 
 // Cards accepted by the Stripe card form used at checkout.
 export const PAYMENTS = ['Visa', 'Mastercard', 'American Express', 'Discover', 'Diners Club', 'JCB'];
@@ -194,7 +195,7 @@ function footer({ cfg, nav, badges }) {
   const year = new Date().getFullYear();
   const top = nav.collections.slice(0, 10);
   return `<footer class="footer"><div class="wrap">
-<div class="footer__top"><a class="logo" href="/" aria-label="${esc(cfg.legalName)} home"><img src="${LOGO.src}" width="250" height="40" alt="OSHASCORM.ORG" loading="lazy" decoding="async"></a><div class="seals">${seals(cfg, badges)}</div></div>
+<div class="footer__top"><a class="logo" href="/" aria-label="${esc(cfg.legalName)} home"><img src="${LOGO_FULL.src}" width="250" height="40" alt="OSHASCORM.ORG" loading="lazy" decoding="async"></a><div class="seals">${seals(cfg, badges)}</div></div>
 <div class="footer__grid">
 <div class="footer__brand"><h2>OSHASCORM.org</h2><p>OSHA-aligned safety training delivered as SCORM 1.2 and SCORM 2004 packages for corporate learning management systems, training providers and EHS teams.</p>
 <ul><li><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a></li><li><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></li><li>Los Angeles, California</li><li>Mon–Fri, 7:00 AM – 5:00 PM CST</li></ul>

@@ -218,11 +218,9 @@ const checkoutJs = (await esbuild.transform(await fs.readFile(path.join(ROOT, 's
 put('assets/js/checkout.js', checkoutJs);
 for (const w of [400, 500, 600]) put(`assets/fonts/poppins-${w}.woff2`, await fs.readFile(path.join(ROOT, `node_modules/@fontsource/poppins/files/poppins-latin-${w}-normal.woff2`)));
 
-// Favicons: the blue "OSHA" block of the wordmark, centred on a square tile.
-const logoPng = path.join(ROOT, 'data/img/brand/logo-wordmark.png');
-const markBuf = await sharp(logoPng).extract({ left: 0, top: 0, width: 254, height: 90 }).png().toBuffer();
-const tileBuf = await sharp({ create: { width: 254, height: 254, channels: 4, background: '#0083c4' } }).composite([{ input: markBuf, top: 82, left: 0 }]).png().toBuffer();
-const tile = (size) => sharp(tileBuf).resize(size, size).png().toBuffer();
+// Favicons: the original OSHASCORM.org "OS" tab icon (data/img/brand/favicon-os.jpg).
+const favSrc = path.join(ROOT, 'data/img/brand/favicon-os.jpg');
+const tile = (size) => sharp(favSrc).resize(size, size, { kernel: 'lanczos3' }).png().toBuffer();
 put('favicon-32.png', await tile(32));
 put('apple-touch-icon.png', await tile(180));
 put('icon-192.png', await tile(192));

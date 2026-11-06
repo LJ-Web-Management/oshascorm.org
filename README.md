@@ -37,7 +37,7 @@ npm run serve          # local preview of docs/ at http://localhost:4173
 
 ## Design
 
-The look follows the original OSHASCORM.org brand, modernized: the OSHA | SCORM wordmark, corporate blue `#02458b` with the wordmark's `#0083c4` as accent, Poppins (self-hosted, 400/500/600), square-cornered buttons and cards, a photo hero, training-series photo tiles, the client logo wall, IACET and BBB seals linked to their listings, testimonial headshots and the signed 360° Guarantee. Brand assets live in `data/img/brand`, `hero`, `people` and `clients`; their paths and sizes are listed in `data/media.json`.
+The look follows the original OSHASCORM.org brand, modernized: the original OSHA | SCORM logo files (`logo-header.png`, `logo-wordmark.jpg`) and "OS" tab icon (`favicon-os.jpg`), used unaltered, corporate blue `#02458b` with the wordmark's `#0083c4` as accent, Poppins (self-hosted, 400/500/600), square-cornered buttons and cards, a photo hero, training-series photo tiles, the client logo wall, IACET and BBB seals linked to their listings, testimonial headshots and the signed 360° Guarantee. Brand assets live in `data/img/brand`, `hero`, `people` and `clients`; their paths and sizes are listed in `data/media.json`.
 
 ## Where things live
 
