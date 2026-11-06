@@ -79,7 +79,7 @@ This course provides general function-specific training. Workers whose job dutie
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning or instructor-led (classroom or on-site practical) Duration2–4 hours eLearning; half-day to full-day instructor-led with practical exercises AssessmentKnowledge check and scenario-based evaluation; certificate issued upon successful completion
+ FormatSCORM-compliant eLearning or instructor-led (classroom or on-site practical) Duration2–4 hours eLearning; half-day to full-day instructor-led with practical exercises AssessmentKnowledge check and scenario-based evaluation; certificate issued upon successful completion
 
 ### Compliance & Employer Responsibilities
 

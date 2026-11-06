@@ -81,7 +81,7 @@ Bloodborne pathogens such as **HBV, HCV, and HIV** can cause serious disease. Pr
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning with LMS delivery, or instructor-led delivery available Duration2–4 hours (depending on delivery mode and depth) AssessmentFinal knowledge check; certificate issued upon successful completion
+ FormatSCORM-compliant eLearning with LMS delivery, or instructor-led delivery available Duration2–4 hours (depending on delivery mode and depth) AssessmentFinal knowledge check; certificate issued upon successful completion
 
 ### Regulatory Highlights
 

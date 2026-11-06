@@ -74,7 +74,7 @@ The course refreshes key knowledge and skills required for supervisors overseein
 - Ensure employees under your supervision are properly trained and protected
 - Maintain your annual refresher requirement for certification
 
-  **Important:** Completion of the initial OSHA 8 Hour HAZWOPER Supervisor Certification is required before taking this refresher course.
+ **Important:** Completion of the initial OSHA 8 Hour HAZWOPER Supervisor Certification is required before taking this refresher course.
 
 ### Course Objective
 

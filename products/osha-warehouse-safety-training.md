@@ -67,7 +67,7 @@ The training covers essential OSHA safety principles, hazard recognition, materi
 - **Supervisors & Team Leads:** Personnel responsible for overseeing warehouse activities and ensuring workplace safety.
 - **Safety Professionals:** Individuals tasked with implementing and maintaining warehouse safety programs and OSHA compliance.
 
-  **Note:** This course provides essential knowledge to help employees recognize warehouse hazards, follow safe work practices, and contribute to a safer and more productive workplace.
+ **Note:** This course provides essential knowledge to help employees recognize warehouse hazards, follow safe work practices, and contribute to a safer and more productive workplace.
 
 ### Course Objective
 
@@ -100,7 +100,7 @@ The training covers essential OSHA safety principles, hazard recognition, materi
 - Apply lockout/tagout procedures and recognize machine guarding requirements.
 - Understand the importance of incident reporting, investigation, and corrective actions in preventing future workplace incidents.
 
- ```
+```
 
 ## FAQ
 

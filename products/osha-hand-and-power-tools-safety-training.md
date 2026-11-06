@@ -77,7 +77,7 @@ The course delivers practical and regulatory guidance across key areas:
 
 Whether you are new to construction sites or an experienced worker at equipment-heavy worksites, this training will strengthen hazard recognition and give you practical controls to keep teams safe.
 
-  **OSHA Compliance:** Completion supports employer documentation of training and helps satisfy OSHA training expectations under Subpart I.
+ **OSHA Compliance:** Completion supports employer documentation of training and helps satisfy OSHA training expectations under Subpart I.
 
 ### Course Objective
 

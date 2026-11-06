@@ -80,7 +80,7 @@ Falls from scaffolding remain a leading cause of fatalities in construction. Pro
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning or instructor-led with practical field exercises Duration3–6 hours eLearning; half-day to full-day instructor-led with on-site inspections AssessmentKnowledge checks, practical inspection exercises, and certificate issuance upon successful completion
+ FormatSCORM-compliant eLearning or instructor-led with practical field exercises Duration3–6 hours eLearning; half-day to full-day instructor-led with on-site inspections AssessmentKnowledge checks, practical inspection exercises, and certificate issuance upon successful completion
 
 ### Course Objective
 

@@ -50,7 +50,7 @@ Whether you’re new to ladder work, an experienced climber, or a safety supervi
 
 ### Why choose our training?
 
- **OSHA-aligned** — Covers key rules in *29 CFR 1926.1053* and *29 CFR 1910.23*. **Self-paced online** — Accessible from any device so employees can learn on their schedule. **Practical focus** — Job stories and step-by-step guidance for hazard recognition, ladder selection, safe use, and inspection. **Certificate of completion** — Supports OSHA record-keeping and shows proof of training.
+**OSHA-aligned** — Covers key rules in *29 CFR 1926.1053* and *29 CFR 1910.23*.**Self-paced online** — Accessible from any device so employees can learn on their schedule.**Practical focus** — Job stories and step-by-step guidance for hazard recognition, ladder selection, safe use, and inspection.**Certificate of completion** — Supports OSHA record-keeping and shows proof of training.
 
 ### What you will learn
 

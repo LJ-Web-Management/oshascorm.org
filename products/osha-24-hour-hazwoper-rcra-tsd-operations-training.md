@@ -58,7 +58,9 @@ This training is intended for workers engaged in operations at TSDFs for hazardo
 - Gain practical knowledge to prevent accidents, exposure, and environmental harm.
 - Prepare for safe operations at treatment, storage, and disposal facilities.
 
-  Note: After completion of the 24-hour initial HAZWOPER training, TSDF workers are required to attend an **8-hour annual refresher course** to maintain certification and remain current with OSHA regulations.  [Request More Information](mailto:sales@example.com?subject=OSHA%2024%20Hour%20HAZWOPER%20Training%20Inquiry)
+ Note: After completion of the 24-hour initial HAZWOPER training, TSDF workers are required to attend an **8-hour annual refresher course** to maintain certification and remain current with OSHA regulations.
+
+[Request More Information](mailto:sales@example.com?subject=OSHA%2024%20Hour%20HAZWOPER%20Training%20Inquiry)
 
 ## FAQ
 

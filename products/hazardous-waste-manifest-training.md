@@ -66,7 +66,7 @@ This **Hazardous Waste Manifest Training** provides practical instruction for ha
 - **Laboratory & Industrial Staff:** Personnel who generate hazardous waste in labs or production.
 - **Regulatory Inspectors & Emergency Responders:** EPA and state inspectors or responders needing manifest knowledge.
 
-  **Regulatory Note:** This course is aligned with federal manifest requirements in **49 CFR 172 Subpart H**. State-level requirements may vary; participants should verify additional state rules that apply to manifesting and e-Manifest submissions.
+ **Regulatory Note:** This course is aligned with federal manifest requirements in **49 CFR 172 Subpart H**. State-level requirements may vary; participants should verify additional state rules that apply to manifesting and e-Manifest submissions.
 
 ### Course Objective
 

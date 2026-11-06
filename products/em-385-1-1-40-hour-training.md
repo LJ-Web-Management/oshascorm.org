@@ -60,7 +60,7 @@ The EM 385-1-1 training certification is required or strongly recommended for pe
 
 ### Why Choose Our EM 385-1-1 Course?
 
- **2024-aligned content** — updated to reflect the latest EM 385-1-1 requirements. **Role-focused modules** — practical scenarios for SSHOs, supervisors, and field crews. **Documentation training** — how to prepare AHAs, APPs, permits, and required safety records. **Interactive & self-paced** — online modules, quizzes, and final assessment with a completion certificate.
+**2024-aligned content** — updated to reflect the latest EM 385-1-1 requirements.**Role-focused modules** — practical scenarios for SSHOs, supervisors, and field crews.**Documentation training** — how to prepare AHAs, APPs, permits, and required safety records.**Interactive & self-paced** — online modules, quizzes, and final assessment with a completion certificate.
 
 ### Core Topics Covered
 

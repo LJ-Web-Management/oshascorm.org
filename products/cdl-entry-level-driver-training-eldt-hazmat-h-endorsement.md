@@ -71,7 +71,7 @@ As of **February 2022**, the FMCSA mandates that all entry-level drivers must co
 
 The **ELDT HAZMAT (H) Endorsement** training does not expire, and recurrent training is not required. However, when a CDL expires—typically every five years on the driver’s birthday—the H Endorsement renewal requires a **TSA security threat assessment**. Some states may impose more frequent assessments based on local licensing regulations.
 
-  **Note:**There is no separate training required for the X endorsement. Drivers obtain it by completing the H (HazMat) endorsement training and passing the DMV knowledge test for the N (Tanker) endorsement, which together authorize the transport of hazardous materials in tank vehicles.
+ **Note:**There is no separate training required for the X endorsement. Drivers obtain it by completing the H (HazMat) endorsement training and passing the DMV knowledge test for the N (Tanker) endorsement, which together authorize the transport of hazardous materials in tank vehicles.
 
 ### Course Objective
 

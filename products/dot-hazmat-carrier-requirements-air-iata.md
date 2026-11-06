@@ -78,7 +78,7 @@ Learners should have basic DOT hazmat knowledge, preferably from DOT Hazmat Tran
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning (LMS delivery) Approx. Duration45–75 minutes (self-paced) AssessmentFinal knowledge check; certificate upon passing
+ FormatSCORM-compliant eLearning (LMS delivery) Approx. Duration45–75 minutes (self-paced) AssessmentFinal knowledge check; certificate upon passing
 
 **Note:** For a detailed overview of DOT hazmat regulations, consider enrolling in the 10-hour *DOT Hazmat Transportation: Advanced General Awareness Training*.
 
