@@ -78,7 +78,7 @@ Learners should have completed DOT Hazmat Transportation: General Awareness Trai
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning (LMS delivery) with downloadable certificate and job-aids Approx. Duration90–120 minutes (self-paced, includes in-depth exercises) AssessmentKnowledge check and practical HMT interpretation exercises (certificate upon successful completion)
+ FormatSCORM-compliant eLearning (LMS delivery) with downloadable certificate and job-aids Approx. Duration90–120 minutes (self-paced, includes in-depth exercises) AssessmentKnowledge check and practical HMT interpretation exercises (certificate upon successful completion)
 
 ### Why HMT Training Matters
 

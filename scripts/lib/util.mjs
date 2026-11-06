@@ -93,3 +93,41 @@ export function toMarkdown(html = '') {
 
 export const iso = (d) => (d ? new Date(d).toISOString() : new Date().toISOString());
 export const isoDate = (d) => iso(d).slice(0, 10);
+
+// Clean rich text that came from a WYSIWYG editor so it renders consistently:
+// non-breaking spaces -> spaces, "<br><br>" paragraphs -> real <p>s, bare text
+// <div>s -> <p>, and empty paragraphs/lists/list items removed.
+export function normalizeHtml(html = '') {
+  if (!html) return '';
+  const $ = cheerio.load(`<div id="__n">${html.replace(/&nbsp;| /g, ' ')}</div>`, null, false);
+  const r = $('#__n');
+  // Wrap loose inline content (text sitting directly in the root or a div)
+  // into paragraphs, splitting where the editor used "<br><br>".
+  const BLOCK = new Set(['p', 'div', 'ul', 'ol', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'blockquote', 'section', 'article', 'figure', 'hr', 'pre', 'dl']);
+  const wrapLoose = (box) => {
+    const out = [];
+    let buf = [];
+    const flush = () => {
+      const parts = buf.join('').split(/(?:<br\s*\/?>\s*){2,}/i).filter((s) => s.replace(/<br\s*\/?>/gi, '').trim());
+      out.push(...parts.map((s) => `<p>${s.trim()}</p>`));
+      buf = [];
+    };
+    for (const n of [...box.contents()]) {
+      const h = $.html(n);
+      if (n.type === 'tag' && BLOCK.has(n.name)) { flush(); out.push(h); } else buf.push(h);
+    }
+    flush();
+    box.html(out.join(''));
+  };
+  wrapLoose(r);
+  r.find('div,section').each((_, d) => { if ($(d).children().filter((_, c) => BLOCK.has(c.name)).length) wrapLoose($(d)); });
+  r.find('p').each((_, p) => {
+    const inner = $(p).html() || '';
+    if (/(<br\s*\/?>\s*){2,}/i.test(inner)) $(p).replaceWith(inner.split(/(?:<br\s*\/?>\s*){2,}/i).filter((s) => s.trim()).map((s) => `<p>${s.trim()}</p>`).join(''));
+  });
+  r.find('div').each((_, d) => { if (!$(d).children().length && $(d).text().trim()) d.name = 'p'; });
+  for (let i = 0; i < 3; i++) {
+    r.find('p,li,ul,ol,h2,h3,h4,h5,strong,b,em,span').each((_, el) => { if (!$(el).text().trim() && !$(el).find('img,br').length) $(el).remove(); });
+  }
+  return (r.html() || '').replace(/(<br\s*\/?>\s*){2,}/gi, '<br>').replace(/(<p>\s*<br\s*\/?>)|(<br\s*\/?>\s*<\/p>)/gi, (m) => (m.includes('<p>') ? '<p>' : '</p>')).trim();
+}

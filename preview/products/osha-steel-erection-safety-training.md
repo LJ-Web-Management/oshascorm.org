@@ -42,7 +42,7 @@ updated: 2026-11-06
 
 The OSHA Steel Erection Safety Training course is designed for workers involved in steel erection operations, ensuring compliance with OSHA standards 29 CFR 1926 Subpart R for the construction industry.
 
- According to OSHA regulations, employers must provide training to all employees exposed to steel erection hazards to ensure they understand structural stability, fall protection, load handling, rigging, and hazard recognition. This training is essential for preventing falls, struck-by incidents, and structural collapses while maintaining workplace safety and regulatory compliance.
+According to OSHA regulations, employers must provide training to all employees exposed to steel erection hazards to ensure they understand structural stability, fall protection, load handling, rigging, and hazard recognition. This training is essential for preventing falls, struck-by incidents, and structural collapses while maintaining workplace safety and regulatory compliance.
 
 ### Course Objective
 

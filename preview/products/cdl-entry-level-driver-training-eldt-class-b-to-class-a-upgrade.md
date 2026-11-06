@@ -65,7 +65,7 @@ This training is ideal for drivers pursuing new job opportunities or fulfilling 
 - **Fleet Operators:** Employers who want to expand employee capabilities to handle versatile or higher-paid positions.
 - **Logistics & Transport Professionals:** Individuals seeking to extend operations to long-haul or heavy freight driving.
 
-  **Note:** Completion of this course prepares drivers to safely take the knowledge and skills tests required for the Class A CDL upgrade.
+ **Note:** Completion of this course prepares drivers to safely take the knowledge and skills tests required for the Class A CDL upgrade.
 
 ### Course Objective
 

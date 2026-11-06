@@ -61,7 +61,7 @@ Training content aligns with the following critical standards and recommended pr
 
 ### Why Choose Our H₂S Training?
 
- **Role-focused** — Practical modules tailored for field workers, supervisors, and emergency responders. **Detection to response** — From gas monitoring systems and alarms to PPE and first-aid for exposure. **Regulatory-ready** — Aligned with industry and federal standards to support compliance. **Self-paced delivery** — Learn on any device and issue completion certificates for training records.
+**Role-focused** — Practical modules tailored for field workers, supervisors, and emergency responders.**Detection to response** — From gas monitoring systems and alarms to PPE and first-aid for exposure.**Regulatory-ready** — Aligned with industry and federal standards to support compliance.**Self-paced delivery** — Learn on any device and issue completion certificates for training records.
 
 ### What You Will Learn
 

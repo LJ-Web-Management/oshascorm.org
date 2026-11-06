@@ -70,7 +70,7 @@ This training equips learners to recognize asbestos-containing materials, unders
 - Basic prevention measures and safe work practices to avoid disturbing ACM
 - When to stop work and notify a supervisor or qualified asbestos personnel
 
-  **Note:** This is awareness-level training appropriate for non-abatement workers; personnel performing abatement or regulated work require additional, specialized training and controls.
+ **Note:** This is awareness-level training appropriate for non-abatement workers; personnel performing abatement or regulated work require additional, specialized training and controls.
 
 ### Course Objective
 

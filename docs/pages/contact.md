@@ -15,13 +15,7 @@ OSHASCORM.ORG is committed to providing top-tier safety training that empowers y
 
 We develop and offer OHS, HSE, EHS, SHE, QHSE, HSEQ, HSSE, QHSSE, HSSEQ safety online, in-person classroom style, and virtual instructor-led training courses to support employers in fulfilling their obligations in compliance with OSHA, EPA, DOT and other safety regulations.
 
-**Need assistance?** Our dedicated team is ready to help.
-
-**Contact Information:**
-
-- **Phone:** [866.429.6742](tel:866.429.6742)
-- **Email:** [Info@oshascorm.org](mailto:Info@oshascorm.org)
-- **Headquarter**: Los Angeles, CA
+**Headquarters:** Los Angeles, CA
 
 ## Sales & support hours
 

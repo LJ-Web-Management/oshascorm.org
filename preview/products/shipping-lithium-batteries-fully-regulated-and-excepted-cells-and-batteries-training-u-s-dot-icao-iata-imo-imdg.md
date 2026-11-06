@@ -48,7 +48,7 @@ The Shipping Lithium Batteries: Fully Regulated and Excepted Cells and Batteries
 - Lithium battery-powered vehicles or equipment
 - Lithium batteries installed in cargo transport units
 
- By completing this course, you'll be equipped to ensure safe and compliant transportation of lithium batteries, regardless of their configuration or intended use.
+By completing this course, you'll be equipped to ensure safe and compliant transportation of lithium batteries, regardless of their configuration or intended use.
 
 ### Course Objective
 

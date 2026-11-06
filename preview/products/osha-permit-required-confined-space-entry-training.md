@@ -44,7 +44,7 @@ updated: 2026-11-06
 
 OSHA-aligned training for construction and general industry to recognize, assess, and control permit-required confined space hazards, and to implement safe entry and rescue procedures.
 
- Overview
+Overview
 
 Confined spaces can present immediate and severe hazards due to limited entry/exit and hazardous atmospheres or physical conditions. This **Permit-Required Confined Space Entry Training** is designed to help workers and supervisors understand OSHA requirements (29 CFR 1910.146 for General Industry and 29 CFR 1926 Subpart AA for Construction), evaluate confined space hazards, correctly complete permits, and prepare effective rescue plans.
 
@@ -82,7 +82,7 @@ Between 2011 and 2018 over 1,000 workers were killed in confined space incidents
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning for LMS delivery, or instructor-led with practical on-site drills Duration2–6 hours (eLearning) or half-day/full-day instructor-led with hands-on exercises AssessmentKnowledge checks and scenario evaluations; certificate issued upon successful completion
+ FormatSCORM-compliant eLearning for LMS delivery, or instructor-led with practical on-site drills Duration2–6 hours (eLearning) or half-day/full-day instructor-led with hands-on exercises AssessmentKnowledge checks and scenario evaluations; certificate issued upon successful completion
 
 ### Course Objective
 

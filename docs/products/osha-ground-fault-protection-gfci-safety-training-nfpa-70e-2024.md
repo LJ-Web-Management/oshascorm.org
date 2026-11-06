@@ -74,7 +74,7 @@ OSHA requires employers to protect workers from electrical hazards by implementi
 
 While OSHA does not specify a fixed renewal period for this training, employers are encouraged to provide periodic refresher training to ensure workers remain familiar with electrical safety practices and updated standards such as **NFPA 70E 2024**. Regular training helps maintain compliance and strengthens workplace safety programs.
 
-  **Note:** Proper use of Ground Fault Circuit Interrupters (GFCIs) is one of the most effective methods to prevent electrical shock incidents. Employers should ensure that workers understand how to inspect, test, and use GFCI protection when working with electrical tools and equipment.
+ **Note:** Proper use of Ground Fault Circuit Interrupters (GFCIs) is one of the most effective methods to prevent electrical shock incidents. Employers should ensure that workers understand how to inspect, test, and use GFCI protection when working with electrical tools and equipment.
 
 ### Course Objective
 

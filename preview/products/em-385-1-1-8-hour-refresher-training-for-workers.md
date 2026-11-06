@@ -69,7 +69,7 @@ This refresher is for non-supervisory workers and contractors who have previousl
 - Hazard recognition, reporting, and stop-work authority
 - Emergency response basics and site-specific controls
 
-  **Note:** This 8-hour refresher is only valid after completion of the initial 16-hour EM 385-1-1 Workers course. Employers are responsible for ensuring workers receive any required site-specific or hands-on training in addition to this refresher.
+ **Note:** This 8-hour refresher is only valid after completion of the initial 16-hour EM 385-1-1 Workers course. Employers are responsible for ensuring workers receive any required site-specific or hands-on training in addition to this refresher.
 
 ### Course Objective
 

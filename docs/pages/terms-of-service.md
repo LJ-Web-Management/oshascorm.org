@@ -1,13 +1,13 @@
 ---
 title: "Terms of Service"
 url: https://oshascorm.org/pages/terms-of-service
-description: "Effective Date: July 1st, 2024 Welcome to OSHA SCORM (https://oshascorm.org/). By accessing and using our website, you agree to comply with and be bound by…"
+description: "Effective Date: July 1st, 2024Welcome to OSHA SCORM (https://oshascorm.org/). By accessing and using our website, you agree to comply with and be bound by…"
 updated: 2026-11-06
 ---
 
 # Terms of Service
 
-> Effective Date: July 1st, 2024 Welcome to OSHA SCORM (https://oshascorm.org/). By accessing and using our website, you agree to comply with and be bound by…
+> Effective Date: July 1st, 2024Welcome to OSHA SCORM (https://oshascorm.org/). By accessing and using our website, you agree to comply with and be bound by…
 
 **Effective Date:** July 1st, 2024
 

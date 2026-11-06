@@ -65,7 +65,7 @@ export function courseCard(c, { eager = false } = {}) {
   const media = c.media
     ? `<div class="course__media"><img src="${esc(c.media[480])}" srcset="${esc(srcsetOf(c.media))}" sizes="(min-width:1200px) 280px, (min-width:700px) 45vw, 92vw" width="480" height="320" alt="${esc(c.imageAlt || c.title)}" loading="${eager ? 'eager' : 'lazy'}" decoding="async"></div>`
     : '';
-  return `<article class="card card--link course">${media}<div class="course__body"><div class="course__meta">${c.duration ? `<span class="chip">${icon.clock.replace('<svg', '<svg width="14" height="14"')} ${esc(c.duration)}</span>` : ''}${c.languages?.some((l) => /espa/i.test(l)) ? '<span class="chip chip--green">EN · ES</span>' : ''}</div><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><div class="course__price">${c.price ? `<span>Per seat</span><b>${money(c.price)}<span> /seat</span></b>` : '<span>SCORM 1.2 &amp; 2004</span>'}</div></div></article>`;
+  return `<article class="card card--link course">${media}<div class="course__body"><div class="course__meta">${c.duration ? `<span class="chip">${icon.clock.replace('<svg', '<svg width="14" height="14"')} ${esc(c.duration)}</span>` : ''}${c.languages?.some((l) => /espa/i.test(l)) ? '<span class="chip chip--green">EN · ES</span>' : ''}</div><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><div class="course__price">${c.price ? `<span>12-month license</span><b>${money(c.price)}<span> /seat</span></b>` : '<span>SCORM 1.2 &amp; 2004</span>'}</div></div></article>`;
 }
 
 export function courseRow(c) {
@@ -88,7 +88,7 @@ export function buyBox(c, cfg) {
   const presets = cfg.seatPresets.map((s, i) => `<button type="button" class="seat-chip${i === 0 ? ' is-on' : ''}" data-seats="${s}" aria-pressed="${i === 0}">${s}</button>`).join('');
   const checkoutHref = `/checkout?item=${encodeURIComponent(c.handle)}&seats=${min}`;
   return `<form class="buybox" id="buy" data-buybox data-handle="${esc(c.handle)}" data-title="${esc(c.title)}" data-price="${c.price}" data-url="${esc(c.url)}" data-min="${min}" onsubmit="return false">
-<fieldset><legend>Number of learner seats <span class="muted small">(12-month license)</span></legend>
+<fieldset><legend>Number of learner seats <span class="muted small nowrap">(12-month license)</span></legend>
 <div class="seatpick"><div class="seat-chips" role="group" aria-label="Quick seat counts">${presets}</div><label class="seat-input"><span>or enter</span><input type="number" name="seats" inputmode="numeric" min="${min}" max="100000" step="1" value="${min}" aria-describedby="seat-help-${esc(c.handle)}"></label></div>
 <p class="small muted mt-0" id="seat-help-${esc(c.handle)}">Minimum ${min} seats. Every seat is ${money(c.price)} — no tiers, no surprises.</p></fieldset>
 <div class="price" aria-live="polite"><div><div class="price__per">${money(c.price)} <small>/ seat</small></div></div><div class="price__total"><span class="small muted"><span data-out="seats">${min}</span> seats</span><b data-out="total">${money(c.price * min)}</b></div></div>

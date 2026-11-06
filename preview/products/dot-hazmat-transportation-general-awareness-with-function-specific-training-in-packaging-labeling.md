@@ -65,12 +65,13 @@ Standards covered in this course are contained in **49 CFR Parts 171–180** (Ha
 
 This course is ideal as an onboarding requirement, periodic refresher, or part of a compliance program for companies involved in hazardous materials transportation.
 
-  **Regulatory note:** The HMR (49 CFR Parts 171–180) contains detailed requirements for classification, packaging specifications, marking, labeling, placarding, shipping papers, and emergency response information. Employers should ensure workers complete function-specific training relevant to their job duties.
+ **Regulatory note:** The HMR (49 CFR Parts 171–180) contains detailed requirements for classification, packaging specifications, marking, labeling, placarding, shipping papers, and emergency response information. Employers should ensure workers complete function-specific training relevant to their job duties.
 
 ### Course Objective
 
 After completing the OSHA Competent Person for Excavation, Trenching, and Shoring Training course, the learner will be able to:
- Understand the purpose and applicability of the Hazardous Materials Regulations (HMR). Identify hazardous materials and the basic hazard classes and divisions. Use the Hazardous Materials Table (HMT) and interpret the information contained therein. Identify the information required for preparing hazardous material shipping papers and the hazardous waste manifest. Understand the requirements for marking, labeling, and placarding of hazardous material shipments. Summarize the requirements for proper packaging, loading, and unloading of hazardous material shipments. Recognize and apply transportation-specific requirements for the correct carrier mode of shipments. Outline the basic protocols for recognizing and responding to potential security threats.
+
+Understand the purpose and applicability of the Hazardous Materials Regulations (HMR). Identify hazardous materials and the basic hazard classes and divisions. Use the Hazardous Materials Table (HMT) and interpret the information contained therein. Identify the information required for preparing hazardous material shipping papers and the hazardous waste manifest. Understand the requirements for marking, labeling, and placarding of hazardous material shipments. Summarize the requirements for proper packaging, loading, and unloading of hazardous material shipments. Recognize and apply transportation-specific requirements for the correct carrier mode of shipments. Outline the basic protocols for recognizing and responding to potential security threats.
 
 ## FAQ
 

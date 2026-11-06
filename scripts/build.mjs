@@ -7,7 +7,7 @@ import crypto from 'node:crypto';
 import * as esbuild from 'esbuild';
 import sharp from 'sharp';
 import cfg from '../site.config.mjs';
-import { esc, clean, slugify, money, plainText, truncate, parseDuration, priceTiers, srcsetOf, toMarkdown, isoDate, iso } from './lib/util.mjs';
+import { esc, clean, slugify, money, plainText, truncate, parseDuration, priceTiers, srcsetOf, toMarkdown, isoDate, iso, normalizeHtml } from './lib/util.mjs';
 import { page, breadcrumbs, faqList, courseCard, courseRow, pricingTable, buyBox, detailsList, icon, logoMark, trustBand, PAYMENTS } from './lib/layout.mjs';
 import * as S from './lib/schema.mjs';
 import { home, collectionCopy, scormGuide, LMS } from '../src/content/content.mjs';
@@ -48,7 +48,7 @@ const fixImages = (html = '') => html.replace(/<img([^>]*?)src="([^"]+)"([^>]*)>
   const size = d ? ` width="${Math.round(Math.min(d.w / 2, 640))}" height="${Math.round((Math.min(d.w / 2, 640) * d.h) / d.w)}"` : '';
   return `<img${attrs} src="${src}"${size} loading="lazy" decoding="async">`;
 });
-const fixHeadings = (html = '') => fixImages(html.replace(/<h1(\s|>)/gi, '<h2$1').replace(/<\/h1>/gi, '</h2>'));
+const fixHeadings = (html = '') => fixImages(normalizeHtml(html).replace(/<h1(\s|>)/gi, '<h2$1').replace(/<\/h1>/gi, '</h2>'));
 const stripPrefix = (s = '') => clean(s).replace(/^Collection:\s*/i, '');
 const unique = (arr) => [...new Set(arr.filter(Boolean))];
 
@@ -243,7 +243,7 @@ const tierLines = (c) => c.tiers.map((t) => `| ${t.seats} | ${money(t.perSeat)} 
 // =================================================================== HOME ==
 {
   const best = (collections.find((c) => c.handle === 'best-selling-courses')?.items || products).slice(0, 8);
-  const faqs = [...homeFaqs.map((f) => ({ q: f.q.replace(/\s+\?/, '?').replace(/(LMS\))$/, '$1?'), a: f.a })), ...home.faqs];
+  const faqs = [...homeFaqs.map((f) => ({ q: f.q.replace(/\s+\?/, '?').replace(/(LMS\))$/, '$1?'), a: fixHeadings(f.a) })), ...home.faqs];
   const featuredCols = navCollections.slice(0, 12);
   const body = `
 <section class="hero"><div class="wrap">
@@ -350,7 +350,7 @@ function coursePage(c) {
   const heroSrc = c.media?.[720] || '';
   const media = c.media
     ? `<div class="pdp__media"><img src="${esc(heroSrc)}" srcset="${esc(heroSrcset)}" sizes="${sizes}" width="720" height="480" alt="${esc(c.imageAlt)}" fetchpriority="high" decoding="async"></div>`
-    : `<div class="pdp__media" style="display:flex;flex-direction:column;justify-content:flex-end;padding:28px;background:radial-gradient(600px 300px at 90% 0,rgba(255,138,31,.35),transparent 60%),linear-gradient(160deg,#0b2545,#071a33);color:#c7d3e3"><p class="eyebrow" style="color:#ffb066">${esc(c.category)}</p><p style="font-size:clamp(1.3rem,1rem + 1.4vw,2rem);font-weight:800;color:#fff;line-height:1.15;letter-spacing:-.02em;margin:0 0 14px">${esc(c.title)}</p><ul class="chips"><li class="chip chip--dark">SCORM 1.2</li><li class="chip chip--dark">SCORM 2004</li>${c.duration ? `<li class="chip chip--dark">${esc(c.duration)}</li>` : ''}${c.citation ? `<li class="chip chip--dark">${esc(truncate(c.citation, 40))}</li>` : ''}</ul></div>`;
+    : `<div class="pdp__media pdp__media--cover" style="padding:28px;background:radial-gradient(600px 300px at 90% 0,rgba(255,138,31,.35),transparent 60%),linear-gradient(160deg,#0b2545,#071a33);color:#c7d3e3"><p class="eyebrow" style="color:#ffb066">${esc(c.category)}</p><p style="font-size:clamp(1.3rem,1rem + 1.4vw,2rem);font-weight:800;color:#fff;line-height:1.15;letter-spacing:-.02em;margin:0 0 14px">${esc(c.title)}</p><ul class="chips"><li class="chip chip--dark">SCORM 1.2</li><li class="chip chip--dark">SCORM 2004</li>${c.duration ? `<li class="chip chip--dark">${esc(c.duration)}</li>` : ''}${c.citation ? `<li class="chip chip--dark">${esc(truncate(c.citation, 40))}</li>` : ''}</ul></div>`;
   const overview = isProduct
     ? c.tabs.map((t) => `<section class="section--tight" id="${slugify(t.title)}">${/^\s*<h2/i.test(t.html) ? '' : `<h2>${esc(t.title === 'Overview' ? `${c.title} — overview` : t.title === 'Course Objective' ? 'Course objectives' : t.title)}</h2>`}<div class="prose">${t.html}</div></section>`).join('')
     : `<section class="section--tight" id="overview"><h2>${esc(c.title)} — course overview</h2><div class="prose"><p>${esc(c.title)} is an online safety training course delivered as an LMS-ready SCORM package${c.citation ? `, aligned with <strong>${esc(c.citation)}</strong>` : ''}. It is part of our <a href="${esc(categoryUrl[c.category])}">${esc(c.category)}</a> training library.</p><h3>What this course covers</h3><ul>${c.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul></div></section>`;
@@ -414,7 +414,7 @@ function collectionPage(c) {
   ].filter(Boolean);
   const audience = copy.audience
     ? `<div class="panel"><h2>Who needs ${esc(kw)}?</h2><ul class="assure">${copy.audience.map((a) => `<li>${icon.check}<span>${esc(a)}</span></li>`).join('')}</ul></div>`
-    : audienceSec ? `<div><h2>${esc(audienceSec.heading.replace(/Training Training/, 'Training'))}</h2><div class="grid grid--3">${audienceSec.columns.map((col) => `<div class="card prose">${col.title ? `<h3>${esc(col.title)}</h3>` : ''}${col.html.replace(/<p><strong>(.*?)<\/strong><\/p>/, '<h3>$1</h3>')}</div>`).join('')}</div></div>` : '';
+    : audienceSec ? `<div><h2>${esc(audienceSec.heading.replace(/Training Training/, 'Training'))}</h2><div class="grid grid--3">${audienceSec.columns.map((col) => `<div class="card prose">${col.title ? `<h3>${esc(col.title)}</h3>` : ''}${fixHeadings(col.html).replace(/<p><strong>(.*?)<\/strong><\/p>/, '<h3>$1</h3>')}</div>`).join('')}</div></div>` : '';
   const body = `
 <section class="hero hero--page"><div class="wrap">
 ${breadcrumbs(crumbs)}
@@ -426,7 +426,7 @@ ${breadcrumbs(crumbs)}
 <div class="toolbar"><h2 class="mb-0" style="font-size:1.35rem">${items.length} ${esc(kw)} course${items.length === 1 ? '' : 's'}</h2><a href="/pages/courses-directory">Browse all ${TOTAL_LABEL} courses</a></div>
 ${items.length ? `<div class="grid grid--4">${items.map((x, i) => courseCard(x, { eager: i < 4 })).join('')}</div>` : `<div class="empty">New courses for this series are coming soon. <a href="/pages/courses-directory">Browse the full course directory</a>.</div>`}
 </div></section>
-${intro || audience ? `<section class="section section--soft"><div class="wrap stack">${intro ? `<div class="split"><div class="prose"><h2>${esc(intro.heading)}</h2>${intro.html}</div>${media.collections[c.handle] ? `<img src="${esc(media.collections[c.handle][720])}" srcset="${esc(srcsetOf(media.collections[c.handle]))}" sizes="(min-width:960px) 560px, 92vw" width="720" height="480" alt="${esc(c.title)}" loading="lazy" decoding="async" style="border-radius:22px;aspect-ratio:3/2;object-fit:cover">` : ''}</div>` : ''}${audience}</div></section>` : ''}
+${intro || audience ? `<section class="section section--soft"><div class="wrap stack">${intro ? `<div class="split"><div class="prose"><h2>${esc(intro.heading)}</h2>${fixHeadings(intro.html)}</div>${media.collections[c.handle] ? `<img src="${esc(media.collections[c.handle][720])}" srcset="${esc(srcsetOf(media.collections[c.handle]))}" sizes="(min-width:960px) 560px, 92vw" width="720" height="480" alt="${esc(c.title)}" loading="lazy" decoding="async" style="border-radius:22px;aspect-ratio:3/2;object-fit:cover">` : ''}</div>` : ''}${audience}</div></section>` : ''}
 <section class="section"><div class="wrap"><h2>${esc(kw)} — frequently asked questions</h2>${faqList(faqs)}</div></section>`;
   const title = h1.length <= 50 ? `${h1} | OSHA SCORM` : h1.length <= 65 ? h1 : h1.replace(/\s*\(Capacitación en Español\)/, '').replace(/ — SCORM Courses?$/, ' SCORM Courses');
   const desc = seoDesc(`${kw} SCORM courses for your LMS: ${items.length} course${items.length === 1 ? '' : 's'}${per ? ` from ${money(per)}/seat` : ''}. ${lead}`);
@@ -510,7 +510,10 @@ const pageBy = Object.fromEntries(rawPages.map((p) => [p.handle, p]));
   const ok = `<p class="notice" data-contact-ok hidden>Your email app should now be open with your message ready to send. If it didn’t open, email <a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a> or call ${esc(cfg.contact.phone)}.</p>`;
   // No form backend on static hosting: the form composes an email to the team.
   const form = `<form class="form panel" data-contact action="mailto:${esc(cfg.contact.email)}" method="post" enctype="text/plain"><label>Name<input name="name" autocomplete="name" required></label><label>Work email<input type="email" name="email" autocomplete="email" required></label><label>Phone<input type="tel" name="phone" autocomplete="tel"></label><label>How can we help?<textarea name="message" rows="5" required placeholder="Courses, seat counts, LMS, white-label needs…"></textarea></label><button class="btn btn--primary" type="submit">Email our team</button><p class="small muted mb-0">Opens your email app addressed to ${esc(cfg.contact.email)}.</p></form>`;
-  const html = `${ok}<div class="split" style="align-items:start"><div>${pageBy.contact?.html || ''}<h2>Sales &amp; support hours</h2><p>Phone support 7:00 AM – 5:00 PM CST. Technical and installation support is free for one year from purchase.</p><ul class="assure"><li>${icon.phone}<span><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a></span></li><li>${icon.mail}<span><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></span></li></ul></div>${form}</div>`;
+  // Keep the intro paragraphs; the old page's own phone/email list is replaced
+  // by the contact block below (avoids duplicated details).
+  const contactIntro = fixHeadings((pageBy.contact?.html || '').split(/<p>\s*<strong>\s*Need assistance/i)[0]);
+  const html = `${ok}<div class="split" style="align-items:start"><div>${contactIntro}<p><strong>Headquarters:</strong> Los Angeles, CA</p><h2>Sales &amp; support hours</h2><p>Phone support 7:00 AM – 5:00 PM CST. Technical and installation support is free for one year from purchase.</p><ul class="assure"><li>${icon.phone}<span><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a></span></li><li>${icon.mail}<span><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></span></li></ul></div>${form}</div>`;
   simplePage({ urlPath: '/pages/contact', title: 'Contact OSHA SCORM | SCORM Course Quotes & Support', h1: 'Contact us', lead: 'Questions about courses, seat counts, enterprise licensing or LMS installation? Our team is ready to help.', html, type: 'ContactPage', crumbsName: 'Contact', priority: 0.6 });
 }
 // About page: company facts for trust / E-E-A-T (all sourced from the store).
@@ -563,7 +566,7 @@ for (const p of rawPolicies.filter((x) => x.handle !== 'terms-of-service')) simp
 
 // Search, cart, 404, /products/ index
 {
-  const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs([{ name: 'Home', url: '/' }, { name: 'Search', url: '/search' }])}<h1>Search ${TOTAL_LABEL} SCORM courses</h1></div></section><section class="section"><div class="wrap" data-search><form class="toolbar" role="search" action="/search" onsubmit="return false"><label class="search-input"><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search by topic, regulation or job role" autocomplete="off" autofocus></label></form><p class="results-count" data-status aria-live="polite"></p><div class="dir" style="columns:1"><ul data-results></ul></div><noscript><p>Search needs JavaScript. Browse the <a href="/pages/courses-directory">course directory</a> instead.</p></noscript></div></section>`;
+  const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs([{ name: 'Home', url: '/' }, { name: 'Search', url: '/search' }])}<h1>Search ${TOTAL_LABEL} SCORM courses</h1></div></section><section class="section"><div class="wrap" data-search><form class="toolbar" role="search" action="/search" onsubmit="return false"><label class="search-input"><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search by topic, regulation or job role" autocomplete="off" autofocus></label></form><p class="results-count" data-status aria-live="polite"></p><div class="dir dir--single dir--results"><ul data-results></ul></div><noscript><p>Search needs JavaScript. Browse the <a href="/pages/courses-directory">course directory</a> instead.</p></noscript></div></section>`;
   emit('/search', { html: page(ctx, { title: 'Search SCORM Courses | OSHA SCORM', description: `Search ${TOTAL_LABEL} OSHA-compliant SCORM safety training courses by topic, regulation or job role.`, path: '/search', body, jsonld: core, noindex: true }), noindex: true });
 
   const cart = `<section class="hero hero--page"><div class="wrap"><h1>Your cart</h1></div></section><section class="section"><div class="wrap" data-cart><ul class="cart-list"></ul><div class="empty" hidden>Your cart is empty. <a href="/collections/all">Browse SCORM courses</a>.</div><div class="cart-summary" hidden><div><span class="muted">Total (USD, before tax)</span><div style="font-size:1.6rem;font-weight:800;color:var(--ink)" data-cart-total>$0.00</div></div><a class="btn btn--primary" data-checkout href="/checkout?cart=1" rel="nofollow">Continue to checkout ${icon.arrow}</a></div><p class="small muted mt-2">Card payments are processed securely by Stripe. Prices are per learner seat for a 12-month license.</p></div></section>`;

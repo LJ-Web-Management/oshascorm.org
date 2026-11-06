@@ -92,7 +92,7 @@ The **CAL/OSHA 40-Hour HAZWOPER course** covers a comprehensive range of safety 
 - Excavations
 - Emergency Response Procedures
 
-  **Note:** This course fulfills the educational component of HAZWOPER training. However, participants must also complete **three days of in-person, hands-on field training** under the supervision of a qualified instructor. Employers are responsible for ensuring workers receive practical PPE training and site-specific safety instruction.
+ **Note:** This course fulfills the educational component of HAZWOPER training. However, participants must also complete **three days of in-person, hands-on field training** under the supervision of a qualified instructor. Employers are responsible for ensuring workers receive practical PPE training and site-specific safety instruction.
 
 ### Course Objective
 

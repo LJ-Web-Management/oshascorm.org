@@ -73,7 +73,7 @@ This refresher is intended for:
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning for LMS delivery, or instructor-led with practical inspection sessions Duration2–4 hours (refresher); instructor-led options include hands-on inspections AssessmentKnowledge checks, practical evaluation; certificate issued upon successful completion
+ FormatSCORM-compliant eLearning for LMS delivery, or instructor-led with practical inspection sessions Duration2–4 hours (refresher); instructor-led options include hands-on inspections AssessmentKnowledge checks, practical evaluation; certificate issued upon successful completion
 
 ### Course Objective
 

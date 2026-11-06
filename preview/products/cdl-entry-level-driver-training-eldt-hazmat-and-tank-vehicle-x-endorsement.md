@@ -65,7 +65,7 @@ This course fulfills the FMCSA’s mandatory ELDT theory requirements for driver
 - **Fuel & Chemical Transport Drivers:** Individuals transporting liquids, gases, or hazardous substances.
 - **Fleet Operators & Employers:** Organizations requiring compliant, endorsement-ready drivers.
 
-  **Note:** Completion of this ELDT theory course is required before taking the knowledge test for the Hazardous Materials and Tank Vehicle (X) Endorsement.
+ **Note:** Completion of this ELDT theory course is required before taking the knowledge test for the Hazardous Materials and Tank Vehicle (X) Endorsement.
 
 ### Course Objective
 

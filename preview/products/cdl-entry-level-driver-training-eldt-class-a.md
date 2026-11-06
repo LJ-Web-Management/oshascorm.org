@@ -58,7 +58,7 @@ Our **CDL Entry Level Driver Training (ELDT) – Class A** course provides compr
 - **Suitable for New Drivers:** Designed for driver-trainees seeking a Class A CDL for the first time.
 - **Flexible Validity:** ELDT Class A training does not expire, but CDL must be renewed every five years, with state-specific requirements possible.
 
-  Note: Completion of this course fulfills FMCSA’s ELDT requirement before taking the knowledge test to obtain your Class A CDL license.
+Note: Completion of this course fulfills FMCSA’s ELDT requirement before taking the knowledge test to obtain your Class A CDL license.
 
 ### Course Objective
 

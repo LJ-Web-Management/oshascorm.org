@@ -78,7 +78,7 @@ Learners should have completed DOT Hazmat Transportation: General Awareness Trai
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning (LMS delivery) with downloadable certificate Approx. Duration60–90 minutes (self-paced, includes scenario exercises) AssessmentKnowledge check and scenario-based assessment (certificate upon passing)
+ FormatSCORM-compliant eLearning (LMS delivery) with downloadable certificate Approx. Duration60–90 minutes (self-paced, includes scenario exercises) AssessmentKnowledge check and scenario-based assessment (certificate upon passing)
 
 ### Compliance Statement
 

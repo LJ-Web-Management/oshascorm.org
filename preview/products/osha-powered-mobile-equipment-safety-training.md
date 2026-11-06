@@ -66,7 +66,7 @@ The training focuses on hazard recognition, proper operating procedures, and OSH
 - **Construction & Industrial Workers:** Employees working in environments where powered mobile equipment is used.
 - **Supervisors & Safety Managers:** Professionals responsible for overseeing equipment operations and maintaining OSHA safety compliance.
 
-  **Note:** This course provides essential knowledge to help workers operate powered mobile equipment safely and reduce the risk of workplace accidents and injuries.
+ **Note:** This course provides essential knowledge to help workers operate powered mobile equipment safely and reduce the risk of workplace accidents and injuries.
 
 ### Course Objective
 

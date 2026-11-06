@@ -1,13 +1,13 @@
 ---
 title: "Return Policy"
 url: https://oshascorm.org/pages/return-policy
-description: "Not sure if you or your team can complete the course? We've got you covered. You get a full money-back guarantee within 30 days of purchase. After 30 days…"
+description: "Not sure if you or your team can complete the course? We've got you covered.You get a full money-back guarantee within 30 days of purchase. After 30 days…"
 updated: 2026-11-06
 ---
 
 # Return Policy
 
-> Not sure if you or your team can complete the course? We've got you covered. You get a full money-back guarantee within 30 days of purchase. After 30 days…
+> Not sure if you or your team can complete the course? We've got you covered.You get a full money-back guarantee within 30 days of purchase. After 30 days…
 
 Not sure if you or your team can complete the course? We've got you covered.
 

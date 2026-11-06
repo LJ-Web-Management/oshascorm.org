@@ -51,7 +51,7 @@ Whether you're operating machinery, supervising work on the shop floor, or manag
 
 ### Why Choose Our OSHA Machine Guarding Safety Training?
 
- **Compliance-driven** — Meets OSHA standards outlined in *29 CFR 1910 Subpart O*. **Easy-to-understand safeguards** — Step-by-step guidance on selecting guards and preventing key injuries such as amputations, lacerations, and crush hazards. **Online & self-paced** — Employees can train on any device, anytime. **Designed by safety experts** — Real-world examples show how to manage mechanical hazards effectively. **Certificate included** — Valid for OSHA documentation and proof of compliance.
+**Compliance-driven** — Meets OSHA standards outlined in *29 CFR 1910 Subpart O*.**Easy-to-understand safeguards** — Step-by-step guidance on selecting guards and preventing key injuries such as amputations, lacerations, and crush hazards.**Online & self-paced** — Employees can train on any device, anytime.**Designed by safety experts** — Real-world examples show how to manage mechanical hazards effectively.**Certificate included** — Valid for OSHA documentation and proof of compliance.
 
 ### What You Will Learn
 

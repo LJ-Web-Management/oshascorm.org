@@ -43,11 +43,11 @@ The
 
 ## OSHA 10-Hour Construction Training
 
- course is designed for individuals seeking foundational certification in workplace safety and health within the construction industry, following OSHA regulations. This comprehensive program covers essential topics such as hazard recognition, prevention strategies, and compliance standards—specifically aligned with the demands of construction work environments. Ideal for workers, site managers, and supervisors, the
+course is designed for individuals seeking foundational certification in workplace safety and health within the construction industry, following OSHA regulations. This comprehensive program covers essential topics such as hazard recognition, prevention strategies, and compliance standards—specifically aligned with the demands of construction work environments. Ideal for workers, site managers, and supervisors, the
 
 ## OSHA 10 construction
 
- course emphasizes real-world safety practices that help reduce risk and improve site efficiency. Available as
+course emphasizes real-world safety practices that help reduce risk and improve site efficiency. Available as
 
 ## OSHA 10 training online
 
@@ -55,7 +55,7 @@ The
 
 ## OSHA 10 hour construction
 
- course promotes a culture of safety and accountability, preparing teams to handle construction-specific hazards with confidence.
+course promotes a culture of safety and accountability, preparing teams to handle construction-specific hazards with confidence.
 
 ### Course Objective
 

@@ -80,7 +80,7 @@ While pandemics are infrequent, their effects can be widespread and long-lasting
 
 ### Format & Duration
 
-  FormatSCORM-compliant eLearning for LMS delivery or instructor-led workshops Duration1–3 hours (self-paced) or half-day/full-day workshop options AssessmentScenario-based exercises and knowledge checks; certificate upon completion
+ FormatSCORM-compliant eLearning for LMS delivery or instructor-led workshops Duration1–3 hours (self-paced) or half-day/full-day workshop options AssessmentScenario-based exercises and knowledge checks; certificate upon completion
 
 ### Course Objective
 

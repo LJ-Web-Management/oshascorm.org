@@ -50,7 +50,7 @@ Designed for clinical and non-clinical staff, IT, vendors, and managers, this sh
 
 ### Why choose our HIPAA training?
 
- **Regulation-focused** — Aligns with federal requirements in *45 CFR Parts 160, 162, and 164*. **Practical & role-based** — Real workplace scenarios for providers, admin staff, IT, vendors, and managers. **Flexible delivery** — Online, device-friendly modules with quizzes and a downloadable certificate on completion. **Designed by compliance pros** — Clear policy guidance plus hands-on steps to prevent breaches.
+**Regulation-focused** — Aligns with federal requirements in *45 CFR Parts 160, 162, and 164*.**Practical & role-based** — Real workplace scenarios for providers, admin staff, IT, vendors, and managers.**Flexible delivery** — Online, device-friendly modules with quizzes and a downloadable certificate on completion.**Designed by compliance pros** — Clear policy guidance plus hands-on steps to prevent breaches.
 
 ### What you will learn
 

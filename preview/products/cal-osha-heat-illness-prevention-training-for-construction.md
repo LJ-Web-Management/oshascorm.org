@@ -42,7 +42,7 @@ updated: 2026-11-06
 
 ## Cal/OSHA Heat Illness Prevention Training — Construction
 
- Compliant online training aligned with Cal/OSHA Title 8 §§3395–3396 and federal OSHA requirements.
+Compliant online training aligned with Cal/OSHA Title 8 §§3395–3396 and federal OSHA requirements.
 
 **Background:** In 2023 California implemented state-level Cal/OSHA standards addressing heat injury and illness after the BLS reported 33,890 work-related heat injuries and illnesses with days away from work from 2011–2020 (an average of 3,389 per year). Our course is designed to reflect these regulatory changes and current best practice.
 
@@ -52,7 +52,7 @@ Our **Cal/OSHA Heat Illness Prevention Training for Construction** equips worker
 
 ### Who Needs This Training?
 
-   **Outdoor Workers**
+  **Outdoor Workers**
 
 - Construction labourers exposed to sun and heat
 - Landscaping and groundskeeping staff

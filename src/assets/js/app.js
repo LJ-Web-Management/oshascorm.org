@@ -171,7 +171,7 @@
         const li = document.createElement('li');
         li.innerHTML = '<a></a><span></span>';
         li.querySelector('a').href = BASE + d.u; li.querySelector('a').textContent = d.t;
-        li.querySelector('span').textContent = [d.c, d.d, d.p ? `from ${fmt(d.p)}/seat` : ''].filter(Boolean).join(' · ');
+        li.querySelector('span').textContent = [d.c, d.d, d.p ? `${fmt(d.p)}/seat` : ''].filter(Boolean).join(' · ');
         out.appendChild(li);
       });
     };
