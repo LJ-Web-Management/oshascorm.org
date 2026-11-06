@@ -1,0 +1,54 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "OSHASCORM.org public catalog",
+  "version": "1.0.0",
+  "description": "Read-only, static JSON describing every SCORM course, seat tier and price. Purchases happen on the linked checkout pages with buyer approval.",
+  "contact": {
+   "email": "info@oshascorm.org"
+  }
+ },
+ "servers": [
+  {
+   "url": "https://oshascorm.org"
+  }
+ ],
+ "paths": {
+  "/api/catalog.json": {
+   "get": {
+    "operationId": "getCatalog",
+    "summary": "Full course catalog with seat-tier pricing",
+    "responses": {
+     "200": {
+      "description": "Catalog",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/search.json": {
+   "get": {
+    "operationId": "getSearchIndex",
+    "summary": "Compact search index (t=title, u=path, c=category, d=duration, p=from price per seat)",
+    "responses": {
+     "200": {
+      "description": "Index",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "array"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
