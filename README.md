@@ -71,6 +71,20 @@ New: `/training/{industry}` (60 industry hubs), `/pages/what-is-scorm` (guide), 
 - WebMCP: in supporting browsers, pages register `search_courses`, `get_course_pricing` and `open_checkout` tools. Feature-detected, so there's zero cost otherwise.
 - Performance: inline CSS, one deferred script, self-hosted Inter (metric-matched fallback, no layout shift), self-hosted WebP hero images, lazy-loaded thumbnails. Lighthouse scores are in [REPORT.md](REPORT.md).
 
+## Preview link (before cutover)
+
+The `gh-pages` branch holds a **preview build** served at `https://lj-web-management.github.io/oshascorm.org/`. It is built with `npm run build:preview`, which:
+- prefixes every link with `/oshascorm.org`
+- omits the custom domain
+- marks every page `noindex`, so the preview can't compete with the real site in search
+- points the contact form at the current Shopify domain
+
+Two behaviors differ from production on the preview link:
+- Shopify product checkout and the cart work as normal.
+- Directory courses (`/pages/courses/…`) hand the buyer off to the same page on oshascorm.org, because the checkout service only accepts that domain.
+
+To refresh the preview, run `npm run build:preview`, then commit `.cache/preview` to `gh-pages`.
+
 ## Cutover runbook (Shopify → GitHub Pages)
 
 Do these in order. Until step 4 the live site is untouched.

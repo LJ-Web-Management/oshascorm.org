@@ -105,7 +105,8 @@ export function page(ctx, { title, description, path, body, jsonld = [], ogImage
   const url = cfg.siteUrl + path;
   const og = ogImage || 'https://cdn.shopify.com/s/files/1/0644/3211/1782/files/AdobeStock_543734675.jpg?width=1200';
   const graph = jsonld.length ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': jsonld }).replace(/</g, '\\u003c')}</script>` : '';
-  const siteCfg = { checkout: cfg.checkoutOrigin, store: cfg.shopifyStore, courseCheckout: cfg.courseCheckoutEndpoint, email: cfg.contact.email, ga4: cfg.ga4Id || '' };
+  const siteCfg = { base: cfg.basePath || '', site: cfg.siteUrl, checkout: cfg.checkoutOrigin, store: cfg.shopifyStore, courseCheckout: cfg.courseCheckoutEndpoint, email: cfg.contact.email, ga4: cfg.ga4Id || '' };
+  if (cfg.basePath) noindex = true; // preview builds are never indexed
   return `<!doctype html>
 <html lang="en-US">
 <head>

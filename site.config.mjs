@@ -8,6 +8,12 @@ export default {
   // Public origin the static site is served from (GitHub Pages custom domain).
   siteUrl: env('SITE_URL', 'https://oshascorm.org'),
 
+  // Preview builds only: serve under a sub-path (e.g. "/oshascorm.org" for
+  // https://lj-web-management.github.io/oshascorm.org/). A non-empty value
+  // prefixes every internal link, omits CNAME and marks all pages noindex so
+  // the preview never competes with the real domain. Leave empty for prod.
+  basePath: env('BASE_PATH', '').replace(/\/$/, ''),
+
   brand: 'OSHA SCORM',
   legalName: 'OSHASCORM.ORG',
   parentOrg: { name: 'Industrial Certified Training, LLC', url: 'https://ictraining.us/' },

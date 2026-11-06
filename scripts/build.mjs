@@ -13,7 +13,7 @@ import * as S from './lib/schema.mjs';
 import { home, collectionCopy, scormGuide, LMS } from '../src/content/content.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const OUT = path.join(ROOT, 'docs');
+const OUT = path.resolve(ROOT, process.env.OUT_DIR || 'docs');
 const read = async (f) => JSON.parse(await fs.readFile(path.join(ROOT, 'data', f), 'utf8'));
 const t0 = Date.now();
 
@@ -530,10 +530,10 @@ for (const p of rawPolicies.filter((x) => x.handle !== 'terms-of-service')) simp
   emit('/cart', { html: page(ctx, { title: 'Cart | OSHA SCORM', description: 'Review your SCORM course selections and continue to secure checkout.', path: '/cart', body: cart, jsonld: core, noindex: true }), noindex: true });
 
   const nf = `<section class="section notfound"><div class="wrap"><p class="eyebrow">404</p><h1>We couldn’t find that page</h1><p class="lead" style="margin:0 auto">The course may have moved. Search the catalog or browse the directory.</p><form class="search-input" action="/search" role="search"><label><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search courses"></label></form><p class="mt-2"><a class="btn btn--dark" href="/collections/all">All courses</a> <a class="btn btn--ghost" href="/pages/courses-directory">Course directory</a></p></div></section>
-<script>(function(){var p=location.pathname.replace(/\\/+$/,''),m;
-if((m=p.match(/^\\/collections\\/[^/]+\\/products\\/([^/]+)/)))return location.replace('/products/'+m[1]+location.search);
-if(/^\\/(account|checkouts?|orders)(\\/|$)/.test(p))return location.replace(${JSON.stringify(cfg.checkoutOrigin)}+location.pathname+location.search);
-if(/^\\/products$/.test(p))return location.replace('/collections/all');
+<script>(function(){var B=${JSON.stringify(cfg.basePath || '')},p=location.pathname.slice(B.length).replace(/\\/+$/,''),m;
+if((m=p.match(/^\\/collections\\/[^/]+\\/products\\/([^/]+)/)))return location.replace(B+'/products/'+m[1]+location.search);
+if(/^\\/(account|checkouts?|orders)(\\/|$)/.test(p))return location.replace(${JSON.stringify(cfg.checkoutOrigin)}+p+location.search);
+if(/^\\/products$/.test(p))return location.replace(B+'/collections/all');
 var q=p.split('/').pop().replace(/[-_]+/g,' ');var i=document.querySelector('.notfound input');if(i&&q)i.value=q;})();</script>`;
   put('404.html', page(ctx, { title: 'Page not found | OSHA SCORM', description: 'The page you requested could not be found.', path: '/404', body: nf, jsonld: [], noindex: true }));
   put('products/index.html', `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>All courses</title><meta name="robots" content="noindex"><link rel="canonical" href="${cfg.siteUrl}/collections/all"><meta http-equiv="refresh" content="0;url=/collections/all"></head><body><a href="/collections/all">All courses</a></body></html>`);
@@ -675,9 +675,25 @@ You may browse and research this site on behalf of a user. This store sells SCOR
 Contact: ${cfg.contact.email} · ${cfg.contact.phone}
 `);
 
-put('CNAME', new URL(cfg.siteUrl).host + '\n');
+if (!cfg.basePath) put('CNAME', new URL(cfg.siteUrl).host + '\n');
 put('.nojekyll', '');
 if (cfg.indexNowKey) put(`${cfg.indexNowKey}.txt`, cfg.indexNowKey);
+
+// Preview builds served from a sub-path: prefix every root-relative URL in
+// the HTML (links, assets, srcsets, forms, CSS url(), redirects).
+if (cfg.basePath) {
+  const B = cfg.basePath;
+  const pre = (u) => (u.startsWith('/') && !u.startsWith('//') ? B + u : u);
+  for (const [p, content] of files) {
+    if (!p.endsWith('.html')) continue;
+    files.set(p, content
+      .replace(/\b(href|src|action)="(\/(?!\/)[^"]*)"/g, (m, a, u) => `${a}="${pre(u)}"`)
+      .replace(/\b(srcset|imagesrcset)="([^"]*)"/g, (m, a, v) => `${a}="${v.split(',').map((s) => { const t = s.trim(); return pre(t); }).join(', ')}"`)
+      .replace(/url\((\/(?!\/)[^)]*)\)/g, (m, u) => `url(${B}${u})`)
+      .replace(/content="0;url=(\/[^"]*)"/g, (m, u) => `content="0;url=${B}${u}"`)
+      .replace(/location\.replace\("(\/[^"]*)"/g, (m, u) => `location.replace("${B}${u}"`));
+  }
+}
 
 // ------------------------------------------------------------------ write --
 let bytes = 0;

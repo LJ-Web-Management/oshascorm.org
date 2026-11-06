@@ -55,10 +55,10 @@
 </div></header>
 <main id="main">
 <section class="section notfound"><div class="wrap"><p class="eyebrow">404</p><h1>We couldn’t find that page</h1><p class="lead" style="margin:0 auto">The course may have moved. Search the catalog or browse the directory.</p><form class="search-input" action="/search" role="search"><label><span class="sr-only">Search courses</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" name="q" placeholder="Search courses"></label></form><p class="mt-2"><a class="btn btn--dark" href="/collections/all">All courses</a> <a class="btn btn--ghost" href="/pages/courses-directory">Course directory</a></p></div></section>
-<script>(function(){var p=location.pathname.replace(/\/+$/,''),m;
-if((m=p.match(/^\/collections\/[^/]+\/products\/([^/]+)/)))return location.replace('/products/'+m[1]+location.search);
-if(/^\/(account|checkouts?|orders)(\/|$)/.test(p))return location.replace("https://scorm-online.myshopify.com"+location.pathname+location.search);
-if(/^\/products$/.test(p))return location.replace('/collections/all');
+<script>(function(){var B="",p=location.pathname.slice(B.length).replace(/\/+$/,''),m;
+if((m=p.match(/^\/collections\/[^/]+\/products\/([^/]+)/)))return location.replace(B+'/products/'+m[1]+location.search);
+if(/^\/(account|checkouts?|orders)(\/|$)/.test(p))return location.replace("https://scorm-online.myshopify.com"+p+location.search);
+if(/^\/products$/.test(p))return location.replace(B+'/collections/all');
 var q=p.split('/').pop().replace(/[-_]+/g,' ');var i=document.querySelector('.notfound input');if(i&&q)i.value=q;})();</script>
 </main>
 <footer class="footer"><div class="wrap">
@@ -79,7 +79,7 @@ var q=p.split('/').pop().replace(/[-_]+/g,' ');var i=document.querySelector('.no
 <p>© 2026 OSHASCORM.ORG. All rights reserved. Payments are processed securely by Shopify.</p>
 </div>
 </div></footer>
-<script>window.__SITE__={"checkout":"https://scorm-online.myshopify.com","store":"scorm-online.myshopify.com","courseCheckout":"https://oshascorm-alt-automation-seven.vercel.app/api/create-checkout","email":"info@oshascorm.org","ga4":""}</script>
-<script src="/assets/js/app.js?v=e214a812fb" defer></script>
+<script>window.__SITE__={"base":"","site":"https://oshascorm.org","checkout":"https://scorm-online.myshopify.com","store":"scorm-online.myshopify.com","courseCheckout":"https://oshascorm-alt-automation-seven.vercel.app/api/create-checkout","email":"info@oshascorm.org","ga4":""}</script>
+<script src="/assets/js/app.js?v=d78c641686" defer></script>
 </body>
 </html>

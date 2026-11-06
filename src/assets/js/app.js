@@ -6,6 +6,7 @@
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
   const CFG = window.__SITE__ || {};
+  const BASE = CFG.base || ''; // non-empty only on sub-path preview builds
   const fmt = (n) => '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
   /* ------------------------------------------------------------ nav */
@@ -72,6 +73,10 @@
       buy.addEventListener('click', async (e) => {
         e.preventDefault();
         const r = current();
+        // Sub-path preview (e.g. *.github.io): the checkout service only
+        // accepts requests from the real domain, so hand off to the same
+        // course page there with the chosen seat count.
+        if (BASE) { location.href = `${CFG.site}${location.pathname.slice(BASE.length)}?seats=${r.value}`; return; }
         if (err) err.classList.remove('is-on');
         buy.disabled = true;
         const label = buy.textContent;
@@ -99,7 +104,7 @@
         items.push({ variantId: r.dataset.variant, handle: box.dataset.handle, title: box.dataset.title, seats: Number(r.value), price: Number(r.dataset.total), url: location.pathname });
         store.set(items);
         add.textContent = 'Added — view cart';
-        add.onclick = () => { location.href = '/cart'; };
+        add.onclick = () => { location.href = BASE + '/cart'; };
       });
     }
   });
@@ -156,7 +161,7 @@
 
   /* ---------------------------------------------------------- search */
   let indexPromise;
-  const loadIndex = () => (indexPromise ||= fetch('/api/search.json').then((r) => r.json()));
+  const loadIndex = () => (indexPromise ||= fetch(BASE + '/api/search.json').then((r) => r.json()));
   function searchIndex(idx, q, limit = 50) {
     const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
     if (!terms.length) return [];
@@ -195,7 +200,7 @@
       res.forEach((d) => {
         const li = document.createElement('li');
         li.innerHTML = '<a></a><span></span>';
-        li.querySelector('a').href = d.u; li.querySelector('a').textContent = d.t;
+        li.querySelector('a').href = BASE + d.u; li.querySelector('a').textContent = d.t;
         li.querySelector('span').textContent = [d.c, d.d, d.p ? `from ${fmt(d.p)}/seat` : ''].filter(Boolean).join(' · ');
         out.appendChild(li);
       });
@@ -213,14 +218,14 @@
   // running in WebMCP-capable browsers. The buyer always completes payment.
   const mc = navigator.modelContext;
   if (mc && typeof mc.registerTool === 'function') {
-    const catalog = () => fetch('/api/catalog.json').then((r) => r.json());
+    const catalog = () => fetch(BASE + '/api/catalog.json').then((r) => r.json());
     const text = (v) => ({ content: [{ type: 'text', text: typeof v === 'string' ? v : JSON.stringify(v) }] });
     const tools = [
       {
         name: 'search_courses',
         description: 'Search the OSHA SCORM course catalog (hundreds of LMS-ready SCORM 1.2/2004 safety training courses) by topic, regulation or job role. Returns titles, URLs, durations and starting per-seat prices.',
         inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'e.g. "HAZWOPER 40 hour", "1910.146", "forklift"' }, limit: { type: 'number', default: 10 } }, required: ['query'] },
-        async execute({ query, limit = 10 }) { return text(searchIndex(await loadIndex(), String(query), Math.min(Number(limit) || 10, 50)).map((d) => ({ title: d.t, url: new URL(d.u, location.origin).href, category: d.c, duration: d.d, fromPerSeat: d.p }))); },
+        async execute({ query, limit = 10 }) { return text(searchIndex(await loadIndex(), String(query), Math.min(Number(limit) || 10, 50)).map((d) => ({ title: d.t, url: new URL(BASE + d.u, location.origin).href, category: d.c, duration: d.d, fromPerSeat: d.p }))); },
       },
       {
         name: 'get_course_pricing',

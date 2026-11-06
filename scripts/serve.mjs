@@ -8,12 +8,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'docs');
+// DIR: folder to serve (default docs/). BASE: optional sub-path to mount it
+// under, e.g. BASE=/oshascorm.org to test a preview build the way a
+// *.github.io project site serves it.
+const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', process.env.DIR || 'docs');
 const PORT = Number(process.env.PORT || 4173);
+const MOUNT = (process.env.BASE || '').replace(/\/$/, '');
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'application/javascript', '.json': 'application/json', '.md': 'text/markdown; charset=utf-8', '.txt': 'text/plain; charset=utf-8', '.xml': 'application/xml', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon', '.woff2': 'font/woff2', '.webmanifest': 'application/manifest+json' };
 
 function resolve(urlPath) {
-  const p = decodeURIComponent(urlPath.split('?')[0]);
+  let p = decodeURIComponent(urlPath.split('?')[0]);
+  if (MOUNT) {
+    if (p !== MOUNT && !p.startsWith(MOUNT + '/')) return null;
+    p = p.slice(MOUNT.length) || '/';
+  }
   const base = path.join(ROOT, p);
   if (!base.startsWith(ROOT)) return null;
   const tries = p.endsWith('/') ? [path.join(base, 'index.html')] : [base, base + '.html', path.join(base, 'index.html')];
