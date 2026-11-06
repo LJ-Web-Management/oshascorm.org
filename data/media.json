@@ -777,32 +777,134 @@
   "ammonia-refrigeration-training": {
    "480": "/assets/img/c/ammonia-refrigeration-training-480.webp",
    "720": "/assets/img/c/ammonia-refrigeration-training-720.webp",
-   "960": "/assets/img/c/ammonia-refrigeration-training-960.webp"
+   "960": "/assets/img/c/ammonia-refrigeration-training-960.webp",
+   "1600": "/assets/img/c/ammonia-refrigeration-training-1600.webp"
   },
   "hazmat-training-dot-iata-imdg-transportation": {
    "480": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-480.webp",
    "720": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-720.webp",
-   "960": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-960.webp"
+   "960": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-960.webp",
+   "1600": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-1600.webp"
   },
   "hazwoper-training-29-cfr-1910-120": {
    "480": "/assets/img/c/hazwoper-training-29-cfr-1910-120-480.webp",
    "720": "/assets/img/c/hazwoper-training-29-cfr-1910-120-720.webp",
-   "960": "/assets/img/c/hazwoper-training-29-cfr-1910-120-960.webp"
+   "960": "/assets/img/c/hazwoper-training-29-cfr-1910-120-960.webp",
+   "1600": "/assets/img/c/hazwoper-training-29-cfr-1910-120-1600.webp"
   },
   "nfpa-70e-electrical-arc-flash-safety": {
    "480": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-480.webp",
    "720": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-720.webp",
-   "960": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-960.webp"
+   "960": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-960.webp",
+   "1600": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-1600.webp"
   },
   "osha-construction-safety-training-series": {
    "480": "/assets/img/c/osha-construction-safety-training-series-480.webp",
    "720": "/assets/img/c/osha-construction-safety-training-series-720.webp",
-   "960": "/assets/img/c/osha-construction-safety-training-series-960.webp"
+   "960": "/assets/img/c/osha-construction-safety-training-series-960.webp",
+   "1600": "/assets/img/c/osha-construction-safety-training-series-1600.webp"
   },
   "rcra-hazardous-waste-management": {
    "480": "/assets/img/c/rcra-hazardous-waste-management-480.webp",
    "720": "/assets/img/c/rcra-hazardous-waste-management-720.webp",
-   "960": "/assets/img/c/rcra-hazardous-waste-management-960.webp"
+   "960": "/assets/img/c/rcra-hazardous-waste-management-960.webp",
+   "1600": "/assets/img/c/rcra-hazardous-waste-management-1600.webp"
+  },
+  "cdl-entry-level-driver-training-eldt": {
+   "480": "/assets/img/c/cdl-entry-level-driver-training-eldt-480.webp",
+   "720": "/assets/img/c/cdl-entry-level-driver-training-eldt-720.webp",
+   "960": "/assets/img/c/cdl-entry-level-driver-training-eldt-960.webp",
+   "1600": "/assets/img/c/cdl-entry-level-driver-training-eldt-1600.webp"
+  },
+  "competent-person-training": {
+   "480": "/assets/img/c/competent-person-training-480.webp",
+   "720": "/assets/img/c/competent-person-training-720.webp",
+   "960": "/assets/img/c/competent-person-training-960.webp",
+   "1600": "/assets/img/c/competent-person-training-1600.webp"
+  },
+  "confined-space-trainings": {
+   "480": "/assets/img/c/confined-space-trainings-480.webp",
+   "720": "/assets/img/c/confined-space-trainings-720.webp",
+   "960": "/assets/img/c/confined-space-trainings-960.webp",
+   "1600": "/assets/img/c/confined-space-trainings-1600.webp"
+  },
+  "em385-trainings": {
+   "480": "/assets/img/c/em385-trainings-480.webp",
+   "720": "/assets/img/c/em385-trainings-720.webp",
+   "960": "/assets/img/c/em385-trainings-960.webp",
+   "1600": "/assets/img/c/em385-trainings-1600.webp"
+  },
+  "epa-regulated-trainings": {
+   "480": "/assets/img/c/epa-regulated-trainings-480.webp",
+   "720": "/assets/img/c/epa-regulated-trainings-720.webp",
+   "960": "/assets/img/c/epa-regulated-trainings-960.webp",
+   "1600": "/assets/img/c/epa-regulated-trainings-1600.webp"
+  },
+  "ergonomics-training": {
+   "480": "/assets/img/c/ergonomics-training-480.webp",
+   "720": "/assets/img/c/ergonomics-training-720.webp",
+   "960": "/assets/img/c/ergonomics-training-960.webp",
+   "1600": "/assets/img/c/ergonomics-training-1600.webp"
+  },
+  "hazard-communication-hazcom-ghs": {
+   "480": "/assets/img/c/hazard-communication-hazcom-ghs-480.webp",
+   "720": "/assets/img/c/hazard-communication-hazcom-ghs-720.webp",
+   "960": "/assets/img/c/hazard-communication-hazcom-ghs-960.webp",
+   "1600": "/assets/img/c/hazard-communication-hazcom-ghs-1600.webp"
+  },
+  "healthcare-industry-training": {
+   "480": "/assets/img/c/healthcare-industry-training-480.webp",
+   "720": "/assets/img/c/healthcare-industry-training-720.webp",
+   "960": "/assets/img/c/healthcare-industry-training-960.webp",
+   "1600": "/assets/img/c/healthcare-industry-training-1600.webp"
+  },
+  "hydrogen-sulfide-h2s-training": {
+   "480": "/assets/img/c/hydrogen-sulfide-h2s-training-480.webp",
+   "720": "/assets/img/c/hydrogen-sulfide-h2s-training-720.webp",
+   "960": "/assets/img/c/hydrogen-sulfide-h2s-training-960.webp",
+   "1600": "/assets/img/c/hydrogen-sulfide-h2s-training-1600.webp"
+  },
+  "lithium-battery-shipping-training": {
+   "480": "/assets/img/c/lithium-battery-shipping-training-480.webp",
+   "720": "/assets/img/c/lithium-battery-shipping-training-720.webp",
+   "960": "/assets/img/c/lithium-battery-shipping-training-960.webp",
+   "1600": "/assets/img/c/lithium-battery-shipping-training-1600.webp"
+  },
+  "mold-inspection-remediation-certification": {
+   "480": "/assets/img/c/mold-inspection-remediation-certification-480.webp",
+   "720": "/assets/img/c/mold-inspection-remediation-certification-720.webp",
+   "960": "/assets/img/c/mold-inspection-remediation-certification-960.webp",
+   "1600": "/assets/img/c/mold-inspection-remediation-certification-1600.webp"
+  },
+  "osha-10-30-hour-outreach-training": {
+   "480": "/assets/img/c/osha-10-30-hour-outreach-training-480.webp",
+   "720": "/assets/img/c/osha-10-30-hour-outreach-training-720.webp",
+   "960": "/assets/img/c/osha-10-30-hour-outreach-training-960.webp",
+   "1600": "/assets/img/c/osha-10-30-hour-outreach-training-1600.webp"
+  },
+  "osha-general-safety-training-series": {
+   "480": "/assets/img/c/osha-general-safety-training-series-480.webp",
+   "720": "/assets/img/c/osha-general-safety-training-series-720.webp",
+   "960": "/assets/img/c/osha-general-safety-training-series-960.webp",
+   "1600": "/assets/img/c/osha-general-safety-training-series-1600.webp"
+  },
+  "osha-safety-training-in-spanish": {
+   "480": "/assets/img/c/osha-safety-training-in-spanish-480.webp",
+   "720": "/assets/img/c/osha-safety-training-in-spanish-720.webp",
+   "960": "/assets/img/c/osha-safety-training-in-spanish-960.webp",
+   "1600": "/assets/img/c/osha-safety-training-in-spanish-1600.webp"
+  },
+  "radiation-series": {
+   "480": "/assets/img/c/radiation-series-480.webp",
+   "720": "/assets/img/c/radiation-series-720.webp",
+   "960": "/assets/img/c/radiation-series-960.webp",
+   "1600": "/assets/img/c/radiation-series-1600.webp"
+  },
+  "stormwater-planning-for-construction": {
+   "480": "/assets/img/c/stormwater-planning-for-construction-480.webp",
+   "720": "/assets/img/c/stormwater-planning-for-construction-720.webp",
+   "960": "/assets/img/c/stormwater-planning-for-construction-960.webp",
+   "1600": "/assets/img/c/stormwater-planning-for-construction-1600.webp"
   }
  },
  "content": {},
@@ -810,5 +912,88 @@
   "ogDefault": "/assets/img/brand/og-default.jpg",
   "ogCourse": "/assets/img/brand/og-course.jpg",
   "logo": "/assets/img/brand/logo.png"
+ },
+ "hero": {
+  "hero-1": {
+   "768": "/assets/img/hero/hero-1-768.webp",
+   "1280": "/assets/img/hero/hero-1-1280.webp",
+   "1920": "/assets/img/hero/hero-1-1920.webp",
+   "ratio": 2.239
+  },
+  "hero-2": {
+   "768": "/assets/img/hero/hero-2-768.webp",
+   "1280": "/assets/img/hero/hero-2-1280.webp",
+   "1920": "/assets/img/hero/hero-2-1920.webp",
+   "ratio": 2.146
+  },
+  "hero-3": {
+   "768": "/assets/img/hero/hero-3-768.webp",
+   "1280": "/assets/img/hero/hero-3-1280.webp",
+   "1920": "/assets/img/hero/hero-3-1920.webp",
+   "ratio": 3.371
+  }
+ },
+ "people": {
+  "kelvin-sidaway": "/assets/img/people/kelvin-sidaway.webp",
+  "tamara-parris": "/assets/img/people/tamara-parris.webp",
+  "daryl-kellenberger": "/assets/img/people/daryl-kellenberger.webp",
+  "craig-paton": "/assets/img/people/craig-paton.webp",
+  "heather-beach": "/assets/img/people/heather-beach.webp",
+  "steven-harris": "/assets/img/people/steven-harris.webp"
+ },
+ "clients": [
+  {
+   "name": "FBI",
+   "src": "/assets/img/clients/fbi.webp",
+   "w": 109,
+   "h": 112
+  },
+  {
+   "name": "U.S. Army",
+   "src": "/assets/img/clients/us-army.webp",
+   "w": 112,
+   "h": 112
+  },
+  {
+   "name": "Water Meter",
+   "src": "/assets/img/clients/water-meter.webp",
+   "w": 112,
+   "h": 112
+  },
+  {
+   "name": "NASA",
+   "src": "/assets/img/clients/nasa.webp",
+   "w": 136,
+   "h": 112
+  },
+  {
+   "name": "U.S. Navy",
+   "src": "/assets/img/clients/us-navy.webp",
+   "w": 243,
+   "h": 112
+  },
+  {
+   "name": "Pfizer",
+   "src": "/assets/img/clients/pfizer.webp",
+   "w": 273,
+   "h": 112
+  }
+ ],
+ "badges": {
+  "iacet-accredited-provider": {
+   "src": "/assets/img/brand/iacet-accredited-provider.webp",
+   "w": 269,
+   "h": 160
+  },
+  "signature-kevin-taylor": {
+   "src": "/assets/img/brand/signature-kevin-taylor.webp",
+   "w": 111,
+   "h": 80
+  },
+  "bbb-a-plus": {
+   "src": "/assets/img/brand/bbb-a-plus.webp",
+   "w": 423,
+   "h": 160
+  }
  }
 }

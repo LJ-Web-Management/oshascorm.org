@@ -8,7 +8,7 @@ import * as esbuild from 'esbuild';
 import sharp from 'sharp';
 import cfg from '../site.config.mjs';
 import { esc, clean, slugify, money, plainText, truncate, parseDuration, priceTiers, srcsetOf, toMarkdown, isoDate, iso, normalizeHtml } from './lib/util.mjs';
-import { page, breadcrumbs, faqList, courseCard, courseRow, pricingTable, buyBox, detailsList, icon, logoMark, trustBand, PAYMENTS } from './lib/layout.mjs';
+import { page, breadcrumbs, faqList, courseCard, courseRow, pricingTable, buyBox, detailsList, icon, credBar, seals, LOGO, PAYMENTS } from './lib/layout.mjs';
 import * as S from './lib/schema.mjs';
 import { home, collectionCopy, scormGuide, LMS } from '../src/content/content.mjs';
 
@@ -185,6 +185,8 @@ const NAV_ORDER = [
   'osha-safety-training-in-spanish', 'best-selling-courses',
 ];
 const productByHandle = Object.fromEntries(products.map((p) => [p.handle, p]));
+// Product cards without their own photo use their training series' photo.
+for (const p of products) if (!p.media) p.fallbackMedia = media.collections[p.primaryCollection] || rawCollections.filter((c) => c.products.includes(p.handle)).map((c) => media.collections[c.handle]).find(Boolean) || null;
 const collections = rawCollections.map((c) => {
   const copy = collectionCopy[c.handle] || {};
   let items = c.products.map((h) => productByHandle[h]).filter(Boolean);
@@ -214,18 +216,36 @@ for (const dir of await fs.readdir(path.join(ROOT, 'data/img'))) {
 }
 const checkoutJs = (await esbuild.transform(await fs.readFile(path.join(ROOT, 'src/assets/js/checkout.js'), 'utf8'), { loader: 'js', minify: true, target: 'es2020' })).code;
 put('assets/js/checkout.js', checkoutJs);
-put('assets/fonts/inter-latin-wght.woff2', await fs.readFile(path.join(ROOT, 'node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2')));
+for (const w of [400, 500, 600]) put(`assets/fonts/poppins-${w}.woff2`, await fs.readFile(path.join(ROOT, `node_modules/@fontsource/poppins/files/poppins-latin-${w}-normal.woff2`)));
 
-const favSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">${logoMark.replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '')}</svg>`;
-put('favicon.svg', favSvg);
-put('favicon-32.png', await sharp(Buffer.from(favSvg)).resize(32, 32).png().toBuffer());
-put('apple-touch-icon.png', await sharp(Buffer.from(favSvg)).resize(180, 180).flatten({ background: '#0b2545' }).png().toBuffer());
-put('icon-192.png', await sharp(Buffer.from(favSvg)).resize(192, 192).png().toBuffer());
-put('icon-512.png', await sharp(Buffer.from(favSvg)).resize(512, 512).png().toBuffer());
-put('favicon.ico', await sharp(Buffer.from(favSvg)).resize(48, 48).png().toBuffer());
-put('site.webmanifest', JSON.stringify({ name: cfg.legalName, short_name: 'OSHA SCORM', start_url: '/', display: 'browser', background_color: '#ffffff', theme_color: '#0b2545', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }] }));
+// Favicons: the blue "OSHA" block of the wordmark, centred on a square tile.
+const logoPng = path.join(ROOT, 'data/img/brand/logo-wordmark.png');
+const markBuf = await sharp(logoPng).extract({ left: 0, top: 0, width: 254, height: 90 }).png().toBuffer();
+const tileBuf = await sharp({ create: { width: 254, height: 254, channels: 4, background: '#0083c4' } }).composite([{ input: markBuf, top: 82, left: 0 }]).png().toBuffer();
+const tile = (size) => sharp(tileBuf).resize(size, size).png().toBuffer();
+put('favicon-32.png', await tile(32));
+put('apple-touch-icon.png', await tile(180));
+put('icon-192.png', await tile(192));
+put('icon-512.png', await tile(512));
+put('favicon.ico', await tile(48));
+put('site.webmanifest', JSON.stringify({ name: cfg.legalName, short_name: 'OSHA SCORM', start_url: '/', display: 'browser', background_color: '#ffffff', theme_color: '#02458b', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }] }));
 
-const ctx = { cfg, css, assetsVersion, nav: { collections: navCollections } };
+const ctx = { cfg, css, assetsVersion, badges: media.badges, nav: { collections: navCollections } };
+
+// Training-series photo card (home, series index).
+function colCard(c) {
+  const m = media.collections[c.handle];
+  const n = c.items.length;
+  return `<a class="colcard${m ? '' : ' colcard--plain'}" href="${esc(c.url)}">${m ? `<img src="${m[480]}" srcset="${srcsetOf(m)}" sizes="(min-width:1200px) 390px, (min-width:640px) 45vw, 92vw" width="480" height="320" alt="" loading="lazy" decoding="async">` : ''}<div class="colcard__body"><div><h3>${esc(c.title)}</h3><span>${n} course${n === 1 ? '' : 's'}</span></div>${icon.arrow}</div></a>`;
+}
+
+// Page header band: breadcrumbs, H1, lead, optional facts line and photo.
+// The photo sits under a dark overlay, so phones get a lighter rendition.
+const HEAD_SIZES = '(max-width:767px) 50vw, 100vw';
+function pageHead({ crumbs, h1, lead = '', leadHtml = '', meta = [], img = null }) {
+  const bg = img ? `<img class="hero__bg" src="${img[960]}" srcset="${srcsetOf(img)}" sizes="${HEAD_SIZES}" width="1600" height="1067" alt="" fetchpriority="high" decoding="async">` : '';
+  return `<section class="hero hero--page${img ? ' hero--img' : ''}">${bg}<div class="wrap">${crumbs ? breadcrumbs(crumbs) : ''}<h1>${esc(h1)}</h1>${leadHtml ? `<p class="lead">${leadHtml}</p>` : lead ? `<p class="lead">${esc(lead)}</p>` : ''}${meta.length ? `<ul class="pagehead__meta">${meta.map((m) => `<li>${m}</li>`).join('')}</ul>` : ''}</div></section>`;
+}
 const B = S.base(cfg);
 const core = [B.org, B.website];
 
@@ -244,76 +264,83 @@ const tierLines = (c) => c.tiers.map((t) => `| ${t.seats} | ${money(t.perSeat)} 
 {
   const best = (collections.find((c) => c.handle === 'best-selling-courses')?.items || products).slice(0, 8);
   const faqs = [...homeFaqs.map((f) => ({ q: f.q.replace(/\s+\?/, '?').replace(/(LMS\))$/, '$1?'), a: fixHeadings(f.a) })), ...home.faqs];
-  const featuredCols = navCollections.slice(0, 12);
+  const featuredCols = collections.filter((c) => c.items.length && media.collections[c.handle] && c.handle !== 'best-selling-courses').slice(0, 6);
+  const hero = media.hero['hero-1'];
+  const heroSrcset = [768, 1280, 1920].map((w) => `${hero[w]} ${w}w`).join(', ');
+  const people = media.people || {};
   const body = `
-<section class="hero"><div class="wrap">
-<div>
-<p class="eyebrow" style="color:#ffb066">${esc(home.eyebrow)}</p>
-<h1>${home.h1}</h1>
+<section class="hero">
+<img class="hero__bg" src="${hero[1280]}" srcset="${heroSrcset}" sizes="${HEAD_SIZES}" width="1920" height="${Math.round(1920 / hero.ratio)}" alt="" fetchpriority="high" decoding="async">
+<div class="wrap"><div class="hero__content">
+<h1>${esc(home.h1)}</h1>
 <p class="lead">${esc(home.lead)}</p>
-<div class="hero__ctas"><a class="btn btn--primary" href="/collections/all">Browse ${TOTAL_LABEL} SCORM courses ${icon.arrow}</a><a class="btn btn--ghost-light" href="#how-it-works">How SCORM delivery works</a></div>
-<ul class="hero__proof">${home.proof.map((p) => `<li>${icon.check}${esc(p)}</li>`).join('')}</ul>
-</div>
-<div class="lms" aria-hidden="true">
-<div class="lms__bar"><i></i><i></i><i></i></div>
-<div class="lms__card"><div class="lms__row"><div><div class="lms__title">OSHA 40-Hour HAZWOPER</div><div class="lms__meta">SCORM 2004 · 29 CFR 1910.120(e)</div></div><span class="chip chip--green">Passed</span></div><div class="lms__progress"><span style="width:100%"></span></div><div class="lms__meta">Final exam 92% · Certificate issued</div></div>
-<div class="lms__card"><div class="lms__row"><div><div class="lms__title">NFPA 70E Arc Flash Safety</div><div class="lms__meta">SCORM 1.2 · 2024 edition</div></div><span class="chip chip--orange">In progress</span></div><div class="lms__progress"><span style="width:62%"></span></div><div class="lms__meta">Module 4 of 6 · bookmarked</div></div>
-<div class="lms__card"><div class="lms__stats"><div class="lms__stat"><b>${TOTAL_LABEL}</b><span>courses</span></div><div class="lms__stat"><b>24h</b><span>delivery</span></div><div class="lms__stat"><b>1.2 · 2004</b><span>SCORM</span></div></div></div>
-</div>
-</div></section>
-<section class="logos" aria-label="Compatible LMS platforms"><div class="wrap"><p>Works with</p><ul>${LMS.slice(0, 9).map((l) => `<li>${esc(l)}</li>`).join('')}<li>any SCORM LMS</li></ul></div></section>
-${trustBand(cfg)}
+<div class="hero__ctas"><a class="btn btn--light" href="/collections/all">Browse ${TOTAL_LABEL} courses</a><a class="btn btn--ghost-light" href="/pages/contact">Request a quote</a></div>
+<div class="hero__seals">${seals(cfg, media.badges, { lazy: false })}<span>IACET Accredited Provider and BBB Accredited Business with an A+ rating.</span></div>
+</div></div>
+</section>
+${credBar(cfg)}
+<section class="clients" aria-labelledby="clients-h"><div class="wrap"><h2 class="label" id="clients-h">Trusted by organizations across government and industry</h2><ul>${(media.clients || []).map((c) => `<li><img src="${c.src}" width="${c.w}" height="${c.h}" alt="${esc(c.name)}" loading="lazy" decoding="async"></li>`).join('')}</ul></div></section>
 
 <section class="section"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Training catalog</p><h2>SCORM safety training for every regulation you manage</h2><p class="lead">From OSHA HAZWOPER and NFPA 70E to DOT hazmat, RCRA, EM 385-1-1 and ELDT — every course is an LMS-ready SCORM package with a certificate of completion.</p></div>
-<div class="grid grid--4">${featuredCols.map((c) => `<article class="card card--link cat"><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><p class="small muted mb-0">${esc(truncate(plainText(collections.find((x) => x.url === c.url)?.copy?.intro || collections.find((x) => x.url === c.url)?.sections?.[0]?.text || '') || 'LMS-ready SCORM courses.', 110))}</p><div class="cat__count"><span>${c.count} course${c.count === 1 ? '' : 's'}</span>${icon.arrow}</div></article>`).join('')}</div>
-<p class="mt-2"><a class="btn btn--ghost" href="/collections">View all training series</a> <a class="btn btn--ghost" href="/pages/courses-directory">Course directory A–Z</a></p>
+<div class="section-head section-head--center"><h2>Who is this for</h2><p class="lead">SCORM safety courses for every organization that runs compliance training through an LMS.</p></div>
+<ul class="cols">${home.audiences.map((a) => `<li><h3>${esc(a.title)}</h3><p>${esc(a.text)}</p></li>`).join('')}</ul>
+<p class="center mt-3"><a class="btn btn--ghost" href="/collections/all">Explore trainings</a></p>
 </div></section>
 
 <section class="section section--soft"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Best sellers</p><h2>Best-selling SCORM safety courses</h2></div>
+<div class="section-head section-head--center"><h2>SCORM safety training by regulation</h2><p class="lead">OSHA HAZWOPER, NFPA 70E, DOT hazmat, RCRA, EM 385-1-1 and more — every course is an LMS-ready SCORM package with a certificate of completion.</p></div>
+<div class="colcards">${featuredCols.map((c) => colCard(c)).join('')}</div>
+<div class="btn-row btn-row--center mt-3"><a class="btn btn--dark" href="/collections">View all training series</a><a class="btn btn--ghost" href="/pages/courses-directory">Course directory A–Z</a></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+<div class="toolbar"><h2 class="mb-0">Best-selling safety courses</h2><a class="link-arrow" href="/collections/best-selling-courses">View all best sellers ${icon.arrow}</a></div>
 <div class="grid grid--4">${best.map((c) => courseCard(c)).join('')}</div>
 </div></section>
 
-<section class="section"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Who it’s for</p><h2>Built for the teams that run compliance training</h2></div>
-<div class="grid grid--3">${home.audiences.map((a) => `<div class="card"><span class="icon-tile">${icon[a.icon]}</span><h3>${esc(a.title)}</h3><p class="muted">${esc(a.text)}</p></div>`).join('')}</div>
-</div></section>
-
 <section class="section section--soft" id="how-it-works"><div class="wrap">
-<div class="section-head"><p class="eyebrow">How it works</p><h2>How SCORM delivery works — LMS-ready in 5 steps</h2><p class="lead">No authoring tools, no developers. Order, upload the SCORM ZIP and assign learners the same day.</p></div>
+<div class="section-head section-head--center"><h2>How SCORM delivery works</h2><p class="lead">LMS-ready training in five steps. No authoring tools and no developers required.</p></div>
 <ol class="steps">${home.steps.map((s) => `<li><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></li>`).join('')}</ol>
+<p class="center small muted mt-3 mb-0">Compatible with ${LMS.slice(0, 8).join(', ')} and any SCORM-conformant LMS.</p>
+</div></section>
+
+<section class="facts" aria-label="OSHASCORM.org at a glance"><div class="wrap"><ul>
+<li><b>${TOTAL_LABEL}</b><span>SCORM safety courses</span></li>
+<li><b>${categoryList.length + navCollections.length}</b><span>regulatory topic areas</span></li>
+<li><b>24 hours</b><span>standard package delivery</span></li>
+<li><b>1 year</b><span>free LMS installation support</span></li>
+</ul></div></section>
+
+<section class="section"><div class="wrap"><div class="split">
+<div><h2>Built for safety. Designed for scale.</h2><p class="lead">One catalog for OSHA, EPA, DOT, NFPA, MSHA and USACE requirements, licensed per learner seat and delivered in the SCORM version your LMS expects.</p>
+<ul class="ticks">${home.pillars.map((p) => `<li><b>${esc(p.title)}</b><span>${esc(p.text)}</span></li>`).join('')}</ul></div>
+${media.collections['hazwoper-training-29-cfr-1910-120'] ? `<div class="photo"><img src="${media.collections['hazwoper-training-29-cfr-1910-120'][960]}" srcset="${srcsetOf(media.collections['hazwoper-training-29-cfr-1910-120'])}" sizes="(min-width:960px) 580px, 92vw" width="960" height="640" alt="Workers in protective equipment during hazardous waste operations training" loading="lazy" decoding="async"></div>` : ''}
+</div></div></section>
+
+<section class="section section--soft"><div class="wrap">
+<div class="letter"><h2>Our 360° Guarantee®</h2><p class="letter__intro">Every order is covered from delivery to satisfaction.</p>
+<dl>${home.guarantee.map((g) => `<div><dt>${esc(g.title)}</dt><dd>${esc(g.text)}</dd></div>`).join('')}</dl>
+<div class="letter__sign">${media.badges?.['signature-kevin-taylor'] ? `<img src="${media.badges['signature-kevin-taylor'].src}" width="${media.badges['signature-kevin-taylor'].w}" height="${media.badges['signature-kevin-taylor'].h}" alt="Signature of Kevin Taylor" loading="lazy" decoding="async">` : ''}<div><b>Kevin Taylor</b><span>General Manager, OSHASCORM.org</span></div><a href="/policies/refund-policy">Read the refund policy</a></div>
+</div>
 </div></section>
 
 <section class="section"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Why OSHASCORM.org</p><h2>Built for safety. Designed for scalability.</h2></div>
-<div class="grid grid--3">${home.pillars.map((a) => `<div class="card"><span class="icon-tile">${icon[a.icon]}</span><h3>${esc(a.title)}</h3><p class="muted">${esc(a.text)}</p></div>`).join('')}</div>
-<ul class="stats mt-3"><li><b>${TOTAL_LABEL}</b><span>SCORM courses</span></li><li><b>${categoryList.length + navCollections.length}</b><span>topic areas</span></li><li><b>24 hrs</b><span>standard delivery</span></li><li><b>IACET</b><span>accredited provider</span></li><li><b>EN · ES</b><span>bilingual courses</span></li></ul>
+<div class="section-head section-head--center"><h2>What safety leaders say</h2><p class="lead">HSE directors and training managers on working with our SCORM library.</p></div>
+<div class="grid grid--3">${home.testimonials.map((t) => { const img = people[slugify(t.name)]; return `<figure class="card quote"><blockquote><p>${esc(t.text)}</p></blockquote><figcaption>${img ? `<img src="${img}" width="56" height="56" alt="" loading="lazy" decoding="async">` : ''}<span><b>${esc(t.name)}</b><span>${esc(t.role)}</span></span></figcaption></figure>`; }).join('')}</div>
 </div></section>
 
 <section class="section section--soft"><div class="wrap">
-<div class="section-head"><p class="eyebrow">360° Guarantee®</p><h2>You’re covered from every angle</h2></div>
-<div class="grid grid--3">${home.guarantee.map((g) => `<div class="card"><span class="icon-tile">${icon.shield}</span><h3>${esc(g.title)}</h3><p class="muted">${esc(g.text)}</p></div>`).join('')}</div>
-<p class="muted mt-2">— Kevin Taylor, General Manager · <a href="/policies/refund-policy">Read the full refund policy</a></p>
-</div></section>
-
-<section class="section"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Customer reviews</p><h2>Trusted by safety and HSE leaders</h2></div>
-<div class="grid grid--3">${home.testimonials.map((t) => `<figure class="card quote"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote><p>${esc(t.text)}</p></blockquote><figcaption><span class="avatar" aria-hidden="true">${esc(t.name.split(' ').map((w) => w[0]).join(''))}</span><span><b>${esc(t.name)}</b><span>${esc(t.role)}</span></span></figcaption></figure>`).join('')}</div>
-</div></section>
-
-<section class="section section--soft"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Explore by industry</p><h2>${categoryList.length} specialized training areas</h2><p class="lead">Browse the full directory of SCORM courses by industry and hazard.</p></div>
-<ul class="chips">${categoryList.map((c) => `<li><a class="chip" href="${esc(c.url)}">${esc(c.name)} · ${c.items.length}</a></li>`).join('')}</ul>
+<div class="section-head"><h2>Browse by industry</h2><p class="lead">${categoryList.length} industry and hazard categories in the full SCORM course directory.</p></div>
+<ul class="catlist">${categoryList.map((c) => `<li><a href="${esc(c.url)}">${esc(c.name)}<span>${c.items.length}</span></a></li>`).join('')}</ul>
 </div></section>
 
 <section class="section" id="faq"><div class="wrap">
-<div class="section-head section-head--center"><p class="eyebrow">FAQ</p><h2>SCORM training questions, answered</h2></div>
+<div class="section-head section-head--center"><h2>Frequently asked questions</h2></div>
 ${faqList(faqs, { center: true })}
-<p class="center mt-2"><a href="/pages/faq">Read all frequently asked questions</a></p>
+<p class="center mt-3"><a class="btn btn--ghost" href="/pages/faq">Read all FAQs</a></p>
 </div></section>
 
-<section class="section section--tight"><div class="wrap"><div class="cta"><div><h2>Ready to train your workforce?</h2><p>Pick your courses and seats, check out securely, and have your SCORM package in your LMS tomorrow.</p></div><div class="cta__actions"><a class="btn btn--primary" href="/collections/all">Browse courses ${icon.arrow}</a><a class="btn btn--ghost-light" href="/pages/contact">Get an enterprise quote</a></div></div></div></section>`;
+<section class="ctaband"><div class="wrap"><div class="cta"><div><h2>Equip your workforce with compliant training</h2><p>Select courses and seats, pay securely or by purchase order, and receive your SCORM package within 24 hours.</p></div><div class="cta__actions"><a class="btn btn--light" href="/collections/all">Browse courses</a><a class="btn btn--ghost-light" href="/pages/contact">Request a quote</a></div></div></div></section>`;
 
   const desc = home.seoDescription;
   const jsonld = [
@@ -324,8 +351,8 @@ ${faqList(faqs, { center: true })}
     ...S.faqPage(cfg, '/', faqs),
   ];
   const md = mdHeader('OSHA SCORM — SCORM-compliant safety training courses', '/', desc) +
-    `${home.lead}\n\n## Key facts\n\n- ${TOTAL} SCORM courses (SCORM 1.2 and SCORM 2004 ZIP packages)\n- Licensed per learner seat for 12 months; tiers from 10 to 200 seats\n- Delivered by email within 24 hours of purchase\n- IACET accredited provider; certificate of completion included\n- Most courses available in English and Spanish\n- Works with ${LMS.join(', ')} and any SCORM-compliant LMS\n\n## Training series\n\n${navCollections.map((c) => `- [${c.title}](${cfg.siteUrl}${c.url}) — ${c.count} courses`).join('\n')}\n\n## Industry directory\n\n${categoryList.map((c) => `- [${c.name}](${cfg.siteUrl}${c.url}) — ${c.items.length} courses`).join('\n')}\n\n## How SCORM delivery works\n\n${home.steps.map((s, i) => `${i + 1}. **${s.title}** — ${s.text}`).join('\n')}\n\n## FAQ\n\n${faqs.map((f) => `### ${f.q}\n\n${toMarkdown(f.a)}`).join('\n\n')}\n`;
-  emit('/', { html: page(ctx, { title: home.seoTitle, description: desc, path: '/', body, jsonld, mdPath: '/index.md' }), md, priority: 1.0 });
+    `${home.lead}\n\n## Key facts\n\n- ${TOTAL} SCORM courses (SCORM 1.2 and SCORM 2004 ZIP packages)\n- Licensed per learner seat for 12 months; minimum order ${cfg.minSeats} seats\n- Delivered by email within 24 hours of purchase\n- IACET accredited provider; certificate of completion included\n- Most courses available in English and Spanish\n- Works with ${LMS.join(', ')} and any SCORM-compliant LMS\n\n## Training series\n\n${navCollections.map((c) => `- [${c.title}](${cfg.siteUrl}${c.url}) — ${c.count} courses`).join('\n')}\n\n## Industry directory\n\n${categoryList.map((c) => `- [${c.name}](${cfg.siteUrl}${c.url}) — ${c.items.length} courses`).join('\n')}\n\n## How SCORM delivery works\n\n${home.steps.map((s, i) => `${i + 1}. **${s.title}** — ${s.text}`).join('\n')}\n\n## FAQ\n\n${faqs.map((f) => `### ${f.q}\n\n${toMarkdown(f.a)}`).join('\n\n')}\n`;
+  emit('/', { html: page(ctx, { title: home.seoTitle, description: desc, path: '/', body, jsonld, mdPath: '/index.md', preloadImage: { href: hero[1280], srcset: heroSrcset, sizes: HEAD_SIZES } }), md, priority: 1.0 });
 }
 
 // ========================================================== PRODUCT/COURSE ==
@@ -350,7 +377,7 @@ function coursePage(c) {
   const heroSrc = c.media?.[720] || '';
   const media = c.media
     ? `<div class="pdp__media"><img src="${esc(heroSrc)}" srcset="${esc(heroSrcset)}" sizes="${sizes}" width="720" height="480" alt="${esc(c.imageAlt)}" fetchpriority="high" decoding="async"></div>`
-    : `<div class="pdp__media pdp__media--cover" style="padding:28px;background:radial-gradient(600px 300px at 90% 0,rgba(255,138,31,.35),transparent 60%),linear-gradient(160deg,#0b2545,#071a33);color:#c7d3e3"><p class="eyebrow" style="color:#ffb066">${esc(c.category)}</p><p style="font-size:clamp(1.3rem,1rem + 1.4vw,2rem);font-weight:800;color:#fff;line-height:1.15;letter-spacing:-.02em;margin:0 0 14px">${esc(c.title)}</p><ul class="chips"><li class="chip chip--dark">SCORM 1.2</li><li class="chip chip--dark">SCORM 2004</li>${c.duration ? `<li class="chip chip--dark">${esc(c.duration)}</li>` : ''}${c.citation ? `<li class="chip chip--dark">${esc(truncate(c.citation, 40))}</li>` : ''}</ul></div>`;
+    : `<div class="pdp__media pdp__cover"><p class="pdp__cover-cat">${esc(c.category)}</p><p class="pdp__cover-title">${esc(c.title)}</p><p class="pdp__cover-meta">${['SCORM 1.2', 'SCORM 2004', c.duration, c.citation ? truncate(c.citation, 40) : ''].filter(Boolean).map(esc).join(' · ')}</p></div>`;
   const overview = isProduct
     ? c.tabs.map((t) => `<section class="section--tight" id="${slugify(t.title)}">${/^\s*<h2/i.test(t.html) ? '' : `<h2>${esc(t.title === 'Overview' ? `${c.title} — overview` : t.title === 'Course Objective' ? 'Course objectives' : t.title)}</h2>`}<div class="prose">${t.html}</div></section>`).join('')
     : `<section class="section--tight" id="overview"><h2>${esc(c.title)} — course overview</h2><div class="prose"><p>${esc(c.title)} is an online safety training course delivered as an LMS-ready SCORM package${c.citation ? `, aligned with <strong>${esc(c.citation)}</strong>` : ''}. It is part of our <a href="${esc(categoryUrl[c.category])}">${esc(c.category)}</a> training library.</p><h3>What this course covers</h3><ul>${c.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul></div></section>`;
@@ -363,8 +390,9 @@ ${media}
 </div>
 <div class="pdp__info">
 <h1 class="pdp__title">${esc(c.title)}</h1>
-<ul class="pdp__sub chips">${c.duration ? `<li class="chip">${esc(c.duration)}</li>` : ''}<li class="chip">SCORM 1.2 &amp; 2004</li><li class="chip chip--green">${hasEs ? 'English · Español' : 'English'}</li><li class="chip chip--orange">${money(c.price)}/seat</li></ul>
+<ul class="pdp__sub">${c.duration ? `<li>${esc(c.duration)}</li>` : ''}<li>SCORM 1.2 &amp; 2004</li><li>${hasEs ? 'English · Español' : 'English'}</li><li>${money(c.price)} per seat</li></ul>
 ${buyBox(c, cfg)}
+<div class="seal-row">${seals(cfg, media.badges)}</div>
 </div>
 <div class="pdp__details">
 ${detailsList(c.keyDetails)}
@@ -375,7 +403,7 @@ ${overview}
 <section class="section--tight" id="pricing"><h2>${esc(c.title)} pricing</h2><p class="muted">${money(c.price)} per learner seat for a 12-month (365-day) license, in USD. Your total is simply price × seats — here are common seat counts. The SCORM package is delivered within 24 hours of payment.</p>${pricingTable(c)}</section>
 <section class="section--tight" id="faq"><h2>Frequently asked questions</h2>${faqList(faqs)}</section>
 ${related.length ? `<section class="section--tight"><h2>Related ${isProduct ? esc(col?.title || '') : esc(c.category)} courses</h2><div class="grid grid--4">${related.map((r) => courseCard(r)).join('')}</div></section>` : ''}
-<section class="section"><div class="cta"><div><h2>Be certain with our 360° Guarantee®</h2><p>Guaranteed 24-hour delivery, guaranteed value and guaranteed happiness — or your money back.</p></div><div class="cta__actions"><a class="btn btn--primary" href="#buy">Choose seats ${icon.arrow}</a><a class="btn btn--ghost-light" href="/pages/contact">Talk to us</a></div></div></section>
+<section class="section"><div class="cta"><div><h2>Be certain with our 360° Guarantee®</h2><p>Guaranteed 24-hour delivery, guaranteed value and guaranteed happiness — or your money back.</p></div><div class="cta__actions"><a class="btn btn--light" href="#buy">Choose seats</a><a class="btn btn--ghost-light" href="/pages/contact">Request a quote</a></div></div></section>
 </div>`;
   const jsonld = [
     ...core,
@@ -416,23 +444,19 @@ function collectionPage(c) {
     ? `<div class="panel"><h2>Who needs ${esc(kw)}?</h2><ul class="assure">${copy.audience.map((a) => `<li>${icon.check}<span>${esc(a)}</span></li>`).join('')}</ul></div>`
     : audienceSec ? `<div><h2>${esc(audienceSec.heading.replace(/Training Training/, 'Training'))}</h2><div class="grid grid--3">${audienceSec.columns.map((col) => `<div class="card prose">${col.title ? `<h3>${esc(col.title)}</h3>` : ''}${fixHeadings(col.html).replace(/<p><strong>(.*?)<\/strong><\/p>/, '<h3>$1</h3>')}</div>`).join('')}</div></div>` : '';
   const body = `
-<section class="hero hero--page"><div class="wrap">
-${breadcrumbs(crumbs)}
-<h1>${esc(h1)}</h1>
-<p class="lead">${esc(lead)}</p>
-<ul class="chips kpis"><li class="chip chip--dark">${items.length} SCORM course${items.length === 1 ? '' : 's'}</li>${per ? `<li class="chip chip--dark">From ${money(per)}/seat</li>` : ''}<li class="chip chip--dark">SCORM 1.2 &amp; 2004</li>${(copy.cite || []).slice(0, 3).map((x) => `<li class="chip chip--dark">${esc(x)}</li>`).join('')}</ul>
-</div></section>
+${pageHead({ crumbs, h1, lead, img: media.collections[c.handle] || null, meta: [`${items.length} SCORM course${items.length === 1 ? '' : 's'}`, per ? `From ${money(per)} per seat` : '', 'SCORM 1.2 &amp; 2004', ...(copy.cite || []).slice(0, 2).map(esc)].filter(Boolean) })}
 <section class="section"><div class="wrap">
-<div class="toolbar"><h2 class="mb-0" style="font-size:1.35rem">${items.length} ${esc(kw)} course${items.length === 1 ? '' : 's'}</h2><a href="/pages/courses-directory">Browse all ${TOTAL_LABEL} courses</a></div>
+<div class="toolbar"><h2 class="mb-0">${items.length} ${esc(kw)} course${items.length === 1 ? '' : 's'}</h2><a class="link-arrow" href="/pages/courses-directory">Browse all ${TOTAL_LABEL} courses ${icon.arrow}</a></div>
 ${items.length ? `<div class="grid grid--4">${items.map((x, i) => courseCard(x, { eager: i < 4 })).join('')}</div>` : `<div class="empty">New courses for this series are coming soon. <a href="/pages/courses-directory">Browse the full course directory</a>.</div>`}
 </div></section>
-${intro || audience ? `<section class="section section--soft"><div class="wrap stack">${intro ? `<div class="split"><div class="prose"><h2>${esc(intro.heading)}</h2>${fixHeadings(intro.html)}</div>${media.collections[c.handle] ? `<img src="${esc(media.collections[c.handle][720])}" srcset="${esc(srcsetOf(media.collections[c.handle]))}" sizes="(min-width:960px) 560px, 92vw" width="720" height="480" alt="${esc(c.title)}" loading="lazy" decoding="async" style="border-radius:22px;aspect-ratio:3/2;object-fit:cover">` : ''}</div>` : ''}${audience}</div></section>` : ''}
+${intro || audience ? `<section class="section section--soft"><div class="wrap stack">${intro ? `<div class="split"><div class="prose"><h2>${esc(intro.heading)}</h2>${fixHeadings(intro.html)}</div>${media.collections[c.handle] ? `<div class="photo"><img src="${esc(media.collections[c.handle][720])}" srcset="${esc(srcsetOf(media.collections[c.handle]))}" sizes="(min-width:960px) 580px, 92vw" width="720" height="480" alt="${esc(c.title)}" loading="lazy" decoding="async"></div>` : ''}</div>` : ''}${audience}</div></section>` : ''}
 <section class="section"><div class="wrap"><h2>${esc(kw)} — frequently asked questions</h2>${faqList(faqs)}</div></section>`;
   const title = h1.length <= 50 ? `${h1} | OSHA SCORM` : h1.length <= 65 ? h1 : h1.replace(/\s*\(Capacitación en Español\)/, '').replace(/ — SCORM Courses?$/, ' SCORM Courses');
   const desc = seoDesc(`${kw} SCORM courses for your LMS: ${items.length} course${items.length === 1 ? '' : 's'}${per ? ` from ${money(per)}/seat` : ''}. ${lead}`);
   const jsonld = [...core, ...S.webPage(cfg, { path: c.url, name: title, description: desc, type: 'CollectionPage', crumbs, dateModified: iso(c.updated_at || BUILD_DATE) }), ...S.itemList(cfg, c.url, c.title, items), ...S.faqPage(cfg, c.url, faqs)];
   const md = mdHeader(h1, c.url, desc) + `${lead}\n\n${copy.cite?.length ? `**Regulations:** ${copy.cite.join(', ')}\n\n` : ''}## Courses\n\n${items.map((x) => `- [${x.title}](${cfg.siteUrl}${x.url}) — ${x.duration || ''}, from ${money(minPer(x))}/seat`).join('\n')}\n\n## FAQ\n\n${faqs.map((f) => `### ${f.q}\n\n${toMarkdown(f.a)}`).join('\n\n')}\n`;
-  emit(c.url, { html: page(ctx, { title, description: desc, path: c.url, body, jsonld, mdPath: mdFor(c.url) }), md, lastmod: c.updated_at, priority: 0.9 });
+  const headImg = media.collections[c.handle];
+  emit(c.url, { html: page(ctx, { title, description: desc, path: c.url, body, jsonld, mdPath: mdFor(c.url), preloadImage: headImg ? { href: headImg[960], srcset: srcsetOf(headImg), sizes: HEAD_SIZES } : null }), md, lastmod: c.updated_at, priority: 0.9 });
 }
 collections.forEach(collectionPage);
 
@@ -440,15 +464,15 @@ collections.forEach(collectionPage);
 {
   const crumbs = [{ name: 'Home', url: '/' }, { name: 'Training series', url: '/collections/' }];
   const list = collections.filter((c) => c.items.length);
-  const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs(crumbs)}<h1>SCORM safety training series</h1><p class="lead">Browse every OSHASCORM.org training series — each one a set of LMS-ready SCORM 1.2 and SCORM 2004 courses aligned with OSHA, EPA, DOT, NFPA and USACE requirements.</p></div></section>
-<section class="section"><div class="wrap"><div class="grid grid--3">${list.map((c) => `<article class="card card--link cat"><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><p class="small muted mb-0">${esc(truncate(c.copy?.intro || c.sections.find((s) => s.type === 'hero')?.text || plainText(c.description_html) || `LMS-ready ${c.title} SCORM courses.`, 130))}</p><div class="cat__count"><span>${c.items.length} courses · from ${money(Math.min(...c.items.map(minPer)))}/seat</span>${icon.arrow}</div></article>`).join('')}</div>
-<h2 class="mt-3">Industry training directory</h2><ul class="chips">${categoryList.map((c) => `<li><a class="chip" href="${esc(c.url)}">${esc(c.name)} · ${c.items.length}</a></li>`).join('')}</ul></div></section>`;
+  const body = `${pageHead({ crumbs, h1: 'SCORM safety training series', lead: 'Browse every OSHASCORM.org training series — each one a set of LMS-ready SCORM 1.2 and SCORM 2004 courses aligned with OSHA, EPA, DOT, NFPA and USACE requirements.' })}
+<section class="section"><div class="wrap"><div class="colcards">${list.map((c) => colCard(c)).join('')}</div>
+<h2 class="mt-3">Industry training directory</h2><ul class="catlist">${categoryList.map((c) => `<li><a href="${esc(c.url)}">${esc(c.name)}<span>${c.items.length}</span></a></li>`).join('')}</ul></div></section>`;
   const desc = `Browse ${list.length} SCORM safety training series and ${categoryList.length} industry categories: HAZWOPER, NFPA 70E, DOT hazmat, RCRA, construction, general industry and more.`;
   emit('/collections/', { html: page(ctx, { title: 'SCORM Safety Training Series | OSHA SCORM', description: desc, path: '/collections/', body, jsonld: [...core, ...S.webPage(cfg, { path: '/collections/', name: 'SCORM safety training series', description: desc, type: 'CollectionPage', crumbs }), ...S.itemList(cfg, '/collections/', 'Training series', list.map((c) => ({ url: c.url, title: c.title })))], mdPath: '/collections/index.md' }), md: mdHeader('SCORM safety training series', '/collections/', desc) + list.map((c) => `- [${c.title}](${cfg.siteUrl}${c.url}) — ${c.items.length} courses`).join('\n') + '\n', priority: 0.8 });
 
   const crumbsAll = [{ name: 'Home', url: '/' }, { name: 'All SCORM courses', url: '/collections/all' }];
   const sorted = [...products].sort((a, b) => a.title.localeCompare(b.title));
-  const bodyAll = `<section class="hero hero--page"><div class="wrap">${breadcrumbs(crumbsAll)}<h1>All SCORM safety training courses</h1><p class="lead">${products.length} flagship SCORM courses below, plus ${courses.length} more in the <a href="/pages/courses-directory" style="color:#fff">course directory</a>. Every course is an LMS-ready SCORM 1.2 &amp; 2004 package licensed per seat.</p></div></section>
+  const bodyAll = `${pageHead({ crumbs: crumbsAll, h1: 'All SCORM safety training courses', leadHtml: `${products.length} flagship SCORM courses below, plus ${courses.length} more in the <a href="/pages/courses-directory">course directory</a>. Every course is an LMS-ready SCORM 1.2 &amp; 2004 package licensed per seat.` })}
 <section class="section"><div class="wrap"><div class="toolbar"><label class="search-input"><span class="sr-only">Filter courses</span>${icon.search}<input type="search" placeholder="Filter by topic or regulation…" data-filter="#all-grid" autocomplete="off"></label><span class="results-count" data-count>${products.length} courses</span></div>
 <div class="grid grid--4" id="all-grid">${sorted.map((c, i) => courseCard(c, { eager: i < 4 }).replace('<article class="card', `<article data-q="${esc(c.category.toLowerCase())}" class="card`)).join('')}</div></div></section>`;
   const descAll = `Shop ${TOTAL_LABEL} OSHA-compliant SCORM safety courses for your LMS: HAZWOPER, NFPA 70E, DOT hazmat, RCRA, EM 385-1-1 and more. Seat pricing for 10–200 learners.`;
@@ -461,7 +485,7 @@ collections.forEach(collectionPage);
   const groups = {};
   for (const c of allItems) (groups[c.dirCategory || c.category] ||= []).push(c);
   const ordered = Object.entries(groups).sort((a, b) => a[0].localeCompare(b[0]));
-  const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs(crumbs)}<h1>SCORM course directory (A–Z)</h1><p class="lead">All ${TOTAL} SCORM safety and compliance courses in one place, grouped by industry. Filter instantly by topic, job role or regulation number.</p></div></section>
+  const body = `${pageHead({ crumbs, h1: 'SCORM course directory (A–Z)', lead: `All ${TOTAL} SCORM safety and compliance courses in one place, grouped by industry. Filter by topic, job role or regulation number.` })}
 <section class="section"><div class="wrap"><div class="toolbar"><label class="search-input"><span class="sr-only">Filter the directory</span>${icon.search}<input type="search" placeholder="e.g. forklift, 1910.146, ammonia…" data-filter="#dir" autocomplete="off"></label><span class="results-count" data-count>${TOTAL} courses</span></div>
 <div class="dir" id="dir">${ordered.map(([name, items]) => `<section data-group><h2>${categoryUrl[name] ? `<a href="${esc(categoryUrl[name])}">${esc(name)}</a>` : esc(name)}<span class="muted small">${items.length}</span></h2><ul>${items.map(courseRow).join('')}</ul></section>`).join('')}</div></div></section>`;
   const desc = `A–Z directory of ${TOTAL} SCORM safety courses: OSHA, MSHA, DOT hazmat, EPA, Cal/OSHA, NFPA 70E, construction, healthcare and more. LMS-ready SCORM 1.2 & 2004.`;
@@ -480,8 +504,8 @@ collections.forEach(collectionPage);
       { q: `How much do ${cat.name} SCORM courses cost?`, a: `<p>From ${money(per)} per learner seat for a 12-month license. Each course page shows its per-seat price and totals for common seat counts.</p>` },
       cites.length && { q: 'Which regulations and standards are covered?', a: `<p>${cites.map(esc).join('; ')}.</p>` },
     ].filter(Boolean);
-    const bodyC = `<section class="hero hero--page"><div class="wrap">${breadcrumbs(crumbsC)}<h1>${esc(h1)}</h1><p class="lead">${esc(lead)}</p><ul class="chips kpis"><li class="chip chip--dark">${cat.items.length} courses</li><li class="chip chip--dark">From ${money(per)}/seat</li><li class="chip chip--dark">English · Español</li></ul></div></section>
-<section class="section"><div class="wrap"><div class="toolbar"><h2 class="mb-0" style="font-size:1.35rem">${cat.items.length} ${esc(cat.name)} course${cat.items.length === 1 ? '' : 's'}</h2><a href="/pages/courses-directory">Browse all ${TOTAL_LABEL} courses</a></div><div class="grid grid--3">${cat.items.map((c) => `<article class="card card--link course course--compact"><div class="course__body"><div class="course__meta">${c.duration ? `<span class="chip">${esc(c.duration)}</span>` : ''}${c.citation ? `<span class="chip chip--orange">${esc(truncate(c.citation, 34))}</span>` : ''}</div><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><div class="course__price"><span>From</span><b>${money(minPer(c))}<span> /seat</span></b></div></div></article>`).join('')}</div></div></section>
+    const bodyC = `${pageHead({ crumbs: crumbsC, h1, lead, meta: [`${cat.items.length} courses`, `From ${money(per)} per seat`, 'SCORM 1.2 &amp; 2004'] })}
+<section class="section"><div class="wrap"><div class="toolbar"><h2 class="mb-0">${cat.items.length} ${esc(cat.name)} course${cat.items.length === 1 ? '' : 's'}</h2><a class="link-arrow" href="/pages/courses-directory">Browse all ${TOTAL_LABEL} courses ${icon.arrow}</a></div><div class="grid grid--3">${cat.items.map((c) => `<article class="card card--link course course--compact"><div class="course__body"><div class="course__meta">${esc([c.duration, c.citation ? truncate(c.citation, 40) : ''].filter(Boolean).join(' · ') || 'SCORM 1.2 & 2004')}</div><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><div class="course__price"><b>${money(minPer(c))}</b><span>per seat · 12-month license</span></div></div></article>`).join('')}</div></div></section>
 <section class="section section--soft"><div class="wrap"><h2>${esc(cat.name)} — FAQ</h2>${faqList(faqs)}<p class="mt-2"><a href="/pages/courses-directory">Back to the full course directory</a></p></div></section>`;
     const desc = seoDesc(`${cat.name} SCORM courses: ${lead} Certificate of completion, IACET accredited, delivered within 24 hours.`);
     emit(cat.url, { html: page(ctx, { title: seoTitle(`${cat.name} SCORM Courses`, [' | OSHA SCORM', '']), description: desc, path: cat.url, body: bodyC, jsonld: [...core, ...S.webPage(cfg, { path: cat.url, name: h1, description: desc, type: 'CollectionPage', crumbs: crumbsC }), ...S.itemList(cfg, cat.url, cat.name, cat.items), ...S.faqPage(cfg, cat.url, faqs)], mdPath: mdFor(cat.url) }), md: mdHeader(h1, cat.url, desc) + `${lead}\n\n${cat.items.map((x) => `- [${x.title}](${cfg.siteUrl}${x.url}) — ${x.duration || ''}${x.citation ? `, ${x.citation}` : ''}, from ${money(minPer(x))}/seat`).join('\n')}\n`, priority: 0.7 });
@@ -491,7 +515,7 @@ collections.forEach(collectionPage);
 // ================================================================ PAGES ==
 function simplePage({ urlPath, title, h1, lead, html, crumbsName, type = 'WebPage', faqs = null, extraJsonld = [], priority = 0.5, aside = '' }) {
   const crumbs = [{ name: 'Home', url: '/' }, { name: crumbsName || h1, url: urlPath }];
-  const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs(crumbs)}<h1>${esc(h1)}</h1>${lead ? `<p class="lead">${esc(lead)}</p>` : ''}</div></section><section class="section"><div class="wrap">${aside ? `<div class="content-grid"><div>` : ''}${html ? `<div class="prose">${html}</div>` : ''}${faqs ? faqList(faqs) : ''}${aside ? `</div><aside>${aside}</aside></div>` : ''}</div></section>`;
+  const body = `${pageHead({ crumbs, h1, lead })}<section class="section"><div class="wrap">${aside ? `<div class="content-grid"><div>` : ''}${html ? `<div class="prose">${html}</div>` : ''}${faqs ? faqList(faqs) : ''}${aside ? `</div><aside>${aside}</aside></div>` : ''}</div></section>`;
   const desc = seoDesc(lead, plainText(html), faqs?.map((f) => f.q).join(' '));
   emit(urlPath, {
     html: page(ctx, { title, description: desc, path: urlPath, body, jsonld: [...core, ...S.webPage(cfg, { path: urlPath, name: title, description: desc, type, crumbs }), ...(faqs ? S.faqPage(cfg, urlPath, faqs) : []), ...extraJsonld], mdPath: mdFor(urlPath) }),
@@ -536,7 +560,7 @@ const pageBy = Object.fromEntries(rawPages.map((p) => [p.handle, p]));
 <h2>Our 360° Guarantee®</h2><ul><li><b>Guaranteed delivery</b> — SCORM package delivered within 24 hours after successful payment, or your order is free.</li><li><b>Guaranteed value</b> — find a lower price within 30 days and we’ll refund the difference and then some.</li><li><b>Guaranteed happiness</b> — not 100% satisfied? We’ll make it right or refund your money within 30 days. <a href="/policies/refund-policy">Refund policy</a></li></ul>
 <h2>Independence</h2><p>OSHASCORM.org is a private company. We are not affiliated with, or endorsed by, the U.S. Occupational Safety and Health Administration (OSHA) or the U.S. Department of Labor.</p>`;
   const about = { '@type': 'AboutPage', '@id': `${cfg.siteUrl}/pages/about-us#about`, url: `${cfg.siteUrl}/pages/about-us`, mainEntity: { '@id': `${cfg.siteUrl}/#org` } };
-  simplePage({ urlPath: '/pages/about-us', title: 'About OSHASCORM.org | IACET-Accredited SCORM Safety Training', h1: 'About OSHASCORM.org', lead: 'IACET-accredited, OSHA-aligned SCORM safety training for employers, training providers and LMS operators — backed by our 360° Guarantee®.', html, crumbsName: 'About us', extraJsonld: [about], priority: 0.5 });
+  simplePage({ urlPath: '/pages/about-us', title: 'About OSHASCORM.org | IACET-Accredited SCORM Safety Training', h1: 'About OSHASCORM.org', lead: 'IACET-accredited, OSHA-aligned SCORM safety training for employers, training providers and LMS operators — backed by our 360° Guarantee®.', html, crumbsName: 'About us', extraJsonld: [about], priority: 0.5, aside: `<div class="toc"><h2>Accreditation</h2><div class="seal-row mt-0">${seals(cfg, media.badges)}</div><h2 class="mt-2">Talk to our team</h2><p class="mb-0"><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a><br><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a><br><span class="small muted">Mon–Fri, 7:00 AM – 5:00 PM CST</span></p><p class="mt-2 mb-0"><a class="btn btn--primary btn--block" href="/pages/contact">Request a quote</a></p></div>` });
 }
 
 for (const h of ['return-policy', 'terms-of-service']) {
@@ -555,8 +579,8 @@ for (const p of rawPolicies.filter((x) => x.handle !== 'terms-of-service')) simp
   const toc = `<nav class="toc" aria-label="On this page"><h2>On this page</h2><ol>${g.sections.map((s) => `<li><a href="#${s.id}">${esc(s.h2)}</a></li>`).join('')}<li><a href="#faq">SCORM FAQ</a></li></ol><p class="mt-2 mb-0"><a class="btn btn--primary btn--block" href="/collections/all">Browse SCORM courses</a></p></nav>`;
   const article = { '@type': 'TechArticle', '@id': `${cfg.siteUrl}${urlPath}#article`, headline: g.h1, description: g.seoDescription, author: { '@id': `${cfg.siteUrl}/#org` }, publisher: { '@id': `${cfg.siteUrl}/#org` }, datePublished: g.published, dateModified: isoDate(BUILD_DATE), mainEntityOfPage: { '@id': `${cfg.siteUrl}${urlPath}#webpage` }, about: [{ '@type': 'Thing', name: 'SCORM', sameAs: 'https://en.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model' }], inLanguage: 'en-US' };
   const crumbs = [{ name: 'Home', url: '/' }, { name: 'SCORM guide', url: urlPath }];
-  const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs(crumbs)}<h1>${esc(g.h1)}</h1><p class="lead">${esc(g.lead)}</p></div></section><section class="section"><div class="wrap"><div class="content-grid"><article><div class="prose">${html}</div>${faqList(g.faqs)}</article><aside>${toc}</aside></div></div></section>
-<section class="section section--tight"><div class="wrap"><div class="cta"><div><h2>Ready-made SCORM safety courses</h2><p>${TOTAL_LABEL} OSHA-compliant SCORM 1.2 &amp; 2004 courses, delivered within 24 hours.</p></div><div class="cta__actions"><a class="btn btn--primary" href="/collections/all">Browse courses ${icon.arrow}</a></div></div></div></section>`;
+  const body = `${pageHead({ crumbs, h1: g.h1, lead: g.lead })}<section class="section"><div class="wrap"><div class="content-grid"><article><div class="prose">${html}</div>${faqList(g.faqs)}</article><aside>${toc}</aside></div></div></section>
+<section class="section section--tight"><div class="wrap"><div class="cta"><div><h2>Ready-made SCORM safety courses</h2><p>${TOTAL_LABEL} OSHA-compliant SCORM 1.2 &amp; 2004 courses, delivered within 24 hours.</p></div><div class="cta__actions"><a class="btn btn--light" href="/collections/all">Browse courses</a><a class="btn btn--ghost-light" href="/pages/contact">Request a quote</a></div></div></div></section>`;
   emit(urlPath, {
     html: page(ctx, { title: g.seoTitle, description: g.seoDescription, path: urlPath, body, ogType: 'article', jsonld: [...core, ...S.webPage(cfg, { path: urlPath, name: g.seoTitle, description: g.seoDescription, crumbs }), article, ...S.faqPage(cfg, urlPath, g.faqs)], mdPath: mdFor(urlPath) }),
     md: mdHeader(g.h1, urlPath, g.seoDescription) + g.lead + '\n\n' + g.sections.map((s) => `## ${s.h2}\n\n${toMarkdown(s.html)}`).join('\n\n') + '\n\n## SCORM FAQ\n\n' + g.faqs.map((f) => `### ${f.q}\n\n${toMarkdown(f.a)}`).join('\n\n') + '\n',
@@ -566,16 +590,16 @@ for (const p of rawPolicies.filter((x) => x.handle !== 'terms-of-service')) simp
 
 // Search, cart, 404, /products/ index
 {
-  const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs([{ name: 'Home', url: '/' }, { name: 'Search', url: '/search' }])}<h1>Search ${TOTAL_LABEL} SCORM courses</h1></div></section><section class="section"><div class="wrap" data-search><form class="toolbar" role="search" action="/search" onsubmit="return false"><label class="search-input"><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search by topic, regulation or job role" autocomplete="off" autofocus></label></form><p class="results-count" data-status aria-live="polite"></p><div class="dir dir--single dir--results"><ul data-results></ul></div><noscript><p>Search needs JavaScript. Browse the <a href="/pages/courses-directory">course directory</a> instead.</p></noscript></div></section>`;
+  const body = `${pageHead({ crumbs: [{ name: 'Home', url: '/' }, { name: 'Search', url: '/search' }], h1: `Search ${TOTAL_LABEL} SCORM courses` })}<section class="section"><div class="wrap" data-search><form class="toolbar" role="search" action="/search" onsubmit="return false"><label class="search-input"><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search by topic, regulation or job role" autocomplete="off" autofocus></label></form><p class="results-count" data-status aria-live="polite"></p><div class="dir dir--single dir--results"><ul data-results></ul></div><noscript><p>Search needs JavaScript. Browse the <a href="/pages/courses-directory">course directory</a> instead.</p></noscript></div></section>`;
   emit('/search', { html: page(ctx, { title: 'Search SCORM Courses | OSHA SCORM', description: `Search ${TOTAL_LABEL} OSHA-compliant SCORM safety training courses by topic, regulation or job role.`, path: '/search', body, jsonld: core, noindex: true }), noindex: true });
 
-  const cart = `<section class="hero hero--page"><div class="wrap"><h1>Your cart</h1></div></section><section class="section"><div class="wrap" data-cart><ul class="cart-list"></ul><div class="empty" hidden>Your cart is empty. <a href="/collections/all">Browse SCORM courses</a>.</div><div class="cart-summary" hidden><div><span class="muted">Total (USD, before tax)</span><div style="font-size:1.6rem;font-weight:800;color:var(--ink)" data-cart-total>$0.00</div></div><a class="btn btn--primary" data-checkout href="/checkout?cart=1" rel="nofollow">Continue to checkout ${icon.arrow}</a></div><p class="small muted mt-2">Card payments are processed securely by Stripe. Prices are per learner seat for a 12-month license.</p></div></section>`;
+  const cart = `${pageHead({ crumbs: [{ name: 'Home', url: '/' }, { name: 'Cart', url: '/cart' }], h1: 'Your cart' })}<section class="section"><div class="wrap" data-cart><ul class="cart-list"></ul><div class="empty" hidden>Your cart is empty. <a href="/collections/all">Browse SCORM courses</a>.</div><div class="cart-summary" hidden><div><span class="muted">Total (USD, before tax)</span><div class="cart-total" data-cart-total>$0.00</div></div><a class="btn btn--primary" data-checkout href="/checkout?cart=1" rel="nofollow">Continue to checkout</a></div><p class="small muted mt-2">Card payments are processed securely by Stripe. Prices are per learner seat for a 12-month license.</p></div></section>`;
   emit('/cart', { html: page(ctx, { title: 'Cart | OSHA SCORM', description: 'Review your SCORM course selections and continue to secure checkout.', path: '/cart', body: cart, jsonld: core, noindex: true }), noindex: true });
 
   // Checkout: same LMS flow as the sister sites (see src/assets/js/checkout.js).
   const countries = [['US', 'United States'], ['CA', 'Canada'], ['GB', 'United Kingdom'], ['AU', 'Australia'], ['NZ', 'New Zealand'], ['IE', 'Ireland'], ['MX', 'Mexico'], ['PR', 'Puerto Rico'], ['AE', 'United Arab Emirates'], ['SA', 'Saudi Arabia'], ['QA', 'Qatar'], ['KW', 'Kuwait'], ['IN', 'India'], ['PK', 'Pakistan'], ['PH', 'Philippines'], ['SG', 'Singapore'], ['MY', 'Malaysia'], ['ZA', 'South Africa'], ['NG', 'Nigeria'], ['DE', 'Germany'], ['FR', 'France'], ['NL', 'Netherlands'], ['ES', 'Spain'], ['IT', 'Italy']];
   const field = (id, label, attrs = '') => `<label>${label}<input id="${id}" ${attrs}></label>`;
-  const checkout = `<section class="hero hero--page"><div class="wrap">${breadcrumbs([{ name: 'Home', url: '/' }, { name: 'Checkout', url: '/checkout' }])}<h1>Secure checkout</h1><p class="lead">Complete your order and your SCORM package is emailed within 24 hours of payment.</p></div></section>
+  const checkout = `${pageHead({ crumbs: [{ name: 'Home', url: '/' }, { name: 'Checkout', url: '/checkout' }], h1: 'Secure checkout', lead: 'Complete your order and your SCORM package is emailed within 24 hours of payment.' })}
 <section class="section"><div class="wrap" data-checkout-root>
 <div class="checkout">
 <form class="form panel" id="checkout-form" novalidate>
@@ -591,7 +615,7 @@ ${field('billingAddress2', 'Apartment, suite, etc. (optional)', 'autocomplete="a
 <p class="notice notice--info" data-request-only hidden>This order will be sent to our team as an order request. We’ll confirm availability and email an invoice or secure payment link within one business day — no card is charged now.</p>
 <p class="buybox__err" role="alert" data-err></p>
 <button class="btn btn--primary btn--block" type="submit" data-submit disabled>Loading…</button>
-<p class="secure">${icon.shield}<span><b>Secure card checkout by Stripe</b> (PCI DSS Level 1). Your card details go directly to Stripe. Purchase orders: call ${esc(cfg.contact.phone)} or email ${esc(cfg.lms.requestEmail)}.</span></p>
+<p class="secure">${icon.shield}<span><b>Secure payment by Stripe</b> (PCI DSS Level 1). Your card details go directly to Stripe. Purchase orders: call ${esc(cfg.contact.phone)} or email ${esc(cfg.lms.requestEmail)}.</span></p>
 </form>
 <aside class="panel order-summary" aria-labelledby="summary-h"><h2 id="summary-h">Order summary</h2><ul class="summary-lines" data-lines></ul><div class="summary-total"><span>Total (USD)</span><b data-total>$0.00</b></div><ul class="assure"><li>${icon.check}<span>12-month license per learner seat</span></li><li>${icon.check}<span>SCORM 1.2 &amp; 2004 ZIP emailed within 24 hours</span></li><li>${icon.check}<span>30-day money-back guarantee</span></li></ul></aside>
 </div>
@@ -602,7 +626,7 @@ ${field('billingAddress2', 'Apartment, suite, etc. (optional)', 'autocomplete="a
 <script src="/assets/js/checkout.js?v=${crypto.createHash('sha1').update(checkoutJs).digest('hex').slice(0, 10)}" defer></script>`;
   emit('/checkout', { html: page(ctx, { title: 'Secure Checkout | OSHA SCORM', description: 'Secure checkout for OSHASCORM.org SCORM course licenses.', path: '/checkout', body: checkout, jsonld: core, noindex: true }), noindex: true });
 
-  const nf = `<section class="section notfound"><div class="wrap"><p class="eyebrow">404</p><h1>We couldn’t find that page</h1><p class="lead" style="margin:0 auto">The course may have moved. Search the catalog or browse the directory.</p><form class="search-input" action="/search" role="search"><label><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search courses"></label></form><p class="mt-2"><a class="btn btn--dark" href="/collections/all">All courses</a> <a class="btn btn--ghost" href="/pages/courses-directory">Course directory</a></p></div></section>
+  const nf = `<section class="section notfound"><div class="wrap"><p class="label">Error 404</p><h1>We couldn’t find that page</h1><p class="lead" style="margin:0 auto">The course may have moved. Search the catalog or browse the directory.</p><form class="search-input" action="/search" role="search"><label><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search courses"></label></form><div class="btn-row btn-row--center mt-3"><a class="btn btn--dark" href="/collections/all">All courses</a><a class="btn btn--ghost" href="/pages/courses-directory">Course directory</a></div></div></section>
 <script>(function(){var B=${JSON.stringify(cfg.basePath || '')},p=location.pathname.slice(B.length).replace(/\\/+$/,''),m;
 if((m=p.match(/^\\/collections\\/[^/]+\\/products\\/([^/]+)/)))return location.replace(B+'/products/'+m[1]+location.search);
 if(/^\\/products$/.test(p))return location.replace(B+'/collections/all');

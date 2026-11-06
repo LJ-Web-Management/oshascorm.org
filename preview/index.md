@@ -9,12 +9,12 @@ updated: 2026-11-06
 
 > 770+ OSHA-compliant SCORM 1.2 & 2004 safety courses for your LMS: HAZWOPER, NFPA 70E, DOT hazmat, RCRA & more. IACET accredited, white-label, 24h delivery.
 
-Empower your workforce with ready-to-deploy SCORM packages for HAZWOPER, NFPA 70E, DOT Hazmat, RCRA, EM 385-1-1 and 770+ more topics. Upload the ZIP to any SCORM-compliant LMS, assign learners, and track completion — no course building required.
+Ready-to-deploy SCORM 1.2 and SCORM 2004 courses for HAZWOPER, NFPA 70E, DOT hazmat, RCRA, EM 385-1-1 and 770+ other safety topics. Upload the package to your LMS, assign learners and track completion — no course development required.
 
 ## Key facts
 
 - 776 SCORM courses (SCORM 1.2 and SCORM 2004 ZIP packages)
-- Licensed per learner seat for 12 months; tiers from 10 to 200 seats
+- Licensed per learner seat for 12 months; minimum order 10 seats
 - Delivered by email within 24 hours of purchase
 - IACET accredited provider; certificate of completion included
 - Most courses available in English and Spanish

@@ -10,7 +10,7 @@ export function base(cfg) {
     name: cfg.legalName,
     alternateName: ['OSHA SCORM', 'OSHASCORM', 'oshascorm.org'],
     url: `${S}/`,
-    logo: { '@type': 'ImageObject', '@id': `${S}/#logo`, url: `${S}/assets/img/brand/logo.png`, width: 500, height: 500, caption: cfg.legalName },
+    logo: { '@type': 'ImageObject', '@id': `${S}/#logo`, url: `${S}/assets/img/brand/logo.png`, width: 512, height: 512, caption: cfg.legalName },
     image: { '@id': `${S}/#logo` },
     description: 'OSHASCORM.org develops and sells OSHA-compliant, IACET-accredited safety training courses as SCORM 1.2 and SCORM 2004 packages for corporate learning management systems (LMS), training providers and EHS teams.',
     email: cfg.contact.email,

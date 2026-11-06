@@ -31,20 +31,30 @@ const social = {
   facebook: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.2C16.7 2.1 15.7 2 14.6 2 12.2 2 10.6 3.4 10.6 6.1v2.4H8v3.4h2.6V22H14V11.9h2.7l.4-3.4z"/></svg>',
   instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>',
 };
-export const logoMark = `<svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a1f"/><stop offset="1" stop-color="#ffb066"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="#0b2545"/><path d="M20 7.5 30 11v8.2c0 6.3-4.2 11-10 13.3-5.8-2.3-10-7-10-13.3V11z" fill="url(#lg)"/><path d="m15.2 19.8 3.4 3.4 6.4-6.6" fill="none" stroke="#0b2545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+// Brand assets (self-hosted copies of the OSHA SCORM wordmark and seals).
+export const LOGO = { src: '/assets/img/brand/logo-wordmark.webp', w: 560, h: 90 };
 
 // Cards accepted by the Stripe card form used at checkout.
 export const PAYMENTS = ['Visa', 'Mastercard', 'American Express', 'Discover', 'Diners Club', 'JCB'];
 
-// Trust band: verifiable credentials and guarantees, each linked to proof.
-export function trustBand(cfg) {
+// Accreditation seals, each linked to the issuing body's listing.
+export function seals(cfg, badges, { lazy = true } = {}) {
+  const b = badges || {};
+  const out = [];
+  if (b['iacet-accredited-provider']) out.push(`<a href="${esc(cfg.trust.iacet)}" rel="noopener" aria-label="IACET Accredited Provider listing"><img src="${b['iacet-accredited-provider'].src}" width="${b['iacet-accredited-provider'].w}" height="${b['iacet-accredited-provider'].h}" alt="IACET Accredited Provider"${lazy ? ' loading="lazy"' : ''} decoding="async"></a>`);
+  if (b['bbb-a-plus']) out.push(`<a href="${esc(cfg.trust.bbb)}" rel="noopener" aria-label="Better Business Bureau profile"><img src="${b['bbb-a-plus'].src}" width="${b['bbb-a-plus'].w}" height="${b['bbb-a-plus'].h}" alt="BBB Accredited Business, A+ rating"${lazy ? ' loading="lazy"' : ''} decoding="async"></a>`);
+  return out.join('');
+}
+
+// Credentials bar (home, under the hero): verifiable facts, each linked to proof.
+export function credBar(cfg) {
   const items = [
-    { icon: 'award', title: 'IACET accredited', text: 'Accredited continuing-education provider', href: cfg.trust.iacet, link: 'View IACET listing' },
-    { icon: 'shield', title: 'Secure Stripe checkout', text: 'PCI DSS Level 1 card payments, or invoice by PO', href: '/pages/about-us#security', link: 'How we protect you' },
-    { icon: 'check', title: '30-day money-back', text: '360° Guarantee® on every order', href: '/policies/refund-policy', link: 'Read the guarantee' },
-    { icon: 'phone', title: 'Free LMS support', text: 'Installation help for 1 year after purchase', href: '/pages/contact', link: 'Talk to support' },
+    { title: 'IACET Accredited Provider', text: 'Continuing-education accreditation', href: cfg.trust.iacet },
+    { title: 'BBB Accredited Business', text: 'A+ rating with the Better Business Bureau', href: cfg.trust.bbb },
+    { title: 'SCORM 1.2 & SCORM 2004', text: 'Tested in Moodle, Cornerstone, TalentLMS and more', href: '/pages/what-is-scorm' },
+    { title: '360° Guarantee®', text: '24-hour delivery and a 30-day refund window', href: '/policies/refund-policy' },
   ];
-  return `<section class="trustband" aria-label="Why organizations trust us"><div class="wrap"><ul>${items.map((t) => `<li><span class="icon-tile">${icon[t.icon]}</span><div><b>${esc(t.title)}</b><span>${esc(t.text)}</span><a href="${esc(t.href)}"${/^https?:/.test(t.href) ? ' rel="noopener"' : ''}>${esc(t.link)}</a></div></li>`).join('')}</ul></div></section>`;
+  return `<section class="credbar" aria-label="Accreditation and guarantees"><div class="wrap"><ul>${items.map((t) => `<li><a href="${esc(t.href)}"${/^https?:/.test(t.href) ? ' rel="noopener"' : ''}><b>${esc(t.title)}</b><span>${esc(t.text)}</span></a></li>`).join('')}</ul></div></section>`;
 }
 
 // ------------------------------------------------------------ components --
@@ -62,10 +72,12 @@ export function faqList(faqs, { center = false } = {}) {
 }
 
 export function courseCard(c, { eager = false } = {}) {
-  const media = c.media
-    ? `<div class="course__media"><img src="${esc(c.media[480])}" srcset="${esc(srcsetOf(c.media))}" sizes="(min-width:1200px) 280px, (min-width:700px) 45vw, 92vw" width="480" height="320" alt="${esc(c.imageAlt || c.title)}" loading="${eager ? 'eager' : 'lazy'}" decoding="async"></div>`
+  const m = c.media || c.fallbackMedia;
+  const media = m
+    ? `<div class="course__media"><img src="${esc(m[480])}" srcset="${esc(srcsetOf(m))}" sizes="(min-width:1200px) 290px, (min-width:700px) 45vw, 92vw" width="480" height="320" alt="${esc(c.imageAlt || c.title)}" loading="${eager ? 'eager' : 'lazy'}" decoding="async"></div>`
     : '';
-  return `<article class="card card--link course">${media}<div class="course__body"><div class="course__meta">${c.duration ? `<span class="chip">${icon.clock.replace('<svg', '<svg width="14" height="14"')} ${esc(c.duration)}</span>` : ''}${c.languages?.some((l) => /espa/i.test(l)) ? '<span class="chip chip--green">EN · ES</span>' : ''}</div><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><div class="course__price">${c.price ? `<span>12-month license</span><b>${money(c.price)}<span> /seat</span></b>` : '<span>SCORM 1.2 &amp; 2004</span>'}</div></div></article>`;
+  const meta = [c.duration, 'SCORM 1.2 & 2004', c.languages?.some((l) => /espa/i.test(l)) ? 'EN/ES' : ''].filter(Boolean).join(' · ');
+  return `<article class="card card--link course${m ? ' course--img' : ''}">${media}<div class="course__body"><div class="course__meta">${esc(meta)}</div><h3><a href="${esc(c.url)}">${esc(c.title)}</a></h3><div class="course__price">${c.price ? `<b>${money(c.price)}</b><span>per seat · 12-month license</span>` : '<span>SCORM 1.2 &amp; 2004</span>'}</div></div></article>`;
 }
 
 export function courseRow(c) {
@@ -90,11 +102,11 @@ export function buyBox(c, cfg) {
   return `<form class="buybox" id="buy" data-buybox data-handle="${esc(c.handle)}" data-title="${esc(c.title)}" data-price="${c.price}" data-url="${esc(c.url)}" data-min="${min}" onsubmit="return false">
 <fieldset><legend>Number of learner seats <span class="muted small nowrap">(12-month license)</span></legend>
 <div class="seatpick"><div class="seat-chips" role="group" aria-label="Quick seat counts">${presets}</div><label class="seat-input"><span>or enter</span><input type="number" name="seats" inputmode="numeric" min="${min}" max="100000" step="1" value="${min}" aria-describedby="seat-help-${esc(c.handle)}"></label></div>
-<p class="small muted mt-0" id="seat-help-${esc(c.handle)}">Minimum ${min} seats. Every seat is ${money(c.price)} — no tiers, no surprises.</p></fieldset>
+<p class="small muted mt-0" id="seat-help-${esc(c.handle)}">Minimum order ${min} seats at ${money(c.price)} per seat. Each seat is a 12-month learner license.</p></fieldset>
 <div class="price" aria-live="polite"><div><div class="price__per">${money(c.price)} <small>/ seat</small></div></div><div class="price__total"><span class="small muted"><span data-out="seats">${min}</span> seats</span><b data-out="total">${money(c.price * min)}</b></div></div>
-<div class="buybox__ctas"><a class="btn btn--primary btn--block" data-buy href="${esc(checkoutHref)}" rel="nofollow">${cardReady ? 'Buy now — secure checkout' : 'Request this order'} ${icon.arrow}</a><button type="button" class="btn btn--ghost btn--block" data-add>Add to cart</button></div>
-<ul class="assure"><li>${icon.check}<span>SCORM 1.2 &amp; SCORM 2004 ZIP emailed within 24 hours</span></li><li>${icon.check}<span>Works with Moodle, Cornerstone, TalentLMS, Canvas &amp; any SCORM LMS</span></li><li>${icon.check}<span>30-day money-back guarantee · free install support for 1 year</span></li></ul>
-<p class="secure">${icon.shield}<span>${cardReady ? `<b>Secure card checkout by Stripe</b> (PCI DSS Level 1). We accept ${PAYMENTS.slice(0, 4).join(', ')} and more.` : '<b>Order by request:</b> submit your order and we’ll confirm and invoice within one business day. Purchase orders welcome.'}</span></p>
+<div class="buybox__ctas"><a class="btn btn--primary btn--block" data-buy href="${esc(checkoutHref)}" rel="nofollow">${cardReady ? 'Proceed to checkout' : 'Request this order'}</a><button type="button" class="btn btn--ghost btn--block" data-add>Add to cart</button></div>
+<ul class="assure"><li>${icon.check}<span>SCORM 1.2 and SCORM 2004 ZIP emailed within 24 hours</span></li><li>${icon.check}<span>Compatible with Moodle, Cornerstone, TalentLMS, Canvas and any SCORM LMS</span></li><li>${icon.check}<span>30-day refund window and free installation support for one year</span></li></ul>
+<p class="secure">${icon.shield}<span>${cardReady ? `<b>Secure payment by Stripe</b> (PCI DSS Level 1). Visa, Mastercard, American Express and Discover accepted. Purchase orders and invoicing available.` : '<b>Invoiced order:</b> submit your order and our team confirms and invoices within one business day. Purchase orders accepted.'}</span></p>
 ${c.smallTeamUrl ? `<p class="buybox__note">Training fewer than 10 people? <a href="${esc(c.smallTeamUrl)}" rel="noopener">Enroll individual learners online</a></p>` : ''}
 </form>`;
 }
@@ -121,7 +133,7 @@ export function page(ctx, { title, description, path, body, jsonld = [], ogImage
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${esc(url)}">
 ${noindex ? '<meta name="robots" content="noindex,follow">' : '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">'}
-<meta name="theme-color" content="#0b2545">
+<meta name="theme-color" content="#02458b">
 <meta property="og:site_name" content="${esc(cfg.legalName)}">
 <meta property="og:type" content="${ogType}">
 <meta property="og:title" content="${esc(title)}">
@@ -134,13 +146,14 @@ ${noindex ? '<meta name="robots" content="noindex,follow">' : '<meta name="robot
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${esc(og)}">
 ${cfg.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(cfg.googleSiteVerification)}">` : ''}
-<link rel="preload" href="/assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/poppins-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin>
 ${preloadImage ? `<link rel="preload" as="image" href="${esc(preloadImage.href)}" imagesrcset="${esc(preloadImage.srcset)}" imagesizes="${esc(preloadImage.sizes)}" fetchpriority="high">` : ''}
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-${mdPath ? `<link rel="alternate" type="text/markdown" href="${esc(mdPath)}" title="Markdown version for AI agents">` : ''}
+${mdPath ? `<link rel="alternate" type="text/markdown" href="${esc(mdPath)}" title="Markdown version">` : ''}
 <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM index">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <style>${css}</style>
@@ -149,21 +162,17 @@ ${graph}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="topbar"><div class="wrap"><span class="topbar__msg">Instant-quote SCORM licensing for 10–200+ learners · Delivered within 24 hours</span><span class="topbar__links"><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></span></div></div>
+<div class="topbar"><div class="wrap"><div class="topbar__contact"><a href="tel:${cfg.contact.phoneE164}">${icon.phone}${esc(cfg.contact.phone)}</a><a href="mailto:${cfg.contact.email}">${icon.mail}${esc(cfg.contact.email)}</a></div><div class="topbar__links"><a href="/pages/courses-directory">Safety Courses Library</a><a href="/pages/what-is-scorm">What is SCORM?</a><div class="socials">${socialLinks(cfg)}</div></div></div></div>
 <header class="header"><div class="wrap">
-<a class="logo" href="/" aria-label="${esc(cfg.legalName)} home">${logoMark}<span>OSHA SCORM<small>Safety training for your LMS</small></span></a>
+<a class="logo" href="/" aria-label="${esc(cfg.legalName)} home"><img src="${LOGO.src}" width="200" height="32" alt="OSHASCORM.ORG" decoding="async"></a>
 <nav class="nav" aria-label="Main">
 <details class="mega"><summary>Courses ${icon.chevron}</summary><div class="mega__panel"><div><p class="mega__title">Training series</p><div class="mega__grid">${nav.collections.map((c) => `<a href="${esc(c.url)}">${esc(c.title)} <span>(${c.count})</span></a>`).join('')}</div></div><div class="mega__side"><p class="mega__title">Browse</p><a href="/collections/all"><b>All SCORM courses</b></a><a href="/pages/courses-directory"><b>Course directory A–Z</b></a><a href="/collections/best-selling-courses">Best sellers</a><a href="/collections/osha-safety-training-in-spanish">Spanish-language courses</a><a href="/collections">All training series</a></div></div></details>
-<a href="/pages/courses-directory">Directory</a>
-<a href="/pages/what-is-scorm">SCORM guide</a>
-<a href="/pages/faq">FAQ</a>
-<a href="/pages/about-us">About</a>
-<a href="/pages/contact">Contact</a>
+${NAV_LINKS.map(([h, t]) => `<a href="${h}"${path === h ? ' aria-current="page"' : ''}>${t}</a>`).join('\n')}
 </nav>
 <div class="header__actions">
 <a class="icon-btn" href="/search" aria-label="Search courses">${icon.search}</a>
 <a class="icon-btn" href="/cart" aria-label="Cart">${icon.cart}<span class="cart-count" hidden>0</span></a>
-<a class="btn btn--dark header__cta" href="/collections/all">Browse courses</a>
+<a class="btn btn--primary btn--sm header__cta" href="/pages/contact">Request a quote</a>
 <button class="icon-btn menu-btn" type="button" aria-label="Menu" aria-expanded="false">${icon.menu}</button>
 </div>
 </div></header>
@@ -178,25 +187,27 @@ ${footer(ctx)}
 `;
 }
 
-function footer({ cfg, nav }) {
+const NAV_LINKS = [['/pages/courses-directory', 'Directory'], ['/pages/what-is-scorm', 'SCORM guide'], ['/pages/faq', 'FAQ'], ['/pages/about-us', 'About'], ['/pages/contact', 'Contact']];
+const socialLinks = (cfg) => Object.entries(cfg.social).map(([k, u]) => `<a href="${esc(u)}" rel="noopener" aria-label="${k[0].toUpperCase() + k.slice(1)}">${social[k]}</a>`).join('');
+
+function footer({ cfg, nav, badges }) {
   const year = new Date().getFullYear();
   const top = nav.collections.slice(0, 10);
   return `<footer class="footer"><div class="wrap">
+<div class="footer__top"><a class="logo" href="/" aria-label="${esc(cfg.legalName)} home"><img src="${LOGO.src}" width="250" height="40" alt="OSHASCORM.ORG" loading="lazy" decoding="async"></a><div class="seals">${seals(cfg, badges)}</div></div>
 <div class="footer__grid">
-<div class="footer__brand"><a class="logo" href="/" aria-label="${esc(cfg.legalName)} home">${logoMark}<span>OSHA SCORM<small>Safety training for your LMS</small></span></a>
-<p>OSHA-compliant SCORM 1.2 and SCORM 2004 safety training packages for corporate LMS platforms, training providers and EHS teams.</p>
-<ul><li><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a></li><li><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></li><li>Los Angeles, CA</li></ul>
-<div class="socials">${Object.entries(cfg.social).map(([k, u]) => `<a href="${esc(u)}" rel="noopener" aria-label="${k[0].toUpperCase() + k.slice(1)}">${social[k]}</a>`).join('')}</div></div>
+<div class="footer__brand"><h2>OSHASCORM.org</h2><p>OSHA-aligned safety training delivered as SCORM 1.2 and SCORM 2004 packages for corporate learning management systems, training providers and EHS teams.</p>
+<ul><li><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a></li><li><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></li><li>Los Angeles, California</li><li>Mon–Fri, 7:00 AM – 5:00 PM CST</li></ul>
+<div class="socials mt-2">${socialLinks(cfg)}</div></div>
 <div><h2>Popular training</h2><ul>${top.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a></li>`).join('')}</ul></div>
 <div><h2>Catalog</h2><ul><li><a href="/collections/all">All SCORM courses</a></li><li><a href="/pages/courses-directory">Course directory A–Z</a></li><li><a href="/collections">Training series</a></li><li><a href="/collections/best-selling-courses">Best sellers</a></li><li><a href="/collections/osha-safety-training-in-spanish">Courses in Spanish</a></li><li><a href="/search">Search</a></li></ul>
-<h2 class="mt-2">Resources</h2><ul><li><a href="/pages/what-is-scorm">What is SCORM?</a></li><li><a href="/pages/faq">FAQ</a></li><li><a href="/llms.txt">llms.txt (AI index)</a></li></ul></div>
-<div><h2>Company</h2><ul><li><a href="/pages/about-us">About us</a></li><li><a href="/pages/contact">Contact us</a></li><li><a href="/pages/return-policy">Return policy</a></li><li><a href="/policies/refund-policy">Refund policy</a></li><li><a href="/pages/terms-of-service">Terms of service</a></li><li><a href="/policies/shipping-policy">Delivery policy</a></li></ul>
-<div class="trust"><a class="chip chip--dark" href="${esc(cfg.trust.iacet)}" rel="noopener">IACET Accredited Provider</a><a class="chip chip--dark" href="${esc(cfg.trust.bbb)}" rel="noopener">BBB profile</a></div></div>
+<h2 class="mt-2">Resources</h2><ul><li><a href="/pages/what-is-scorm">What is SCORM?</a></li><li><a href="/pages/faq">Frequently asked questions</a></li></ul></div>
+<div><h2>Company</h2><ul><li><a href="/pages/about-us">About us</a></li><li><a href="/pages/contact">Contact us</a></li><li><a href="/pages/return-policy">Return policy</a></li><li><a href="/policies/refund-policy">Refund policy</a></li><li><a href="/pages/terms-of-service">Terms of service</a></li><li><a href="/policies/shipping-policy">Delivery policy</a></li></ul></div>
 </div>
 <div class="footer__legal">
 <p><b>Disclaimer:</b> OSHASCORM.org is a private company offering OSHA safety training courses in SCORM format. Our courses are compatible with SCORM-supported learning management systems, but we are not affiliated with the U.S. Occupational Safety and Health Administration (<a href="https://www.osha.gov/laws-regs" rel="noopener">osha.gov</a>).</p>
 <p><b>Subsidiary partnership:</b> OSHASCORM.org operates as a subsidiary of <a href="${esc(cfg.parentOrg.url)}" rel="noopener">${esc(cfg.parentOrg.name)}</a>, a company specializing in workplace safety training, and partners with <a href="${esc(cfg.partnerOrg.url)}" rel="noopener">${esc(cfg.partnerOrg.name)}</a> to provide a comprehensive selection of OSHA compliance courses.</p>
-<p>Secure card checkout by Stripe (PCI DSS Level 1) — we accept ${PAYMENTS.join(', ')}. Purchase-order and invoice billing available on request.</p>
+<p>Payments are processed by Stripe (PCI DSS Level 1). We accept ${PAYMENTS.join(', ')}. Purchase-order and invoice billing available on request.</p>
 <p>© ${year} ${esc(cfg.legalName)}. All rights reserved.</p>
 </div>
 </div></footer>`;

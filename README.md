@@ -35,6 +35,10 @@ npm run build:preview  # same site under /oshascorm.org/preview/ → ./preview (
 npm run serve          # local preview of docs/ at http://localhost:4173
 ```
 
+## Design
+
+The look follows the original OSHASCORM.org brand, modernized: the OSHA | SCORM wordmark, corporate blue `#02458b` with the wordmark's `#0083c4` as accent, Poppins (self-hosted, 400/500/600), square-cornered buttons and cards, a photo hero, training-series photo tiles, the client logo wall, IACET and BBB seals linked to their listings, testimonial headshots and the signed 360° Guarantee. Brand assets live in `data/img/brand`, `hero`, `people` and `clients`; their paths and sizes are listed in `data/media.json`.
+
 ## Where things live
 
 | Path | What it is |
@@ -42,7 +46,7 @@ npm run serve          # local preview of docs/ at http://localhost:4173
 | `data/products.json`, `data/courses.json` | The catalog: 776 courses, with content, durations, citations and languages |
 | `data/lms.json` | **Price per seat and LMS course id for every course** (edit this to change prices or enable card checkout) |
 | `data/collections.json`, `pages.json`, `policies.json` | Training series, FAQ, contact text, policies |
-| `data/img/` | Self-hosted WebP images (product heroes, covers, brand/OG images) |
+| `data/img/` | Self-hosted images: product and series photos, hero photos, headshots, client logos, seals, logo, share images |
 | `site.config.mjs` | Domain, LMS API, Stripe publishable key, seat presets, contact info |
 | `src/content/content.mjs` | Hand-written copy: homepage, collection SEO copy, SCORM guide |
 | `src/assets/js/checkout.js` | The LMS checkout (Stripe + add_new_user + add_order) |

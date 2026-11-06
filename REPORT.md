@@ -15,32 +15,26 @@ Measured with Lighthouse 13.6 (the engine behind PageSpeed Insights). The public
 | Collection | mobile | 45 | 95 | 69 | 100 | 8.2 s | 1,700 ms | 3.5 MB |
 | Collection | desktop | 69 | 99 | 73 | 100 | 1.9 s | 380 ms | 3.9 MB |
 
-**After — this build**
+**After — this build (official redesign, re-measured 2026-11-06)**
 
 | Page | Device | Performance | Accessibility | Best practices | SEO | LCP | TBT | CLS |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Home | mobile | 100 | 100 | 100 | 100 | 0.8 s | 0 ms | 0 |
-| Home | desktop | 100 | 100 | 100 | 100 | 0.3 s | 0 ms | 0 |
+| Home | mobile | 99 | 100 | 100 | 100 | 2.0 s* | 5 ms | 0 |
+| Home | desktop | 100 | 100 | 100 | 100 | 0.5 s | 0 ms | 0 |
 | Product (flagship) | mobile | 100 | 100 | 100 | 100 | 1.7 s | 0 ms | 0 |
 | Product (flagship) | desktop | 100 | 100 | 100 | 100 | 0.4 s | 0 ms | 0 |
-| Directory course | mobile | 100 | 100 | 100 | 100 | 0.8 s | 0 ms | 0 |
-| Directory course | desktop | 100 | 100 | 100 | 100 | 0.3 s | 0 ms | 0 |
-| Collection | mobile | 100 | 100 | 100 | 100 | 0.8 s | 20 ms | 0 |
-| Collection | desktop | 100 | 100 | 100 | 100 | 0.2 s | 0 ms | 0 |
+| Collection (photo header) | mobile | 98 | 100 | 100 | 100 | 2.4 s* | 0 ms | 0 |
+| Collection (photo header) | desktop | 100 | 100 | 100 | 100 | 0.6 s | 0 ms | 0 |
 | Industry hub | mobile | 100 | 100 | 100 | 100 | 0.8 s | 0 ms | 0 |
-| Industry hub | desktop | 100 | 100 | 100 | 100 | 0.3 s | 0 ms | 0 |
-| Course directory A–Z | mobile | 99–100* | 100 | 100 | 100 | 0.9 s | 30–120 ms | 0 |
-| Course directory A–Z | desktop | 100 | 100 | 100 | 100 | 0.3 s | 0 ms | 0 |
-| SCORM guide | mobile | 100 | 100 | 100 | 100 | 0.8 s | 0 ms | 0 |
-| SCORM guide | desktop | 100 | 100 | 100 | 100 | 0.2 s | 0 ms | 0 |
-| Policy | mobile | 100 | 100 | 100 | 100 | 0.6 s | 40 ms | 0 |
-| Policy | desktop | 100 | 100 | 100 | 100 | 0.2 s | 0 ms | 0 |
+| Course directory A–Z | mobile | 100 | 100 | 100 | 100 | 0.9 s | 3 ms | 0 |
+| SCORM guide | mobile | 100 | 100 | 100 | 100 | 0.8 s | 31 ms | 0 |
+| About | mobile | 100 | 100 | 100 | 100 | 0.8 s | 0 ms | 0 |
 
-\* The A–Z directory lists all ~780 courses on one page. Across six runs it scored 100 four times and 99 twice (run-to-run variance in simulated blocking time).
+\* The home and collection pages now open with a real photograph (as on the old site) instead of a CSS gradient, so the photo is the largest element. Measured locally it finishes loading in about 0.15 s; the 2.0–2.4 s figure is Lighthouse's simulated slow-4G estimate. Phones get a lighter rendition of the photo because it sits under a dark overlay.
 
 Typical page weight is **15–25 KB gzipped** (vs. ~3.5 MB), with one 3.7 KB deferred script and no third-party JavaScript.
 
-`npm run verify` currently checks 942 HTML files, 875 JSON-LD graphs and 873 sitemap URLs, with **0 errors and 0 warnings**. It covers internal links, one H1 per page, unique titles, description lengths, canonicals, Markdown twins, breadcrumb targets, and Product offer fields.
+`npm run verify` currently checks 944 HTML files, 875 JSON-LD graphs and 872 sitemap URLs, with **0 errors and 0 warnings**. It covers internal links, one H1 per page, unique titles, description lengths, canonicals, Markdown twins, breadcrumb targets, and Product offer fields.
 
 ## 2. Google Search Console
 
@@ -103,6 +97,8 @@ Each collection page carries the keyword in its title, H1, intro and FAQ, along 
 
 1. **Duplicate content (fixed).** 61 courses existed both as `/products/x` and `/pages/courses/x` on the live site. Those directory URLs, plus `/policies/terms-of-service` (identical to `/pages/terms-of-service`), are now redirect stubs pointing at the canonical page.
 2. **Shopify removed (2026-11-06 update).** The site no longer depends on, links to or embeds the former Shopify store. The catalog was migrated into `data/`, all images are self-hosted, and the Shopify Inbox chat tags that were embedded in 8 course descriptions (`<shopify-chat>`, `<shopify-store>`) were stripped. `npm run verify` fails the build if "shopify" or a chat widget ever reappears in the output.
-3. **Checkout now goes straight to the HAZWOPER-OSHA LMS** (Stripe + `add_new_user` + `add_order`), like hazwoperosha.org. The LMS charges list price × seats, so oshascorm.org now shows LMS list prices (e.g. 40-hr HAZWOPER 49.99/seat) instead of the old discounted tiers. A price guard confirms payment only when the LMS amount equals the page total. The checkout flow was tested end to end with Stripe and the LMS stubbed out; no real orders were placed.
+3. **Checkout now goes straight to the HAZWOPER-OSHA LMS** (Stripe + `add_new_user` + `add_order`), like hazwoperosha.org. The LMS charges list price × seats, so oshascorm.org now shows LMS list prices (e.g. 40-hr HAZWOPER $249.99/seat) instead of the old discounted tiers. A price guard confirms payment only when the LMS amount equals the page total. The checkout flow was tested end to end with Stripe and the LMS stubbed out; no real orders were placed.
 4. **LMS course IDs.** 73 courses have known LMS IDs and take card payment. The other 703 go to an order request (email + invoice) until their LMS IDs are added to `data/lms.json`. The authoritative list is the `lms-ids.json` behind hazwoperosha.org.
 5. **Stale course URLs.** Some URLs Ahrefs still has indexed (e.g. `/pages/courses/chemical-agent-oc-spray-safety-and-certification-training`) already return 404 on the live site. On the new site, `404.html` pre-fills a search with the old slug.
+6. **Client logos (please confirm).** The redesign carries over the old site's "Trusted by organizations" wall: FBI, U.S. Army, NASA, U.S. Navy, Pfizer and the Sewerage & Water Board of New Orleans. Government insignia (FBI, Army, NASA, Navy) have legal usage restrictions and can imply endorsement. Keep them only if these are verified customers and the use is permitted; otherwise remove entries from `media.clients` in `data/media.json` and rebuild.
+7. **Testimonials.** The six quotes and headshots come from the old site and refer to the parent company, Industrial Certified Training. They're shown without star ratings or review markup.
