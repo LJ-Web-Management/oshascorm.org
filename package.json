@@ -1,0 +1,24 @@
+{
+  "name": "oshascorm.org",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for oshascorm.org: OSHA-compliant SCORM safety training packages. Orders go straight to the HAZWOPER-OSHA LMS (Stripe + add_order), the same way as the sister sites.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:preview": "BASE_PATH=/oshascorm.org/preview OUT_DIR=preview node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "serve": "node scripts/serve.mjs",
+    "all": "npm run build && npm run verify",
+    "build:ghpages": "BASE_PATH=/oshascorm.org OUT_DIR=.cache/gh-pages node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@fontsource/poppins": "^5.2.7",
+    "cheerio": "1.2.0",
+    "esbuild": "^0.25.12",
+    "sharp": "0.35.5"
+  }
+}

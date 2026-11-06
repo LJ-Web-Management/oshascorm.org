@@ -1,0 +1,23 @@
+{
+ "linkset": [
+  {
+   "anchor": "https://oshascorm.org/api/catalog.json",
+   "service-desc": [
+    {
+     "href": "https://oshascorm.org/api/openapi.json",
+     "type": "application/vnd.oai.openapi+json"
+    }
+   ],
+   "service-doc": [
+    {
+     "href": "https://oshascorm.org/agents.md",
+     "type": "text/markdown"
+    },
+    {
+     "href": "https://oshascorm.org/llms.txt",
+     "type": "text/plain"
+    }
+   ]
+  }
+ ]
+}

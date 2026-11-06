@@ -1,0 +1,4 @@
+{
+ "migratedAt": "2026-11-06",
+ "note": "Catalog migrated from the former online store. data/ is now the source of truth: edit these files (prices and LMS course ids live in lms.json), then run npm run build."
+}
