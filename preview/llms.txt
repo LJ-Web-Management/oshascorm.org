@@ -1,0 +1,117 @@
+# OSHA SCORM (oshascorm.org)
+
+> OSHASCORM.org sells 776 OSHA-compliant safety training courses as SCORM 1.2 and SCORM 2004 packages for corporate learning management systems (LMS). Courses are IACET accredited, priced per learner seat for a 12-month license (minimum 10 seats; total = price × seats, no volume tiers), delivered by email within 24 hours, and most are available in English and Spanish.
+
+Key facts for assistants:
+- Buyers: employers, EHS/HR/L&D teams, training providers and LMS operators. Individuals needing fewer than 10 seats can enroll via the partner site hazwoper-osha.com.
+- Compatible with any SCORM-compliant LMS, including Moodle, Canvas, Cornerstone, TalentLMS, Absorb LMS, Blackboard, Docebo, SAP SuccessFactors.
+- Every course page lists its exact USD price per seat and has a Markdown version (append `.md` to the URL).
+- Machine-readable catalog with all prices: https://oshascorm.org/api/catalog.json (OpenAPI: https://oshascorm.org/api/openapi.json).
+- OSHASCORM.org is a private company, a subsidiary of Industrial Certified Training, LLC; it is not affiliated with OSHA.
+- Contact: 1-866-429-6742 · info@oshascorm.org
+
+## Training series
+
+- [HAZWOPER Training (29 CFR 1910.120)](https://oshascorm.org/collections/hazwoper-training-29-cfr-1910-120.md): 11 SCORM courses (29 CFR 1910.120(e), 29 CFR 1910.120(p), 29 CFR 1910.120(q), 29 CFR 1926.65), from $89.99/seat
+- [RCRA Hazardous Waste Management](https://oshascorm.org/collections/rcra-hazardous-waste-management.md): 2 SCORM courses (40 CFR 262.17(a)(7), 40 CFR 265.16, 40 CFR Parts 260–273), from $59.99/seat
+- [NFPA 70E Electrical & Arc Flash Safety](https://oshascorm.org/collections/nfpa-70e-electrical-arc-flash-safety.md): 5 SCORM courses (NFPA 70E (2024 edition), 29 CFR 1910.332, 29 CFR 1910.269), from $29.99/seat
+- [OSHA Construction Safety Training Series](https://oshascorm.org/collections/osha-construction-safety-training-series.md): 40 SCORM courses (29 CFR 1926), from $19.95/seat
+- [OSHA General Industry Safety Training Series](https://oshascorm.org/collections/osha-general-safety-training-series.md): 28 SCORM courses (29 CFR 1910), from $24.99/seat
+- [Hazmat Training: DOT, IATA, IMDG Transportation](https://oshascorm.org/collections/hazmat-training-dot-iata-imdg-transportation.md): 15 SCORM courses (49 CFR 172.704, IATA Dangerous Goods Regulations, IMDG Code), from $34.99/seat
+- [Confined Space Trainings](https://oshascorm.org/collections/confined-space-trainings.md): 5 SCORM courses (29 CFR 1910.146, 29 CFR 1926 Subpart AA), from $19.95/seat
+- [EM385 Trainings](https://oshascorm.org/collections/em385-trainings.md): 5 SCORM courses (USACE EM 385-1-1), from $99.99/seat
+- [Ammonia Refrigeration Training](https://oshascorm.org/collections/ammonia-refrigeration-training.md): 5 SCORM courses (29 CFR 1910.119 (PSM), 40 CFR Part 68 (RMP), IIAR standards), from $44.99/seat
+- [CDL Entry-Level Driver Training (ELDT)](https://oshascorm.org/collections/cdl-entry-level-driver-training-eldt.md): 8 SCORM courses (49 CFR Part 380, Subpart F), from $109.99/seat
+- [Competent Person Training](https://oshascorm.org/collections/competent-person-training.md): 9 SCORM courses (29 CFR 1926.32(f), 29 CFR 1926 Subpart P, 29 CFR 1926.451), from $44.99/seat
+- [OSHA 10 & 30 Hour Outreach Training](https://oshascorm.org/collections/osha-10-30-hour-outreach-training.md): 2 SCORM courses (29 CFR 1910, 29 CFR 1926), from $89.00/seat
+- [Hazard Communication (HazCom) & GHS](https://oshascorm.org/collections/hazard-communication-hazcom-ghs.md): 1 SCORM course (29 CFR 1910.1200, GHS), from $39.99/seat
+- [Healthcare Industry Training](https://oshascorm.org/collections/healthcare-industry-training.md): 3 SCORM courses (29 CFR 1910.1030 (Bloodborne Pathogens)), from $29.99/seat
+- [Hydrogen Sulfide (H2S) Training](https://oshascorm.org/collections/hydrogen-sulfide-h2s-training.md): 2 SCORM courses (29 CFR 1910.1000, ANSI/ASSP Z390.1), from $19.95/seat
+- [Lithium Battery Shipping Training](https://oshascorm.org/collections/lithium-battery-shipping-training.md): 4 SCORM courses (49 CFR 173.185, IATA DGR Packing Instructions 965–970), from $24.99/seat
+- [Mold Inspection & Remediation Certification](https://oshascorm.org/collections/mold-inspection-remediation-certification.md): 3 SCORM courses (EPA mold remediation guidance, IICRC S520), from $49.99/seat
+- [Ergonomics Training](https://oshascorm.org/collections/ergonomics-training.md): 2 SCORM courses (OSH Act General Duty Clause, Section 5(a)(1)), from $24.99/seat
+- [Stormwater Planning for Construction](https://oshascorm.org/collections/stormwater-planning-for-construction.md): 2 SCORM courses (EPA NPDES Construction General Permit), from $199.99/seat
+- [Radiation Series](https://oshascorm.org/collections/radiation-series.md): 1 SCORM course (29 CFR 1910.1096), from $179.99/seat
+- [EPA Regulated Trainings](https://oshascorm.org/collections/epa-regulated-trainings.md): 1 SCORM course, from $59.99/seat
+- [OSHA Safety Training in Spanish](https://oshascorm.org/collections/osha-safety-training-in-spanish.md): 113 SCORM courses, from $19.95/seat
+- [Best Selling Courses](https://oshascorm.org/collections/best-selling-courses.md): 12 SCORM courses, from $19.95/seat
+
+## Industry directory
+
+- [Chemical & Substance-Specific Exposure](https://oshascorm.org/training/chemical-and-substance-specific-exposure.md): 53 courses, from $19.95/seat
+- [Core Safety Programs](https://oshascorm.org/training/core-safety-programs.md): 45 courses, from $9.99/seat
+- [DOT Hazmat Transportation](https://oshascorm.org/training/dot-hazmat-transportation.md): 42 courses, from $24.99/seat
+- [Cal/OSHA Specific](https://oshascorm.org/training/cal-osha-specific.md): 29 courses, from $29.99/seat
+- [Environmental / EPA](https://oshascorm.org/training/environmental-epa.md): 28 courses, from $29.99/seat
+- [MSHA (Mine Safety)](https://oshascorm.org/training/msha-mine-safety.md): 24 courses, from $39.99/seat
+- [HAZWOPER & RCRA Hazardous Waste](https://oshascorm.org/training/hazwoper-and-rcra-hazardous-waste.md): 22 courses, from $34.99/seat
+- [Renewable Energy & Electric Utilities](https://oshascorm.org/training/renewable-energy-and-electric-utilities.md): 18 courses, from $44.99/seat
+- [Technical Trade Skills - Electrical](https://oshascorm.org/training/technical-trade-skills-electrical.md): 15 courses, from $59.99/seat
+- [Driving & Fleet Safety](https://oshascorm.org/training/driving-and-fleet-safety.md): 15 courses, from $24.99/seat
+- [Construction-Specific Safety (OSHA 1926 Subparts)](https://oshascorm.org/training/construction-specific-safety-osha-1926-subparts.md): 15 courses, from $24.99/seat
+- [Technical Trade Skills - HVAC/R](https://oshascorm.org/training/technical-trade-skills-hvac-r.md): 14 courses, from $59.99/seat
+- [Food & Beverage Processing Safety](https://oshascorm.org/training/food-and-beverage-processing-safety.md): 14 courses, from $29.99/seat
+- [Aviation & Aerospace Manufacturing Safety](https://oshascorm.org/training/aviation-and-aerospace-manufacturing-safety.md): 13 courses, from $44.99/seat
+- [Lifts, Rigging & Powered Equipment](https://oshascorm.org/training/lifts-rigging-and-powered-equipment.md): 13 courses, from $9.99/seat
+- [Manufacturing & Industrial Operations](https://oshascorm.org/training/manufacturing-and-industrial-operations.md): 13 courses, from $29.99/seat
+- [Maritime, Shipyard & Commercial Diving](https://oshascorm.org/training/maritime-shipyard-and-commercial-diving.md): 13 courses, from $29.99/seat
+- [Radiation Safety (Ionizing & Non-Ionizing)](https://oshascorm.org/training/radiation-safety-ionizing-and-non-ionizing.md): 13 courses, from $24.99/seat
+- [Emergency Management / ICS-NIMS](https://oshascorm.org/training/emergency-management-ics-nims.md): 13 courses, from $39.99/seat
+- [Data Center Facilities & Technical Skills](https://oshascorm.org/training/data-center-facilities-and-technical-skills.md): 13 courses, from $99.99/seat
+- [HR & Employment Compliance Training](https://oshascorm.org/training/hr-and-employment-compliance-training.md): 12 courses, from $24.99/seat
+- [Specialty / Miscellaneous](https://oshascorm.org/training/specialty-miscellaneous.md): 12 courses, from $29.99/seat
+- [Crane, Rigging & Heavy Equipment Operator Certification](https://oshascorm.org/training/crane-rigging-and-heavy-equipment-operator-certification.md): 12 courses, from $89.99/seat
+- [Technical Trade Skills - Mechanical](https://oshascorm.org/training/technical-trade-skills-mechanical.md): 12 courses, from $59.99/seat
+- [AI & Emerging Technology Workforce Training](https://oshascorm.org/training/ai-and-emerging-technology-workforce-training.md): 11 courses, from $79.99/seat
+- [Safety Management & Leadership](https://oshascorm.org/training/safety-management-and-leadership.md): 11 courses, from $29.99/seat
+- [Construction Specialty Operations](https://oshascorm.org/training/construction-specialty-operations.md): 11 courses, from $44.99/seat
+- [Agriculture Safety](https://oshascorm.org/training/agriculture-safety.md): 10 courses, from $24.99/seat
+- [Fall Protection, Scaffolding & Ladders](https://oshascorm.org/training/fall-protection-scaffolding-and-ladders.md): 10 courses, from $34.99/seat
+- [Healthcare-Specific Safety & Compliance](https://oshascorm.org/training/healthcare-specific-safety-and-compliance.md): 9 courses, from $29.99/seat
+- [Respiratory Protection & PPE](https://oshascorm.org/training/respiratory-protection-and-ppe.md): 9 courses, from $9.99/seat
+- [Ergonomics, Health & Environmental Exposure](https://oshascorm.org/training/ergonomics-health-and-environmental-exposure.md): 9 courses, from $9.99/seat
+- [Data Center Safety](https://oshascorm.org/training/data-center-safety.md): 9 courses, from $99.99/seat
+- [Technical Trade Skills - Instrumentation & Controls](https://oshascorm.org/training/technical-trade-skills-instrumentation-and-controls.md): 9 courses, from $59.99/seat
+- [Oil & Gas Operations Safety](https://oshascorm.org/training/oil-and-gas-operations-safety.md): 9 courses, from $29.99/seat
+- [Data Center Infrastructure & Operations](https://oshascorm.org/training/data-center-infrastructure-and-operations.md): 9 courses, from $267.99/seat
+- [CDL / DOT Driver Training (ELDT)](https://oshascorm.org/training/cdl-dot-driver-training-eldt.md): 9 courses, from $29.99/seat
+- [Technical Trade Skills - Boilers & Steam Systems](https://oshascorm.org/training/technical-trade-skills-boilers-and-steam-systems.md): 8 courses, from $59.99/seat
+- [Confined Space](https://oshascorm.org/training/confined-space.md): 8 courses, from $9.99/seat
+- [Robotics & Industrial Automation Safety](https://oshascorm.org/training/robotics-and-industrial-automation-safety.md): 7 courses, from $29.99/seat
+- [Equipment & Process-Specific Mini Courses](https://oshascorm.org/training/equipment-and-process-specific-mini-courses.md): 7 courses, from $29.99/seat
+- [Technical Trade Skills - Blueprint & Print Reading](https://oshascorm.org/training/technical-trade-skills-blueprint-and-print-reading.md): 7 courses, from $59.99/seat
+- [Technical Trade Skills - Facility & Building Maintenance](https://oshascorm.org/training/technical-trade-skills-facility-and-building-maintenance.md): 7 courses, from $99.99/seat
+- [Train-the-Trainer & Certification Programs](https://oshascorm.org/training/train-the-trainer-and-certification-programs.md): 7 courses, from $249.99/seat
+- [Workforce Health & Wellbeing](https://oshascorm.org/training/workforce-health-and-wellbeing.md): 7 courses, from $49.99/seat
+- [Ammonia Refrigeration](https://oshascorm.org/training/ammonia-refrigeration.md): 6 courses, from $49.99/seat
+- [Technical Trade Skills - Chillers & Central Plant](https://oshascorm.org/training/technical-trade-skills-chillers-and-central-plant.md): 6 courses, from $89.99/seat
+- [Construction & General Industry Outreach (DOL Card)](https://oshascorm.org/training/construction-and-general-industry-outreach-dol-card.md): 6 courses, from $39.99/seat
+- [Warehousing & Logistics Operations](https://oshascorm.org/training/warehousing-and-logistics-operations.md): 6 courses, from $24.99/seat
+- [Electrical Safety (NFPA 70E)](https://oshascorm.org/training/electrical-safety-nfpa-70e.md): 6 courses, from $29.99/seat
+- [Propane / LPG (Liquefied Petroleum Gas) Safety](https://oshascorm.org/training/propane-lpg-liquefied-petroleum-gas-safety.md): 6 courses, from $59.99/seat
+- [EM 385-1-1 (USACE Military Construction)](https://oshascorm.org/training/em-385-1-1-usace-military-construction.md): 6 courses, from $99.99/seat
+- [Military & Government Contractor Safety](https://oshascorm.org/training/military-and-government-contractor-safety.md): 4 courses, from $99.99/seat
+- [Healthcare & Compliance](https://oshascorm.org/training/healthcare-and-compliance.md): 4 courses, from $29.99/seat
+- [Laboratory Safety](https://oshascorm.org/training/laboratory-safety.md): 3 courses, from $34.99/seat
+- [Senior Living, Nursing & Long-Term Care](https://oshascorm.org/training/senior-living-nursing-and-long-term-care.md): 3 courses, from $29.99/seat
+- [Technical Trade Skills - Plumbing](https://oshascorm.org/training/technical-trade-skills-plumbing.md): 3 courses, from $89.99/seat
+- [Telecommunications & Tower Safety](https://oshascorm.org/training/telecommunications-and-tower-safety.md): 3 courses, from $29.99/seat
+- [Excavation, Trenching & Shoring](https://oshascorm.org/training/excavation-trenching-and-shoring.md): 2 courses, from $39.99/seat
+- [Correctional Facilities Safety & Compliance](https://oshascorm.org/training/correctional-facilities-safety-and-compliance.md): 1 course, from $44.99/seat
+
+## Guides
+
+- [What is SCORM? SCORM 1.2 vs 2004, xAPI, uploading to an LMS](https://oshascorm.org/pages/what-is-scorm.md)
+- [Frequently asked questions](https://oshascorm.org/pages/faq.md)
+- [How to buy and agent guidelines](https://oshascorm.org/agents.md)
+
+## Policies
+
+- [Refund policy (30-day money-back guarantee)](https://oshascorm.org/policies/refund-policy.md)
+- [Terms of service](https://oshascorm.org/pages/terms-of-service.md)
+- [Contact](https://oshascorm.org/pages/contact.md)
+
+## Optional
+
+- [Full catalog with every course and price](https://oshascorm.org/llms-full.txt)
+- [Course directory A–Z](https://oshascorm.org/pages/courses-directory.md)

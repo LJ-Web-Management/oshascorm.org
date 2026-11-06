@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** OSHA Construction Safety Training Series
 - **Duration:** 2 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $29.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-driving-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-driving-safety-training&seats=10
 
 ## Key details
 
@@ -29,19 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $56.99 | $569.91 |
-| 25 | $50.99 | $1,274.79 |
-| 50 | $47.99 | $2,399.60 |
-| 75 | $46.49 | $3,486.92 |
-| 100 | $44.99 | $4,499.25 |
-| 150 | $41.99 | $6,298.95 |
-| 200 | $35.99 | $7,198.80 |
-| 250 | $30.00 | $7,498.75 |
-| 300 | $26.40 | $7,918.68 |
-| 350 | $24.00 | $8,398.60 |
-| 400 | $21.60 | $8,638.56 |
-| 450 | $20.40 | $9,178.47 |
-| 500 | $18.60 | $9,298.45 |
+| 10 | $29.99 | $299.90 |
+| 25 | $29.99 | $749.75 |
+| 50 | $29.99 | $1,499.50 |
+| 100 | $29.99 | $2,999.00 |
+| 200 | $29.99 | $5,998.00 |
 
 ## Overview
 
@@ -113,7 +105,7 @@ OSHA Driving Safety Training is delivered as an LMS-ready SCORM package — you 
 
 ### How much does OSHA Driving Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $569.91 for 10 seats ($56.99 per seat), down to $18.60 per seat at 500 seats ($9,298.45). Need more seats? Contact us for enterprise pricing.
+$29.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $299.90 for 10 seats or $5,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Driving Safety Training course?
 

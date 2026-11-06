@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Cal/OSHA – 8 CCR 3203 / 8 CCR 3668 / AB 701 (Warehouse Quotas)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $139.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cal-osha-warehouse-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-warehouse-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $118.99 | $1,189.91 |
-| 25 | $81.73 | $2,043.34 |
-| 50 | $69.31 | $3,465.72 |
-| 75 | $65.17 | $4,888.10 |
-| 100 | $63.10 | $6,310.48 |
-| 150 | $61.03 | $9,155.24 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $139.99 | $1,399.90 |
+| 25 | $139.99 | $3,499.75 |
+| 50 | $139.99 | $6,999.50 |
+| 100 | $139.99 | $13,999.00 |
+| 200 | $139.99 | $27,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Cal/OSHA Warehouse Safety Training is delivered as an LMS-ready SCORM package �
 
 ### How much does Cal/OSHA Warehouse Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,189.91 for 10 seats ($118.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$139.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,399.90 for 10 seats or $27,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cal/OSHA Warehouse Safety Training course?
 

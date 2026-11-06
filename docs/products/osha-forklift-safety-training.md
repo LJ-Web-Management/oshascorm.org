@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** OSHA Construction Safety Training Series
 - **Duration:** 4 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-forklift-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-forklift-safety-training&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $58.79 | $587.90 |
-| 25 | $58.79 | $1,469.76 |
-| 50 | $56.99 | $2,849.53 |
-| 75 | $53.99 | $4,049.33 |
-| 100 | $53.99 | $5,399.10 |
-| 150 | $50.99 | $7,648.73 |
-| 200 | $50.99 | $10,198.30 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -110,7 +108,7 @@ OSHA Forklift Safety Training is delivered as an LMS-ready SCORM package — you
 
 ### How much does OSHA Forklift Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $587.90 for 10 seats ($58.79 per seat), down to $50.99 per seat at 200 seats ($10,198.30). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Forklift Safety Training course?
 

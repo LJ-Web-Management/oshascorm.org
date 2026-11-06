@@ -1,5 +1,5 @@
 // Hand-authored copy. Catalog data (products, prices, courses) comes from
-// ./data (synced from Shopify); this file holds marketing copy, keyword
+// ./data (the catalog source of truth); this file holds marketing copy, keyword
 // targeting and evergreen guide content.
 
 export const LMS = ['Moodle', 'Canvas', 'Cornerstone', 'TalentLMS', 'Absorb LMS', 'Blackboard', 'Docebo', 'SAP SuccessFactors', 'Workday Learning', 'LearnUpon', 'iSpring Learn', 'SCORM Cloud'];
@@ -31,7 +31,7 @@ export const home = {
     },
   ],
   steps: [
-    { title: 'Select courses', text: 'Choose from our compliance library with transparent, real-time seat pricing.' },
+    { title: 'Select courses', text: 'Choose from our compliance library with transparent per-seat pricing.' },
     { title: 'Set seat count & order', text: 'Pick learner seats — licensed per user, per year — and check out securely.' },
     { title: 'Receive your SCORM ZIP', text: 'Your SCORM 1.2 or SCORM 2004 package is emailed within 24 hours of purchase.' },
     { title: 'Upload to your LMS', text: 'Import the ZIP into your LMS. No technical setup or customization required.' },
@@ -75,7 +75,7 @@ export const home = {
     },
     {
       q: 'How does seat-based pricing work?',
-      a: '<p>Each course is licensed per learner seat for 12 months (365 days). You choose a seat tier — typically 10, 25, 50, 75, 100, 150 or 200 seats — and the per-seat price drops as the tier grows. Every course page lists the full price for every tier. Need more than 200 seats or an enterprise library license? <a href="/pages/contact">Contact us for a quote</a>.</p>',
+      a: '<p>Each course has one price per learner seat for a 12-month (365-day) license. Your total is simply that price × the number of seats you need (minimum 10). Every course page shows the per-seat price and totals for common seat counts. Need an enterprise library license or purchase-order billing? <a href="/pages/contact">Contact us</a>.</p>',
     },
     {
       q: 'Are the courses OSHA-compliant and accredited?',
@@ -93,7 +93,7 @@ export const home = {
 };
 
 // Per-collection copy. Collections without an entry fall back to the
-// description authored in Shopify plus data-driven copy.
+// collection description in data/collections.json plus data-driven copy.
 export const collectionCopy = {
   'hazwoper-training-29-cfr-1910-120': {
     h1: 'HAZWOPER Training SCORM Courses (OSHA 29 CFR 1910.120)',

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** NFPA/OSHA – NFPA 855 / OSHA General Duty Clause
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $69.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/battery-energy-storage-system-bess-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=battery-energy-storage-system-bess-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $59.49 | $594.91 |
-| 25 | $59.81 | $1,495.32 |
-| 50 | $59.92 | $2,995.99 |
-| 75 | $59.96 | $4,496.65 |
-| 100 | $59.97 | $5,997.32 |
-| 150 | $59.99 | $8,998.66 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $69.99 | $699.90 |
+| 25 | $69.99 | $1,749.75 |
+| 50 | $69.99 | $3,499.50 |
+| 100 | $69.99 | $6,999.00 |
+| 200 | $69.99 | $13,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Battery Energy Storage System (BESS) Safety Training is delivered as an LMS-read
 
 ### How much does Battery Energy Storage System (BESS) Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $594.91 for 10 seats ($59.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$69.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $699.90 for 10 seats or $13,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Battery Energy Storage System (BESS) Safety Training course?
 

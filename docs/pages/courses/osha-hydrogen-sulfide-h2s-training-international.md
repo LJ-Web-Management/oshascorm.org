@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** OSHA/Intl. – OSHA general duty clause / Intl. equivalents
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $89.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-hydrogen-sulfide-h2s-training-international#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-hydrogen-sulfide-h2s-training-international&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $44.99 | $449.91 |
-| 25 | $35.52 | $887.98 |
-| 50 | $32.36 | $1,618.10 |
-| 75 | $31.31 | $2,348.21 |
-| 100 | $30.78 | $3,078.33 |
-| 150 | $30.26 | $4,538.57 |
-| 200 | $29.99 | $5,998.80 |
+| 10 | $89.99 | $899.90 |
+| 25 | $89.99 | $2,249.75 |
+| 50 | $89.99 | $4,499.50 |
+| 100 | $89.99 | $8,999.00 |
+| 200 | $89.99 | $17,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Hydrogen Sulfide (H2S) Training (International) is delivered as an LMS-read
 
 ### How much does OSHA Hydrogen Sulfide (H2S) Training (International) cost?
 
-Pricing is per learner seat for a 12-month license: $449.91 for 10 seats ($44.99 per seat), down to $29.99 per seat at 200 seats ($5,998.80). Need more seats? Contact us for enterprise pricing.
+$89.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $899.90 for 10 seats or $17,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Hydrogen Sulfide (H2S) Training (International) course?
 

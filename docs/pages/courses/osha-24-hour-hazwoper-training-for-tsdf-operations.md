@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** OSHA/EPA – 29 CFR 1910.120(p) / RCRA
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $229.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-24-hour-hazwoper-training-for-tsdf-operations#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-24-hour-hazwoper-training-for-tsdf-operations&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $183.99 | $1,839.92 |
-| 25 | $105.68 | $2,642.03 |
-| 50 | $79.58 | $3,978.88 |
-| 75 | $70.88 | $5,315.74 |
-| 100 | $66.53 | $6,652.59 |
-| 150 | $62.18 | $9,326.29 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $229.99 | $2,299.90 |
+| 25 | $229.99 | $5,749.75 |
+| 50 | $229.99 | $11,499.50 |
+| 100 | $229.99 | $22,999.00 |
+| 200 | $229.99 | $45,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA 24-Hour HAZWOPER Training for TSDF Operations is delivered as an LMS-ready 
 
 ### How much does OSHA 24-Hour HAZWOPER Training for TSDF Operations cost?
 
-Pricing is per learner seat for a 12-month license: $1,839.92 for 10 seats ($183.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$229.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,299.90 for 10 seats or $45,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 24-Hour HAZWOPER Training for TSDF Operations course?
 

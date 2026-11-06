@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** EPA – 40 CFR 112
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $59.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/epa-spill-prevention-control-and-countermeasure-spcc-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=epa-spill-prevention-control-and-countermeasure-spcc-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $39.19 | $391.90 |
-| 25 | $39.19 | $979.76 |
-| 50 | $37.99 | $1,899.53 |
-| 75 | $35.99 | $2,699.33 |
-| 100 | $35.99 | $3,599.10 |
-| 150 | $33.99 | $5,098.73 |
-| 200 | $33.99 | $6,798.30 |
+| 10 | $59.99 | $599.90 |
+| 25 | $59.99 | $1,499.75 |
+| 50 | $59.99 | $2,999.50 |
+| 100 | $59.99 | $5,999.00 |
+| 200 | $59.99 | $11,998.00 |
 
 ## Overview
 
@@ -92,7 +90,7 @@ EPA Spill Prevention, Control, and Countermeasure (SPCC) Training is delivered a
 
 ### How much does EPA Spill Prevention, Control, and Countermeasure (SPCC) Training cost?
 
-Pricing is per learner seat for a 12-month license: $391.90 for 10 seats ($39.19 per seat), down to $33.99 per seat at 200 seats ($6,798.30). Need more seats? Contact us for enterprise pricing.
+$59.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $599.90 for 10 seats or $11,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the EPA Spill Prevention, Control, and Countermeasure (SPCC) Training course?
 

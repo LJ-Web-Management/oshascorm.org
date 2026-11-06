@@ -1,6 +1,6 @@
 // schema.org JSON-LD builders. Every page emits one connected @graph so
 // search engines and AI systems can resolve entities by @id.
-import { plainText, truncate, parseDuration, img } from './util.mjs';
+import { plainText, truncate, parseDuration } from './util.mjs';
 
 export function base(cfg) {
   const S = cfg.siteUrl;
@@ -10,7 +10,7 @@ export function base(cfg) {
     name: cfg.legalName,
     alternateName: ['OSHA SCORM', 'OSHASCORM', 'oshascorm.org'],
     url: `${S}/`,
-    logo: { '@type': 'ImageObject', '@id': `${S}/#logo`, url: 'https://cdn.shopify.com/s/files/1/0644/3211/1782/files/LOGO_copy.jpg', width: 500, height: 500, caption: cfg.legalName },
+    logo: { '@type': 'ImageObject', '@id': `${S}/#logo`, url: `${S}/assets/img/brand/logo.png`, width: 500, height: 500, caption: cfg.legalName },
     image: { '@id': `${S}/#logo` },
     description: 'OSHASCORM.org develops and sells OSHA-compliant, IACET-accredited safety training courses as SCORM 1.2 and SCORM 2004 packages for corporate learning management systems (LMS), training providers and EHS teams.',
     email: cfg.contact.email,
@@ -98,24 +98,25 @@ export function itemList(cfg, path, name, items) {
   }];
 }
 
-// Product + Course for a sellable course (Shopify product or directory course).
+// Product + Course for a sellable course (flagship or directory course).
 export function courseEntities(cfg, c, { validUntil }) {
   const url = cfg.siteUrl + c.url;
   const dur = parseDuration(c.duration);
   const desc = truncate(c.descriptionText, 4900);
-  const image = c.image || c.ogImage ? [img(c.image || c.ogImage, 1200)] : undefined;
-  const offers = c.tiers.map((t) => ({
+  const image = c.ogImage ? [c.ogImage] : undefined;
+  // One offer: the per-seat LMS list price (orders are price x seats, 10+ seats).
+  const offer = {
     '@type': 'Offer',
-    name: `${t.seats}-seat 12-month SCORM license`,
-    price: t.subtotal.toFixed(2),
+    name: '12-month SCORM license, per learner seat',
+    price: c.price.toFixed(2),
     priceCurrency: 'USD',
-    availability: t.available === false ? 'https://schema.org/OutOfStock' : 'https://schema.org/InStock',
+    availability: 'https://schema.org/InStock',
     itemCondition: 'https://schema.org/NewCondition',
-    url: t.variantId ? `${url}?variant=${t.variantId}` : `${url}?seats=${t.seats}`,
+    url: `${url}#buy`,
     priceValidUntil: validUntil,
-    eligibleQuantity: { '@type': 'QuantitativeValue', value: t.seats, unitText: 'learner seats' },
-    priceSpecification: { '@type': 'UnitPriceSpecification', price: t.perSeat.toFixed(2), priceCurrency: 'USD', referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitText: 'seat' } },
-    ...(t.sku ? { sku: t.sku } : {}),
+    eligibleQuantity: { '@type': 'QuantitativeValue', minValue: cfg.minSeats, unitText: 'learner seats' },
+    priceSpecification: { '@type': 'UnitPriceSpecification', price: c.price.toFixed(2), priceCurrency: 'USD', referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitText: 'seat' } },
+    ...(c.sku ? { sku: c.sku } : {}),
     seller: { '@id': `${cfg.siteUrl}/#org` },
     hasMerchantReturnPolicy: returnPolicy(cfg),
     shippingDetails: {
@@ -128,15 +129,6 @@ export function courseEntities(cfg, c, { validUntil }) {
         transitTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 0, unitCode: 'DAY' },
       },
     },
-  }));
-  const prices = c.tiers.map((t) => t.subtotal);
-  const aggregate = {
-    '@type': 'AggregateOffer',
-    priceCurrency: 'USD',
-    lowPrice: Math.min(...prices).toFixed(2),
-    highPrice: Math.max(...prices).toFixed(2),
-    offerCount: offers.length,
-    offers,
   };
   const props = [
     { '@type': 'PropertyValue', name: 'Format', value: 'SCORM 1.2 and SCORM 2004 (ZIP package)' },
@@ -157,7 +149,7 @@ export function courseEntities(cfg, c, { validUntil }) {
     category: c.category || 'Safety training courses',
     audience: { '@type': 'BusinessAudience', audienceType: 'Employers, training providers and LMS administrators' },
     additionalProperty: props,
-    offers: aggregate,
+    offers: offer,
     subjectOf: { '@id': `${url}#course` },
     mainEntityOfPage: { '@id': `${url}#webpage` },
   };
@@ -173,7 +165,7 @@ export function courseEntities(cfg, c, { validUntil }) {
     educationalCredentialAwarded: 'Certificate of completion',
     ...(c.citation ? { teaches: c.citation } : {}),
     isAccessibleForFree: false,
-    offers: { '@type': 'Offer', category: 'Paid', price: Math.min(...prices).toFixed(2), priceCurrency: 'USD', url, availability: 'https://schema.org/InStock' },
+    offers: { '@type': 'Offer', category: 'Paid', price: c.price.toFixed(2), priceCurrency: 'USD', url, availability: 'https://schema.org/InStock' },
     hasCourseInstance: {
       '@type': 'CourseInstance',
       courseMode: 'Online',

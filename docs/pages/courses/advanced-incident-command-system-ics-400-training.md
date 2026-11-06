@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 16 hours
 - **Regulation:** FEMA/NIMS – NIMS Training Program guidance
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $299.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/advanced-incident-command-system-ics-400-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=advanced-incident-command-system-ics-400-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $239.99 | $2,399.92 |
-| 25 | $126.31 | $3,157.82 |
-| 50 | $88.42 | $4,420.99 |
-| 75 | $75.79 | $5,684.16 |
-| 100 | $69.47 | $6,947.33 |
-| 150 | $63.16 | $9,473.66 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $299.99 | $2,999.90 |
+| 25 | $299.99 | $7,499.75 |
+| 50 | $299.99 | $14,999.50 |
+| 100 | $299.99 | $29,999.00 |
+| 200 | $299.99 | $59,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Advanced Incident Command System (ICS-400) Training is delivered as an LMS-ready
 
 ### How much does Advanced Incident Command System (ICS-400) Training cost?
 
-Pricing is per learner seat for a 12-month license: $2,399.92 for 10 seats ($239.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$299.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,999.90 for 10 seats or $59,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Advanced Incident Command System (ICS-400) Training course?
 

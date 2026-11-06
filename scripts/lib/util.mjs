@@ -34,70 +34,14 @@ export function parseDuration(d) {
   return { hours, label, iso };
 }
 
-// Shopify CDN resize helper (cdn.shopify.com honours ?width= and negotiates
-// AVIF/WebP from the Accept header).
-export function img(src, width) {
-  if (!src) return '';
-  const u = new URL(src.startsWith('//') ? 'https:' + src : src);
-  u.searchParams.set('width', String(width));
-  return u.toString();
-}
-
-export function srcset(src, widths = [360, 540, 720, 960, 1200]) {
-  return widths.map((w) => `${img(src, w)} ${w}w`).join(', ');
-}
+// Responsive srcset from a local media map ({ 480: url, 720: url, 960: url }).
+export const srcsetOf = (media) => (media ? Object.entries(media).map(([w, u]) => `${u} ${w}w`).join(", ") : "");
 
 // --------------------------------------------------------------- pricing --
-// Seat-tier pricing for the metaobject "directory" courses. This mirrors the
-// formula the live Shopify theme uses (and that the checkout service
-// re-validates), so displayed prices match what buyers are charged.
-export function directoryPricing(seats, basePrice) {
-  const maxSeats = 200;
-  const minSeats = 10;
-  const cap = 12000;
-  const startRate = basePrice >= 300 ? 0.25 : basePrice >= 150 ? 0.2 : basePrice >= 50 ? 0.15 : 0.1;
-  const start = basePrice * minSeats * (1 - startRate);
-  let end;
-  if (basePrice * maxSeats > cap) end = cap;
-  else {
-    let rate = 0.4;
-    if (basePrice < 20) rate = 0.25;
-    else if (basePrice >= 100) rate = 0.5;
-    end = basePrice * maxSeats * (1 - rate);
-  }
-  const slope = (end - start) / (maxSeats - minSeats);
-  const subtotal = start + slope * (seats - minSeats);
-  const regular = seats * basePrice;
-  return {
-    seats,
-    perSeat: Number((subtotal / seats).toFixed(2)),
-    subtotal: Number(subtotal.toFixed(2)),
-    regular: Number(regular.toFixed(2)),
-    saved: Number((regular - subtotal).toFixed(2)),
-  };
-}
-
-// Uniform tier list for both Shopify products and directory courses.
-export function tiersFor(item) {
-  if (item.kind === 'product') {
-    return item.variants
-      .filter((v) => v.seats)
-      .map((v) => ({
-        seats: v.seats,
-        perSeat: Number((v.price / v.seats).toFixed(2)),
-        subtotal: v.price,
-        regular: v.compare_at_price && v.compare_at_price > v.price ? v.compare_at_price : null,
-        saved: v.compare_at_price && v.compare_at_price > v.price ? Number((v.compare_at_price - v.price).toFixed(2)) : 0,
-        variantId: v.id,
-        available: v.available,
-        sku: v.sku,
-      }))
-      .sort((a, b) => a.seats - b.seats);
-  }
-  return (item.seats || [10, 25, 50, 75, 100, 150, 200]).map((s) => {
-    const p = directoryPricing(s, item.basePrice);
-    return { ...p, regular: p.regular, available: true };
-  });
+// Every seat costs the course's LMS list price (the HAZWOPER-OSHA LMS charges
+// price x seats with no volume discounts), so tiers are simple multiples.
+export function priceTiers(price, presets = [10, 25, 50, 100, 200]) {
+  return presets.map((seats) => ({ seats, perSeat: price, subtotal: Math.round(price * seats * 100) / 100, saved: 0, regular: null, available: true }));
 }
 
 // ---------------------------------------------------- HTML -> Markdown --

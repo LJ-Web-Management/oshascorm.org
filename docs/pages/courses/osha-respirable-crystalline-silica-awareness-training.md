@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** 29 CFR 1910.1053 / 1926.1153
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $24.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-respirable-crystalline-silica-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-respirable-crystalline-silica-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $35.99 | $359.91 |
-| 25 | $28.41 | $710.35 |
-| 50 | $25.89 | $1,294.41 |
-| 75 | $25.05 | $1,878.48 |
-| 100 | $24.63 | $2,462.54 |
-| 150 | $24.20 | $3,630.67 |
-| 200 | $23.99 | $4,798.80 |
+| 10 | $24.99 | $249.90 |
+| 25 | $24.99 | $624.75 |
+| 50 | $24.99 | $1,249.50 |
+| 100 | $24.99 | $2,499.00 |
+| 200 | $24.99 | $4,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Respirable Crystalline Silica Awareness Training is delivered as an LMS-rea
 
 ### How much does OSHA Respirable Crystalline Silica Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $359.91 for 10 seats ($35.99 per seat), down to $23.99 per seat at 200 seats ($4,798.80). Need more seats? Contact us for enterprise pricing.
+$24.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $249.90 for 10 seats or $4,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Respirable Crystalline Silica Awareness Training course?
 

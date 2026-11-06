@@ -1,0 +1,814 @@
+{
+ "products": {
+  "norm-worker-safety-training": {
+   "480": "/assets/img/p/norm-worker-safety-training-480.webp",
+   "720": "/assets/img/p/norm-worker-safety-training-720.webp",
+   "960": "/assets/img/p/norm-worker-safety-training-960.webp"
+  },
+  "osha-ansi-lockout-tagout-loto-certificate-training": {
+   "480": "/assets/img/p/osha-ansi-lockout-tagout-loto-certificate-training-480.webp",
+   "720": "/assets/img/p/osha-ansi-lockout-tagout-loto-certificate-training-720.webp",
+   "960": "/assets/img/p/osha-ansi-lockout-tagout-loto-certificate-training-960.webp"
+  },
+  "osha-warehouse-safety-training": {
+   "480": "/assets/img/p/osha-warehouse-safety-training-480.webp",
+   "720": "/assets/img/p/osha-warehouse-safety-training-720.webp",
+   "960": "/assets/img/p/osha-warehouse-safety-training-960.webp"
+  },
+  "osha-spill-prevention-and-response-safety-training": {
+   "480": "/assets/img/p/osha-spill-prevention-and-response-safety-training-480.webp",
+   "720": "/assets/img/p/osha-spill-prevention-and-response-safety-training-720.webp",
+   "960": "/assets/img/p/osha-spill-prevention-and-response-safety-training-960.webp"
+  },
+  "qualified-swppp-preparer-training": {
+   "480": "/assets/img/p/qualified-swppp-preparer-training-480.webp",
+   "720": "/assets/img/p/qualified-swppp-preparer-training-720.webp",
+   "960": "/assets/img/p/qualified-swppp-preparer-training-960.webp"
+  },
+  "basic-incident-command-system-for-initial-response-ics-200-training": {
+   "480": "/assets/img/p/basic-incident-command-system-for-initial-response-ics-200-training-480.webp",
+   "720": "/assets/img/p/basic-incident-command-system-for-initial-response-ics-200-training-720.webp",
+   "960": "/assets/img/p/basic-incident-command-system-for-initial-response-ics-200-training-960.webp"
+  },
+  "introduction-to-the-incident-command-system-ics-100-training": {
+   "480": "/assets/img/p/introduction-to-the-incident-command-system-ics-100-training-480.webp",
+   "720": "/assets/img/p/introduction-to-the-incident-command-system-ics-100-training-720.webp",
+   "960": "/assets/img/p/introduction-to-the-incident-command-system-ics-100-training-960.webp"
+  },
+  "osha-workplace-violence-prevention-training": {
+   "480": "/assets/img/p/osha-workplace-violence-prevention-training-480.webp",
+   "720": "/assets/img/p/osha-workplace-violence-prevention-training-720.webp",
+   "960": "/assets/img/p/osha-workplace-violence-prevention-training-960.webp"
+  },
+  "osha-ground-fault-protection-gfci-safety-training-nfpa-70e-2024": {
+   "480": "/assets/img/p/osha-ground-fault-protection-gfci-safety-training-nfpa-70e-2024-480.webp",
+   "720": "/assets/img/p/osha-ground-fault-protection-gfci-safety-training-nfpa-70e-2024-720.webp",
+   "960": "/assets/img/p/osha-ground-fault-protection-gfci-safety-training-nfpa-70e-2024-960.webp"
+  },
+  "osha-powered-mobile-equipment-safety-training": {
+   "480": "/assets/img/p/osha-powered-mobile-equipment-safety-training-480.webp",
+   "720": "/assets/img/p/osha-powered-mobile-equipment-safety-training-720.webp",
+   "960": "/assets/img/p/osha-powered-mobile-equipment-safety-training-960.webp"
+  },
+  "osha-respiratory-protection-safety-training": {
+   "480": "/assets/img/p/osha-respiratory-protection-safety-training-480.webp",
+   "720": "/assets/img/p/osha-respiratory-protection-safety-training-720.webp",
+   "960": "/assets/img/p/osha-respiratory-protection-safety-training-960.webp"
+  },
+  "osha-driving-safety-training": {
+   "480": "/assets/img/p/osha-driving-safety-training-480.webp",
+   "720": "/assets/img/p/osha-driving-safety-training-720.webp",
+   "960": "/assets/img/p/osha-driving-safety-training-960.webp"
+  },
+  "cdl-entry-level-driver-training-eldt-tanker-n-endorsement": {
+   "480": "/assets/img/p/cdl-entry-level-driver-training-eldt-tanker-n-endorsement-480.webp",
+   "720": "/assets/img/p/cdl-entry-level-driver-training-eldt-tanker-n-endorsement-720.webp",
+   "960": "/assets/img/p/cdl-entry-level-driver-training-eldt-tanker-n-endorsement-960.webp"
+  },
+  "cdl-entry-level-driver-training-eldt-hazmat-and-tank-vehicle-x-endorsement": {
+   "480": "/assets/img/p/cdl-entry-level-driver-training-eldt-hazmat-and-tank-vehicle-x-endorsement-480.webp",
+   "720": "/assets/img/p/cdl-entry-level-driver-training-eldt-hazmat-and-tank-vehicle-x-endorsement-720.webp",
+   "960": "/assets/img/p/cdl-entry-level-driver-training-eldt-hazmat-and-tank-vehicle-x-endorsement-960.webp"
+  },
+  "osha-cadmium-awareness-training": {
+   "480": "/assets/img/p/osha-cadmium-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-cadmium-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-cadmium-awareness-training-960.webp"
+  },
+  "osha-fall-protection-safety-training": {
+   "480": "/assets/img/p/osha-fall-protection-safety-training-480.webp",
+   "720": "/assets/img/p/osha-fall-protection-safety-training-720.webp",
+   "960": "/assets/img/p/osha-fall-protection-safety-training-960.webp"
+  },
+  "osha-flammable-and-combustible-liquids-awareness-training": {
+   "480": "/assets/img/p/osha-flammable-and-combustible-liquids-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-flammable-and-combustible-liquids-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-flammable-and-combustible-liquids-awareness-training-960.webp"
+  },
+  "osha-compressed-gas-cylinder-safety-training": {
+   "480": "/assets/img/p/osha-compressed-gas-cylinder-safety-training-480.webp",
+   "720": "/assets/img/p/osha-compressed-gas-cylinder-safety-training-720.webp",
+   "960": "/assets/img/p/osha-compressed-gas-cylinder-safety-training-960.webp"
+  },
+  "osha-lead-awareness-training": {
+   "480": "/assets/img/p/osha-lead-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-lead-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-lead-awareness-training-960.webp"
+  },
+  "cal-osha-heat-illness-prevention-training-for-construction": {
+   "480": "/assets/img/p/cal-osha-heat-illness-prevention-training-for-construction-480.webp",
+   "720": "/assets/img/p/cal-osha-heat-illness-prevention-training-for-construction-720.webp",
+   "960": "/assets/img/p/cal-osha-heat-illness-prevention-training-for-construction-960.webp"
+  },
+  "qualified-swppp-practitioner-qsp-training": {
+   "480": "/assets/img/p/qualified-swppp-practitioner-qsp-training-480.webp",
+   "720": "/assets/img/p/qualified-swppp-practitioner-qsp-training-720.webp",
+   "960": "/assets/img/p/qualified-swppp-practitioner-qsp-training-960.webp"
+  },
+  "dot-hazmat-transportation-general-awareness-with-function-specific-training-in-packaging-labeling": {
+   "480": "/assets/img/p/dot-hazmat-transportation-general-awareness-with-function-specific-training-in-p-480.webp",
+   "720": "/assets/img/p/dot-hazmat-transportation-general-awareness-with-function-specific-training-in-p-720.webp",
+   "960": "/assets/img/p/dot-hazmat-transportation-general-awareness-with-function-specific-training-in-p-960.webp"
+  },
+  "osha-scba-awareness-and-safe-use-training": {
+   "480": "/assets/img/p/osha-scba-awareness-and-safe-use-training-480.webp",
+   "720": "/assets/img/p/osha-scba-awareness-and-safe-use-training-720.webp",
+   "960": "/assets/img/p/osha-scba-awareness-and-safe-use-training-960.webp"
+  },
+  "osha-confined-space-supervisor-training": {
+   "480": "/assets/img/p/osha-confined-space-supervisor-training-480.webp",
+   "720": "/assets/img/p/osha-confined-space-supervisor-training-720.webp",
+   "960": "/assets/img/p/osha-confined-space-supervisor-training-960.webp"
+  },
+  "em-385-1-1-8-hour-refresher-training-for-workers": {
+   "480": "/assets/img/p/em-385-1-1-8-hour-refresher-training-for-workers-480.webp",
+   "720": "/assets/img/p/em-385-1-1-8-hour-refresher-training-for-workers-720.webp",
+   "960": "/assets/img/p/em-385-1-1-8-hour-refresher-training-for-workers-960.webp"
+  },
+  "em-385-1-1-16-hour-training-for-workers": {
+   "480": "/assets/img/p/em-385-1-1-16-hour-training-for-workers-480.webp",
+   "720": "/assets/img/p/em-385-1-1-16-hour-training-for-workers-720.webp",
+   "960": "/assets/img/p/em-385-1-1-16-hour-training-for-workers-960.webp"
+  },
+  "em-385-1-1-24-hour-training": {
+   "480": "/assets/img/p/em-385-1-1-24-hour-training-480.webp",
+   "720": "/assets/img/p/em-385-1-1-24-hour-training-720.webp",
+   "960": "/assets/img/p/em-385-1-1-24-hour-training-960.webp"
+  },
+  "em-385-1-1-8-hour-refresher-training-for-site-safety-and-health-officers-sshos": {
+   "480": "/assets/img/p/em-385-1-1-8-hour-refresher-training-for-site-safety-and-health-officers-sshos-480.webp",
+   "720": "/assets/img/p/em-385-1-1-8-hour-refresher-training-for-site-safety-and-health-officers-sshos-720.webp",
+   "960": "/assets/img/p/em-385-1-1-8-hour-refresher-training-for-site-safety-and-health-officers-sshos-960.webp"
+  },
+  "osha-permit-required-confined-space-entry-training": {
+   "480": "/assets/img/p/osha-permit-required-confined-space-entry-training-480.webp",
+   "720": "/assets/img/p/osha-permit-required-confined-space-entry-training-720.webp",
+   "960": "/assets/img/p/osha-permit-required-confined-space-entry-training-960.webp"
+  },
+  "osha-competent-person-for-basic-rigging-and-inspection-training": {
+   "480": "/assets/img/p/osha-competent-person-for-basic-rigging-and-inspection-training-480.webp",
+   "720": "/assets/img/p/osha-competent-person-for-basic-rigging-and-inspection-training-720.webp",
+   "960": "/assets/img/p/osha-competent-person-for-basic-rigging-and-inspection-training-960.webp"
+  },
+  "osha-qualified-person-for-scaffolding-safety-training": {
+   "480": "/assets/img/p/osha-qualified-person-for-scaffolding-safety-training-480.webp",
+   "720": "/assets/img/p/osha-qualified-person-for-scaffolding-safety-training-720.webp",
+   "960": "/assets/img/p/osha-qualified-person-for-scaffolding-safety-training-960.webp"
+  },
+  "drug-and-alcohol-abuse-prevention-training-for-construction-workers": {
+   "480": "/assets/img/p/drug-and-alcohol-abuse-prevention-training-for-construction-workers-480.webp",
+   "720": "/assets/img/p/drug-and-alcohol-abuse-prevention-training-for-construction-workers-720.webp",
+   "960": "/assets/img/p/drug-and-alcohol-abuse-prevention-training-for-construction-workers-960.webp"
+  },
+  "osha-hazwoper-and-rcra-hazardous-waste-management-technician-safety-training": {
+   "480": "/assets/img/p/osha-hazwoper-and-rcra-hazardous-waste-management-technician-safety-training-480.webp",
+   "720": "/assets/img/p/osha-hazwoper-and-rcra-hazardous-waste-management-technician-safety-training-720.webp",
+   "960": "/assets/img/p/osha-hazwoper-and-rcra-hazardous-waste-management-technician-safety-training-960.webp"
+  },
+  "osha-ladder-safety-training": {
+   "480": "/assets/img/p/osha-ladder-safety-training-480.webp",
+   "720": "/assets/img/p/osha-ladder-safety-training-720.webp",
+   "960": "/assets/img/p/osha-ladder-safety-training-960.webp"
+  },
+  "hazardous-waste-manifest-training": {
+   "480": "/assets/img/p/hazardous-waste-manifest-training-480.webp",
+   "720": "/assets/img/p/hazardous-waste-manifest-training-720.webp",
+   "960": "/assets/img/p/hazardous-waste-manifest-training-960.webp"
+  },
+  "cal-osha-40-hour-hazwoper-training-2025": {
+   "480": "/assets/img/p/cal-osha-40-hour-hazwoper-training-2025-480.webp",
+   "720": "/assets/img/p/cal-osha-40-hour-hazwoper-training-2025-720.webp",
+   "960": "/assets/img/p/cal-osha-40-hour-hazwoper-training-2025-960.webp"
+  },
+  "osha-competent-person-for-silica-training": {
+   "480": "/assets/img/p/osha-competent-person-for-silica-training-480.webp",
+   "720": "/assets/img/p/osha-competent-person-for-silica-training-720.webp",
+   "960": "/assets/img/p/osha-competent-person-for-silica-training-960.webp"
+  },
+  "hipaa-general-awareness-training": {
+   "480": "/assets/img/p/hipaa-general-awareness-training-480.webp",
+   "720": "/assets/img/p/hipaa-general-awareness-training-720.webp",
+   "960": "/assets/img/p/hipaa-general-awareness-training-960.webp"
+  },
+  "osha-machine-guarding-safety-training": {
+   "480": "/assets/img/p/osha-machine-guarding-safety-training-480.webp",
+   "720": "/assets/img/p/osha-machine-guarding-safety-training-720.webp",
+   "960": "/assets/img/p/osha-machine-guarding-safety-training-960.webp"
+  },
+  "osha-8-hour-hazwoper-and-safe-ammonia-handling-refresher-training": {
+   "480": "/assets/img/p/osha-8-hour-hazwoper-and-safe-ammonia-handling-refresher-training-480.webp",
+   "720": "/assets/img/p/osha-8-hour-hazwoper-and-safe-ammonia-handling-refresher-training-720.webp",
+   "960": "/assets/img/p/osha-8-hour-hazwoper-and-safe-ammonia-handling-refresher-training-960.webp"
+  },
+  "osha-competent-person-for-fall-protection-training": {
+   "480": "/assets/img/p/osha-competent-person-for-fall-protection-training-480.webp",
+   "720": "/assets/img/p/osha-competent-person-for-fall-protection-training-720.webp",
+   "960": "/assets/img/p/osha-competent-person-for-fall-protection-training-960.webp"
+  },
+  "back-safety-and-injury-prevention-training": {
+   "480": "/assets/img/p/back-safety-and-injury-prevention-training-480.webp",
+   "720": "/assets/img/p/back-safety-and-injury-prevention-training-720.webp",
+   "960": "/assets/img/p/back-safety-and-injury-prevention-training-960.webp"
+  },
+  "osha-24-hour-hazwoper-rcra-tsd-operations-training": {
+   "480": "/assets/img/p/osha-24-hour-hazwoper-rcra-tsd-operations-training-480.webp",
+   "720": "/assets/img/p/osha-24-hour-hazwoper-rcra-tsd-operations-training-720.webp",
+   "960": "/assets/img/p/osha-24-hour-hazwoper-rcra-tsd-operations-training-960.webp"
+  },
+  "osha-hand-and-power-tools-safety-training": {
+   "480": "/assets/img/p/osha-hand-and-power-tools-safety-training-480.webp",
+   "720": "/assets/img/p/osha-hand-and-power-tools-safety-training-720.webp",
+   "960": "/assets/img/p/osha-hand-and-power-tools-safety-training-960.webp"
+  },
+  "osha-process-safety-management-training": {
+   "480": "/assets/img/p/osha-process-safety-management-training-480.webp",
+   "720": "/assets/img/p/osha-process-safety-management-training-720.webp",
+   "960": "/assets/img/p/osha-process-safety-management-training-960.webp"
+  },
+  "osha-personal-protective-equipment-training": {
+   "480": "/assets/img/p/osha-personal-protective-equipment-training-480.webp",
+   "720": "/assets/img/p/osha-personal-protective-equipment-training-720.webp",
+   "960": "/assets/img/p/osha-personal-protective-equipment-training-960.webp"
+  },
+  "osha-30-hour-construction-industry-outreach-training-with-dol-card": {
+   "480": "/assets/img/p/osha-30-hour-construction-industry-outreach-training-with-dol-card-480.webp",
+   "720": "/assets/img/p/osha-30-hour-construction-industry-outreach-training-with-dol-card-720.webp",
+   "960": "/assets/img/p/osha-30-hour-construction-industry-outreach-training-with-dol-card-960.webp"
+  },
+  "osha-10-hour-construction-industry-outreach-training": {
+   "480": "/assets/img/p/osha-10-hour-construction-industry-outreach-training-480.webp",
+   "720": "/assets/img/p/osha-10-hour-construction-industry-outreach-training-720.webp",
+   "960": "/assets/img/p/osha-10-hour-construction-industry-outreach-training-960.webp"
+  },
+  "cdl-entry-level-driver-training-eldt-class-b-to-class-a-upgrade": {
+   "480": "/assets/img/p/cdl-entry-level-driver-training-eldt-class-b-to-class-a-upgrade-480.webp",
+   "720": "/assets/img/p/cdl-entry-level-driver-training-eldt-class-b-to-class-a-upgrade-720.webp",
+   "960": "/assets/img/p/cdl-entry-level-driver-training-eldt-class-b-to-class-a-upgrade-960.webp"
+  },
+  "rcra-hazardous-waste-generator-refresher-training": {
+   "480": "/assets/img/p/rcra-hazardous-waste-generator-refresher-training-480.webp",
+   "720": "/assets/img/p/rcra-hazardous-waste-generator-refresher-training-720.webp",
+   "960": "/assets/img/p/rcra-hazardous-waste-generator-refresher-training-960.webp"
+  },
+  "osha-hexavalent-chromium-awareness-training": {
+   "480": "/assets/img/p/osha-hexavalent-chromium-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-hexavalent-chromium-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-hexavalent-chromium-awareness-training-960.webp"
+  },
+  "rcra-hazardous-waste-generator-training": {
+   "480": "/assets/img/p/rcra-hazardous-waste-generator-training-480.webp",
+   "720": "/assets/img/p/rcra-hazardous-waste-generator-training-720.webp",
+   "960": "/assets/img/p/rcra-hazardous-waste-generator-training-960.webp"
+  },
+  "osha-welding-cutting-and-brazing-for-construction-training": {
+   "480": "/assets/img/p/osha-welding-cutting-and-brazing-for-construction-training-480.webp",
+   "720": "/assets/img/p/osha-welding-cutting-and-brazing-for-construction-training-720.webp",
+   "960": "/assets/img/p/osha-welding-cutting-and-brazing-for-construction-training-960.webp"
+  },
+  "osha-lockout-tagout-loto-training": {
+   "480": "/assets/img/p/osha-lockout-tagout-loto-training-480.webp",
+   "720": "/assets/img/p/osha-lockout-tagout-loto-training-720.webp",
+   "960": "/assets/img/p/osha-lockout-tagout-loto-training-960.webp"
+  },
+  "osha-fire-safety-training": {
+   "480": "/assets/img/p/osha-fire-safety-training-480.webp",
+   "720": "/assets/img/p/osha-fire-safety-training-720.webp",
+   "960": "/assets/img/p/osha-fire-safety-training-960.webp"
+  },
+  "osha-pallet-jack-safety-training": {
+   "480": "/assets/img/p/osha-pallet-jack-safety-training-480.webp",
+   "720": "/assets/img/p/osha-pallet-jack-safety-training-720.webp",
+   "960": "/assets/img/p/osha-pallet-jack-safety-training-960.webp"
+  },
+  "osha-confined-space-awareness-training": {
+   "480": "/assets/img/p/osha-confined-space-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-confined-space-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-confined-space-awareness-training-960.webp"
+  },
+  "osha-hydrogen-sulfide-awareness-training": {
+   "480": "/assets/img/p/osha-hydrogen-sulfide-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-hydrogen-sulfide-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-hydrogen-sulfide-awareness-training-960.webp"
+  },
+  "osha-scaffolding-erection-and-inspection-training-for-competent-person": {
+   "480": "/assets/img/p/osha-scaffolding-erection-and-inspection-training-for-competent-person-480.webp",
+   "720": "/assets/img/p/osha-scaffolding-erection-and-inspection-training-for-competent-person-720.webp",
+   "960": "/assets/img/p/osha-scaffolding-erection-and-inspection-training-for-competent-person-960.webp"
+  },
+  "hazard-communication-hazcom-with-the-globally-harmonized-system-ghs-training": {
+   "480": "/assets/img/p/hazard-communication-hazcom-with-the-globally-harmonized-system-ghs-training-480.webp",
+   "720": "/assets/img/p/hazard-communication-hazcom-with-the-globally-harmonized-system-ghs-training-720.webp",
+   "960": "/assets/img/p/hazard-communication-hazcom-with-the-globally-harmonized-system-ghs-training-960.webp"
+  },
+  "osha-bloodborne-pathogens-training": {
+   "480": "/assets/img/p/osha-bloodborne-pathogens-training-480.webp",
+   "720": "/assets/img/p/osha-bloodborne-pathogens-training-720.webp",
+   "960": "/assets/img/p/osha-bloodborne-pathogens-training-960.webp"
+  },
+  "osha-silica-awareness-training": {
+   "480": "/assets/img/p/osha-silica-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-silica-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-silica-awareness-training-960.webp"
+  },
+  "osha-asbestos-awareness-training": {
+   "480": "/assets/img/p/osha-asbestos-awareness-training-480.webp",
+   "720": "/assets/img/p/osha-asbestos-awareness-training-720.webp",
+   "960": "/assets/img/p/osha-asbestos-awareness-training-960.webp"
+  },
+  "osha-forklift-safety-training": {
+   "480": "/assets/img/p/osha-forklift-safety-training-480.webp",
+   "720": "/assets/img/p/osha-forklift-safety-training-720.webp",
+   "960": "/assets/img/p/osha-forklift-safety-training-960.webp"
+  },
+  "osha-scaffolding-safety-training": {
+   "480": "/assets/img/p/osha-scaffolding-safety-training-480.webp",
+   "720": "/assets/img/p/osha-scaffolding-safety-training-720.webp",
+   "960": "/assets/img/p/osha-scaffolding-safety-training-960.webp"
+  },
+  "ergonomics-safety-training": {
+   "480": "/assets/img/p/ergonomics-safety-training-480.webp",
+   "720": "/assets/img/p/ergonomics-safety-training-720.webp",
+   "960": "/assets/img/p/ergonomics-safety-training-960.webp"
+  },
+  "mold-prevention-and-remediation-awareness-training": {
+   "480": "/assets/img/p/mold-prevention-and-remediation-awareness-training-480.webp",
+   "720": "/assets/img/p/mold-prevention-and-remediation-awareness-training-720.webp",
+   "960": "/assets/img/p/mold-prevention-and-remediation-awareness-training-960.webp"
+  },
+  "osha-8-hour-hazwoper-supervisor-refresher-training": {
+   "480": "/assets/img/p/osha-8-hour-hazwoper-supervisor-refresher-training-480.webp",
+   "720": "/assets/img/p/osha-8-hour-hazwoper-supervisor-refresher-training-720.webp",
+   "960": "/assets/img/p/osha-8-hour-hazwoper-supervisor-refresher-training-960.webp"
+  },
+  "osha-aerial-and-scissor-lift-safety-training": {
+   "480": "/assets/img/p/osha-aerial-and-scissor-lift-safety-training-480.webp",
+   "720": "/assets/img/p/osha-aerial-and-scissor-lift-safety-training-720.webp",
+   "960": "/assets/img/p/osha-aerial-and-scissor-lift-safety-training-960.webp"
+  },
+  "mold-inspector-certification-for-prevention-remediation-and-removal-training": {
+   "480": "/assets/img/p/mold-inspector-certification-for-prevention-remediation-and-removal-training-480.webp",
+   "720": "/assets/img/p/mold-inspector-certification-for-prevention-remediation-and-removal-training-720.webp",
+   "960": "/assets/img/p/mold-inspector-certification-for-prevention-remediation-and-removal-training-960.webp"
+  },
+  "osha-8-hour-hazwoper-annual-refresher-rcra-tsd-operations-training": {
+   "480": "/assets/img/p/osha-8-hour-hazwoper-annual-refresher-rcra-tsd-operations-training-480.webp",
+   "720": "/assets/img/p/osha-8-hour-hazwoper-annual-refresher-rcra-tsd-operations-training-720.webp",
+   "960": "/assets/img/p/osha-8-hour-hazwoper-annual-refresher-rcra-tsd-operations-training-960.webp"
+  },
+  "pandemic-awareness-preparedness-and-response-training": {
+   "480": "/assets/img/p/pandemic-awareness-preparedness-and-response-training-480.webp",
+   "720": "/assets/img/p/pandemic-awareness-preparedness-and-response-training-720.webp",
+   "960": "/assets/img/p/pandemic-awareness-preparedness-and-response-training-960.webp"
+  },
+  "electrical-safety-training-nfpa-70e": {
+   "480": "/assets/img/p/electrical-safety-training-nfpa-70e-480.webp",
+   "720": "/assets/img/p/electrical-safety-training-nfpa-70e-720.webp",
+   "960": "/assets/img/p/electrical-safety-training-nfpa-70e-960.webp"
+  },
+  "arc-flash-safety-training-nfpa-70e": {
+   "480": "/assets/img/p/arc-flash-safety-training-nfpa-70e-480.webp",
+   "720": "/assets/img/p/arc-flash-safety-training-nfpa-70e-720.webp",
+   "960": "/assets/img/p/arc-flash-safety-training-nfpa-70e-960.webp"
+  },
+  "osha-8-hour-hazwoper-supervisor-training": {
+   "480": "/assets/img/p/osha-8-hour-hazwoper-supervisor-training-480.webp",
+   "720": "/assets/img/p/osha-8-hour-hazwoper-supervisor-training-720.webp",
+   "960": "/assets/img/p/osha-8-hour-hazwoper-supervisor-training-960.webp"
+  },
+  "osha-40-hour-hazwoper-training-29-cfr-1910-120": {
+   "480": "/assets/img/p/osha-40-hour-hazwoper-training-29-cfr-1910-120-480.webp",
+   "720": "/assets/img/p/osha-40-hour-hazwoper-training-29-cfr-1910-120-720.webp",
+   "960": "/assets/img/p/osha-40-hour-hazwoper-training-29-cfr-1910-120-960.webp"
+  },
+  "dot-hazmat-function-specific-training-packaging": {
+   "480": "/assets/img/p/dot-hazmat-function-specific-training-packaging-480.webp",
+   "720": "/assets/img/p/dot-hazmat-function-specific-training-packaging-720.webp",
+   "960": "/assets/img/p/dot-hazmat-function-specific-training-packaging-960.webp"
+  },
+  "osha-8-hour-hazwoper-refresher-training-29-cfr-1910-120": {
+   "480": "/assets/img/p/osha-8-hour-hazwoper-refresher-training-29-cfr-1910-120-480.webp",
+   "720": "/assets/img/p/osha-8-hour-hazwoper-refresher-training-29-cfr-1910-120-720.webp",
+   "960": "/assets/img/p/osha-8-hour-hazwoper-refresher-training-29-cfr-1910-120-960.webp"
+  },
+  "osha-24-hour-hazwoper-training-29-cfr-1910-120": {
+   "480": "/assets/img/p/osha-24-hour-hazwoper-training-29-cfr-1910-120-480.webp",
+   "720": "/assets/img/p/osha-24-hour-hazwoper-training-29-cfr-1910-120-720.webp",
+   "960": "/assets/img/p/osha-24-hour-hazwoper-training-29-cfr-1910-120-960.webp"
+  },
+  "8-hour-hazwoper-incident-command-training": {
+   "480": "/assets/img/p/8-hour-hazwoper-incident-command-training-480.webp",
+   "720": "/assets/img/p/8-hour-hazwoper-incident-command-training-720.webp",
+   "960": "/assets/img/p/8-hour-hazwoper-incident-command-training-960.webp"
+  },
+  "dot-hazmat-carrier-requirements-rail": {
+   "480": "/assets/img/p/dot-hazmat-carrier-requirements-rail-480.webp",
+   "720": "/assets/img/p/dot-hazmat-carrier-requirements-rail-720.webp",
+   "960": "/assets/img/p/dot-hazmat-carrier-requirements-rail-960.webp"
+  },
+  "dot-hazmat-transportation-advanced-general-awareness-training": {
+   "480": "/assets/img/p/dot-hazmat-transportation-advanced-general-awareness-training-480.webp",
+   "720": "/assets/img/p/dot-hazmat-transportation-advanced-general-awareness-training-720.webp",
+   "960": "/assets/img/p/dot-hazmat-transportation-advanced-general-awareness-training-960.webp"
+  },
+  "dot-hazmat-function-specific-training-labeling": {
+   "480": "/assets/img/p/dot-hazmat-function-specific-training-labeling-480.webp",
+   "720": "/assets/img/p/dot-hazmat-function-specific-training-labeling-720.webp",
+   "960": "/assets/img/p/dot-hazmat-function-specific-training-labeling-960.webp"
+  },
+  "shipping-lithium-batteries-excepted-cells-and-batteries-u-s-dot-icao-iata-imo-imdg": {
+   "480": "/assets/img/p/shipping-lithium-batteries-excepted-cells-and-batteries-u-s-dot-icao-iata-imo-im-480.webp",
+   "720": "/assets/img/p/shipping-lithium-batteries-excepted-cells-and-batteries-u-s-dot-icao-iata-imo-im-720.webp",
+   "960": "/assets/img/p/shipping-lithium-batteries-excepted-cells-and-batteries-u-s-dot-icao-iata-imo-im-960.webp"
+  },
+  "dot-hazmat-function-specific-training-placarding": {
+   "480": "/assets/img/p/dot-hazmat-function-specific-training-placarding-480.webp",
+   "720": "/assets/img/p/dot-hazmat-function-specific-training-placarding-720.webp",
+   "960": "/assets/img/p/dot-hazmat-function-specific-training-placarding-960.webp"
+  },
+  "dot-hazmat-function-specific-training-markings": {
+   "480": "/assets/img/p/dot-hazmat-function-specific-training-markings-480.webp",
+   "720": "/assets/img/p/dot-hazmat-function-specific-training-markings-720.webp",
+   "960": "/assets/img/p/dot-hazmat-function-specific-training-markings-960.webp"
+  },
+  "design-and-operation-of-ammonia-evaporators-condensers-and-controls-training": {
+   "480": "/assets/img/p/design-and-operation-of-ammonia-evaporators-condensers-and-controls-training-480.webp",
+   "720": "/assets/img/p/design-and-operation-of-ammonia-evaporators-condensers-and-controls-training-720.webp",
+   "960": "/assets/img/p/design-and-operation-of-ammonia-evaporators-condensers-and-controls-training-960.webp"
+  },
+  "dot-hazmat-function-specific-training-the-hazmat-table": {
+   "480": "/assets/img/p/dot-hazmat-function-specific-training-the-hazmat-table-480.webp",
+   "720": "/assets/img/p/dot-hazmat-function-specific-training-the-hazmat-table-720.webp",
+   "960": "/assets/img/p/dot-hazmat-function-specific-training-the-hazmat-table-960.webp"
+  }
+ },
+ "courses": {
+  "grain-handling-facility-safety-training": {
+   "480": "/assets/img/d/grain-handling-facility-safety-training-480.webp",
+   "720": "/assets/img/d/grain-handling-facility-safety-training-720.webp",
+   "960": "/assets/img/d/grain-handling-facility-safety-training-960.webp"
+  },
+  "greenhouse-and-nursery-worker-safety-training": {
+   "480": "/assets/img/d/greenhouse-and-nursery-worker-safety-training-480.webp",
+   "720": "/assets/img/d/greenhouse-and-nursery-worker-safety-training-720.webp",
+   "960": "/assets/img/d/greenhouse-and-nursery-worker-safety-training-960.webp"
+  },
+  "livestock-handling-safety-training": {
+   "480": "/assets/img/d/livestock-handling-safety-training-480.webp",
+   "720": "/assets/img/d/livestock-handling-safety-training-720.webp",
+   "960": "/assets/img/d/livestock-handling-safety-training-960.webp"
+  },
+  "logging-operations-safety-training": {
+   "480": "/assets/img/d/logging-operations-safety-training-480.webp",
+   "720": "/assets/img/d/logging-operations-safety-training-720.webp",
+   "960": "/assets/img/d/logging-operations-safety-training-960.webp"
+  },
+  "osha-agricultural-field-sanitation-training": {
+   "480": "/assets/img/d/osha-agricultural-field-sanitation-training-480.webp",
+   "720": "/assets/img/d/osha-agricultural-field-sanitation-training-720.webp",
+   "960": "/assets/img/d/osha-agricultural-field-sanitation-training-960.webp"
+  },
+  "rollover-protective-structures-rops-and-tractor-safety-training": {
+   "480": "/assets/img/d/rollover-protective-structures-rops-and-tractor-safety-training-480.webp",
+   "720": "/assets/img/d/rollover-protective-structures-rops-and-tractor-safety-training-720.webp",
+   "960": "/assets/img/d/rollover-protective-structures-rops-and-tractor-safety-training-960.webp"
+  },
+  "slow-moving-vehicle-and-farm-equipment-road-safety-training": {
+   "480": "/assets/img/d/slow-moving-vehicle-and-farm-equipment-road-safety-training-480.webp",
+   "720": "/assets/img/d/slow-moving-vehicle-and-farm-equipment-road-safety-training-720.webp",
+   "960": "/assets/img/d/slow-moving-vehicle-and-farm-equipment-road-safety-training-960.webp"
+  },
+  "ai-bias-fairness-ethics-awareness-training": {
+   "480": "/assets/img/d/ai-bias-fairness-ethics-awareness-training-480.webp",
+   "720": "/assets/img/d/ai-bias-fairness-ethics-awareness-training-720.webp",
+   "960": "/assets/img/d/ai-bias-fairness-ethics-awareness-training-960.webp"
+  },
+  "ai-fundamentals-for-the-workplace": {
+   "480": "/assets/img/d/ai-fundamentals-for-the-workplace-480.webp",
+   "720": "/assets/img/d/ai-fundamentals-for-the-workplace-720.webp",
+   "960": "/assets/img/d/ai-fundamentals-for-the-workplace-960.webp"
+  },
+  "ai-governance-risk-management-for-compliance-teams": {
+   "480": "/assets/img/d/ai-governance-risk-management-for-compliance-teams-480.webp",
+   "720": "/assets/img/d/ai-governance-risk-management-for-compliance-teams-720.webp",
+   "960": "/assets/img/d/ai-governance-risk-management-for-compliance-teams-960.webp"
+  },
+  "ai-in-communication-coordination-workplace-task-training": {
+   "480": "/assets/img/d/ai-in-communication-coordination-workplace-task-training-480.webp",
+   "720": "/assets/img/d/ai-in-communication-coordination-workplace-task-training-720.webp",
+   "960": "/assets/img/d/ai-in-communication-coordination-workplace-task-training-960.webp"
+  },
+  "ai-in-customer-client-interaction-workplace-task-training": {
+   "480": "/assets/img/d/ai-in-customer-client-interaction-workplace-task-training-480.webp",
+   "720": "/assets/img/d/ai-in-customer-client-interaction-workplace-task-training-720.webp",
+   "960": "/assets/img/d/ai-in-customer-client-interaction-workplace-task-training-960.webp"
+  },
+  "ai-in-documentation-reporting-workplace-task-training": {
+   "480": "/assets/img/d/ai-in-documentation-reporting-workplace-task-training-480.webp",
+   "720": "/assets/img/d/ai-in-documentation-reporting-workplace-task-training-720.webp",
+   "960": "/assets/img/d/ai-in-documentation-reporting-workplace-task-training-960.webp"
+  },
+  "ai-in-management-leadership-productivity-workplace-task-training": {
+   "480": "/assets/img/d/ai-in-management-leadership-productivity-workplace-task-training-480.webp",
+   "720": "/assets/img/d/ai-in-management-leadership-productivity-workplace-task-training-720.webp",
+   "960": "/assets/img/d/ai-in-management-leadership-productivity-workplace-task-training-960.webp"
+  },
+  "ai-in-operations-workflow-support-workplace-task-training": {
+   "480": "/assets/img/d/ai-in-operations-workflow-support-workplace-task-training-480.webp",
+   "720": "/assets/img/d/ai-in-operations-workflow-support-workplace-task-training-720.webp",
+   "960": "/assets/img/d/ai-in-operations-workflow-support-workplace-task-training-960.webp"
+  },
+  "ai-in-sales-business-development-workplace-task-training": {
+   "480": "/assets/img/d/ai-in-sales-business-development-workplace-task-training-480.webp",
+   "720": "/assets/img/d/ai-in-sales-business-development-workplace-task-training-720.webp",
+   "960": "/assets/img/d/ai-in-sales-business-development-workplace-task-training-960.webp"
+  },
+  "generative-ai-acceptable-use-policy-training": {
+   "480": "/assets/img/d/generative-ai-acceptable-use-policy-training-480.webp",
+   "720": "/assets/img/d/generative-ai-acceptable-use-policy-training-720.webp",
+   "960": "/assets/img/d/generative-ai-acceptable-use-policy-training-960.webp"
+  },
+  "responsible-ai-use-for-managers-leadership": {
+   "480": "/assets/img/d/responsible-ai-use-for-managers-leadership-480.webp",
+   "720": "/assets/img/d/responsible-ai-use-for-managers-leadership-720.webp",
+   "960": "/assets/img/d/responsible-ai-use-for-managers-leadership-960.webp"
+  },
+  "epa-risk-management-program-rmp-awareness-training": {
+   "480": "/assets/img/d/epa-risk-management-program-rmp-awareness-training-480.webp",
+   "720": "/assets/img/d/epa-risk-management-program-rmp-awareness-training-720.webp",
+   "960": "/assets/img/d/epa-risk-management-program-rmp-awareness-training-960.webp"
+  },
+  "aerospace-cleanroom-safety-and-contamination-control-training": {
+   "480": "/assets/img/d/aerospace-cleanroom-safety-and-contamination-control-training-480.webp",
+   "720": "/assets/img/d/aerospace-cleanroom-safety-and-contamination-control-training-720.webp",
+   "960": "/assets/img/d/aerospace-cleanroom-safety-and-contamination-control-training-960.webp"
+  },
+  "aerospace-fall-protection-for-aircraft-assembly-training": {
+   "480": "/assets/img/d/aerospace-fall-protection-for-aircraft-assembly-training-480.webp",
+   "720": "/assets/img/d/aerospace-fall-protection-for-aircraft-assembly-training-720.webp",
+   "960": "/assets/img/d/aerospace-fall-protection-for-aircraft-assembly-training-960.webp"
+  },
+  "aerospace-manufacturing-safety-orientation-training": {
+   "480": "/assets/img/d/aerospace-manufacturing-safety-orientation-training-480.webp",
+   "720": "/assets/img/d/aerospace-manufacturing-safety-orientation-training-720.webp",
+   "960": "/assets/img/d/aerospace-manufacturing-safety-orientation-training-960.webp"
+  },
+  "aircraft-assembly-line-safety-training": {
+   "480": "/assets/img/d/aircraft-assembly-line-safety-training-480.webp",
+   "720": "/assets/img/d/aircraft-assembly-line-safety-training-720.webp",
+   "960": "/assets/img/d/aircraft-assembly-line-safety-training-960.webp"
+  },
+  "aircraft-electrical-systems-manufacturing-safety-training": {
+   "480": "/assets/img/d/aircraft-electrical-systems-manufacturing-safety-training-480.webp",
+   "720": "/assets/img/d/aircraft-electrical-systems-manufacturing-safety-training-720.webp",
+   "960": "/assets/img/d/aircraft-electrical-systems-manufacturing-safety-training-960.webp"
+  },
+  "autoclave-safety-for-composite-curing-training": {
+   "480": "/assets/img/d/autoclave-safety-for-composite-curing-training-480.webp",
+   "720": "/assets/img/d/autoclave-safety-for-composite-curing-training-720.webp",
+   "960": "/assets/img/d/autoclave-safety-for-composite-curing-training-960.webp"
+  },
+  "composite-materials-manufacturing-safety-training": {
+   "480": "/assets/img/d/composite-materials-manufacturing-safety-training-480.webp",
+   "720": "/assets/img/d/composite-materials-manufacturing-safety-training-720.webp",
+   "960": "/assets/img/d/composite-materials-manufacturing-safety-training-960.webp"
+  },
+  "confined-space-entry-for-aircraft-fuel-tanks-training": {
+   "480": "/assets/img/d/confined-space-entry-for-aircraft-fuel-tanks-training-480.webp",
+   "720": "/assets/img/d/confined-space-entry-for-aircraft-fuel-tanks-training-720.webp",
+   "960": "/assets/img/d/confined-space-entry-for-aircraft-fuel-tanks-training-960.webp"
+  },
+  "faa-repair-station-safety-training": {
+   "480": "/assets/img/d/faa-repair-station-safety-training-480.webp",
+   "720": "/assets/img/d/faa-repair-station-safety-training-720.webp",
+   "960": "/assets/img/d/faa-repair-station-safety-training-960.webp"
+  },
+  "non-destructive-testing-ndt-safety-in-aerospace-manufacturing": {
+   "480": "/assets/img/d/non-destructive-testing-ndt-safety-in-aerospace-manufacturing-480.webp",
+   "720": "/assets/img/d/non-destructive-testing-ndt-safety-in-aerospace-manufacturing-720.webp",
+   "960": "/assets/img/d/non-destructive-testing-ndt-safety-in-aerospace-manufacturing-960.webp"
+  },
+  "titanium-and-exotic-metals-machining-fire-safety-training": {
+   "480": "/assets/img/d/titanium-and-exotic-metals-machining-fire-safety-training-480.webp",
+   "720": "/assets/img/d/titanium-and-exotic-metals-machining-fire-safety-training-720.webp",
+   "960": "/assets/img/d/titanium-and-exotic-metals-machining-fire-safety-training-960.webp"
+  },
+  "cal-osha-indoor-heat-illness-prevention-training": {
+   "480": "/assets/img/d/cal-osha-indoor-heat-illness-prevention-training-480.webp",
+   "720": "/assets/img/d/cal-osha-indoor-heat-illness-prevention-training-720.webp",
+   "960": "/assets/img/d/cal-osha-indoor-heat-illness-prevention-training-960.webp"
+  },
+  "cal-osha-injury-and-illness-prevention-program-iipp-training": {
+   "480": "/assets/img/d/cal-osha-injury-and-illness-prevention-program-iipp-training-480.webp",
+   "720": "/assets/img/d/cal-osha-injury-and-illness-prevention-program-iipp-training-720.webp",
+   "960": "/assets/img/d/cal-osha-injury-and-illness-prevention-program-iipp-training-960.webp"
+  },
+  "cal-osha-wildfire-smoke-safety-and-emergency-training": {
+   "480": "/assets/img/d/cal-osha-wildfire-smoke-safety-and-emergency-training-480.webp",
+   "720": "/assets/img/d/cal-osha-wildfire-smoke-safety-and-emergency-training-720.webp",
+   "960": "/assets/img/d/cal-osha-wildfire-smoke-safety-and-emergency-training-960.webp"
+  },
+  "osha-ansi-1-2-dibromo-3-chloropropane-dbcp-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-1-2-dibromo-3-chloropropane-dbcp-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-1-2-dibromo-3-chloropropane-dbcp-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-1-2-dibromo-3-chloropropane-dbcp-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-1-3-butadiene-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-1-3-butadiene-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-1-3-butadiene-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-1-3-butadiene-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-4-4-methylenebis-2-chloroaniline-mboca-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-4-4-methylenebis-2-chloroaniline-mboca-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-4-4-methylenebis-2-chloroaniline-mboca-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-4-4-methylenebis-2-chloroaniline-mboca-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-4-4-methylenedianiline-mda-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-4-4-methylenedianiline-mda-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-4-4-methylenedianiline-mda-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-4-4-methylenedianiline-mda-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-acrylonitrile-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-acrylonitrile-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-acrylonitrile-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-acrylonitrile-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-arsenic-inorganic-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-arsenic-inorganic-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-arsenic-inorganic-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-arsenic-inorganic-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-beryllium-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-beryllium-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-beryllium-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-beryllium-exposure-awareness-training-960.webp"
+  },
+  "cal-osha-8-hour-asbestos-abatement-and-inspection-training": {
+   "480": "/assets/img/d/cal-osha-8-hour-asbestos-abatement-and-inspection-training-480.webp",
+   "720": "/assets/img/d/cal-osha-8-hour-asbestos-abatement-and-inspection-training-720.webp",
+   "960": "/assets/img/d/cal-osha-8-hour-asbestos-abatement-and-inspection-training-960.webp"
+  },
+  "osha-ansi-carbon-monoxide-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-carbon-monoxide-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-carbon-monoxide-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-carbon-monoxide-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-chlorine-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-chlorine-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-chlorine-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-chlorine-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-coke-oven-emissions-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-coke-oven-emissions-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-coke-oven-emissions-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-coke-oven-emissions-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-cotton-dust-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-cotton-dust-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-cotton-dust-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-cotton-dust-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-diacetyl-flavorings-related-lung-disease-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-diacetyl-flavorings-related-lung-disease-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-diacetyl-flavorings-related-lung-disease-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-diacetyl-flavorings-related-lung-disease-exposure-awareness-training-960.webp"
+  },
+  "dust-disturbance-and-mitigation-awareness-training": {
+   "480": "/assets/img/d/dust-disturbance-and-mitigation-awareness-training-480.webp",
+   "720": "/assets/img/d/dust-disturbance-and-mitigation-awareness-training-720.webp",
+   "960": "/assets/img/d/dust-disturbance-and-mitigation-awareness-training-960.webp"
+  },
+  "epa-lead-renovation-repair-and-painting-rrp-certification-training": {
+   "480": "/assets/img/d/epa-lead-renovation-repair-and-painting-rrp-certification-training-480.webp",
+   "720": "/assets/img/d/epa-lead-renovation-repair-and-painting-rrp-certification-training-720.webp",
+   "960": "/assets/img/d/epa-lead-renovation-repair-and-painting-rrp-certification-training-960.webp"
+  },
+  "osha-ansi-ethylene-glycol-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-ethylene-glycol-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-ethylene-glycol-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-ethylene-glycol-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-ethylene-oxide-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-ethylene-oxide-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-ethylene-oxide-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-ethylene-oxide-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-formaldehyde-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-formaldehyde-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-formaldehyde-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-formaldehyde-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-hydrogen-cyanide-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-hydrogen-cyanide-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-hydrogen-cyanide-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-hydrogen-cyanide-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-isocyanates-mdi-tdi-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-isocyanates-mdi-tdi-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-isocyanates-mdi-tdi-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-isocyanates-mdi-tdi-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-manganese-and-manganese-compounds-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-manganese-and-manganese-compounds-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-manganese-and-manganese-compounds-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-manganese-and-manganese-compounds-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-methylene-chloride-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-methylene-chloride-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-methylene-chloride-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-methylene-chloride-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-naphthalene-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-naphthalene-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-naphthalene-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-naphthalene-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-nitrogen-dioxide-nitrous-fumes-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-nitrogen-dioxide-nitrous-fumes-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-nitrogen-dioxide-nitrous-fumes-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-nitrogen-dioxide-nitrous-fumes-exposure-awareness-training-960.webp"
+  },
+  "osha-benzene-awareness-training": {
+   "480": "/assets/img/d/osha-benzene-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-benzene-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-benzene-awareness-training-960.webp"
+  },
+  "osha-combustible-dust-safety-training": {
+   "480": "/assets/img/d/osha-combustible-dust-safety-training-480.webp",
+   "720": "/assets/img/d/osha-combustible-dust-safety-training-720.webp",
+   "960": "/assets/img/d/osha-combustible-dust-safety-training-960.webp"
+  },
+  "osha-hydrogen-sulfide-h2s-1-hour-refresher-training": {
+   "480": "/assets/img/d/osha-hydrogen-sulfide-h2s-1-hour-refresher-training-480.webp",
+   "720": "/assets/img/d/osha-hydrogen-sulfide-h2s-1-hour-refresher-training-720.webp",
+   "960": "/assets/img/d/osha-hydrogen-sulfide-h2s-1-hour-refresher-training-960.webp"
+  },
+  "osha-lead-safety-training": {
+   "480": "/assets/img/d/osha-lead-safety-training-480.webp",
+   "720": "/assets/img/d/osha-lead-safety-training-720.webp",
+   "960": "/assets/img/d/osha-lead-safety-training-960.webp"
+  },
+  "osha-ansi-perchloroethylene-perc-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-perchloroethylene-perc-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-perchloroethylene-perc-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-perchloroethylene-perc-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-phosgene-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-phosgene-exposure-awareness-training-480.webp",
+   "720": "/assets/img/d/osha-ansi-phosgene-exposure-awareness-training-720.webp",
+   "960": "/assets/img/d/osha-ansi-phosgene-exposure-awareness-training-960.webp"
+  },
+  "osha-ansi-respirable-crystalline-silica-general-industry-exposure-awareness-training": {
+   "480": "/assets/img/d/osha-ansi-respirable-crystalline-silica-general-industry-exposure-awareness-trai-480.webp",
+   "720": "/assets/img/d/osha-ansi-respirable-crystalline-silica-general-industry-exposure-awareness-trai-720.webp",
+   "960": "/assets/img/d/osha-ansi-respirable-crystalline-silica-general-industry-exposure-awareness-trai-960.webp"
+  },
+  "confined-space-hazards-for-construction-training": {
+   "480": "/assets/img/d/confined-space-hazards-for-construction-training-480.webp",
+   "720": "/assets/img/d/confined-space-hazards-for-construction-training-720.webp",
+   "960": "/assets/img/d/confined-space-hazards-for-construction-training-960.webp"
+  },
+  "confined-space-rescue-team-training": {
+   "480": "/assets/img/d/confined-space-rescue-team-training-480.webp",
+   "720": "/assets/img/d/confined-space-rescue-team-training-720.webp",
+   "960": "/assets/img/d/confined-space-rescue-team-training-960.webp"
+  }
+ },
+ "collections": {
+  "ammonia-refrigeration-training": {
+   "480": "/assets/img/c/ammonia-refrigeration-training-480.webp",
+   "720": "/assets/img/c/ammonia-refrigeration-training-720.webp",
+   "960": "/assets/img/c/ammonia-refrigeration-training-960.webp"
+  },
+  "hazmat-training-dot-iata-imdg-transportation": {
+   "480": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-480.webp",
+   "720": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-720.webp",
+   "960": "/assets/img/c/hazmat-training-dot-iata-imdg-transportation-960.webp"
+  },
+  "hazwoper-training-29-cfr-1910-120": {
+   "480": "/assets/img/c/hazwoper-training-29-cfr-1910-120-480.webp",
+   "720": "/assets/img/c/hazwoper-training-29-cfr-1910-120-720.webp",
+   "960": "/assets/img/c/hazwoper-training-29-cfr-1910-120-960.webp"
+  },
+  "nfpa-70e-electrical-arc-flash-safety": {
+   "480": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-480.webp",
+   "720": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-720.webp",
+   "960": "/assets/img/c/nfpa-70e-electrical-arc-flash-safety-960.webp"
+  },
+  "osha-construction-safety-training-series": {
+   "480": "/assets/img/c/osha-construction-safety-training-series-480.webp",
+   "720": "/assets/img/c/osha-construction-safety-training-series-720.webp",
+   "960": "/assets/img/c/osha-construction-safety-training-series-960.webp"
+  },
+  "rcra-hazardous-waste-management": {
+   "480": "/assets/img/c/rcra-hazardous-waste-management-480.webp",
+   "720": "/assets/img/c/rcra-hazardous-waste-management-720.webp",
+   "960": "/assets/img/c/rcra-hazardous-waste-management-960.webp"
+  }
+ },
+ "content": {},
+ "brand": {
+  "ogDefault": "/assets/img/brand/og-default.jpg",
+  "ogCourse": "/assets/img/brand/og-course.jpg",
+  "logo": "/assets/img/brand/logo.png"
+ }
+}

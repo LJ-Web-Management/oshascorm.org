@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** OSHA General Duty Clause
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $24.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/winter-and-adverse-weather-driving-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=winter-and-adverse-weather-driving-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $22.49 | $224.91 |
-| 25 | $17.76 | $443.90 |
-| 50 | $16.18 | $808.89 |
-| 75 | $15.65 | $1,173.87 |
-| 100 | $15.39 | $1,538.86 |
-| 150 | $15.13 | $2,268.83 |
-| 200 | $14.99 | $2,998.80 |
+| 10 | $24.99 | $249.90 |
+| 25 | $24.99 | $624.75 |
+| 50 | $24.99 | $1,249.50 |
+| 100 | $24.99 | $2,499.00 |
+| 200 | $24.99 | $4,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Winter and Adverse Weather Driving Safety Training is delivered as an LMS-ready 
 
 ### How much does Winter and Adverse Weather Driving Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $224.91 for 10 seats ($22.49 per seat), down to $14.99 per seat at 200 seats ($2,998.80). Need more seats? Contact us for enterprise pricing.
+$24.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $249.90 for 10 seats or $4,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Winter and Adverse Weather Driving Safety Training course?
 

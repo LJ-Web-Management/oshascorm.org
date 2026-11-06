@@ -1,22 +1,22 @@
 ---
 title: "Mine Rescue Team Training"
 url: https://oshascorm.org/pages/courses/mine-rescue-team-training
-description: "Mine Rescue Team Training SCORM course (MSHA – 30 CFR Part 49): 24 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, from…"
+description: "Mine Rescue Team Training SCORM course (MSHA – 30 CFR Part 49): 24 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, $249.99…"
 updated: 2026-11-06
 ---
 
 # Mine Rescue Team Training
 
-> Mine Rescue Team Training SCORM course (MSHA – 30 CFR Part 49): 24 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, from…
+> Mine Rescue Team Training SCORM course (MSHA – 30 CFR Part 49): 24 hours online training for your LMS. SCORM 1.2 & 2004, certificate of completion, $249.99…
 
 - **Type:** SCORM course (SCORM 1.2 and SCORM 2004 ZIP)
 - **Category:** MSHA (Mine Safety)
 - **Duration:** 24 hours
 - **Regulation:** MSHA – 30 CFR Part 49
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $249.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/mine-rescue-team-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=mine-rescue-team-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $199.99 | $1,999.92 |
-| 25 | $111.58 | $2,789.40 |
-| 50 | $82.10 | $4,105.20 |
-| 75 | $72.28 | $5,421.00 |
-| 100 | $67.37 | $6,736.80 |
-| 150 | $62.46 | $9,368.40 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $249.99 | $2,499.90 |
+| 25 | $249.99 | $6,249.75 |
+| 50 | $249.99 | $12,499.50 |
+| 100 | $249.99 | $24,999.00 |
+| 200 | $249.99 | $49,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Mine Rescue Team Training is delivered as an LMS-ready SCORM package — you can
 
 ### How much does Mine Rescue Team Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,999.92 for 10 seats ($199.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$249.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,499.90 for 10 seats or $49,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Mine Rescue Team Training course?
 

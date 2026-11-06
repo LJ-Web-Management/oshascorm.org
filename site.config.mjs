@@ -19,28 +19,25 @@ export default {
   parentOrg: { name: 'Industrial Certified Training, LLC', url: 'https://ictraining.us/' },
   partnerOrg: { name: 'HAZWOPER OSHA Training, LLC', url: 'https://hazwoper-osha.com/' },
 
-  // Shopify remains the commerce back office. The permanent *.myshopify.com
-  // domain always 301s to whatever the store's primary domain is, so cart
-  // permalinks built on it keep working before AND after the DNS cutover
-  // (as long as the Shopify primary domain becomes e.g. shop.oshascorm.org).
-  shopifyStore: env('SHOPIFY_STORE', 'scorm-online.myshopify.com'),
+  // Ordering is wired straight to the HAZWOPER-OSHA LMS, exactly like
+  // hazwoperosha.org and datacentertraining.us: Stripe.js tokenizes the card,
+  // then add_new_user + add_order create the order, and the LMS returns a
+  // Stripe PaymentIntent for the amount IT computes (list price × seats).
+  // Course prices and LMS course ids live in data/lms.json.
+  lms: {
+    apiBase: env('LMS_API_BASE', 'https://hazwoper-osha.com/api'),
+    // Publishable (public) key — the same one the sister sites ship.
+    stripeKey: env('STRIPE_PUBLISHABLE_KEY', 'pk_live_doCHB0jglD5eISjEmB1vB6mb00xIg51noK'),
+    orderFrom: env('LMS_ORDER_FROM', 'oshascorm.org'),
+    // Courses without an LMS id (and mixed carts) are sent as an order
+    // request to this inbox instead of being charged online.
+    requestEmail: env('ORDER_REQUEST_EMAIL', 'info@oshascorm.org'),
+  },
 
-  // Where the sync script reads catalog data from.
-  sourceOrigin: env('SOURCE_ORIGIN', 'https://scorm-online.myshopify.com'),
-
-  // Origin used for "Buy now" cart permalinks on Shopify products.
-  checkoutOrigin: env('CHECKOUT_ORIGIN', 'https://scorm-online.myshopify.com'),
-
-  // The Shopify store's PRIMARY domain after cutover (e.g. shop.oshascorm.org).
-  // Used for form POSTs (contact form), which must not go through a redirect.
-  shopPrimaryOrigin: env('SHOP_PRIMARY_ORIGIN', 'https://shop.oshascorm.org'),
-
-  // Existing checkout service used by the 700+ directory courses (metaobject
-  // pages). Its CORS policy allows https://oshascorm.org only.
-  courseCheckoutEndpoint: env(
-    'COURSE_CHECKOUT_ENDPOINT',
-    'https://oshascorm-alt-automation-seven.vercel.app/api/create-checkout',
-  ),
+  // Seat counts offered as quick picks. Every seat costs the course's LMS list
+  // price; there are no volume discounts. Organizations order 10+ seats.
+  seatPresets: [10, 25, 50, 100, 200],
+  minSeats: 10,
 
   contact: {
     phone: '1-866-429-6742',

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** 29 CFR 1910.120(e)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $399.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/hazwoper-train-the-trainer-certification#buy
+- **Buy:** https://oshascorm.org/checkout?item=hazwoper-train-the-trainer-certification&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $299.99 | $2,999.93 |
-| 25 | $148.42 | $3,710.46 |
-| 50 | $97.89 | $4,894.68 |
-| 75 | $81.05 | $6,078.90 |
-| 100 | $72.63 | $7,263.12 |
-| 150 | $64.21 | $9,631.56 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $399.99 | $3,999.90 |
+| 25 | $399.99 | $9,999.75 |
+| 50 | $399.99 | $19,999.50 |
+| 100 | $399.99 | $39,999.00 |
+| 200 | $399.99 | $79,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ HAZWOPER Train-the-Trainer Certification is delivered as an LMS-ready SCORM pack
 
 ### How much does HAZWOPER Train-the-Trainer Certification cost?
 
-Pricing is per learner seat for a 12-month license: $2,999.93 for 10 seats ($299.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$399.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $3,999.90 for 10 seats or $79,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the HAZWOPER Train-the-Trainer Certification course?
 

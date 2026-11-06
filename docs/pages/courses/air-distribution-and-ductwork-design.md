@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** N/A (Voluntary/Technical Skills) – No specific regulation - foundational trade skill / SMACNA informative
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $89.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/air-distribution-and-ductwork-design#buy
+- **Buy:** https://oshascorm.org/checkout?item=air-distribution-and-ductwork-design&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $76.49 | $764.91 |
-| 25 | $66.08 | $1,651.90 |
-| 50 | $62.60 | $3,130.20 |
-| 75 | $61.45 | $4,608.50 |
-| 100 | $60.87 | $6,086.80 |
-| 150 | $60.29 | $9,043.40 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $89.99 | $899.90 |
+| 25 | $89.99 | $2,249.75 |
+| 50 | $89.99 | $4,499.50 |
+| 100 | $89.99 | $8,999.00 |
+| 200 | $89.99 | $17,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Air Distribution and Ductwork Design is delivered as an LMS-ready SCORM package 
 
 ### How much does Air Distribution and Ductwork Design cost?
 
-Pricing is per learner seat for a 12-month license: $764.91 for 10 seats ($76.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$89.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $899.90 for 10 seats or $17,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Air Distribution and Ductwork Design course?
 

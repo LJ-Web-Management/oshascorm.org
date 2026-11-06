@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 40 hours
 - **Regulation:** OSHA Outreach Training Program
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $649.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-10-hour-outreach-trainer-course-osha-500#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-10-hour-outreach-trainer-course-osha-500&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $487.49 | $4,874.92 |
-| 25 | $217.50 | $5,437.43 |
-| 50 | $127.50 | $6,374.94 |
-| 75 | $97.50 | $7,312.45 |
-| 100 | $82.50 | $8,249.96 |
-| 150 | $67.50 | $10,124.98 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $649.99 | $6,499.90 |
+| 25 | $649.99 | $16,249.75 |
+| 50 | $649.99 | $32,499.50 |
+| 100 | $649.99 | $64,999.00 |
+| 200 | $649.99 | $129,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA 10-Hour Outreach Trainer Course (OSHA 500) is delivered as an LMS-ready SCO
 
 ### How much does OSHA 10-Hour Outreach Trainer Course (OSHA 500) cost?
 
-Pricing is per learner seat for a 12-month license: $4,874.92 for 10 seats ($487.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$649.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $6,499.90 for 10 seats or $129,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 10-Hour Outreach Trainer Course (OSHA 500) course?
 

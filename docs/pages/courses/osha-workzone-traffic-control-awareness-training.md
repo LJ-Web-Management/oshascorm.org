@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** OSHA/MUTCD – 29 CFR 1926.200-.203 / MUTCD
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $29.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-workzone-traffic-control-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-workzone-traffic-control-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $45.04 | $450.41 |
-| 25 | $36.67 | $916.87 |
-| 50 | $33.89 | $1,694.29 |
-| 75 | $32.96 | $2,471.70 |
-| 100 | $32.49 | $3,249.12 |
-| 150 | $32.03 | $4,803.96 |
-| 200 | $31.79 | $6,358.80 |
+| 10 | $29.99 | $299.90 |
+| 25 | $29.99 | $749.75 |
+| 50 | $29.99 | $1,499.50 |
+| 100 | $29.99 | $2,999.00 |
+| 200 | $29.99 | $5,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Work Zone Traffic Control Training is delivered as an LMS-ready SCORM packa
 
 ### How much does OSHA Work Zone Traffic Control Training cost?
 
-Pricing is per learner seat for a 12-month license: $450.41 for 10 seats ($45.04 per seat), down to $31.79 per seat at 200 seats ($6,358.80). Need more seats? Contact us for enterprise pricing.
+$29.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $299.90 for 10 seats or $5,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Work Zone Traffic Control Training course?
 

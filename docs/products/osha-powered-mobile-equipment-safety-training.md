@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 6 hours
 - **Regulation:** 29 CFR 1910.178 / 1926.600
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-powered-mobile-equipment-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-powered-mobile-equipment-safety-training&seats=10
 
 ## Key details
 
@@ -30,19 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $132.99 | $1,329.91 |
-| 25 | $118.99 | $2,974.79 |
-| 50 | $104.99 | $5,249.63 |
-| 75 | $90.99 | $6,824.51 |
-| 100 | $83.99 | $8,399.40 |
-| 150 | $64.40 | $9,659.31 |
-| 200 | $53.20 | $10,639.24 |
-| 250 | $44.80 | $11,199.20 |
-| 300 | $39.20 | $11,759.16 |
-| 350 | $35.00 | $12,249.13 |
-| 400 | $35.00 | $13,999.00 |
-| 450 | $33.60 | $15,118.92 |
-| 500 | $30.80 | $15,398.90 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -108,7 +100,7 @@ OSHA Powered Mobile Equipment Safety Training is delivered as an LMS-ready SCORM
 
 ### How much does OSHA Powered Mobile Equipment Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,329.91 for 10 seats ($132.99 per seat), down to $30.80 per seat at 500 seats ($15,398.90). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Powered Mobile Equipment Safety Training course?
 

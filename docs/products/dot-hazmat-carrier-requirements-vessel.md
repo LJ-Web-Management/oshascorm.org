@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 3 hours
 - **Regulation:** DOT/IMO – 49 CFR 176 / IMDG Code
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $74.95 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/dot-hazmat-carrier-requirements-vessel#buy
+- **Buy:** https://oshascorm.org/checkout?item=dot-hazmat-carrier-requirements-vessel&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $48.99 | $489.90 |
-| 25 | $48.99 | $1,224.76 |
-| 50 | $47.49 | $2,374.53 |
-| 75 | $44.99 | $3,374.33 |
-| 100 | $44.99 | $4,499.10 |
-| 150 | $42.49 | $6,373.73 |
-| 200 | $42.49 | $8,498.30 |
+| 10 | $74.95 | $749.50 |
+| 25 | $74.95 | $1,873.75 |
+| 50 | $74.95 | $3,747.50 |
+| 100 | $74.95 | $7,495.00 |
+| 200 | $74.95 | $14,990.00 |
 
 ## Overview
 
@@ -104,7 +102,7 @@ DOT Hazmat Carrier Requirements: Vessel is delivered as an LMS-ready SCORM packa
 
 ### How much does DOT Hazmat Carrier Requirements: Vessel cost?
 
-Pricing is per learner seat for a 12-month license: $489.90 for 10 seats ($48.99 per seat), down to $42.49 per seat at 200 seats ($8,498.30). Need more seats? Contact us for enterprise pricing.
+$74.95 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $749.50 for 10 seats or $14,990.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the DOT Hazmat Carrier Requirements: Vessel course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1926 Subpart C
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/general-safety-and-health-provisions-training-for-construction#buy
+- **Buy:** https://oshascorm.org/checkout?item=general-safety-and-health-provisions-training-for-construction&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $43.19 | $431.91 |
-| 25 | $34.10 | $852.45 |
-| 50 | $31.07 | $1,553.36 |
-| 75 | $30.06 | $2,254.27 |
-| 100 | $29.55 | $2,955.17 |
-| 150 | $29.05 | $4,356.99 |
-| 200 | $28.79 | $5,758.80 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ General Safety and Health Provisions Training for Construction is delivered as a
 
 ### How much does General Safety and Health Provisions Training for Construction cost?
 
-Pricing is per learner seat for a 12-month license: $431.91 for 10 seats ($43.19 per seat), down to $28.79 per seat at 200 seats ($5,758.80). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the General Safety and Health Provisions Training for Construction course?
 

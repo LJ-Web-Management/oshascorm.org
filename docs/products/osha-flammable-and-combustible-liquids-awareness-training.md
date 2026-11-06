@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1910.106 / 1926.152
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $24.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-flammable-and-combustible-liquids-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-flammable-and-combustible-liquids-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $29.39 | $293.90 |
-| 25 | $29.39 | $734.76 |
-| 50 | $28.49 | $1,424.53 |
-| 75 | $26.99 | $2,024.33 |
-| 100 | $26.99 | $2,699.10 |
-| 150 | $25.49 | $3,823.73 |
-| 200 | $25.49 | $5,098.30 |
+| 10 | $24.99 | $249.90 |
+| 25 | $24.99 | $624.75 |
+| 50 | $24.99 | $1,249.50 |
+| 100 | $24.99 | $2,499.00 |
+| 200 | $24.99 | $4,998.00 |
 
 ## Overview
 
@@ -115,7 +113,7 @@ OSHA Flammable and Combustible Liquids Awareness Training is delivered as an LMS
 
 ### How much does OSHA Flammable and Combustible Liquids Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $293.90 for 10 seats ($29.39 per seat), down to $25.49 per seat at 200 seats ($5,098.30). Need more seats? Contact us for enterprise pricing.
+$24.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $249.90 for 10 seats or $4,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Flammable and Combustible Liquids Awareness Training course?
 

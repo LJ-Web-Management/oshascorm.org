@@ -1,0 +1,4700 @@
+{
+ "8-hour-hazwoper-and-incident-command-refresher-training": {
+  "title": "OSHA 8-Hour HAZWOPER & Incident Command Refresher Training",
+  "price": 159.99,
+  "lmsId": 574,
+  "priceSource": "lms"
+ },
+ "8-hour-hazwoper-incident-command-training": {
+  "title": "OSHA 8 Hour HAZWOPER (q) Incident Command Training",
+  "price": 179.99,
+  "lmsId": 593,
+  "priceSource": "lms"
+ },
+ "absorption-chiller-operations": {
+  "title": "Absorption Chiller Operations",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ac-control-equipment-starters-pushbuttons-limit-switches": {
+  "title": "AC Control Equipment (Starters, Pushbuttons, Limit Switches)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ac-dc-fundamentals": {
+  "title": "AC/DC Fundamentals",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "access-control-physical-security": {
+  "title": "Access Control & Physical Security",
+  "price": 99.99,
+  "lmsId": 828,
+  "priceSource": "lms"
+ },
+ "active-shooter-workplace-violence-response-training-run-hide-fight": {
+  "title": "Active Shooter / Workplace Violence Response Training (Run-Hide-Fight)",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "advanced-incident-command-system-ics-400-training": {
+  "title": "Advanced Incident Command System (ICS-400) Training",
+  "price": 299.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aerospace-chemical-processing-safety-training-chromate-anodizing": {
+  "title": "Aerospace Chemical Processing Safety Training (Chromate/Anodizing)",
+  "price": 54.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aerospace-cleanroom-safety-and-contamination-control-training": {
+  "title": "Aerospace Cleanroom Safety and Contamination Control Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aerospace-fall-protection-for-aircraft-assembly-training": {
+  "title": "Aerospace Fall Protection for Aircraft Assembly Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aerospace-manufacturing-safety-orientation-training": {
+  "title": "Aerospace Manufacturing Safety Orientation Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "after-action-reports-and-improvement-planning-training": {
+  "title": "After-Action Reports and Improvement Planning Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aggregate-and-quarry-operations-safety-training": {
+  "title": "Aggregate and Quarry Operations Safety Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "agricultural-equipment-guarding-safety-training": {
+  "title": "Agricultural Equipment Guarding Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-bias-fairness-ethics-awareness-training": {
+  "title": "AI Bias, Fairness & Ethics Awareness Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-fundamentals-for-the-workplace": {
+  "title": "AI Fundamentals for the Workplace",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-governance-risk-management-for-compliance-teams": {
+  "title": "AI Governance & Risk Management for Compliance Teams",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-in-communication-coordination-workplace-task-training": {
+  "title": "AI in Communication & Coordination - Workplace Task Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-in-customer-client-interaction-workplace-task-training": {
+  "title": "AI in Customer & Client Interaction - Workplace Task Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-in-documentation-reporting-workplace-task-training": {
+  "title": "AI in Documentation & Reporting - Workplace Task Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-in-management-leadership-productivity-workplace-task-training": {
+  "title": "AI in Management & Leadership Productivity - Workplace Task Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-in-operations-workflow-support-workplace-task-training": {
+  "title": "AI in Operations & Workflow Support - Workplace Task Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-in-sales-business-development-workplace-task-training": {
+  "title": "AI in Sales & Business Development - Workplace Task Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ai-skills-for-tomorrow-s-workforce": {
+  "title": "AI Skills for Tomorrow's Workforce",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "air-distribution-and-ductwork-design": {
+  "title": "Air Distribution and Ductwork Design",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aircraft-assembly-line-safety-training": {
+  "title": "Aircraft Assembly Line Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aircraft-electrical-systems-manufacturing-safety-training": {
+  "title": "Aircraft Electrical Systems Manufacturing Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aircraft-fueling-safety-training": {
+  "title": "Aircraft Fueling Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "aircraft-painting-and-coatings-safety-training-isocyanates": {
+  "title": "Aircraft Painting and Coatings Safety Training (Isocyanates)",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "airport-ground-support-equipment-gse-safety-training": {
+  "title": "Airport Ground Support Equipment (GSE) Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "americans-with-disabilities-act-ada-compliance-training-for-managers": {
+  "title": "Americans with Disabilities Act (ADA) Compliance Training for Managers",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ammonia-refrigeration-basics-and-safety-awareness-training": {
+  "title": "Ammonia Refrigeration Basics and Safety Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "anhydrous-ammonia-handling-in-agriculture-training": {
+  "title": "Anhydrous Ammonia Handling in Agriculture Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "arc-flash-safety-training-nfpa-70e": {
+  "title": "Arc Flash Safety Training (NFPA 70E 2024)",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "architectural-drawing-interpretation": {
+  "title": "Architectural Drawing Interpretation",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "articulating-knuckle-boom-crane-operator-certification-training": {
+  "title": "Articulating/Knuckle Boom Crane Operator Certification Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "as-built-drawing-documentation": {
+  "title": "As-Built Drawing Documentation",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "authorized-gas-tester-training": {
+  "title": "Authorized Gas Tester Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "autoclave-and-sterilizer-safety-training": {
+  "title": "Autoclave and Sterilizer Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "autoclave-safety-for-composite-curing-training": {
+  "title": "Autoclave Safety for Composite Curing Training",
+  "price": 54.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "automated-storage-retrieval-system-as-rs-safety-training": {
+  "title": "Automated Storage & Retrieval System (AS/RS) Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "automotive-manufacturing-assembly-line-safety-training": {
+  "title": "Automotive Manufacturing Assembly Line Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "autonomous-mobile-robot-amr-agv-safety-training": {
+  "title": "Autonomous Mobile Robot (AMR) & AGV Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "back-safety-and-injury-prevention-training": {
+  "title": "Back Safety and Injury Prevention Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "backflow-prevention-fundamentals": {
+  "title": "Backflow Prevention Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "backing-and-maneuvering-safety-training-spotter-procedures": {
+  "title": "Backing and Maneuvering Safety Training (Spotter Procedures)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "basic-electrical-theory-ohm-s-law-circuit-fundamentals": {
+  "title": "Basic Electrical Theory (Ohm's Law & Circuit Fundamentals)",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "basic-incident-command-system-for-initial-response-ics-200-training": {
+  "title": "Basic Incident Command System for Initial Response (ICS 200) Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "basic-orientation-plus-bop-safelandusa-style-site-safety-orientation": {
+  "title": "Basic Orientation Plus (BOP) / SafeLandUSA-Style Site Safety Orientation",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "batteries-and-dc-circuits": {
+  "title": "Batteries and DC Circuits",
+  "price": 99.99,
+  "lmsId": 1084,
+  "priceSource": "lms"
+ },
+ "battery-energy-storage-system-bess-safety-training": {
+  "title": "Battery Energy Storage System (BESS) Safety Training",
+  "price": 69.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "bearings-and-lubrication-fundamentals": {
+  "title": "Bearings and Lubrication Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "behavioral-health-de-escalation-and-workplace-violence-prevention-training": {
+  "title": "Behavioral Health De-escalation and Workplace Violence Prevention Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "belts-pulleys-and-chain-drives": {
+  "title": "Belts, Pulleys, and Chain Drives",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "biological-safety-cabinet-and-fume-hood-use-training": {
+  "title": "Biological Safety Cabinet and Fume Hood Use Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "blasting-and-explosives-safety-in-mining-training": {
+  "title": "Blasting and Explosives Safety in Mining Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "blasting-and-use-of-explosives-in-construction-training": {
+  "title": "Blasting and Use of Explosives in Construction Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "boiler-controls-and-safety-devices": {
+  "title": "Boiler Controls and Safety Devices",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "boiler-fundamentals": {
+  "title": "Boiler Fundamentals",
+  "price": 119.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "boiler-water-treatment-fundamentals": {
+  "title": "Boiler Water Treatment Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "building-automation-systems-bas-fundamentals": {
+  "title": "Building Automation Systems (BAS) Fundamentals",
+  "price": 99.99,
+  "lmsId": 1104,
+  "priceSource": "lms"
+ },
+ "building-envelope-fundamentals": {
+  "title": "Building Envelope Fundamentals",
+  "price": 99.99,
+  "lmsId": 1096,
+  "priceSource": "lms"
+ },
+ "building-maintenance-fundamentals": {
+  "title": "Building Maintenance Fundamentals",
+  "price": 99.99,
+  "lmsId": 1097,
+  "priceSource": "lms"
+ },
+ "business-continuity-and-disaster-recovery-planning-training": {
+  "title": "Business Continuity and Disaster Recovery Planning Training",
+  "price": 99.99,
+  "lmsId": 880,
+  "priceSource": "lms"
+ },
+ "cal-osha-24-hour-hazwoper-training": {
+  "title": "Cal/OSHA 24-Hour HAZWOPER Training",
+  "price": 169.99,
+  "lmsId": 576,
+  "priceSource": "lms"
+ },
+ "cal-osha-24-hour-hazwoper-tsdf-rcra-training": {
+  "title": "Cal/OSHA 24 hour HAZWOPER TSDF RCRA Training",
+  "price": 249.99,
+  "lmsId": 575,
+  "priceSource": "lms"
+ },
+ "cal-osha-40-hour-hazwoper-training-2025": {
+  "title": "Cal/OSHA 40-Hour HAZWOPER Training (2026)",
+  "price": 219.99,
+  "lmsId": 577,
+  "priceSource": "lms"
+ },
+ "cal-osha-40-hour-hazwoper-training-2026": {
+  "title": "Cal/OSHA 40-Hour HAZWOPER Training (2026)",
+  "price": 219.99,
+  "lmsId": 577,
+  "priceSource": "lms"
+ },
+ "cal-osha-8-hour-asbestos-abatement-and-inspection-training": {
+  "title": "Cal/OSHA 8-Hour Asbestos Abatement and Inspection Training",
+  "price": 229.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-8-hour-hazwoper-refresher-training": {
+  "title": "Cal/OSHA 8-Hour HAZWOPER Refresher Training",
+  "price": 89.99,
+  "lmsId": 578,
+  "priceSource": "lms"
+ },
+ "cal-osha-8-hour-hazwoper-tsdf-rcra-refresher-training": {
+  "title": "Cal/OSHA 8-Hour HAZWOPER TSDF RCRA Refresher Training",
+  "price": 109.99,
+  "lmsId": 579,
+  "priceSource": "lms"
+ },
+ "cal-osha-active-shooter-workplace-violence-awareness-training": {
+  "title": "Cal/OSHA Active Shooter & Workplace Violence Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-chemical-handling-safety-training": {
+  "title": "Cal/OSHA Chemical Handling Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-cleanroom-safety-training": {
+  "title": "Cal/OSHA Cleanroom Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-compressed-gas-cylinder-safety-training": {
+  "title": "Cal/OSHA Compressed Gas Cylinder Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-data-privacy-cybersecurity-training": {
+  "title": "Cal/OSHA Data Privacy & Cybersecurity Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-fire-safety-emergency-evacuation-training": {
+  "title": "Cal/OSHA Fire Safety & Emergency Evacuation Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-forklift-certification-training": {
+  "title": "Cal/OSHA Forklift Certification Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-general-industry-safety-training": {
+  "title": "Cal/OSHA General Industry Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-hazard-communication-hazcom-ghs-training": {
+  "title": "Cal/OSHA Hazard Communication (HazCom/GHS) Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-heat-illness-prevention-training-for-construction": {
+  "title": "Cal/OSHA Heat Illness Prevention Training for Construction",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-heat-illness-prevention-training-general-industry": {
+  "title": "Cal/OSHA Heat Illness Prevention Training (General Industry)",
+  "price": 47.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-incident-investigation-train-the-trainer-mastery": {
+  "title": "CAL/OSHA Incident Investigation: Train-the-Trainer Mastery",
+  "price": 899.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-incident-investigation-training": {
+  "title": "Cal/OSHA Incident Investigation Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-incident-reporting-procedures-training": {
+  "title": "Cal/OSHA Incident Reporting Procedures Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-indoor-heat-illness-prevention-training": {
+  "title": "Cal/OSHA Indoor Heat Illness Prevention Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-industrial-ergonomics-training": {
+  "title": "Cal/OSHA Industrial Ergonomics Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-injury-and-illness-prevention-program-iipp-training": {
+  "title": "Cal/OSHA Injury and Illness Prevention Program (IIPP) Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-lockout-tagout-loto-training": {
+  "title": "Cal/OSHA Lockout/Tagout (LOTO) Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-machine-guarding-safety": {
+  "title": "Cal/OSHA Machine Guarding Safety",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-material-handling-safety": {
+  "title": "Cal/OSHA Material Handling Safety",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-office-ergonomics-training": {
+  "title": "Cal/OSHA Office Ergonomics Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-personal-protective-equipment-ppe-training": {
+  "title": "Cal/OSHA Personal Protective Equipment (PPE) Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-rcra-hazardous-waste-training": {
+  "title": "Cal/OSHA RCRA Hazardous Waste Training",
+  "price": 49.99,
+  "lmsId": 1051,
+  "priceSource": "lms"
+ },
+ "cal-osha-respiratory-protection-safety-training": {
+  "title": "Cal/OSHA Respiratory Protection Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-safety-leadership-training": {
+  "title": "Cal/OSHA Safety Leadership Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-spill-prevention-and-response-safety-training": {
+  "title": "Cal/OSHA Spill Prevention and Response Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-supervisor-safety-responsibilities-training": {
+  "title": "Cal/OSHA Supervisor Safety Responsibilities Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-warehouse-safety-training": {
+  "title": "Cal/OSHA Warehouse Safety Training",
+  "price": 139.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-wildfire-smoke-safety-and-emergency-training": {
+  "title": "Cal/OSHA Wildfire Smoke Safety and Emergency Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-workplace-harassment-prevention-training": {
+  "title": "Cal/OSHA Workplace Harassment Prevention Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cal-osha-workplace-violence-prevention-plan-training-sb-553": {
+  "title": "Cal/OSHA Workplace Violence Prevention Training (SB 553)",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "calibration-fundamentals": {
+  "title": "Calibration Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "california-sexual-harassment-prevention-training-sb-1343-employees": {
+  "title": "California Sexual Harassment Prevention Training (SB 1343 - Employees)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "california-sexual-harassment-prevention-training-sb-1343-supervisors": {
+  "title": "California Sexual Harassment Prevention Training (SB 1343 - Supervisors)",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "capacity-planning-forecasting": {
+  "title": "Capacity Planning & Forecasting",
+  "price": 99.99,
+  "lmsId": 829,
+  "priceSource": "lms"
+ },
+ "cargo-securement-training": {
+  "title": "Cargo Securement Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-class-a": {
+  "title": "CDL Entry Level Driver Training (ELDT) – Class A",
+  "price": 299.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-class-b": {
+  "title": "CDL Entry Level Driver Training (ELDT) - Class B",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-class-b-to-class-a-upgrade": {
+  "title": "CDL Entry Level Driver Training (ELDT) – Class B to Class A Upgrade",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-hazmat-and-tank-vehicle-x-endorsement": {
+  "title": "CDL Entry Level Driver Training (ELDT) - Hazmat and Tank Vehicle (X) Endorsement",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-hazmat-h-endorsement": {
+  "title": "CDL Entry Level Driver Training (ELDT) - HAZMAT (H) Endorsement",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-passenger-p-endorsement": {
+  "title": "CDL Entry Level Driver Training (ELDT) – Passenger (P) Endorsement",
+  "price": 109.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-school-bus-s-endorsement": {
+  "title": "CDL Entry Level Driver Training (ELDT) – School Bus (S) Endorsement",
+  "price": 109.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cdl-entry-level-driver-training-eldt-tanker-n-endorsement": {
+  "title": "CDL Entry Level Driver Training (ELDT) Tanker (N) Endorsement",
+  "price": 109.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "central-plant-operations-fundamentals": {
+  "title": "Central Plant Operations Fundamentals",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "centrifugal-chiller-operations": {
+  "title": "Centrifugal Chiller Operations",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "chilled-water-system-design-fundamentals": {
+  "title": "Chilled Water System Design Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "chiller-fundamentals": {
+  "title": "Chiller Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "clean-air-act-compliance-awareness-training": {
+  "title": "Clean Air Act Compliance Awareness Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "clean-water-act-compliance-awareness-training": {
+  "title": "Clean Water Act Compliance Awareness Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cnc-machine-operator-safety-training": {
+  "title": "CNC Machine Operator Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "coal-dust-and-black-lung-pneumoconiosis-prevention-training": {
+  "title": "Coal Dust and Black Lung (Pneumoconiosis) Prevention Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cold-chain-management-and-temperature-control-training": {
+  "title": "Cold-Chain Management and Temperature Control Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cold-storage-and-refrigerated-facility-safety-training": {
+  "title": "Cold Storage and Refrigerated Facility Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "collaborative-robot-cobot-safety-training": {
+  "title": "Collaborative Robot (Cobot) Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "combustion-fundamentals": {
+  "title": "Combustion Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "commercial-diving-operations-safety-training": {
+  "title": "Commercial Diving Operations Safety Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "commercial-hvac-systems": {
+  "title": "Commercial HVAC Systems",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "company-vehicle-non-cdl-driver-safety-training": {
+  "title": "Company Vehicle (Non-CDL) Driver Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "composite-materials-manufacturing-safety-training": {
+  "title": "Composite Materials Manufacturing Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "comprehensive-hydrogen-sulfide-h2s-safety-training-for-the-oil-gas-industry": {
+  "title": "Comprehensive Hydrogen Sulfide (H2S) Safety Training for the Oil & Gas Industry",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "compressed-air-systems-fundamentals": {
+  "title": "Compressed Air Systems Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "concrete-formwork-and-shoring-systems-safety-training": {
+  "title": "Concrete Formwork and Shoring Systems Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "confined-space-entry-aboard-naval-vessels-training": {
+  "title": "Confined Space Entry Aboard Naval Vessels Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "confined-space-entry-for-aircraft-fuel-tanks-training": {
+  "title": "Confined Space Entry for Aircraft Fuel Tanks Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "confined-space-hazards-for-construction-training": {
+  "title": "Confined Space Hazards for Construction Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "confined-space-rescue-team-training": {
+  "title": "Confined Space Rescue Team Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "confined-space-train-the-trainer-certification": {
+  "title": "Confined Space Train-the-Trainer Certification",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "construction-hoists-elevators-and-conveyors-safety-training": {
+  "title": "Construction Hoists, Elevators, and Conveyors Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "construction-housekeeping-and-site-access-safety-training": {
+  "title": "Construction Housekeeping and Site Access Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "construction-materials-handling-storage-use-and-disposal-training": {
+  "title": "Construction Materials Handling, Storage, Use, and Disposal Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "construction-safety-manager-and-superintendent-certification-training": {
+  "title": "Construction Safety Manager and Superintendent Certification Training",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "contractor-and-subcontractor-safety-management-training": {
+  "title": "Contractor and Subcontractor Safety Management Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "control-valves-fundamentals": {
+  "title": "Control Valves Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "conveyor-system-safety-training": {
+  "title": "Conveyor System Safety Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cooling-systems-design-optimization": {
+  "title": "Cooling Systems Design & Optimization",
+  "price": 298.99,
+  "lmsId": 841,
+  "priceSource": "lms"
+ },
+ "cooling-tower-operations-and-maintenance": {
+  "title": "Cooling Tower Operations and Maintenance",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "correctional-facility-fire-and-life-safety-training": {
+  "title": "Correctional Facility Fire and Life Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "cosmetic-gmp-basic-training-course": {
+  "title": "Cosmetic GMP Basic Training Course",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "current-good-manufacturing-practices-for-food-facilities-training": {
+  "title": "Current Good Manufacturing Practices for Food Facilities Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "curtain-wall-and-building-envelope-installation-safety-training": {
+  "title": "Curtain Wall and Building Envelope Installation Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "damaged-defective-and-recalled-lithium-battery-shipping-training": {
+  "title": "Damaged, Defective and Recalled Lithium Battery Shipping Training",
+  "price": 119.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "data-center-arc-flash-safety-training": {
+  "title": "Data Center Arc Flash Safety Training",
+  "price": 99.99,
+  "lmsId": 850,
+  "priceSource": "lms"
+ },
+ "data-center-cooling-system-and-refrigerant-safety-training": {
+  "title": "Data Center Cooling System and Refrigerant Safety Training",
+  "price": 99.99,
+  "lmsId": 851,
+  "priceSource": "lms"
+ },
+ "data-center-design-fundamentals": {
+  "title": "Data Center Design Fundamentals",
+  "price": 312.99,
+  "lmsId": 842,
+  "priceSource": "lms"
+ },
+ "data-center-electrical-safety-training": {
+  "title": "Data Center Electrical Safety Training",
+  "price": 99.99,
+  "lmsId": 852,
+  "priceSource": "lms"
+ },
+ "data-center-emergency-power-off-epo-procedures-training": {
+  "title": "Data Center Emergency Power Off (EPO) Procedures Training",
+  "price": 99.99,
+  "lmsId": 853,
+  "priceSource": "lms"
+ },
+ "data-center-fire-suppression-system-safety-training-clean-agent-systems": {
+  "title": "Data Center Fire Suppression System Safety Training (Clean Agent Systems)",
+  "price": 99.99,
+  "lmsId": 854,
+  "priceSource": "lms"
+ },
+ "data-center-operations-management": {
+  "title": "Data Center Operations Management",
+  "price": 325.99,
+  "lmsId": 843,
+  "priceSource": "lms"
+ },
+ "data-center-physical-security-and-access-control-training": {
+  "title": "Data Center Physical Security and Access Control Training",
+  "price": 99.99,
+  "lmsId": 855,
+  "priceSource": "lms"
+ },
+ "data-center-raised-floor-and-confined-space-awareness-training": {
+  "title": "Data Center Raised Floor and Confined Space Awareness Training",
+  "price": 99.99,
+  "lmsId": 856,
+  "priceSource": "lms"
+ },
+ "data-center-ups-and-battery-system-safety-training": {
+  "title": "Data Center UPS and Battery System Safety Training",
+  "price": 99.99,
+  "lmsId": 857,
+  "priceSource": "lms"
+ },
+ "dcim-platform-fundamentals": {
+  "title": "DCIM Platform Fundamentals",
+  "price": 99.99,
+  "lmsId": 830,
+  "priceSource": "lms"
+ },
+ "defensive-driving-safety-training": {
+  "title": "Defensive Driving Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "demolition-safety-training": {
+  "title": "Demolition Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "design-and-operation-of-ammonia-evaporators-condensers-and-controls-training": {
+  "title": "Design and Operation of Ammonia Evaporators, Condensers, and Controls Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "digger-derrick-operator-certification-training": {
+  "title": "Digger Derrick Operator Certification Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "disaster-recovery-business-continuity": {
+  "title": "Disaster Recovery & Business Continuity",
+  "price": 307.99,
+  "lmsId": 844,
+  "priceSource": "lms"
+ },
+ "distracted-and-fatigued-driving-prevention-training": {
+  "title": "Distracted and Fatigued Driving Prevention Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "diversity-equity-and-inclusion-dei-in-the-workplace-training": {
+  "title": "Diversity, Equity, and Inclusion (DEI) in the Workplace Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-cylinder-filling-training-small-cylinder-propane-filling": {
+  "title": "DOT Cylinder Filling Training (Small Cylinder Propane Filling)",
+  "price": 69.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-driver-qualification-file-management-training": {
+  "title": "DOT Driver Qualification File Management Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-drug-alcohol-program-manager-der-training": {
+  "title": "DOT Drug & Alcohol Program Manager / DER Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-carrier-requirements-air-iata": {
+  "title": "DOT Hazmat Carrier Requirements: Air/IATA",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-carrier-requirements-highway": {
+  "title": "DOT Hazmat Carrier Requirements: Highway",
+  "price": 74.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-carrier-requirements-rail": {
+  "title": "DOT Hazmat Carrier Requirements: Rail",
+  "price": 74.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-carrier-requirements-vessel": {
+  "title": "DOT Hazmat Carrier Requirements: Vessel",
+  "price": 74.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-1-explosives": {
+  "title": "DOT Hazmat Function Specific Training: Class 1: Explosives",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-2-gases-flammable-non-flammable-toxic": {
+  "title": "DOT Hazmat Function Specific Training: Class 2: Gases (Flammable, Non-Flammable, Toxic)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-3-flammable-liquids": {
+  "title": "DOT Hazmat Function Specific Training: Class 3: Flammable Liquids",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-4-flammable-solids-spontaneously-combustible-dangerous-when-wet": {
+  "title": "DOT Hazmat Function Specific Training: Class 4: Flammable Solids/Spontaneously Combustible/Dangerous When Wet",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-5-oxidizers-organic-peroxides": {
+  "title": "DOT Hazmat Function Specific Training: Class 5: Oxidizers & Organic Peroxides",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-6-toxic-infectious-substances": {
+  "title": "DOT Hazmat Function Specific Training: Class 6: Toxic & Infectious Substances",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-7-radioactive-materials": {
+  "title": "DOT Hazmat Function Specific Training: Class 7: Radioactive Materials",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-8-corrosive-materials": {
+  "title": "DOT Hazmat Function Specific Training: Class 8: Corrosive Materials",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-class-9-miscellaneous-dangerous-goods": {
+  "title": "DOT Hazmat Function Specific Training: Class 9: Miscellaneous Dangerous Goods",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-labeling": {
+  "title": "DOT Hazmat Function Specific Training: Labeling",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-markings": {
+  "title": "DOT Hazmat Function Specific Training: Markings",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-packaging": {
+  "title": "DOT Hazmat Function Specific Training: Packaging",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-placarding": {
+  "title": "DOT Hazmat Function Specific Training: Placarding",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-security-awareness": {
+  "title": "DOT Hazmat Function Specific Training: Security Awareness",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-shipping-papers": {
+  "title": "DOT Hazmat Function Specific Training: Shipping Papers",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-function-specific-training-the-hazmat-table": {
+  "title": "DOT Hazmat Function Specific Training: The Hazmat Table",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-general-awareness-training-49-cfr-172-704": {
+  "title": "DOT Hazmat General Awareness Training (49 CFR 172.704)",
+  "price": 74.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-ground-shipper-certification-training": {
+  "title": "DOT Hazmat Ground Shipper Certification Training",
+  "price": 229.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-in-depth-security-plan-training": {
+  "title": "DOT Hazmat In-Depth Security Plan Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-transportation-10-hour-advanced-general-awareness-training": {
+  "title": "DOT Hazmat 10-Hour Advanced General Awareness Training",
+  "price": 199.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-transportation-advanced-general-awareness-training": {
+  "title": "DOT Hazmat Transportation – Advanced General Awareness Training",
+  "price": 214.99,
+  "lmsId": null,
+  "priceSource": "legacy-list"
+ },
+ "dot-hazmat-transportation-general-awareness-training": {
+  "title": "DOT Hazmat Transportation: General Awareness Training",
+  "price": 74.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-transportation-general-awareness-with-function-specific-training-in-packaging-labeling": {
+  "title": "DOT Hazmat Transportation: General Awareness with Function-Specific Training in Packaging & Labeling",
+  "price": 159.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hazmat-transportation-supervisor-training-for-highway": {
+  "title": "DOT Hazmat Supervisor Training (Highway)",
+  "price": 159.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-hours-of-service-hos-compliance-training": {
+  "title": "DOT Hours of Service (HOS) Compliance Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-new-entrant-safety-audit-preparation-training": {
+  "title": "DOT New Entrant Safety Audit Preparation Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-physical-qualification-and-medical-certification-training": {
+  "title": "DOT Physical Qualification and Medical Certification Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-pre-trip-and-post-trip-vehicle-inspection-training": {
+  "title": "DOT Pre-Trip and Post-Trip Vehicle Inspection Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-propane-cylinder-requalification-and-visual-inspection-training": {
+  "title": "DOT Propane Cylinder Requalification and Visual Inspection Training",
+  "price": 69.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dot-reasonable-suspicion-training-for-supervisors-drug-alcohol": {
+  "title": "DOT Reasonable Suspicion Training for Supervisors (Drug & Alcohol)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "drug-and-alcohol-abuse-prevention-training-for-construction-workers": {
+  "title": "Drug and Alcohol Abuse Prevention Training for Construction Workers",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dry-ice-shipping-by-air-and-ground-training": {
+  "title": "Dry Ice Shipping by Air and Ground Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ductwork-testing-and-air-balancing": {
+  "title": "Ductwork Testing and Air Balancing",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "dust-disturbance-and-mitigation-awareness-training": {
+  "title": "Dust Disturbance and Mitigation Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-class-a-cdl-theory-training-fmcsa": {
+  "title": "ELDT Class A CDL Theory Training (FMCSA)",
+  "price": 299.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-class-b-cdl-theory-training-fmcsa": {
+  "title": "ELDT Class B CDL Theory Training (FMCSA)",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-class-b-to-class-a-upgrade-training-fmcsa": {
+  "title": "ELDT Class B to Class A Upgrade Training (FMCSA)",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-hazmat-h-endorsement-training": {
+  "title": "ELDT Hazmat (H) Endorsement Training",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-hazmat-tanker-x-endorsement-training": {
+  "title": "ELDT Hazmat & Tanker (X) Endorsement Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-passenger-p-endorsement-training": {
+  "title": "ELDT Passenger (P) Endorsement Training",
+  "price": 109.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-school-bus-s-endorsement-training": {
+  "title": "ELDT School Bus (S) Endorsement Training",
+  "price": 109.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "eldt-tanker-n-endorsement-training": {
+  "title": "ELDT Tanker (N) Endorsement Training",
+  "price": 109.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electric-power-generation-transmission-and-distribution-safety-training": {
+  "title": "Electric Power Generation, Transmission, and Distribution Safety Training",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electric-power-transmission-and-distribution-line-construction-safety-training": {
+  "title": "Electric Power Transmission and Distribution Line Construction Safety Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electrical-safety-best-practices": {
+  "title": "Electrical Safety & Best Practices",
+  "price": 99.99,
+  "lmsId": 831,
+  "priceSource": "lms"
+ },
+ "electrical-safety-training-nfpa-70e": {
+  "title": "Electrical Safety Training (NFPA 70E 2024)",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electrical-substation-safety-training": {
+  "title": "Electrical Substation Safety Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electrical-switching-and-energization-procedures-training": {
+  "title": "Electrical Switching and Energization Procedures Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electrical-test-equipment-and-meter-safety-training": {
+  "title": "Electrical Test Equipment and Meter Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electrical-troubleshooting-techniques": {
+  "title": "Electrical Troubleshooting Techniques",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "electronic-logging-device-eld-training": {
+  "title": "Electronic Logging Device (ELD) Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "em-385-1-1-16-hour-training-for-workers": {
+  "title": "EM 385-1-1 16-Hour Training for Workers",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "em-385-1-1-24-hour-training": {
+  "title": "EM 385-1-1 24 Hour Training",
+  "price": 219.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "em-385-1-1-40-hour-training": {
+  "title": "EM 385-1-1 40 Hour Training",
+  "price": 279.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "em-385-1-1-8-hour-refresher-training-for-site-safety-and-health-officers-sshos": {
+  "title": "EM 385-1-1 8 Hour Refresher Training for Site Safety and Health Officers (SSHOs)",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "em-385-1-1-8-hour-refresher-training-for-workers": {
+  "title": "EM 385-1-1 8-Hour Refresher Training For Workers",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "em-385-1-1-train-the-trainer-certification": {
+  "title": "EM 385-1-1 Train the Trainer Certification",
+  "price": 349.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "emergency-action-plan-micro-module-accounting-for-personnel-after-evacuation": {
+  "title": "Emergency Action Plan Micro-Module: Accounting for Personnel After Evacuation",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "emergency-action-plan-micro-module-evacuation-routes-assembly-points": {
+  "title": "Emergency Action Plan Micro-Module: Evacuation Routes & Assembly Points",
+  "price": 12.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "emergency-action-plan-micro-module-shelter-in-place-procedures": {
+  "title": "Emergency Action Plan Micro-Module: Shelter-in-Place Procedures",
+  "price": 12.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "emergency-operations-center-management-training": {
+  "title": "Emergency Operations Center Management Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "emergency-standby-power-systems-fundamentals": {
+  "title": "Emergency/Standby Power Systems Fundamentals",
+  "price": 99.99,
+  "lmsId": 1098,
+  "priceSource": "lms"
+ },
+ "energy-efficiency-pue-optimization": {
+  "title": "Energy Efficiency & PUE Optimization",
+  "price": 99.99,
+  "lmsId": 832,
+  "priceSource": "lms"
+ },
+ "environmental-compliance-auditing-training": {
+  "title": "Environmental Compliance Auditing Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-clean-air-act-general-duty-chemical-accident-prevention-training": {
+  "title": "EPA Clean Air Act General Duty / Chemical Accident Prevention Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-hazardous-waste-manifest-training": {
+  "title": "EPA Hazardous Waste Manifest Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-lead-renovation-repair-and-painting-rrp-certification-training": {
+  "title": "EPA Lead Renovation, Repair, and Painting (RRP) Certification Training",
+  "price": 229.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-lead-rrp-certified-renovator-initial-training": {
+  "title": "EPA Lead RRP Certified Renovator Initial Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-lead-rrp-dust-sampling-technician-training": {
+  "title": "EPA Lead RRP Dust Sampling Technician Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-lead-rrp-renovator-refresher-online-no-hands-on": {
+  "title": "EPA Lead RRP Renovator Refresher (Online, No Hands-On)",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-lead-rrp-renovator-refresher-with-hands-on": {
+  "title": "EPA Lead RRP Renovator Refresher (with Hands-On)",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-npdes-stormwater-pollution-prevention-plan-swppp-awareness-training": {
+  "title": "EPA NPDES Stormwater Pollution Prevention Plan (SWPPP) Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-pesticide-worker-protection-standard-wps-training": {
+  "title": "EPA Pesticide Worker Protection Standard (WPS) Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-rcra-dot-combined-hazardous-materials-compliance-training": {
+  "title": "EPA RCRA/DOT Combined Hazardous Materials Compliance Training",
+  "price": 149.99,
+  "lmsId": 403,
+  "priceSource": "lms"
+ },
+ "epa-rcra-hazardous-waste-generator-refresher-training": {
+  "title": "EPA RCRA Hazardous Waste Generator Refresher Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-rcra-hazardous-waste-generator-training": {
+  "title": "EPA RCRA Hazardous Waste Generator Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-refrigerant-section-608-technician-certification-training": {
+  "title": "EPA Refrigerant (Section 608) Technician Certification Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-risk-management-program-rmp-awareness-training": {
+  "title": "EPA Risk Management Program (RMP) Awareness Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-spill-prevention-control-and-countermeasure-spcc-training": {
+  "title": "EPA Spill Prevention, Control, and Countermeasure (SPCC) Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-toxic-substances-control-act-tsca-chemical-management-training": {
+  "title": "EPA Toxic Substances Control Act (TSCA) Chemical Management Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-underground-storage-tank-ust-operator-training-class-a-b": {
+  "title": "EPA Underground Storage Tank (UST) Operator Training (Class A/B)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epa-underground-storage-tank-ust-operator-training-class-c": {
+  "title": "EPA Underground Storage Tank (UST) Operator Training (Class C)",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epcra-sections-302-and-304-emergency-release-reporting-training": {
+  "title": "EPCRA Sections 302 and 304 Emergency Release Reporting Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "epcra-sections-311-and-312-tier-ii-reporting-training": {
+  "title": "EPCRA Sections 311 and 312 Tier II Reporting Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ergonomics-safety-training": {
+  "title": "Ergonomics Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "essentials-of-ammonia-positive-displacement-compressors-training": {
+  "title": "Essentials of Ammonia Positive Displacement Compressors Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ethylene-oxide-sterilization-safety-training-for-healthcare": {
+  "title": "Ethylene Oxide Sterilization Safety Training for Healthcare",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ev-charging-station-installation-safety-training": {
+  "title": "EV Charging Station Installation Safety Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "faa-repair-station-safety-training": {
+  "title": "FAA Repair Station Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "facility-environmental-compliance": {
+  "title": "Facility Environmental Compliance",
+  "price": 99.99,
+  "lmsId": 833,
+  "priceSource": "lms"
+ },
+ "facility-management-fundamentals": {
+  "title": "Facility Management Fundamentals",
+  "price": 99.99,
+  "lmsId": 1099,
+  "priceSource": "lms"
+ },
+ "fall-prevention-training-for-senior-care-facilities": {
+  "title": "Fall Prevention Training for Senior Care Facilities",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fall-protection-train-the-trainer-certification": {
+  "title": "Fall Protection Train-the-Trainer Certification",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fema-ics-100-introduction-to-incident-command-system": {
+  "title": "FEMA ICS-100 Introduction to Incident Command System",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fema-ics-200-basic-incident-command-system": {
+  "title": "FEMA ICS-200 Basic Incident Command System",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fema-ics-300-intermediate-ics-refresher": {
+  "title": "FEMA ICS-300 Intermediate ICS Refresher",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fiber-optics-network-cabling": {
+  "title": "Fiber Optics & Network Cabling",
+  "price": 99.99,
+  "lmsId": 834,
+  "priceSource": "lms"
+ },
+ "fire-prevention-and-protection-for-construction-training": {
+  "title": "Fire Prevention and Protection for Construction Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "first-aid-cpr-and-aed-safety-training": {
+  "title": "First Aid, CPR & AED Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fleet-safety-management-and-mvr-monitoring-training": {
+  "title": "Fleet Safety Management and MVR Monitoring Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "flow-measurement-fundamentals": {
+  "title": "Flow Measurement Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fmcsa-drug-and-alcohol-clearinghouse-training": {
+  "title": "FMCSA Drug and Alcohol Clearinghouse Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "food-allergen-awareness-and-cross-contact-prevention-training": {
+  "title": "Food Allergen Awareness and Cross-Contact Prevention Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "food-defense-and-intentional-adulteration-awareness-training": {
+  "title": "Food Defense and Intentional Adulteration Awareness Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "food-safety-fundamentals-training": {
+  "title": "Food Safety Fundamentals Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "food-safety-manager-exam-preparation-training": {
+  "title": "Food Safety Manager Exam Preparation Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "forklift-operator-safety-class-i-electric-motor-rider-trucks": {
+  "title": "Forklift Operator Safety - Class I: Electric Motor Rider Trucks",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "forklift-operator-safety-class-ii-electric-motor-narrow-aisle-trucks": {
+  "title": "Forklift Operator Safety - Class II: Electric Motor Narrow Aisle Trucks",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "forklift-operator-safety-class-iii-electric-motor-hand-rider-trucks": {
+  "title": "Forklift Operator Safety - Class III: Electric Motor Hand/Rider Trucks",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "forklift-operator-safety-class-iv-internal-combustion-cushion-tire": {
+  "title": "Forklift Operator Safety - Class IV: Internal Combustion (Cushion Tire)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "forklift-operator-safety-class-v-internal-combustion-pneumatic-tire": {
+  "title": "Forklift Operator Safety - Class V: Internal Combustion (Pneumatic Tire)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "forklift-operator-safety-class-vi-electric-and-ic-engine-tractors": {
+  "title": "Forklift Operator Safety - Class VI: Electric and IC Engine Tractors",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "forklift-operator-safety-class-vii-rough-terrain-forklifts": {
+  "title": "Forklift Operator Safety - Class VII: Rough Terrain Forklifts",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "foundry-safety-training": {
+  "title": "Foundry Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "fsma-preventive-controls-awareness-training": {
+  "title": "FSMA Preventive Controls Awareness Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "functional-and-full-scale-exercise-development-training": {
+  "title": "Functional and Full-Scale Exercise Development Training",
+  "price": 299.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "gas-free-engineering-and-hot-work-certification-for-shipyards": {
+  "title": "Gas Free Engineering and Hot Work Certification for Shipyards",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "gearboxes-and-couplings-fundamentals": {
+  "title": "Gearboxes and Couplings Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "general-industry-outreach-trainer-course-osha-501": {
+  "title": "General Industry Outreach Trainer Course (OSHA 501)",
+  "price": 649.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "general-manufacturing-plant-safety-orientation-training": {
+  "title": "General Manufacturing Plant Safety Orientation Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "general-safety-and-health-provisions-training-for-construction": {
+  "title": "General Safety and Health Provisions Training for Construction",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "generative-ai-acceptable-use-policy-training": {
+  "title": "Generative AI Acceptable Use Policy Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "generator-fundamentals": {
+  "title": "Generator Fundamentals",
+  "price": 99.99,
+  "lmsId": 1100,
+  "priceSource": "lms"
+ },
+ "generator-operations-maintenance": {
+  "title": "Generator Operations & Maintenance",
+  "price": 99.99,
+  "lmsId": 835,
+  "priceSource": "lms"
+ },
+ "geometric-dimensioning-and-tolerancing-gd-t-fundamentals": {
+  "title": "Geometric Dimensioning and Tolerancing (GD&T) Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "government-contractor-safety-program-management-training": {
+  "title": "Government Contractor Safety Program Management Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "grain-bin-entry-and-engulfment-prevention-training": {
+  "title": "Grain Bin Entry and Engulfment Prevention Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "grain-handling-facility-safety-training": {
+  "title": "Grain Handling Facility Safety Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "greenhouse-and-nursery-worker-safety-training": {
+  "title": "Greenhouse and Nursery Worker Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "grounding-and-bonding-fundamentals": {
+  "title": "Grounding and Bonding Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "h2s-hydrogen-sulfide-awareness-training": {
+  "title": "H2S (Hydrogen Sulfide) Awareness Training",
+  "price": 19.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "haccp-hazard-analysis-critical-control-point-awareness-training": {
+  "title": "HACCP (Hazard Analysis Critical Control Point) Awareness Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hand-signal-and-equipment-spotter-safety-training": {
+  "title": "Hand-Signal and Equipment Spotter Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazard-communication-hazcom-with-the-globally-harmonized-system-ghs-for-automotive-repair": {
+  "title": "OSHA HazCom/GHS Training for Automotive Repair",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazard-communication-hazcom-with-the-globally-harmonized-system-ghs-for-warehousing-logistics": {
+  "title": "OSHA HazCom/GHS Training for Warehousing & Logistics",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazard-communication-hazcom-with-the-globally-harmonized-system-ghs-training": {
+  "title": "Hazard Communication (HazCom) with the Globally Harmonized System (GHS) Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazardous-drug-handling-training-usp-800": {
+  "title": "Hazardous Drug Handling Training (USP <800>)",
+  "price": 69.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazardous-liquid-pipeline-operator-qualification-training": {
+  "title": "Hazardous Liquid Pipeline Operator Qualification Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazardous-materials-management-for-military-installations-training": {
+  "title": "Hazardous Materials Management for Military Installations Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazardous-waste-contingency-plan-and-emergency-coordinator-training": {
+  "title": "Hazardous Waste Contingency Plan and Emergency Coordinator Training",
+  "price": 99.99,
+  "lmsId": 412,
+  "priceSource": "lms"
+ },
+ "hazardous-waste-generator-improvements-rule-training": {
+  "title": "Hazardous Waste Generator Improvements Rule Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazardous-waste-land-disposal-restrictions-training": {
+  "title": "Hazardous Waste Land Disposal Restrictions Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazardous-waste-manifest-training": {
+  "title": "Hazardous Waste Manifest Training",
+  "price": 34.99,
+  "lmsId": 580,
+  "priceSource": "lms"
+ },
+ "hazardous-waste-satellite-accumulation-area-training": {
+  "title": "Hazardous Waste Satellite Accumulation Area Training",
+  "price": 59.99,
+  "lmsId": 415,
+  "priceSource": "lms"
+ },
+ "hazcom-micro-module-chemical-inventory-management": {
+  "title": "HazCom Micro-Module: Chemical Inventory Management",
+  "price": 12.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazcom-micro-module-ghs-label-elements-pictograms": {
+  "title": "HazCom Micro-Module: GHS Label Elements & Pictograms",
+  "price": 12.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazcom-micro-module-reading-safety-data-sheets-sds": {
+  "title": "HazCom Micro-Module: Reading Safety Data Sheets (SDS)",
+  "price": 12.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hazwoper-train-the-trainer-certification": {
+  "title": "HAZWOPER Train-the-Trainer Certification",
+  "price": 399.99,
+  "lmsId": 1016,
+  "priceSource": "lms"
+ },
+ "heat-pump-systems": {
+  "title": "Heat Pump Systems",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "heavy-equipment-operator-certification-backhoe-loaders": {
+  "title": "Heavy Equipment Operator Certification - Backhoe Loaders",
+  "price": 119.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "heavy-equipment-operator-certification-bulldozers-graders": {
+  "title": "Heavy Equipment Operator Certification - Bulldozers & Graders",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "heavy-equipment-operator-certification-excavators": {
+  "title": "Heavy Equipment Operator Certification - Excavators",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "helicopter-underwater-egress-training-huet-awareness": {
+  "title": "Helicopter Underwater Egress Training (HUET) Awareness",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "high-pressure-boiler-operations": {
+  "title": "High-Pressure Boiler Operations",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "highwall-and-pit-safety-training-surface-mining": {
+  "title": "Highwall and Pit Safety Training (Surface Mining)",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hipaa-general-awareness-training": {
+  "title": "HIPAA General Awareness Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hipaa-security-rule-training-for-it-and-administrative-staff": {
+  "title": "HIPAA Security Rule Training for IT and Administrative Staff",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hvac-controls-electronic-ddc-systems": {
+  "title": "HVAC Controls - Electronic/DDC Systems",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hvac-controls-pneumatic-systems": {
+  "title": "HVAC Controls - Pneumatic Systems",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hvac-electrical-fundamentals": {
+  "title": "HVAC Electrical Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hvac-fundamentals": {
+  "title": "HVAC Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "hvac-systems-troubleshooting-essentials": {
+  "title": "HVAC Systems Troubleshooting Essentials",
+  "price": 99.99,
+  "lmsId": 836,
+  "priceSource": "lms"
+ },
+ "hydraulic-fracturing-frac-site-safety-training": {
+  "title": "Hydraulic Fracturing (Frac) Site Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "iata-dangerous-goods-regulations-dgr-initial-training": {
+  "title": "IATA Dangerous Goods Regulations (DGR) Initial Training",
+  "price": 349.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "iata-dangerous-goods-regulations-dgr-recurrent-training": {
+  "title": "IATA Dangerous Goods Regulations (DGR) Recurrent Training",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "imdg-code-dangerous-goods-by-vessel-initial-training": {
+  "title": "IMDG Code Dangerous Goods by Vessel Initial Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "imdg-code-dangerous-goods-by-vessel-recurrent-training": {
+  "title": "IMDG Code Dangerous Goods by Vessel Recurrent Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "incident-response-troubleshooting": {
+  "title": "Incident Response & Troubleshooting",
+  "price": 99.99,
+  "lmsId": 837,
+  "priceSource": "lms"
+ },
+ "indoor-air-quality-and-mold-response-for-facility-managers-training": {
+  "title": "Indoor Air Quality and Mold Response for Facility Managers Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "indoor-air-quality-fundamentals": {
+  "title": "Indoor Air Quality Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "industrial-hygiene-fundamentals-training": {
+  "title": "Industrial Hygiene Fundamentals Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "industrial-radiography-ndt-radiation-safety-training": {
+  "title": "Industrial Radiography (NDT) Radiation Safety Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "industrial-robot-lockout-tagout-and-cell-entry-training": {
+  "title": "Industrial Robot Lockout/Tagout and Cell Entry Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "industrial-robot-safety-awareness-training": {
+  "title": "Industrial Robot Safety Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "industrial-ventilation-and-local-exhaust-system-safety-training": {
+  "title": "Industrial Ventilation and Local Exhaust System Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "infectious-substances-shipping-category-a-and-category-b-training": {
+  "title": "Infectious Substances Shipping - Category A and Category B Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "infrastructure-commissioning-startup": {
+  "title": "Infrastructure Commissioning & Startup",
+  "price": 267.99,
+  "lmsId": 845,
+  "priceSource": "lms"
+ },
+ "injection-molding-machine-safety-training": {
+  "title": "Injection Molding Machine Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "instrumentation-fundamentals": {
+  "title": "Instrumentation Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "intermediate-incident-command-system-ics-300-training": {
+  "title": "Intermediate Incident Command System (ICS-300) Training",
+  "price": 349.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "introduction-to-the-incident-command-system-ics-100-training": {
+  "title": "Introduction to the Incident Command System (ICS 100) Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "knife-and-cutting-tool-safety-in-food-processing-training": {
+  "title": "Knife and Cutting Tool Safety in Food Processing Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "laboratory-chemical-hygiene-plan-training-lab-standard": {
+  "title": "Laboratory Chemical Hygiene Plan Training (Lab Standard)",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "laboratory-chemical-waste-management-training": {
+  "title": "Laboratory Chemical Waste Management Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "leading-indicators-and-safety-performance-metrics-training": {
+  "title": "Leading Indicators and Safety Performance Metrics Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "level-measurement-fundamentals": {
+  "title": "Level Measurement Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "line-clearance-tree-trimming-safety-training": {
+  "title": "Line-Clearance Tree Trimming Safety Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "lithium-batteries-awareness-training": {
+  "title": "Lithium Batteries Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "lithium-battery-shipping-by-air-under-iata-dgr-training": {
+  "title": "Lithium Battery Shipping by Air under IATA DGR Training",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "lithium-battery-shipping-by-ground-training": {
+  "title": "Lithium Battery Shipping by Ground Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "lithium-battery-shipping-by-vessel-under-imdg-code-training": {
+  "title": "Lithium Battery Shipping by Vessel under IMDG Code Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "lithium-ion-battery-thermal-runaway-and-emergency-response-training": {
+  "title": "Lithium-Ion Battery Thermal Runaway and Emergency Response Training",
+  "price": 99.99,
+  "lmsId": 1021,
+  "priceSource": "lms"
+ },
+ "livestock-handling-safety-training": {
+  "title": "Livestock Handling Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "loading-dock-safety-training": {
+  "title": "Loading Dock Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "logging-operations-safety-training": {
+  "title": "Logging Operations Safety Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "longshoring-safety-training": {
+  "title": "Longshoring Safety Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "loto-micro-module-group-lockout-procedures": {
+  "title": "LOTO Micro-Module: Group Lockout Procedures",
+  "price": 12.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "loto-micro-module-writing-machine-specific-energy-control-procedures": {
+  "title": "LOTO Micro-Module: Writing Machine-Specific Energy Control Procedures",
+  "price": 14.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "low-pressure-boiler-operations": {
+  "title": "Low-Pressure Boiler Operations",
+  "price": 119.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "manufacturing-emergency-response-team-ert-training": {
+  "title": "Manufacturing Emergency Response Team (ERT) Training",
+  "price": 149.99,
+  "lmsId": 702,
+  "priceSource": "lms"
+ },
+ "marine-terminal-safety-training": {
+  "title": "Marine Terminal Safety Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "marine-vessel-bunkering-and-fuel-transfer-safety-training": {
+  "title": "Marine Vessel Bunkering and Fuel Transfer Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mechanical-print-reading": {
+  "title": "Mechanical Print Reading",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mechanical-systems-equipment-maintenance": {
+  "title": "Mechanical Systems & Equipment Maintenance",
+  "price": 99.99,
+  "lmsId": 838,
+  "priceSource": "lms"
+ },
+ "medical-biohazardous-waste-management-training": {
+  "title": "Medical & Biohazardous Waste Management Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "medical-dental-radiography-safety-training-ionizing-radiation-for-healthcare": {
+  "title": "Medical & Dental Radiography Safety Training (Ionizing Radiation for Healthcare)",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "metalworking-fluids-exposure-safety-training": {
+  "title": "Metalworking Fluids Exposure Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mine-electrical-qualified-person-training": {
+  "title": "Mine Electrical Qualified Person Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mine-emergency-response-and-evacuation-training": {
+  "title": "Mine Emergency Response and Evacuation Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mine-haulage-and-heavy-equipment-safety-training": {
+  "title": "Mine Haulage and Heavy Equipment Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mine-rescue-team-training": {
+  "title": "Mine Rescue Team Training",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mine-roof-and-ground-control-training": {
+  "title": "Mine Roof and Ground Control Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mine-ventilation-and-methane-gas-monitoring-training": {
+  "title": "Mine Ventilation and Methane Gas Monitoring Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mobile-crane-operator-certification-training-nccco-aligned": {
+  "title": "Mobile Crane Operator Certification Training (NCCCO-Aligned)",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mobile-elevating-work-platform-supervisor-and-familiarization-training": {
+  "title": "Mobile Elevating Work Platform Supervisor and Familiarization Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "modular-and-prefabricated-construction-safety-training": {
+  "title": "Modular and Prefabricated Construction Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mold-awareness-prevention-and-remediation-training-for-property-management-teams": {
+  "title": "Mold Awareness, Prevention, and Remediation Training for Property Management Teams",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mold-inspector-certification-for-prevention-remediation-and-removal-training": {
+  "title": "Mold Inspector Certification for Prevention, Remediation, and Removal Training",
+  "price": 299.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "mold-prevention-and-remediation-awareness-training": {
+  "title": "Mold Prevention and Remediation Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "monitoring-automation-bms-systems": {
+  "title": "Monitoring, Automation & BMS Systems",
+  "price": 276.99,
+  "lmsId": 846,
+  "priceSource": "lms"
+ },
+ "motor-controls-fundamentals": {
+  "title": "Motor Controls Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "motor-fundamentals-ac-dc-motors": {
+  "title": "Motor Fundamentals (AC/DC Motors)",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "motor-vehicles-and-mechanized-equipment-training-for-construction": {
+  "title": "Motor Vehicles and Mechanized Equipment Training for Construction",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "motorcoach-and-passenger-carrier-safety-training": {
+  "title": "Motorcoach and Passenger Carrier Safety Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-part-46-8-hour-refresher-training": {
+  "title": "MSHA Part 46 8-Hour Refresher Training",
+  "price": 69.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-part-46-new-miner-general-safety-and-health-training-part-2": {
+  "title": "MSHA Part 46 New Miner General Safety and Health Training (Part 2)",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-part-46-new-miner-site-entry-training-part-1": {
+  "title": "MSHA Part 46 New Miner Site Entry Training (Part 1)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-part-48-8-hour-annual-refresher-training": {
+  "title": "MSHA Part 48 8-Hour Annual Refresher Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-part-48-new-miner-training": {
+  "title": "MSHA Part 48 New Miner Training",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-part-48-subpart-a-underground-new-miner-training-coal-metal-nonmetal": {
+  "title": "MSHA Part 48 Subpart A - Underground New Miner Training (Coal & Metal/Nonmetal)",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-part-48-subpart-b-surface-miner-training-coal-surface-m-nm": {
+  "title": "MSHA Part 48 Subpart B - Surface Miner Training (Coal & Surface M/NM)",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-respirable-crystalline-silica-compliance-training-2024-silica-rule": {
+  "title": "MSHA Respirable Crystalline Silica Compliance Training (2024 Silica Rule)",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "msha-task-training-for-newly-assigned-tasks": {
+  "title": "MSHA Task Training for Newly Assigned Tasks",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "multi-employer-worksite-safety-coordination-training": {
+  "title": "Multi-Employer Worksite Safety Coordination Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "naloxone-and-opioid-overdose-response-in-the-workplace-training": {
+  "title": "Naloxone and Opioid Overdose Response in the Workplace Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "national-electrical-code-nec-fundamentals": {
+  "title": "National Electrical Code (NEC) Fundamentals",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "national-flagger-and-traffic-control-for-construction-sites-certification-training": {
+  "title": "Flagger Certification Training (Traffic Control)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "national-incident-management-system-is-700-training": {
+  "title": "National Incident Management System IS-700 Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "national-response-framework-is-800-training": {
+  "title": "National Response Framework IS-800 Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "natural-gas-pipeline-operator-qualification-awareness-training": {
+  "title": "Natural Gas Pipeline Operator Qualification Awareness Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "near-miss-reporting-and-investigation-training": {
+  "title": "Near-Miss Reporting and Investigation Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "nec-code-update-training-current-code-cycle": {
+  "title": "NEC Code Update Training (Current Code Cycle)",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "needlestick-safety-and-sharps-injury-prevention-training": {
+  "title": "Needlestick Safety and Sharps Injury Prevention Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "new-hire-safety-compliance-onboarding-training": {
+  "title": "New Hire Safety & Compliance Onboarding Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "nfpa-70e-arc-flash-safety-training-2024-edition": {
+  "title": "NFPA 70E Arc Flash Safety Training (2024 Edition)",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "nfpa-70e-qualified-electrical-worker-certification-training": {
+  "title": "NFPA 70E Qualified Electrical Worker Certification Training",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "non-destructive-testing-ndt-safety-in-aerospace-manufacturing": {
+  "title": "Non-Destructive Testing (NDT) Safety in Aerospace Manufacturing",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "non-ionizing-radiation-laser-safety-training": {
+  "title": "Non-Ionizing Radiation & Laser Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "norm-naturally-occurring-radioactive-material-awareness-training": {
+  "title": "NORM (Naturally Occurring Radioactive Material) Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "norm-survey-and-radiation-monitoring-technician-training": {
+  "title": "NORM Survey and Radiation Monitoring Technician Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "norm-worker-safety-training": {
+  "title": "NORM Worker Safety Training",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "nutrition-and-food-service-training-for-long-term-care-facilities": {
+  "title": "Nutrition and Food Service Training for Long-Term Care Facilities",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "oil-gas-confined-space-entry-training-tanks-vessels": {
+  "title": "Oil & Gas Confined Space Entry Training (Tanks & Vessels)",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "oil-gas-lease-operator-safety-training": {
+  "title": "Oil & Gas Lease Operator Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "oilfield-journey-management-and-driving-safety-training": {
+  "title": "Oilfield Journey Management and Driving Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "oilfield-pipe-scale-and-equipment-decontamination-safety-training-norm-contaminated-equipment": {
+  "title": "Oilfield Pipe Scale and Equipment Decontamination Safety Training (NORM-Contaminated Equipment)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-bloodborne-pathogens": {
+  "title": "Orientation Video – Bloodborne Pathogens",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-emergency-action-plan": {
+  "title": "Orientation Video – Emergency Action Plan",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-ergonomics": {
+  "title": "Orientation Video – Ergonomics",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-fire-extinguishers-and-pass": {
+  "title": "Orientation Video – Fire Extinguishers and PASS",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-forklift-safety": {
+  "title": "Orientation Video – Forklift Safety",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-hazard-communication": {
+  "title": "Orientation Video – Hazard Communication",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-hearing-protection": {
+  "title": "Orientation Video – Hearing Protection",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-personal-protective-equipment-ppe": {
+  "title": "Orientation Video – Personal Protective Equipment (PPE)",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-safety-in-confined-spaces": {
+  "title": "Orientation Video – Safety in Confined Spaces",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "orientation-video-slips-trips-and-falls": {
+  "title": "Orientation Video – Slips, Trips, and Falls",
+  "price": 9.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-10-hour-construction-industry-outreach-training": {
+  "title": "OSHA 10-Hour Outreach Training for Construction Industry with DOL Card",
+  "price": 89,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-10-hour-construction-industry-outreach-training-with-dol-card": {
+  "title": "OSHA 10-Hour Construction Training (DOL Card)",
+  "price": 89,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-10-hour-general-industry-outreach-training-with-dol-card": {
+  "title": "OSHA 10-Hour General Industry Training (DOL Card)",
+  "price": 89,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-10-hour-outreach-trainer-course-osha-500": {
+  "title": "OSHA 10-Hour Outreach Trainer Course (OSHA 500)",
+  "price": 649.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-1910-269-qualified-utility-worker-training": {
+  "title": "OSHA 1910.269 Qualified Utility Worker Training",
+  "price": 299.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-24-hour-hazwoper-rcra-tsd-operations-training": {
+  "title": "OSHA 24 Hour HAZWOPER - RCRA TSD Operations Training",
+  "price": 229.99,
+  "lmsId": 582,
+  "priceSource": "lms"
+ },
+ "osha-24-hour-hazwoper-training": {
+  "title": "OSHA 24-Hour HAZWOPER Training",
+  "price": 169.99,
+  "lmsId": 581,
+  "priceSource": "lms"
+ },
+ "osha-24-hour-hazwoper-training-29-cfr-1910-120": {
+  "title": "OSHA 24 Hour HAZWOPER Training – 29 CFR 1910.120 (e)",
+  "price": 169.99,
+  "lmsId": 581,
+  "priceSource": "lms"
+ },
+ "osha-24-hour-hazwoper-training-for-tsdf-operations": {
+  "title": "OSHA 24-Hour HAZWOPER Training for TSDF Operations",
+  "price": 229.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-30-hour-construction-industry-outreach-training-with-dol-card": {
+  "title": "OSHA 30-Hour Outreach Training for Construction Industry with DOL Card (English)",
+  "price": 189,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-30-hour-general-industry-outreach-training-with-dol-card": {
+  "title": "OSHA 30-Hour General Industry Training (DOL Card)",
+  "price": 189,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-30-hour-outreach-trainer-course-osha-502-update": {
+  "title": "OSHA 30-Hour Outreach Trainer Course (OSHA 502 Update)",
+  "price": 349.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-300-recordkeeping-and-reporting-training": {
+  "title": "OSHA 300 Recordkeeping and Reporting Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-4-hour-hazwoper-first-responder-awareness-level-training": {
+  "title": "OSHA 4-Hour HAZWOPER First Responder Awareness Level Training",
+  "price": 61.99,
+  "lmsId": 1099,
+  "priceSource": "lms"
+ },
+ "osha-40-hour-hazwoper-training": {
+  "title": "OSHA 40-Hour HAZWOPER Training",
+  "price": 249.99,
+  "lmsId": 587,
+  "priceSource": "lms"
+ },
+ "osha-40-hour-hazwoper-training-29-cfr-1910-120": {
+  "title": "OSHA 40 Hour HAZWOPER Training – 29 CFR 1910.120 (e)",
+  "price": 249.99,
+  "lmsId": 587,
+  "priceSource": "lms"
+ },
+ "osha-40-hour-hazwoper-training-spanish": {
+  "title": "OSHA 40-Hour HAZWOPER Training (Spanish)",
+  "price": 249.99,
+  "lmsId": 1100,
+  "priceSource": "lms"
+ },
+ "osha-8-hour-hazwoper-and-safe-ammonia-handling-refresher-training": {
+  "title": "OSHA 8-Hour HAZWOPER and Safe Ammonia Handling Refresher Training",
+  "price": 109.99,
+  "lmsId": 598,
+  "priceSource": "lms"
+ },
+ "osha-8-hour-hazwoper-annual-refresher-rcra-tsd-operations-training": {
+  "title": "OSHA 8 Hour HAZWOPER Annual Refresher - RCRA TSD Operations Training",
+  "price": 99.99,
+  "lmsId": 594,
+  "priceSource": "lms"
+ },
+ "osha-8-hour-hazwoper-incident-commander-training-1910-120-q": {
+  "title": "OSHA 8-Hour HAZWOPER Incident Commander Training (1910.120(q))",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-8-hour-hazwoper-refresher-for-tsdf-operations": {
+  "title": "OSHA 8-Hour HAZWOPER Refresher for TSDF Operations",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-8-hour-hazwoper-refresher-training": {
+  "title": "OSHA 8-Hour HAZWOPER Refresher Training",
+  "price": 89.99,
+  "lmsId": 595,
+  "priceSource": "lms"
+ },
+ "osha-8-hour-hazwoper-refresher-training-29-cfr-1910-120": {
+  "title": "OSHA 8 Hour HAZWOPER Refresher Training",
+  "price": 89.99,
+  "lmsId": 595,
+  "priceSource": "lms"
+ },
+ "osha-8-hour-hazwoper-refresher-with-ammonia-safety": {
+  "title": "OSHA 8-Hour HAZWOPER Refresher with Ammonia Safety",
+  "price": 109.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-8-hour-hazwoper-supervisor-refresher-training": {
+  "title": "OSHA 8 Hour HAZWOPER Supervisor Refresher Training",
+  "price": 149.99,
+  "lmsId": 596,
+  "priceSource": "lms"
+ },
+ "osha-8-hour-hazwoper-supervisor-training": {
+  "title": "OSHA 8 Hour HAZWOPER Supervisor Training",
+  "price": 179.99,
+  "lmsId": 597,
+  "priceSource": "lms"
+ },
+ "osha-aerial-and-scissor-lift-safety-training": {
+  "title": "OSHA Aerial - Scissor and Boom Lift Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-aerial-lift-scissor-lift-certification-training": {
+  "title": "OSHA Aerial Lift & Scissor Lift Certification Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-agricultural-field-sanitation-training": {
+  "title": "OSHA Agricultural Field Sanitation Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-air-monitoring-and-gas-detection-training": {
+  "title": "OSHA Air Monitoring and Gas Detection Training",
+  "price": 49.99,
+  "lmsId": 1056,
+  "priceSource": "lms"
+ },
+ "osha-amputation-prevention-in-poultry-meat-processing-training": {
+  "title": "OSHA Amputation Prevention in Poultry & Meat Processing Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-1-2-dibromo-3-chloropropane-dbcp-exposure-awareness-training": {
+  "title": "OSHA/ANSI 1,2-Dibromo-3-Chloropropane (DBCP) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-1-3-butadiene-exposure-awareness-training": {
+  "title": "OSHA/ANSI 1,3-Butadiene Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-4-4-methylenebis-2-chloroaniline-mboca-exposure-awareness-training": {
+  "title": "OSHA/ANSI 4,4'-Methylenebis(2-Chloroaniline) (MBOCA) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-4-4-methylenedianiline-mda-exposure-awareness-training": {
+  "title": "OSHA/ANSI 4,4'-Methylenedianiline (MDA) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-acrylonitrile-exposure-awareness-training": {
+  "title": "OSHA/ANSI Acrylonitrile Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-arsenic-inorganic-exposure-awareness-training": {
+  "title": "OSHA/ANSI Arsenic (Inorganic) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-beryllium-exposure-awareness-training": {
+  "title": "OSHA/ANSI Beryllium Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-carbon-monoxide-exposure-awareness-training": {
+  "title": "OSHA/ANSI Carbon Monoxide Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-chlorine-exposure-awareness-training": {
+  "title": "OSHA/ANSI Chlorine Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-coke-oven-emissions-exposure-awareness-training": {
+  "title": "OSHA/ANSI Coke Oven Emissions Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-cotton-dust-exposure-awareness-training": {
+  "title": "OSHA/ANSI Cotton Dust Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-diacetyl-flavorings-related-lung-disease-exposure-awareness-training": {
+  "title": "OSHA/ANSI Diacetyl (Flavorings-Related Lung Disease) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-ethylene-glycol-exposure-awareness-training": {
+  "title": "OSHA/ANSI Ethylene Glycol Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-ethylene-oxide-exposure-awareness-training": {
+  "title": "OSHA/ANSI Ethylene Oxide Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-formaldehyde-exposure-awareness-training": {
+  "title": "OSHA/ANSI Formaldehyde Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-hydrogen-cyanide-exposure-awareness-training": {
+  "title": "OSHA/ANSI Hydrogen Cyanide Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-hydrogen-sulfide-h2s-certification-training": {
+  "title": "OSHA/ANSI Hydrogen Sulfide (H2S) Certification Training",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-isocyanates-mdi-tdi-exposure-awareness-training": {
+  "title": "OSHA/ANSI Isocyanates (MDI/TDI) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-lockout-tagout-loto-certificate-training": {
+  "title": "OSHA-ANSI Lockout/Tagout (LOTO) Certificate Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-manganese-and-manganese-compounds-exposure-awareness-training": {
+  "title": "OSHA/ANSI Manganese and Manganese Compounds Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-methylene-chloride-exposure-awareness-training": {
+  "title": "OSHA/ANSI Methylene Chloride Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-naphthalene-exposure-awareness-training": {
+  "title": "OSHA/ANSI Naphthalene Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-nitrogen-dioxide-nitrous-fumes-exposure-awareness-training": {
+  "title": "OSHA/ANSI Nitrogen Dioxide / Nitrous Fumes Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-ozone-exposure-awareness-training": {
+  "title": "OSHA/ANSI Ozone Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-perchloroethylene-perc-exposure-awareness-training": {
+  "title": "OSHA/ANSI Perchloroethylene (PERC) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-phosgene-exposure-awareness-training": {
+  "title": "OSHA/ANSI Phosgene Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-respirable-crystalline-silica-general-industry-exposure-awareness-training": {
+  "title": "OSHA/ANSI Respirable Crystalline Silica (General Industry) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-styrene-exposure-awareness-training": {
+  "title": "OSHA/ANSI Styrene Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-sulfur-dioxide-exposure-awareness-training": {
+  "title": "OSHA/ANSI Sulfur Dioxide Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-toluene-exposure-awareness-training": {
+  "title": "OSHA/ANSI Toluene Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-trichloroethylene-tce-exposure-awareness-training": {
+  "title": "OSHA/ANSI Trichloroethylene (TCE) Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ansi-vinyl-chloride-exposure-awareness-training": {
+  "title": "OSHA/ANSI Vinyl Chloride Exposure Awareness Training",
+  "price": 19.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-asbestos-awareness-training": {
+  "title": "OSHA Asbestos Awareness Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-asbestos-awareness-training-class-iv": {
+  "title": "OSHA Asbestos Awareness Training (Class IV)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-back-safety-safe-lifting-training": {
+  "title": "OSHA Back Safety & Safe Lifting Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-benzene-awareness-training": {
+  "title": "OSHA Benzene Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-bloodborne-pathogens-certification-training": {
+  "title": "OSHA Bloodborne Pathogens Certification Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-bloodborne-pathogens-training": {
+  "title": "OSHA Bloodborne Pathogens Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-cadmium-awareness-training": {
+  "title": "OSHA Cadmium Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-cold-stress-awareness-training": {
+  "title": "OSHA Cold Stress Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-combustible-dust-safety-training": {
+  "title": "OSHA Combustible Dust Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-basic-rigging-and-inspection-training": {
+  "title": "OSHA Competent Person for Basic Rigging and Inspection Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-concrete-and-masonry-construction-training": {
+  "title": "OSHA Competent Person for Concrete and Masonry Construction Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-confined-spaces-training": {
+  "title": "OSHA Competent Person for Confined Spaces Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-excavation-trenching-and-shoring-training": {
+  "title": "OSHA Competent Person for Excavation, Trenching, and Shoring Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-fall-protection-training": {
+  "title": "OSHA Competent Person for Fall Protection Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-fall-protection-training-refresher": {
+  "title": "OSHA Competent Person for Fall Protection Training - Refresher",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-silica-training": {
+  "title": "OSHA Competent Person for Silica Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-competent-person-for-swing-stage-suspended-scaffold-training": {
+  "title": "OSHA Competent Person for Swing Stage (Suspended) Scaffold Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-compressed-gas-cylinder-safety-training": {
+  "title": "OSHA Compressed Gas Cylinder Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-concrete-and-masonry-awareness-training": {
+  "title": "OSHA Concrete and Masonry Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-confined-space-awareness-training": {
+  "title": "OSHA Confined Space Awareness Training",
+  "price": 19.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-confined-space-competent-person-training": {
+  "title": "OSHA Confined Space Competent Person Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-confined-space-supervisor-training": {
+  "title": "OSHA Confined Space Supervisor Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-confined-space-training": {
+  "title": "OSHA Confined Space Training",
+  "price": 19.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-crane-and-derrick-safety-training-for-construction": {
+  "title": "OSHA Crane and Derrick Safety Training for Construction",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-driving-safety-training": {
+  "title": "OSHA Driving Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-electrical-safety-related-work-practices-training": {
+  "title": "OSHA Electrical Safety-Related Work Practices Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-electrical-safety-training-nfpa-70e-2024": {
+  "title": "OSHA Electrical Safety Training (NFPA 70E 2024)",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-emergency-action-plan-eap-training": {
+  "title": "OSHA Emergency Action Plan (EAP) Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-emergency-action-plans-training": {
+  "title": "OSHA Emergency Action Plans Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-epa-16-hour-asbestos-operations-and-maintenance-o-m-class-iii-worker-training": {
+  "title": "OSHA/EPA 16-Hour Asbestos Operations and Maintenance (O&M) Class III Worker Training",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-excavation-competent-person-training": {
+  "title": "OSHA Excavation Competent Person Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-excavation-trenching-and-shoring-safety-training": {
+  "title": "OSHA Excavation, Trenching, and Shoring Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-excavation-trenching-safety-training": {
+  "title": "OSHA Excavation & Trenching Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-eye-and-face-protection-for-construction-training": {
+  "title": "OSHA Eye and Face Protection for Construction Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fall-protection-competent-person-training": {
+  "title": "OSHA Fall Protection Competent Person Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fall-protection-safety-training": {
+  "title": "OSHA Fall Protection Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fall-protection-training": {
+  "title": "OSHA Fall Protection Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fire-safety-fire-extinguisher-training": {
+  "title": "OSHA Fire Safety & Fire Extinguisher Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fire-safety-for-workplace-safety-for-healthcare-facilities": {
+  "title": "OSHA Fire Safety for Workplace Safety for Healthcare Facilities",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fire-safety-for-workplace-safety-for-manufacturing": {
+  "title": "OSHA Fire Safety for Workplace Safety for Manufacturing",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fire-safety-for-workplace-safety-for-warehousing": {
+  "title": "OSHA Fire Safety for Workplace Safety for Warehousing",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-fire-safety-training": {
+  "title": "OSHA Fire Safety Training for Workplace Safety",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-flammable-and-combustible-liquids-awareness-training": {
+  "title": "OSHA Flammable and Combustible Liquids Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-focus-four-struck-by-hazards-prevention-for-construction-training": {
+  "title": "OSHA Focus Four Struck-By Hazards Prevention for Construction Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-forklift-certification-training": {
+  "title": "OSHA Forklift Certification Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-forklift-safety-training": {
+  "title": "OSHA Forklift Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-full-body-harness-training": {
+  "title": "OSHA Full Body Harness Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-gfci-ground-fault-protection-training": {
+  "title": "OSHA GFCI & Ground-Fault Protection Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ground-fault-protection-gfci-safety-training-nfpa-70e-2024": {
+  "title": "OSHA Ground Fault Protection/GFCI Safety Training (NFPA 70E 2024)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hand-and-power-tools-safety-training": {
+  "title": "OSHA Hand and Power Tools Safety Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hand-power-tool-safety-training": {
+  "title": "OSHA Hand & Power Tool Safety Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hazard-communication-hazcom-ghs-training": {
+  "title": "OSHA Hazard Communication (HazCom/GHS) Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hazwoper-and-rcra-hazardous-waste-management-technician-safety-training": {
+  "title": "OSHA HAZWOPER and RCRA Hazardous Waste Management Technician Safety Training",
+  "price": 199.99,
+  "lmsId": 599,
+  "priceSource": "lms"
+ },
+ "osha-heat-illness-prevention-training-general-industry": {
+  "title": "OSHA Heat Illness Prevention Training (General Industry)",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hexavalent-chromium-awareness-training": {
+  "title": "OSHA Hexavalent Chromium Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hexavalent-chromium-safety-and-remediation-training": {
+  "title": "OSHA Hexavalent Chromium Safety and Remediation Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hot-work-safety-for-construction-training": {
+  "title": "OSHA Hot Work Safety for Construction Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hot-work-safety-for-general-industry-training": {
+  "title": "OSHA Hot Work Safety for General Industry Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hydrogen-sulfide-awareness-training": {
+  "title": "OSHA Hydrogen Sulfide (H2S) Awareness Training",
+  "price": 19.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hydrogen-sulfide-h2s-1-hour-refresher-training": {
+  "title": "OSHA Hydrogen Sulfide (H2S) 1-Hour Refresher Training",
+  "price": 19.95,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-hydrogen-sulfide-h2s-training-international": {
+  "title": "OSHA Hydrogen Sulfide (H2S) Training (International)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-incident-investigation-for-healthcare-risk-management": {
+  "title": "OSHA Incident Investigation for Healthcare Risk Management",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-incident-investigation-for-manufacturing-safety-teams": {
+  "title": "OSHA Incident Investigation for Manufacturing Safety Teams",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-incident-investigation-training": {
+  "title": "OSHA Incident Investigation Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-incipient-firefighting-training": {
+  "title": "OSHA Incipient Firefighting Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-inspection-preparation-and-response-training": {
+  "title": "OSHA Inspection Preparation and Response Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ionizing-radiation-safety-training": {
+  "title": "OSHA Ionizing Radiation Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-job-hazard-analysis-for-construction-supervisors": {
+  "title": "OSHA Job Hazard Analysis for Construction Supervisors",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-job-hazard-analysis-for-food-beverage-processing": {
+  "title": "OSHA Job Hazard Analysis for Food & Beverage Processing",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-job-hazard-analysis-for-healthcare-facilities-management": {
+  "title": "OSHA Job Hazard Analysis for Healthcare Facilities Management",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-job-hazard-analysis-for-mining": {
+  "title": "OSHA Job Hazard Analysis for Mining",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-job-hazard-analysis-training": {
+  "title": "OSHA Job Hazard Analysis Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ladder-safety-training": {
+  "title": "OSHA Ladder and Stairway Safety Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-lead-awareness-training": {
+  "title": "OSHA Lead Awareness Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-lead-safety-training": {
+  "title": "OSHA Lead Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-lockout-tagout-loto-for-manufacturing": {
+  "title": "OSHA Lockout Tagout (LOTO) for Manufacturing",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-lockout-tagout-loto-for-pulp-paper": {
+  "title": "OSHA Lockout Tagout (LOTO) for Pulp & Paper",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-lockout-tagout-loto-for-utilities-electrical-gas": {
+  "title": "OSHA Lockout Tagout (LOTO) for Utilities (Electrical/Gas)",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-lockout-tagout-loto-training": {
+  "title": "OSHA Lockout Tagout (LOTO) Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-machine-guarding-safety-training": {
+  "title": "osha-machine-guarding-safety-training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-machine-guarding-training": {
+  "title": "OSHA Machine Guarding Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-motorized-mobile-platforms-safety-awareness-training": {
+  "title": "OSHA Motorized Mobile Platforms Safety Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-noise-exposure-and-hearing-conservation-training": {
+  "title": "OSHA Hearing Conservation Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-overhead-and-gantry-crane-safety-training": {
+  "title": "OSHA Overhead and Gantry Crane Safety Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-pallet-jack-safety-training": {
+  "title": "Pallet Jack (Manual, Electric) Online Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-pallet-jack-safety-training-manual-electric": {
+  "title": "OSHA Pallet Jack Safety Training (Manual & Electric)",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-permit-required-confined-space-entry-training": {
+  "title": "OSHA Permit-Required Confined Space Entry Training",
+  "price": 69.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-personal-protective-equipment-training": {
+  "title": "OSHA Personal Protective Equipment (PPE) Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-powered-mobile-equipment-safety-training": {
+  "title": "OSHA Powered Mobile Equipment Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-ppe-personal-protective-equipment-training": {
+  "title": "OSHA PPE (Personal Protective Equipment) Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-process-safety-management-training": {
+  "title": "OSHA Process Safety Management Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-qualified-person-for-scaffolding-safety-training": {
+  "title": "OSHA Qualified Person for Scaffolding Safety Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-respirable-crystalline-silica-awareness-training": {
+  "title": "OSHA Respirable Crystalline Silica Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-respiratory-protection-safety-training": {
+  "title": "OSHA Respiratory Protection Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-respiratory-protection-training": {
+  "title": "OSHA Respiratory Protection Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-rigging-competent-person-training": {
+  "title": "OSHA Rigging Competent Person Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-scaffold-competent-person-training": {
+  "title": "OSHA Scaffold Competent Person Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-scaffold-qualified-person-training": {
+  "title": "OSHA Scaffold Qualified Person Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-scaffold-safety-training": {
+  "title": "OSHA Scaffold Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-scaffolding-erection-and-inspection-training-for-competent-person": {
+  "title": "OSHA Scaffolding Erection and Inspection Training for Competent Person",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-scaffolding-safety-training": {
+  "title": "OSHA Scaffolding Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-scba-awareness-and-safe-use-training": {
+  "title": "OSHA SCBA Awareness and Safe Use Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-silica-awareness-training": {
+  "title": "OSHA Silica Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-silica-competent-person-training": {
+  "title": "OSHA Silica Competent Person Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-slips-trips-falls-prevention-training": {
+  "title": "OSHA Slips, Trips & Falls Prevention Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-spill-prevention-and-response-safety-training": {
+  "title": "OSHA Spill Prevention and Response Safety Training",
+  "price": 49.99,
+  "lmsId": 416,
+  "priceSource": "lms"
+ },
+ "osha-steel-erection-safety-training": {
+  "title": "OSHA Steel Erection Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-suspended-scaffold-competent-person-training": {
+  "title": "OSHA Suspended Scaffold Competent Person Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-toxic-and-hazardous-substances-safety-training": {
+  "title": "OSHA Toxic and Hazardous Substances Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-warehouse-safety-training": {
+  "title": "OSHA Warehouse Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-welding-cutting-and-brazing-for-construction-training": {
+  "title": "OSHA Welding, Cutting, and Brazing for Construction Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-whistleblower-and-anti-retaliation-rights-training-section-11-c": {
+  "title": "OSHA Whistleblower and Anti-Retaliation Rights Training (Section 11(c))",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-workplace-ergonomics-training": {
+  "title": "OSHA Workplace Ergonomics Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-workplace-violence-prevention-for-healthcare-behavioral-health": {
+  "title": "OSHA Workplace Violence Prevention for Healthcare & Behavioral Health",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-workplace-violence-prevention-training": {
+  "title": "OSHA Workplace Violence Prevention Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "osha-workzone-traffic-control-awareness-training": {
+  "title": "OSHA Work Zone Traffic Control Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "overhead-and-underground-line-worker-safety-training": {
+  "title": "Overhead and Underground Line Worker Safety Training",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "overhead-crane-operator-certification-training": {
+  "title": "Overhead Crane Operator Certification Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "pandemic-awareness-preparedness-and-response-training": {
+  "title": "Pandemic Awareness, Preparedness, and Response Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "passenger-van-15-passenger-safety-training": {
+  "title": "Passenger Van (15-Passenger) Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "pest-control-awareness-for-food-facilities-training": {
+  "title": "Pest-Control Awareness for Food Facilities Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "pipefitting-fundamentals": {
+  "title": "Pipefitting Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "piping-and-instrumentation-diagram-p-id-reading": {
+  "title": "Piping and Instrumentation Diagram (P&ID) Reading",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "piping-systems-fundamentals": {
+  "title": "Piping Systems Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "plant-wide-lockout-tagout-program-management-training": {
+  "title": "Plant-Wide Lockout/Tagout Program Management Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "plastics-and-rubber-manufacturing-safety-training": {
+  "title": "Plastics and Rubber Manufacturing Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "plc-programming-intermediate-advanced": {
+  "title": "PLC Programming - Intermediate/Advanced",
+  "price": 169.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "plumbing-fundamentals": {
+  "title": "Plumbing Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "portable-nuclear-density-gauge-safety-training": {
+  "title": "Portable Nuclear Density Gauge Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "post-tensioned-and-pre-stressed-concrete-safety-training": {
+  "title": "Post-Tensioned and Pre-Stressed Concrete Safety Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "power-distribution-systems-fundamentals": {
+  "title": "Power Distribution Systems Fundamentals",
+  "price": 99.99,
+  "lmsId": 1092,
+  "priceSource": "lms"
+ },
+ "power-systems-electrical-fundamentals": {
+  "title": "Power Systems & Electrical Fundamentals",
+  "price": 303.99,
+  "lmsId": 847,
+  "priceSource": "lms"
+ },
+ "pre-construction-site-specific-safety-plan-development-training": {
+  "title": "Pre-Construction Site-Specific Safety Plan Development Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "predictive-maintenance-and-vibration-analysis-fundamentals": {
+  "title": "Predictive Maintenance and Vibration Analysis Fundamentals",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "press-brake-and-stamping-press-safety-training": {
+  "title": "Press Brake and Stamping Press Safety Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "pressure-measurement-fundamentals": {
+  "title": "Pressure Measurement Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "preventing-retaliation-in-the-workplace-training": {
+  "title": "Preventing Retaliation in the Workplace Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "preventive-maintenance-fundamentals": {
+  "title": "Preventive Maintenance Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "preventive-maintenance-planning": {
+  "title": "Preventive Maintenance Planning",
+  "price": 99.99,
+  "lmsId": 839,
+  "priceSource": "lms"
+ },
+ "printing-and-packaging-equipment-safety-training": {
+  "title": "Printing and Packaging Equipment Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "process-control-fundamentals": {
+  "title": "Process Control Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "process-hazard-analysis-pha-training-for-oil-gas-facilities": {
+  "title": "Process Hazard Analysis (PHA) Training for Oil & Gas Facilities",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "programmable-logic-controllers-plc-fundamentals": {
+  "title": "Programmable Logic Controllers (PLC) Fundamentals",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "propane-bobtail-and-delivery-driver-training": {
+  "title": "Propane Bobtail and Delivery Driver Training",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "propane-bulk-plant-operations-training": {
+  "title": "Propane Bulk Plant Operations Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "propane-emergency-response-and-leak-mitigation-training": {
+  "title": "Propane Emergency Response and Leak Mitigation Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "propane-system-leak-detection-and-odorization-training": {
+  "title": "Propane System Leak Detection and Odorization Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "protective-grounding-for-utility-line-work-training": {
+  "title": "Protective Grounding for Utility Line Work Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "psychrometrics-fundamentals": {
+  "title": "Psychrometrics Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "pump-troubleshooting-and-maintenance": {
+  "title": "Pump Troubleshooting and Maintenance",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "pumps-fundamentals": {
+  "title": "Pumps Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "purging-and-piping-strategies-for-ammonia-refrigeration-systems-training": {
+  "title": "Purging and Piping Strategies for Ammonia Refrigeration Systems Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "qualified-swppp-practitioner-qsp-training": {
+  "title": "Qualified SWPPP Practitioner (QSP) Training",
+  "price": 249.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "qualified-swppp-preparer-training": {
+  "title": "Qualified SWPPP Preparer Training",
+  "price": 199.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "racking-and-shelving-inspection-safety-training": {
+  "title": "Racking and Shelving Inspection Safety Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "radioactive-materials-handling-emergency-response-training": {
+  "title": "Radioactive Materials Handling & Emergency Response Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "radiofrequency-rf-safety-and-hazard-awareness-training": {
+  "title": "Radiofrequency (RF) Safety and Hazard Awareness Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "radon-awareness-training": {
+  "title": "Radon Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rail-hazmat-function-specific-training": {
+  "title": "Rail Hazmat Function-Specific Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "railroad-track-worker-safety-awareness-training": {
+  "title": "Railroad Track Worker Safety Awareness Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rcra-e-manifest-advanced-compliance-training": {
+  "title": "RCRA e-Manifest Advanced Compliance Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rcra-hazardous-waste-generator-refresher-training": {
+  "title": "RCRA Hazardous Waste Generator Refresher Training",
+  "price": 59.99,
+  "lmsId": 600,
+  "priceSource": "lms"
+ },
+ "rcra-hazardous-waste-generator-training": {
+  "title": "RCRA Hazardous Waste Generator Training",
+  "price": 89.99,
+  "lmsId": 601,
+  "priceSource": "lms"
+ },
+ "rcra-universal-waste-handler-training": {
+  "title": "RCRA Universal Waste Handler Training",
+  "price": 34.99,
+  "lmsId": 602,
+  "priceSource": "lms"
+ },
+ "reading-blueprints-industrial-plant-drawings": {
+  "title": "Reading Blueprints (Industrial Plant Drawings)",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "reading-schematics-and-symbols": {
+  "title": "Reading Schematics and Symbols",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "refrigeration-cycle-fundamentals": {
+  "title": "Refrigeration Cycle Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "reproductive-and-pregnancy-related-workplace-hazard-awareness-training": {
+  "title": "Reproductive and Pregnancy-Related Workplace Hazard Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "residential-hvac-systems": {
+  "title": "Residential HVAC Systems",
+  "price": 119.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "respiratory-fit-test-training": {
+  "title": "Respiratory Fit Test Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "respiratory-protection-program-administrator-training": {
+  "title": "Respiratory Protection Program Administrator Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "responsible-ai-use-for-managers-leadership": {
+  "title": "Responsible AI Use for Managers & Leadership",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "return-to-work-program-management-training": {
+  "title": "Return-to-Work Program Management Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rf-exposure-awareness-for-tower-antenna-work": {
+  "title": "RF Exposure Awareness for Tower & Antenna Work",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rigger-level-i-certification-training": {
+  "title": "Rigger Level I Certification Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rigger-level-ii-certification-training": {
+  "title": "Rigger Level II Certification Training",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rigging-and-hoisting-skills-fundamentals": {
+  "title": "Rigging and Hoisting Skills Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rigging-safety-awareness-training": {
+  "title": "Rigging Safety Awareness Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "robot-safety-and-risk-assessment-training": {
+  "title": "Robot Safety and Risk Assessment Training",
+  "price": 299,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "robotic-welding-cell-safety-training": {
+  "title": "Robotic Welding Cell Safety Training",
+  "price": 54.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rollover-protective-structures-and-overhead-protection-for-construction-equipment-training": {
+  "title": "Rollover Protective Structures and Overhead Protection for Construction Equipment Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "rollover-protective-structures-rops-and-tractor-safety-training": {
+  "title": "Rollover Protective Structures (ROPS) and Tractor Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "roofing-systems-maintenance-fundamentals": {
+  "title": "Roofing Systems Maintenance Fundamentals",
+  "price": 99.99,
+  "lmsId": 1101,
+  "priceSource": "lms"
+ },
+ "root-cause-analysis-for-workplace-incidents-training": {
+  "title": "Root Cause Analysis for Workplace Incidents Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "safe-patient-handling-and-mobility-training": {
+  "title": "Safe Patient Handling and Mobility Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "safe-resident-handling-and-mobility-training-long-term-care": {
+  "title": "Safe Resident Handling and Mobility Training (Long-Term Care)",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "safety-committee-member-training": {
+  "title": "Safety Committee Member Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "safety-leadership-for-supervisors-training": {
+  "title": "Safety Leadership for Supervisors Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "safety-observation-and-coaching-training": {
+  "title": "Safety Observation and Coaching Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "safety-program-for-surface-mobile-equipment-training-2024-msha-rule": {
+  "title": "Safety Program for Surface Mobile Equipment Training (2024 MSHA Rule)",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "sanitary-design-and-cleaning-chemical-safety-for-food-facilities-training": {
+  "title": "Sanitary Design and Cleaning Chemical Safety for Food Facilities Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "sanitation-controls-and-ssops-training": {
+  "title": "Sanitation Controls and SSOPs Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "scada-systems-fundamentals": {
+  "title": "SCADA Systems Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "scaffold-safety-awareness-spanish-concientizaci-n-de-seguridad-en-andamios": {
+  "title": "Scaffold Safety Awareness (Spanish) / Concientización de seguridad en andamios",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "security-compliance-for-data-centers": {
+  "title": "Security & Compliance for Data Centers",
+  "price": 291.99,
+  "lmsId": 848,
+  "priceSource": "lms"
+ },
+ "serious-injury-and-fatality-prevention-training": {
+  "title": "Serious Injury and Fatality Prevention Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "server-room-ergonomics-and-manual-handling-training": {
+  "title": "Server Room Ergonomics and Manual Handling Training",
+  "price": 99.99,
+  "lmsId": 858,
+  "priceSource": "lms"
+ },
+ "severe-weather-preparedness-tornado-hurricane-and-earthquake-training": {
+  "title": "Severe Weather Preparedness - Tornado, Hurricane and Earthquake Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "sexual-harassment-prevention-training-for-employees": {
+  "title": "Sexual Harassment Prevention Training for Employees",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "sexual-harassment-prevention-training-for-managers-supervisors": {
+  "title": "Sexual Harassment Prevention Training for Managers/Supervisors",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shift-work-and-fatigue-risk-management-training": {
+  "title": "Shift-Work and Fatigue Risk Management Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ship-s-machinery-and-piping-systems-safety-training": {
+  "title": "Ship's Machinery and Piping Systems Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipboard-confined-space-entry-training": {
+  "title": "Shipboard Confined Space Entry Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipping-lithium-batteries-excepted-cells-and-batteries": {
+  "title": "Shipping Lithium Batteries: Excepted Cells and Batteries",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipping-lithium-batteries-excepted-cells-and-batteries-u-s-dot-icao-iata-imo-imdg": {
+  "title": "Shipping Lithium Batteries: Excepted Cells and Batteries (U.S. DOT, ICAO/IATA, IMO/IMDG)",
+  "price": 169.99,
+  "lmsId": null,
+  "priceSource": "legacy-list"
+ },
+ "shipping-lithium-batteries-fully-regulated-and-excepted-cells-and-batteries-training": {
+  "title": "Shipping Lithium Batteries: Fully Regulated and Excepted Cells and Batteries Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipping-lithium-batteries-fully-regulated-and-excepted-cells-and-batteries-training-u-s-dot-icao-iata-imo-imdg": {
+  "title": "Shipping Lithium Batteries: Fully Regulated and Excepted Cells and Batteries Training (U.S. DOT, ICAO/IATA, IMO/IMDG)",
+  "price": 299.99,
+  "lmsId": null,
+  "priceSource": "legacy-list"
+ },
+ "shipping-lithium-batteries-fully-regulated-cells-and-batteries": {
+  "title": "Shipping Lithium Batteries: Fully Regulated Cells and Batteries",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipping-lithium-batteries-fully-regulated-cells-and-batteries-u-s-dot-icao-iata-imo-imdg": {
+  "title": "Shipping Lithium Batteries: Fully Regulated Cells and Batteries (U.S. DOT, ICAO/IATA, IMO/IMDG)",
+  "price": 169.99,
+  "lmsId": null,
+  "priceSource": "legacy-list"
+ },
+ "shipyard-electrical-machinery-safety-training": {
+  "title": "Shipyard Electrical Machinery Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipyard-employment-safety-training": {
+  "title": "Shipyard Employment Safety Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipyard-fall-protection-training-scaffolds-ladders-working-surfaces": {
+  "title": "Shipyard Fall Protection Training (Scaffolds, Ladders & Working Surfaces)",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipyard-fire-prevention-and-protection-training": {
+  "title": "Shipyard Fire Prevention and Protection Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipyard-personal-protective-equipment-training": {
+  "title": "Shipyard Personal Protective Equipment Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipyard-rigging-and-materials-handling-safety-training": {
+  "title": "Shipyard Rigging and Materials Handling Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "shipyard-surface-preparation-and-preservation-coatings-blasting-safety-training": {
+  "title": "Shipyard Surface Preparation and Preservation (Coatings/Blasting) Safety Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "signal-person-certification-training": {
+  "title": "Signal Person Certification Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "signs-signals-and-barricades-training-for-construction": {
+  "title": "Signs, Signals, and Barricades Training for Construction",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "silica-exposure-control-plan-development-training": {
+  "title": "Silica Exposure Control Plan Development Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "slow-moving-vehicle-and-farm-equipment-road-safety-training": {
+  "title": "Slow-Moving Vehicle and Farm Equipment Road Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "solar-photovoltaic-pv-installation-electrical-safety-training": {
+  "title": "Solar Photovoltaic (PV) Installation Electrical Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "solar-pv-rooftop-fall-protection-training": {
+  "title": "Solar PV Rooftop Fall Protection Training",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "stairways-in-construction-safety-training": {
+  "title": "Stairways in Construction Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "steam-systems-fundamentals": {
+  "title": "Steam Systems Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "steam-trap-selection-and-maintenance": {
+  "title": "Steam Trap Selection and Maintenance",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "stop-work-authority-training": {
+  "title": "Stop-Work Authority Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "stress-burnout-and-fatigue-management-training": {
+  "title": "Stress, Burnout and Fatigue Management Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "substation-entry-safety-for-non-electrical-workers-training": {
+  "title": "Substation Entry Safety for Non-Electrical Workers Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "suicide-prevention-and-response-for-the-workplace-training": {
+  "title": "Suicide Prevention and Response for the Workplace Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "surface-coal-mine-safety-training": {
+  "title": "Surface Coal Mine Safety Training",
+  "price": 139.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "surface-metal-nonmetal-mine-safety-training": {
+  "title": "Surface Metal/Nonmetal Mine Safety Training",
+  "price": 139.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "tabletop-exercise-design-and-facilitation-training": {
+  "title": "Tabletop Exercise Design and Facilitation Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "telecommunications-tower-climbing-safety-training": {
+  "title": "Telecommunications Tower Climbing Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "telecommunications-tower-rescue-training": {
+  "title": "Telecommunications Tower Rescue Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "telehandler-telescopic-forklift-operator-certification-training": {
+  "title": "Telehandler (Telescopic Forklift) Operator Certification Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "temperature-measurement-fundamentals": {
+  "title": "Temperature Measurement Fundamentals",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "temporary-power-safety-for-construction-training": {
+  "title": "Temporary Power Safety for Construction Training",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "tenorm-technologically-enhanced-norm-handling-and-waste-management-training": {
+  "title": "TENORM (Technologically Enhanced NORM) Handling and Waste Management Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "textile-manufacturing-safety-training": {
+  "title": "Textile Manufacturing Safety Training",
+  "price": 39.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "tier-infrastructure-fundamentals": {
+  "title": "Tier Infrastructure Fundamentals",
+  "price": 280.99,
+  "lmsId": 849,
+  "priceSource": "lms"
+ },
+ "titanium-and-exotic-metals-machining-fire-safety-training": {
+  "title": "Titanium and Exotic Metals Machining Fire Safety Training",
+  "price": 54.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "tower-crane-erection-and-dismantling-safety-training": {
+  "title": "Tower Crane Erection and Dismantling Safety Training",
+  "price": 179.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "tower-crane-operator-certification-training-nccco-aligned": {
+  "title": "Tower Crane Operator Certification Training (NCCCO-Aligned)",
+  "price": 279.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "toxic-release-inventory-tri-reporting-training": {
+  "title": "Toxic Release Inventory (TRI) Reporting Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "transformers-fundamentals": {
+  "title": "Transformers Fundamentals",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "trenchless-technology-and-directional-boring-safety-training": {
+  "title": "Trenchless Technology and Directional Boring Safety Training",
+  "price": 89.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "tuberculosis-tb-exposure-control-plan-training": {
+  "title": "Tuberculosis (TB) Exposure Control Plan Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "unconscious-bias-awareness-training": {
+  "title": "Unconscious Bias Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "underground-coal-mine-safety-training-roof-control-ventilation": {
+  "title": "Underground Coal Mine Safety Training (Roof Control & Ventilation)",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "underground-construction-caissons-cofferdams-and-compressed-air-safety-training": {
+  "title": "Underground Construction, Caissons, Cofferdams, and Compressed Air Safety Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "underground-metal-nonmetal-mine-safety-training": {
+  "title": "Underground Metal/Nonmetal Mine Safety Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "unexploded-ordnance-uxo-awareness-training": {
+  "title": "Unexploded Ordnance (UXO) Awareness Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "ups-operations-load-testing": {
+  "title": "UPS Operations & Load Testing",
+  "price": 99.99,
+  "lmsId": 840,
+  "priceSource": "lms"
+ },
+ "ups-systems-fundamentals": {
+  "title": "UPS Systems Fundamentals",
+  "price": 99.99,
+  "lmsId": 1102,
+  "priceSource": "lms"
+ },
+ "used-oil-management-compliance-training": {
+  "title": "Used Oil Management Compliance Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "utility-locating-and-ground-disturbance-safety-training-call-811": {
+  "title": "Utility Locating and Ground Disturbance Safety Training (Call 811)",
+  "price": 44.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "utility-manhole-and-vault-confined-space-entry-training": {
+  "title": "Utility Manhole and Vault Confined Space Entry Training",
+  "price": 59.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "uv-radiation-exposure-safety-training": {
+  "title": "UV Radiation Exposure Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "valves-fundamentals": {
+  "title": "Valves Fundamentals",
+  "price": 79.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "variable-frequency-drives-vfd-fundamentals": {
+  "title": "Variable Frequency Drives (VFD) Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "variable-refrigerant-flow-vrf-systems-fundamentals": {
+  "title": "Variable Refrigerant Flow (VRF) Systems Fundamentals",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "vertical-reciprocating-conveyor-vrc-safety-training": {
+  "title": "Vertical Reciprocating Conveyor (VRC) Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "warehouse-automation-robotics-pedestrian-safety-training": {
+  "title": "Warehouse Automation & Robotics Pedestrian Safety Training",
+  "price": 29.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "warehouse-pedestrian-and-powered-equipment-traffic-safety-training": {
+  "title": "Warehouse Pedestrian and Powered Equipment Traffic Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "waste-anesthetic-gas-exposure-safety-training": {
+  "title": "Waste Anesthetic Gas Exposure Safety Training",
+  "price": 34.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "wastewater-discharge-and-pretreatment-compliance-training": {
+  "title": "Wastewater Discharge and Pretreatment Compliance Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "welding-processes-fundamentals-skills-based": {
+  "title": "Welding Processes Fundamentals (Skills-Based)",
+  "price": 119.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "wildfire-smoke-safety-awareness-training": {
+  "title": "Wildfire Smoke Safety Awareness Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "wind-turbine-confined-space-nacelle-tower-entry-training": {
+  "title": "Wind Turbine Confined Space (Nacelle/Tower) Entry Training",
+  "price": 99.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "wind-turbine-rescue-and-self-rescue-training": {
+  "title": "Wind Turbine Rescue and Self-Rescue Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "wind-turbine-technician-safety-training": {
+  "title": "Wind Turbine Technician Safety Training",
+  "price": 129.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "winter-and-adverse-weather-driving-safety-training": {
+  "title": "Winter and Adverse Weather Driving Safety Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "workplace-anti-discrimination-training": {
+  "title": "Workplace Anti-Discrimination Training",
+  "price": 24.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "workplace-exposure-monitoring-and-sampling-training": {
+  "title": "Workplace Exposure Monitoring and Sampling Training",
+  "price": 149.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ },
+ "workplace-mental-health-awareness-training": {
+  "title": "Workplace Mental Health Awareness Training",
+  "price": 49.99,
+  "lmsId": null,
+  "priceSource": "master-catalog"
+ }
+}

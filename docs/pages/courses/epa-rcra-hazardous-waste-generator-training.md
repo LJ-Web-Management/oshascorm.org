@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** EPA – 40 CFR 262.17 (RCRA)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $89.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/epa-rcra-hazardous-waste-generator-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=epa-rcra-hazardous-waste-generator-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $114.74 | $1,147.41 |
-| 25 | $80.17 | $2,004.20 |
-| 50 | $68.64 | $3,432.17 |
-| 75 | $64.80 | $4,860.14 |
-| 100 | $62.88 | $6,288.11 |
-| 150 | $60.96 | $9,144.06 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $89.99 | $899.90 |
+| 25 | $89.99 | $2,249.75 |
+| 50 | $89.99 | $4,499.50 |
+| 100 | $89.99 | $8,999.00 |
+| 200 | $89.99 | $17,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ EPA RCRA Hazardous Waste Generator Training is delivered as an LMS-ready SCORM p
 
 ### How much does EPA RCRA Hazardous Waste Generator Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,147.41 for 10 seats ($114.74 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$89.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $899.90 for 10 seats or $17,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the EPA RCRA Hazardous Waste Generator Training course?
 

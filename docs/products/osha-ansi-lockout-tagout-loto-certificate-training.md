@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 3 hours
 - **Regulation:** OSHA/ANSI – 29 CFR 1910.147 / ANSI Z244.1
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $44.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-ansi-lockout-tagout-loto-certificate-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-ansi-lockout-tagout-loto-certificate-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $122.49 | $1,224.90 |
-| 25 | $122.49 | $3,062.26 |
-| 50 | $118.74 | $5,937.03 |
-| 75 | $112.49 | $8,436.83 |
-| 100 | $112.49 | $11,249.10 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $44.99 | $449.90 |
+| 25 | $44.99 | $1,124.75 |
+| 50 | $44.99 | $2,249.50 |
+| 100 | $44.99 | $4,499.00 |
+| 200 | $44.99 | $8,998.00 |
 
 ## Overview
 
@@ -99,7 +97,7 @@ OSHA-ANSI Lockout/Tagout (LOTO) Certificate Training is delivered as an LMS-read
 
 ### How much does OSHA-ANSI Lockout/Tagout (LOTO) Certificate Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,224.90 for 10 seats ($122.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$44.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $449.90 for 10 seats or $8,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA-ANSI Lockout/Tagout (LOTO) Certificate Training course?
 

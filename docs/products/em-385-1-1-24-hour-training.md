@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 24 hours
 - **Regulation:** USACE – EM 385-1-1 (2024)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $219.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/em-385-1-1-24-hour-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=em-385-1-1-24-hour-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $235.19 | $2,351.90 |
-| 25 | $235.19 | $5,879.76 |
-| 50 | $227.99 | $11,399.53 |
-| 75 | $160.00 | $12,000.00 |
-| 100 | $97.90 | $9,789.90 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $219.99 | $2,199.90 |
+| 25 | $219.99 | $5,499.75 |
+| 50 | $219.99 | $10,999.50 |
+| 100 | $219.99 | $21,999.00 |
+| 200 | $219.99 | $43,998.00 |
 
 ## Overview
 
@@ -89,7 +87,7 @@ EM 385-1-1 24 Hour Training is delivered as an LMS-ready SCORM package — you c
 
 ### How much does EM 385-1-1 24 Hour Training cost?
 
-Pricing is per learner seat for a 12-month license: $2,351.90 for 10 seats ($235.19 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$219.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,199.90 for 10 seats or $43,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the EM 385-1-1 24 Hour Training course?
 

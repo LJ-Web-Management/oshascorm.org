@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1926.251 / ASME B30.9
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $34.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/rigging-safety-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=rigging-safety-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $43.19 | $431.91 |
-| 25 | $34.10 | $852.45 |
-| 50 | $31.07 | $1,553.36 |
-| 75 | $30.06 | $2,254.27 |
-| 100 | $29.55 | $2,955.17 |
-| 150 | $29.05 | $4,356.99 |
-| 200 | $28.79 | $5,758.80 |
+| 10 | $34.99 | $349.90 |
+| 25 | $34.99 | $874.75 |
+| 50 | $34.99 | $1,749.50 |
+| 100 | $34.99 | $3,499.00 |
+| 200 | $34.99 | $6,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Rigging Safety Awareness Training is delivered as an LMS-ready SCORM package —
 
 ### How much does Rigging Safety Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $431.91 for 10 seats ($43.19 per seat), down to $28.79 per seat at 200 seats ($5,758.80). Need more seats? Contact us for enterprise pricing.
+$34.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $349.90 for 10 seats or $6,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Rigging Safety Awareness Training course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** Cal/OSHA – 8 CCR 5192 / CA Water Code
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $49.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/cal-osha-spill-prevention-and-response-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-spill-prevention-and-response-safety-training&seats=10
 
 ## Key details
 
@@ -30,19 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $28.49 | $284.91 |
-| 25 | $25.49 | $637.29 |
-| 50 | $22.49 | $1,124.63 |
-| 75 | $19.49 | $1,462.01 |
-| 100 | $17.99 | $1,799.40 |
-| 150 | $13.80 | $2,069.31 |
-| 200 | $11.40 | $2,279.24 |
-| 250 | $9.60 | $2,399.20 |
-| 300 | $8.40 | $2,519.16 |
-| 350 | $7.50 | $2,624.13 |
-| 400 | $7.50 | $2,999.00 |
-| 450 | $7.20 | $3,238.92 |
-| 500 | $6.60 | $3,298.90 |
+| 10 | $49.99 | $499.90 |
+| 25 | $49.99 | $1,249.75 |
+| 50 | $49.99 | $2,499.50 |
+| 100 | $49.99 | $4,999.00 |
+| 200 | $49.99 | $9,998.00 |
 
 ## Overview
 
@@ -103,7 +95,7 @@ Cal/OSHA Spill Prevention and Response Safety Training is delivered as an LMS-re
 
 ### How much does Cal/OSHA Spill Prevention and Response Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $284.91 for 10 seats ($28.49 per seat), down to $6.60 per seat at 500 seats ($3,298.90). Need more seats? Contact us for enterprise pricing.
+$49.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $499.90 for 10 seats or $9,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cal/OSHA Spill Prevention and Response Safety Training course?
 

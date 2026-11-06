@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** 29 CFR 1910.120(q)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $179.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-8-hour-hazwoper-incident-commander-training-1910-120-q#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-8-hour-hazwoper-incident-commander-training-1910-120-q&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $159.99 | $1,599.92 |
-| 25 | $96.84 | $2,420.98 |
-| 50 | $75.79 | $3,789.41 |
-| 75 | $68.77 | $5,157.84 |
-| 100 | $65.26 | $6,526.27 |
-| 150 | $61.75 | $9,263.14 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $179.99 | $1,799.90 |
+| 25 | $179.99 | $4,499.75 |
+| 50 | $179.99 | $8,999.50 |
+| 100 | $179.99 | $17,999.00 |
+| 200 | $179.99 | $35,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA 8-Hour HAZWOPER Incident Commander Training (1910.120(q)) is delivered as a
 
 ### How much does OSHA 8-Hour HAZWOPER Incident Commander Training (1910.120(q)) cost?
 
-Pricing is per learner seat for a 12-month license: $1,599.92 for 10 seats ($159.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$179.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,799.90 for 10 seats or $35,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 8-Hour HAZWOPER Incident Commander Training (1910.120(q)) course?
 

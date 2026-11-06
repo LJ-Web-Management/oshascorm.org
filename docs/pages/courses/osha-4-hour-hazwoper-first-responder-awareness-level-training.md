@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** 29 CFR 1910.120(q)(6)(i)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $61.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-4-hour-hazwoper-first-responder-awareness-level-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-4-hour-hazwoper-first-responder-awareness-level-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $52.69 | $526.91 |
-| 25 | $57.31 | $1,432.68 |
-| 50 | $58.85 | $2,942.30 |
-| 75 | $59.36 | $4,451.92 |
-| 100 | $59.62 | $5,961.53 |
-| 150 | $59.87 | $8,980.77 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $61.99 | $619.90 |
+| 25 | $61.99 | $1,549.75 |
+| 50 | $61.99 | $3,099.50 |
+| 100 | $61.99 | $6,199.00 |
+| 200 | $61.99 | $12,398.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA 4-Hour HAZWOPER First Responder Awareness Level Training is delivered as an
 
 ### How much does OSHA 4-Hour HAZWOPER First Responder Awareness Level Training cost?
 
-Pricing is per learner seat for a 12-month license: $526.91 for 10 seats ($52.69 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$61.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $619.90 for 10 seats or $12,398.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 4-Hour HAZWOPER First Responder Awareness Level Training course?
 

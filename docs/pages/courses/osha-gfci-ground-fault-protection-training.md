@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** OSHA/NFPA – 29 CFR 1926.404 / NFPA 70E
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $29.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-gfci-ground-fault-protection-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-gfci-ground-fault-protection-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $50.99 | $509.91 |
-| 25 | $41.52 | $1,037.98 |
-| 50 | $38.36 | $1,918.10 |
-| 75 | $37.31 | $2,798.22 |
-| 100 | $36.78 | $3,678.33 |
-| 150 | $36.26 | $5,438.57 |
-| 200 | $35.99 | $7,198.80 |
+| 10 | $29.99 | $299.90 |
+| 25 | $29.99 | $749.75 |
+| 50 | $29.99 | $1,499.50 |
+| 100 | $29.99 | $2,999.00 |
+| 200 | $29.99 | $5,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA GFCI & Ground-Fault Protection Training is delivered as an LMS-ready SCORM 
 
 ### How much does OSHA GFCI & Ground-Fault Protection Training cost?
 
-Pricing is per learner seat for a 12-month license: $509.91 for 10 seats ($50.99 per seat), down to $35.99 per seat at 200 seats ($7,198.80). Need more seats? Contact us for enterprise pricing.
+$29.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $299.90 for 10 seats or $5,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA GFCI & Ground-Fault Protection Training course?
 

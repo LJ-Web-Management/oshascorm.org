@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** 29 CFR 1910.111
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $99.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/purging-and-piping-strategies-for-ammonia-refrigeration-systems-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=purging-and-piping-strategies-for-ammonia-refrigeration-systems-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $58.79 | $587.90 |
-| 25 | $58.79 | $1,469.76 |
-| 50 | $56.99 | $2,849.53 |
-| 75 | $53.99 | $4,049.33 |
-| 100 | $53.99 | $5,399.10 |
-| 150 | $50.99 | $7,648.73 |
-| 200 | $50.99 | $10,198.30 |
+| 10 | $99.99 | $999.90 |
+| 25 | $99.99 | $2,499.75 |
+| 50 | $99.99 | $4,999.50 |
+| 100 | $99.99 | $9,999.00 |
+| 200 | $99.99 | $19,998.00 |
 
 ## Overview
 
@@ -81,7 +79,7 @@ Purging and Piping Strategies for Ammonia Refrigeration Systems Training is deli
 
 ### How much does Purging and Piping Strategies for Ammonia Refrigeration Systems Training cost?
 
-Pricing is per learner seat for a 12-month license: $587.90 for 10 seats ($58.79 per seat), down to $50.99 per seat at 200 seats ($10,198.30). Need more seats? Contact us for enterprise pricing.
+$99.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $999.90 for 10 seats or $19,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Purging and Piping Strategies for Ammonia Refrigeration Systems Training course?
 

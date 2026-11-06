@@ -1,13 +1,13 @@
 ---
 title: "Mold Inspection & Remediation Training — SCORM Courses"
 url: https://oshascorm.org/collections/mold-inspection-remediation-certification
-description: "mold remediation certification SCORM courses for your LMS: 3 courses from $42.49/seat. These SCORM courses train inspectors, remediation contractors and…"
+description: "mold remediation certification SCORM courses for your LMS: 3 courses from $49.99/seat. These SCORM courses train inspectors, remediation contractors and…"
 updated: 2026-11-06
 ---
 
 # Mold Inspection & Remediation Training — SCORM Courses
 
-> mold remediation certification SCORM courses for your LMS: 3 courses from $42.49/seat. These SCORM courses train inspectors, remediation contractors and…
+> mold remediation certification SCORM courses for your LMS: 3 courses from $49.99/seat. These SCORM courses train inspectors, remediation contractors and…
 
 These SCORM courses train inspectors, remediation contractors and facility staff to identify mold growth and moisture sources, plan sampling and assessment, and carry out safe containment and remediation with the right PPE.
 
@@ -15,9 +15,9 @@ These SCORM courses train inspectors, remediation contractors and facility staff
 
 ## Courses
 
-- [Mold Awareness, Prevention, and Remediation Training for Property Management Teams](https://oshascorm.org/products/mold-awareness-prevention-and-remediation-training-for-property-management-teams) — 4 hours, from $60.00/seat
-- [Mold Inspector Certification for Prevention, Remediation, and Removal Training](https://oshascorm.org/products/mold-inspector-certification-for-prevention-remediation-and-removal-training) — 6 hours, from $59.99/seat
-- [Mold Prevention and Remediation Awareness Training](https://oshascorm.org/products/mold-prevention-and-remediation-awareness-training) — 2 hours, from $42.49/seat
+- [Mold Awareness, Prevention, and Remediation Training for Property Management Teams](https://oshascorm.org/products/mold-awareness-prevention-and-remediation-training-for-property-management-teams) — 4 hours, from $59.99/seat
+- [Mold Inspector Certification for Prevention, Remediation, and Removal Training](https://oshascorm.org/products/mold-inspector-certification-for-prevention-remediation-and-removal-training) — 6 hours, from $299.99/seat
+- [Mold Prevention and Remediation Awareness Training](https://oshascorm.org/products/mold-prevention-and-remediation-awareness-training) — 2 hours, from $49.99/seat
 
 ## FAQ
 
@@ -27,7 +27,7 @@ Each mold remediation certification course is delivered as a SCORM 1.2 or SCORM 
 
 ### How much do mold remediation certification courses cost?
 
-This series includes 3 courses, starting from $42.49 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
+This series includes 3 courses, starting from $49.99 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
 
 ### Which regulations do these courses cover?
 

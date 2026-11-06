@@ -12,10 +12,11 @@ updated: 2026-11-06
 - **Type:** SCORM course (SCORM 1.2 and SCORM 2004 ZIP)
 - **Category:** HAZWOPER Training (29 CFR 1910.120)
 - **Duration:** 24 hours
+- **Regulation:** 29 CFR 1910.120(e)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $169.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-24-hour-hazwoper-training-29-cfr-1910-120#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-24-hour-hazwoper-training-29-cfr-1910-120&seats=10
 
 ## Key details
 
@@ -29,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $166.59 | $1,665.90 |
-| 25 | $166.59 | $4,164.76 |
-| 50 | $151.05 | $7,552.50 |
-| 75 | $117.20 | $8,789.90 |
-| 100 | $97.90 | $9,789.90 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $169.99 | $1,699.90 |
+| 25 | $169.99 | $4,249.75 |
+| 50 | $169.99 | $8,499.50 |
+| 100 | $169.99 | $16,999.00 |
+| 200 | $169.99 | $33,998.00 |
 
 ## Overview
 
@@ -91,11 +90,15 @@ OSHA 24 Hour HAZWOPER Training – 29 CFR 1910.120 (e) is delivered as an LMS-re
 
 ### How much does OSHA 24 Hour HAZWOPER Training – 29 CFR 1910.120 (e) cost?
 
-Pricing is per learner seat for a 12-month license: $1,665.90 for 10 seats ($166.59 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$169.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,699.90 for 10 seats or $33,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 24 Hour HAZWOPER Training – 29 CFR 1910.120 (e) course?
 
 The course runs approximately 24 hours. It is self-paced and online, and learners receive a certificate of completion after successfully finishing the course.
+
+### Which regulation does this course cover?
+
+This course is aligned with 29 CFR 1910.120(e).
 
 ### Is OSHA 24 Hour HAZWOPER Training – 29 CFR 1910.120 (e) available in Spanish?
 

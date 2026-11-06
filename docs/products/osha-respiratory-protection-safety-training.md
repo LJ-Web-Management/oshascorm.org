@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** OSHA General Industry Safety Training Series
 - **Duration:** 2 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-respiratory-protection-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-respiratory-protection-safety-training&seats=10
 
 ## Key details
 
@@ -29,19 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $37.99 | $379.91 |
-| 25 | $33.99 | $849.79 |
-| 50 | $29.99 | $1,499.63 |
-| 75 | $25.99 | $1,949.51 |
-| 100 | $23.99 | $2,399.40 |
-| 150 | $18.40 | $2,759.31 |
-| 200 | $15.20 | $3,039.24 |
-| 250 | $12.80 | $3,199.20 |
-| 300 | $11.20 | $3,359.16 |
-| 350 | $10.00 | $3,499.13 |
-| 400 | $10.00 | $3,999.00 |
-| 450 | $9.60 | $4,318.92 |
-| 500 | $8.80 | $4,398.90 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -94,7 +86,7 @@ OSHA Respiratory Protection Safety Training is delivered as an LMS-ready SCORM p
 
 ### How much does OSHA Respiratory Protection Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $379.91 for 10 seats ($37.99 per seat), down to $8.80 per seat at 500 seats ($4,398.90). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Respiratory Protection Safety Training course?
 

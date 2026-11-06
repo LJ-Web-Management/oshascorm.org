@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-// Build the static site from ./data (Shopify snapshot) + ./src into ./docs
-// (served by GitHub Pages). Run: `npm run build`.
+// Build the static site from ./data (the course catalog, the source of truth)
+// + ./src into ./docs (served by GitHub Pages). Run: `npm run build`.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import * as esbuild from 'esbuild';
 import sharp from 'sharp';
 import cfg from '../site.config.mjs';
-import { esc, clean, slugify, money, plainText, truncate, parseDuration, tiersFor, toMarkdown, isoDate, iso, img } from './lib/util.mjs';
-import { page, breadcrumbs, faqList, courseCard, courseRow, pricingTable, buyBox, detailsList, icon, logoMark } from './lib/layout.mjs';
+import { esc, clean, slugify, money, plainText, truncate, parseDuration, priceTiers, srcsetOf, toMarkdown, isoDate, iso } from './lib/util.mjs';
+import { page, breadcrumbs, faqList, courseCard, courseRow, pricingTable, buyBox, detailsList, icon, logoMark, trustBand, PAYMENTS } from './lib/layout.mjs';
 import * as S from './lib/schema.mjs';
 import { home, collectionCopy, scormGuide, LMS } from '../src/content/content.mjs';
 
@@ -21,12 +21,13 @@ const t0 = Date.now();
 const [rawProducts, rawCollections, rawCourses, rawPages, rawPolicies, homeFaqs, meta] = await Promise.all(
   ['products.json', 'collections.json', 'courses.json', 'pages.json', 'policies.json', 'home-faqs.json', 'meta.json'].map(read),
 );
-const ucp = await read('ucp.json').catch(() => null);
-const heroManifest = JSON.parse(await fs.readFile(path.join(ROOT, 'data/img/manifest.json'), 'utf8').catch(() => '{}'));
+const media = await read('media.json');
+const lmsData = await read('lms.json'); // handle -> { price, lmsId, priceSource }
 // Deterministic dates: output only changes when the catalog data changes, so
-// scheduled re-syncs don't rewrite every page (keeps git history small).
+// rebuilds don't rewrite every page (keeps git history small).
 const BUILD_DATE = [...rawProducts.map((p) => p.updated_at), ...rawCourses.map((c) => c.lastmod), ...rawCollections.map((c) => c.updated_at)]
-  .filter(Boolean).map((d) => new Date(d).toISOString()).sort().pop() || meta.syncedAt;
+  .filter(Boolean).map((d) => new Date(d).toISOString()).sort().pop() || meta.migratedAt;
+const abs = (u) => (u && u.startsWith('/') ? cfg.siteUrl + u : u);
 const NEXT_YEAR_END = `${new Date().getUTCFullYear() + 1}-12-31`;
 const VALID_UNTIL = NEXT_YEAR_END;
 
@@ -67,6 +68,12 @@ const citationOf = (kd = []) => kd.find((d) => /citation/i.test(d.label))?.value
 
 // ------------------------------------------------------- normalize items --
 const collectionsByHandle = Object.fromEntries(rawCollections.map((c) => [c.handle, c]));
+// LMS list price per seat (+ LMS course id when known) from data/lms.json.
+const priceOf = (handle) => {
+  const l = lmsData[handle];
+  if (!l?.price) return { price: null };
+  return { price: l.price, lmsId: l.lmsId || null, priceSource: l.priceSource, tiers: priceTiers(l.price, cfg.seatPresets) };
+};
 
 const products = rawProducts.map((p) => {
   const tabs = p.tabs.map((t) => ({ ...t, html: fixHeadings(t.html) }));
@@ -78,10 +85,9 @@ const products = rawProducts.map((p) => {
     id: p.id,
     title: p.title,
     url: `/products/${p.handle}`,
-    image: p.images[0]?.src || null,
-    ogImage: p.images[0]?.src || 'https://cdn.shopify.com/s/files/1/0644/3211/1782/files/osha-external-course_1000x.jpg',
-    hero: heroManifest[p.handle]?.files?.length ? heroManifest[p.handle].files.map((f) => ({ src: `/assets/img/p/${f}`, w: Number(f.match(/-(\d+)\.webp$/)[1]) })) : null,
-    imageAlt: p.images[0]?.alt || p.title,
+    media: media.products[p.handle] || null,
+    ogImage: abs(media.products[p.handle]?.[960] || media.brand.ogCourse),
+    imageAlt: p.imageAlt || p.title,
     duration: parseDuration(p.duration)?.label || p.duration,
     languages: p.languages.map((l) => (/only/i.test(l) ? 'English' : l)),
     keyDetails: dedupeDetails(p.keyDetails),
@@ -89,7 +95,7 @@ const products = rawProducts.map((p) => {
     category: primaryCol ? collectionsByHandle[primaryCol]?.title : 'Safety training',
     collections: p.collections,
     primaryCollection: primaryCol,
-    sku: p.variants[0]?.sku || null,
+    sku: p.sku || null,
     smallTeamUrl: p.smallTeamUrl,
     sampleUrl: p.sampleUrl,
     tabs,
@@ -98,48 +104,50 @@ const products = rawProducts.map((p) => {
     lastmod: p.updated_at,
     seo: { title: seoTitle(p.title), description: seoDesc(p.seo.description, descText) },
   };
-  c.tiers = tiersFor({ kind: 'product', variants: p.variants });
+  Object.assign(c, priceOf(p.handle));
   return c;
-}).filter((c) => c.tiers.length);
+}).filter((c) => c.price);
 
 const courses = rawCourses.map((m) => {
   const bullets = m.overviewBullets.filter((b) => clean(b) !== clean(m.overviewHeading || '') && !/overview$/i.test(b));
   const citation = citationOf(m.keyDetails);
   const descText = `${m.title}: ${bullets.join('. ')}.`.replace(/\.\./g, '.');
-  const generic = /osha-external-course/.test(m.image || '');
+  const pr = priceOf(m.handle);
   const c = {
     type: 'course',
     handle: m.handle,
     title: m.title,
     url: `/pages/courses/${m.handle}`,
-    image: generic ? null : m.image,
-    ogImage: m.image,
+    media: media.courses[m.handle] || null,
+    ogImage: abs(media.courses[m.handle]?.[960] || media.brand.ogCourse),
     imageAlt: m.title,
     duration: parseDuration(m.duration)?.label || m.duration,
     languages: m.languages.map((l) => (/only/i.test(l) ? 'English' : l)),
     keyDetails: dedupeDetails(m.keyDetails),
     citation,
     category: m.category || 'Safety training',
-    basePrice: m.basePrice,
     bullets,
     descriptionText: descText,
     lastmod: m.lastmod,
     seo: {
       title: seoTitle(m.title),
       description: seoDesc(
-        `${m.title} SCORM course${citation ? ` (${citation})` : ''}: ${parseDuration(m.duration)?.label || ''} online training for your LMS. SCORM 1.2 & 2004, certificate of completion, from ${money(Math.min(...tiersFor({ kind: 'course', seats: m.seats, basePrice: m.basePrice }).map((t) => t.perSeat)))}/seat.`,
+        `${m.title} SCORM course${citation ? ` (${citation})` : ''}: ${parseDuration(m.duration)?.label || ''} online training for your LMS. SCORM 1.2 & 2004, certificate of completion, ${pr.price ? money(pr.price) : ''} per seat.`,
       ),
     },
   };
-  c.tiers = tiersFor({ kind: 'course', seats: m.seats, basePrice: m.basePrice });
+  Object.assign(c, pr);
   return c;
-}).filter((c) => c.basePrice);
+}).filter((c) => c.price);
 
-// De-duplicate: 60+ courses exist both as a Shopify product and as a
+// De-duplicate: 60+ courses exist both as a flagship product page and as a
 // directory (metaobject) page. The product is canonical; the directory URL
 // becomes a redirect stub and the product inherits its category + citation.
 const normTitle = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-const productByTitle = Object.fromEntries(products.map((p) => [normTitle(p.title), p]));
+// "OSHA 40 Hour HAZWOPER Training – 29 CFR 1910.120 (e)" is the same course as
+// "OSHA 40-Hour HAZWOPER Training": compare titles without trailing CFR cites.
+const stripCite = (t) => t.replace(/\s*[–-]\s*\d+\s*CFR\b.*$/i, '').trim();
+const productByTitle = Object.fromEntries(products.flatMap((p) => [[normTitle(p.title), p], [normTitle(stripCite(p.title)), p]]));
 const productByHandle0 = Object.fromEntries(products.map((p) => [p.handle, p]));
 const duplicates = [];
 const duplicatesExtra = [];
@@ -150,12 +158,13 @@ for (const c of courses) {
   duplicates.push({ from: c.url, to: p.url, title: p.title });
   p.dirCategory ||= c.category;
   p.citation ||= c.citation;
+  if (!p.lmsId && c.lmsId) Object.assign(p, { lmsId: c.lmsId, price: c.price, priceSource: c.priceSource, tiers: c.tiers });
   c.duplicateOf = p;
 }
 courses.splice(0, courses.length, ...courses.filter((c) => !c.duplicateOf));
 
 const allItems = [...products, ...courses].sort((a, b) => a.title.localeCompare(b.title));
-const minPer = (c) => Math.min(...c.tiers.map((t) => t.perSeat));
+const minPer = (c) => c.price;
 
 // Directory categories -> hub pages at /training/<slug>
 const categories = {};
@@ -199,7 +208,12 @@ const jsSrc = await fs.readFile(path.join(ROOT, 'src/assets/js/app.js'), 'utf8')
 const js = (await esbuild.transform(jsSrc, { loader: 'js', minify: true, target: 'es2020' })).code;
 const assetsVersion = crypto.createHash('sha1').update(js).digest('hex').slice(0, 10);
 put('assets/js/app.js', js);
-for (const [, m] of Object.entries(heroManifest)) for (const f of m.files) put(`assets/img/p/${f}`, await fs.readFile(path.join(ROOT, 'data/img', f)));
+// Self-hosted images (data/img/** -> /assets/img/**).
+for (const dir of await fs.readdir(path.join(ROOT, 'data/img'))) {
+  for (const f of await fs.readdir(path.join(ROOT, 'data/img', dir))) put(`assets/img/${dir}/${f}`, await fs.readFile(path.join(ROOT, 'data/img', dir, f)));
+}
+const checkoutJs = (await esbuild.transform(await fs.readFile(path.join(ROOT, 'src/assets/js/checkout.js'), 'utf8'), { loader: 'js', minify: true, target: 'es2020' })).code;
+put('assets/js/checkout.js', checkoutJs);
 put('assets/fonts/inter-latin-wght.woff2', await fs.readFile(path.join(ROOT, 'node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2')));
 
 const favSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">${logoMark.replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '')}</svg>`;
@@ -248,6 +262,7 @@ const tierLines = (c) => c.tiers.map((t) => `| ${t.seats} | ${money(t.perSeat)} 
 </div>
 </div></section>
 <section class="logos" aria-label="Compatible LMS platforms"><div class="wrap"><p>Works with</p><ul>${LMS.slice(0, 9).map((l) => `<li>${esc(l)}</li>`).join('')}<li>any SCORM LMS</li></ul></div></section>
+${trustBand(cfg)}
 
 <section class="section"><div class="wrap">
 <div class="section-head"><p class="eyebrow">Training catalog</p><h2>SCORM safety training for every regulation you manage</h2><p class="lead">From OSHA HAZWOPER and NFPA 70E to DOT hazmat, RCRA, EM 385-1-1 and ELDT — every course is an LMS-ready SCORM package with a certificate of completion.</p></div>
@@ -279,6 +294,7 @@ const tierLines = (c) => c.tiers.map((t) => `| ${t.seats} | ${money(t.perSeat)} 
 <section class="section section--soft"><div class="wrap">
 <div class="section-head"><p class="eyebrow">360° Guarantee®</p><h2>You’re covered from every angle</h2></div>
 <div class="grid grid--3">${home.guarantee.map((g) => `<div class="card"><span class="icon-tile">${icon.shield}</span><h3>${esc(g.title)}</h3><p class="muted">${esc(g.text)}</p></div>`).join('')}</div>
+<p class="muted mt-2">— Kevin Taylor, General Manager · <a href="/policies/refund-policy">Read the full refund policy</a></p>
 </div></section>
 
 <section class="section"><div class="wrap">
@@ -322,7 +338,7 @@ function coursePage(c) {
   const hasEs = c.languages.some((l) => /espa/i.test(l));
   const faqs = [
     { q: `What format is ${c.title} delivered in?`, a: `<p>${esc(c.title)} is delivered as an LMS-ready SCORM package — you can choose SCORM 1.2 or SCORM 2004 — emailed as a ZIP file within 24 hours of purchase. Upload it to any SCORM-compliant LMS such as Moodle, Cornerstone, TalentLMS, Canvas or Absorb.</p>` },
-    { q: `How much does ${c.title} cost?`, a: `<p>Pricing is per learner seat for a 12-month license: ${money(lo.subtotal)} for ${lo.seats} seats (${money(lo.perSeat)} per seat), down to ${money(hi.perSeat)} per seat at ${hi.seats} seats (${money(hi.subtotal)}). Need more seats? Contact us for enterprise pricing.</p>` },
+    { q: `How much does ${c.title} cost?`, a: `<p>${money(c.price)} per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example ${money(lo.subtotal)} for ${lo.seats} seats or ${money(hi.subtotal)} for ${hi.seats} seats. Organizations order a minimum of ${cfg.minSeats} seats.</p>` },
     c.duration && { q: `How long is the ${c.title} course?`, a: `<p>The course runs approximately ${esc(c.duration)}. It is self-paced and online, and learners receive a certificate of completion after successfully finishing the course.</p>` },
     c.citation && { q: `Which regulation does this course cover?`, a: `<p>This course is aligned with ${esc(c.citation)}.</p>` },
     { q: `Is ${c.title} available in Spanish?`, a: hasEs ? '<p>Yes. This course is available in English and Spanish (Español).</p>' : '<p>This course is currently available in English. Contact us if you need a Spanish version.</p>' },
@@ -330,9 +346,9 @@ function coursePage(c) {
   ].filter(Boolean);
   const related = (isProduct ? (col?.items || []) : categories[c.category] || []).filter((x) => x.handle !== c.handle).slice(0, 4);
   const sizes = '(min-width:1024px) 560px, 92vw';
-  const heroSrcset = c.hero ? c.hero.map((h) => `${h.src} ${h.w}w`).join(', ') : c.image ? [360, 540, 720, 960, 1200].map((w) => `${img(c.image, w)} ${w}w`).join(', ') : '';
-  const heroSrc = c.hero ? (c.hero.find((h) => h.w === 720) || c.hero[0]).src : c.image ? img(c.image, 720) : '';
-  const media = c.image
+  const heroSrcset = srcsetOf(c.media);
+  const heroSrc = c.media?.[720] || '';
+  const media = c.media
     ? `<div class="pdp__media"><img src="${esc(heroSrc)}" srcset="${esc(heroSrcset)}" sizes="${sizes}" width="720" height="480" alt="${esc(c.imageAlt)}" fetchpriority="high" decoding="async"></div>`
     : `<div class="pdp__media" style="display:flex;flex-direction:column;justify-content:flex-end;padding:28px;background:radial-gradient(600px 300px at 90% 0,rgba(255,138,31,.35),transparent 60%),linear-gradient(160deg,#0b2545,#071a33);color:#c7d3e3"><p class="eyebrow" style="color:#ffb066">${esc(c.category)}</p><p style="font-size:clamp(1.3rem,1rem + 1.4vw,2rem);font-weight:800;color:#fff;line-height:1.15;letter-spacing:-.02em;margin:0 0 14px">${esc(c.title)}</p><ul class="chips"><li class="chip chip--dark">SCORM 1.2</li><li class="chip chip--dark">SCORM 2004</li>${c.duration ? `<li class="chip chip--dark">${esc(c.duration)}</li>` : ''}${c.citation ? `<li class="chip chip--dark">${esc(truncate(c.citation, 40))}</li>` : ''}</ul></div>`;
   const overview = isProduct
@@ -347,7 +363,7 @@ ${media}
 </div>
 <div class="pdp__info">
 <h1 class="pdp__title">${esc(c.title)}</h1>
-<ul class="pdp__sub chips">${c.duration ? `<li class="chip">${esc(c.duration)}</li>` : ''}<li class="chip">SCORM 1.2 &amp; 2004</li><li class="chip chip--green">${hasEs ? 'English · Español' : 'English'}</li><li class="chip chip--orange">From ${money(minPer(c))}/seat</li></ul>
+<ul class="pdp__sub chips">${c.duration ? `<li class="chip">${esc(c.duration)}</li>` : ''}<li class="chip">SCORM 1.2 &amp; 2004</li><li class="chip chip--green">${hasEs ? 'English · Español' : 'English'}</li><li class="chip chip--orange">${money(c.price)}/seat</li></ul>
 ${buyBox(c, cfg)}
 </div>
 <div class="pdp__details">
@@ -356,21 +372,21 @@ ${c.sampleUrl ? `<p class="small mt-2">${icon.download.replace('<svg', '<svg wid
 </div>
 </div>
 ${overview}
-<section class="section--tight" id="pricing"><h2>${esc(c.title)} pricing by seat count</h2><p class="muted">All prices in USD for a 12-month (365-day) license per learner seat. The SCORM package is delivered within 24 hours of payment.</p>${pricingTable(c)}</section>
+<section class="section--tight" id="pricing"><h2>${esc(c.title)} pricing</h2><p class="muted">${money(c.price)} per learner seat for a 12-month (365-day) license, in USD. Your total is simply price × seats — here are common seat counts. The SCORM package is delivered within 24 hours of payment.</p>${pricingTable(c)}</section>
 <section class="section--tight" id="faq"><h2>Frequently asked questions</h2>${faqList(faqs)}</section>
 ${related.length ? `<section class="section--tight"><h2>Related ${isProduct ? esc(col?.title || '') : esc(c.category)} courses</h2><div class="grid grid--4">${related.map((r) => courseCard(r)).join('')}</div></section>` : ''}
 <section class="section"><div class="cta"><div><h2>Be certain with our 360° Guarantee®</h2><p>Guaranteed 24-hour delivery, guaranteed value and guaranteed happiness — or your money back.</p></div><div class="cta__actions"><a class="btn btn--primary" href="#buy">Choose seats ${icon.arrow}</a><a class="btn btn--ghost-light" href="/pages/contact">Talk to us</a></div></div></section>
 </div>`;
   const jsonld = [
     ...core,
-    ...S.webPage(cfg, { path: c.url, name: c.seo.title, description: c.seo.description, type: 'ItemPage', crumbs, image: c.image ? img(c.image, 1200) : undefined, dateModified: iso(c.lastmod || BUILD_DATE) }),
+    ...S.webPage(cfg, { path: c.url, name: c.seo.title, description: c.seo.description, type: 'ItemPage', crumbs, image: c.ogImage, dateModified: iso(c.lastmod || BUILD_DATE) }),
     ...S.courseEntities(cfg, c, { validUntil: VALID_UNTIL }),
     ...S.faqPage(cfg, c.url, faqs),
   ];
   const md = mdHeader(c.title, c.url, c.seo.description) +
-    `- **Type:** SCORM course (SCORM 1.2 and SCORM 2004 ZIP)\n- **Category:** ${c.category}\n${c.duration ? `- **Duration:** ${c.duration}\n` : ''}${c.citation ? `- **Regulation:** ${c.citation}\n` : ''}- **Languages:** ${c.languages.join(', ')}\n- **License:** 12 months per learner seat\n- **Delivery:** emailed within 24 hours of purchase\n- **Buy:** ${cfg.siteUrl}${c.url}#buy\n\n## Key details\n\n${c.keyDetails.map((d) => `- **${d.label}:** ${d.value}`).join('\n')}\n\n## Pricing (USD)\n\n| Seats | Per seat | Total |\n| --- | --- | --- |\n${tierLines(c)}\n\n## Overview\n\n${isProduct ? c.tabs.map((t) => `### ${t.title}\n\n${toMarkdown(t.html)}`).join('\n\n') : c.bullets.map((b) => `- ${b}`).join('\n')}\n\n## FAQ\n\n${faqs.map((f) => `### ${f.q}\n\n${toMarkdown(f.a)}`).join('\n\n')}\n`;
+    `- **Type:** SCORM course (SCORM 1.2 and SCORM 2004 ZIP)\n- **Category:** ${c.category}\n${c.duration ? `- **Duration:** ${c.duration}\n` : ''}${c.citation ? `- **Regulation:** ${c.citation}\n` : ''}- **Languages:** ${c.languages.join(', ')}\n- **Price:** ${money(c.price)} per learner seat (12-month license, minimum ${cfg.minSeats} seats)\n- **Delivery:** emailed within 24 hours of purchase\n- **Buy:** ${cfg.siteUrl}/checkout?item=${c.handle}&seats=${cfg.minSeats}\n\n## Key details\n\n${c.keyDetails.map((d) => `- **${d.label}:** ${d.value}`).join('\n')}\n\n## Pricing (USD)\n\n| Seats | Per seat | Total |\n| --- | --- | --- |\n${tierLines(c)}\n\n## Overview\n\n${isProduct ? c.tabs.map((t) => `### ${t.title}\n\n${toMarkdown(t.html)}`).join('\n\n') : c.bullets.map((b) => `- ${b}`).join('\n')}\n\n## FAQ\n\n${faqs.map((f) => `### ${f.q}\n\n${toMarkdown(f.a)}`).join('\n\n')}\n`;
   emit(c.url, {
-    html: page(ctx, { title: c.seo.title, description: c.seo.description, path: c.url, body, jsonld, ogType: 'product', ogImage: img(c.image || c.ogImage, 1200), mdPath: mdFor(c.url), preloadImage: c.image ? { href: heroSrc, srcset: heroSrcset, sizes } : null }),
+    html: page(ctx, { title: c.seo.title, description: c.seo.description, path: c.url, body, jsonld, ogType: 'product', ogImage: c.ogImage, mdPath: mdFor(c.url), preloadImage: c.media ? { href: heroSrc, srcset: heroSrcset, sizes } : null }),
     md, lastmod: c.lastmod, priority: isProduct ? 0.8 : 0.7,
   });
 }
@@ -410,7 +426,7 @@ ${breadcrumbs(crumbs)}
 <div class="toolbar"><h2 class="mb-0" style="font-size:1.35rem">${items.length} ${esc(kw)} course${items.length === 1 ? '' : 's'}</h2><a href="/pages/courses-directory">Browse all ${TOTAL_LABEL} courses</a></div>
 ${items.length ? `<div class="grid grid--4">${items.map((x, i) => courseCard(x, { eager: i < 4 })).join('')}</div>` : `<div class="empty">New courses for this series are coming soon. <a href="/pages/courses-directory">Browse the full course directory</a>.</div>`}
 </div></section>
-${intro || audience ? `<section class="section section--soft"><div class="wrap stack">${intro ? `<div class="split"><div class="prose"><h2>${esc(intro.heading)}</h2>${intro.html}</div>${intro.image ? `<img src="${esc(img(intro.image, 720))}" srcset="${esc([360, 540, 720, 960].map((w) => `${img(intro.image, w)} ${w}w`).join(', '))}" sizes="(min-width:960px) 560px, 92vw" width="720" height="480" alt="${esc(c.title)}" loading="lazy" decoding="async" style="border-radius:22px;aspect-ratio:3/2;object-fit:cover">` : ''}</div>` : ''}${audience}</div></section>` : ''}
+${intro || audience ? `<section class="section section--soft"><div class="wrap stack">${intro ? `<div class="split"><div class="prose"><h2>${esc(intro.heading)}</h2>${intro.html}</div>${media.collections[c.handle] ? `<img src="${esc(media.collections[c.handle][720])}" srcset="${esc(srcsetOf(media.collections[c.handle]))}" sizes="(min-width:960px) 560px, 92vw" width="720" height="480" alt="${esc(c.title)}" loading="lazy" decoding="async" style="border-radius:22px;aspect-ratio:3/2;object-fit:cover">` : ''}</div>` : ''}${audience}</div></section>` : ''}
 <section class="section"><div class="wrap"><h2>${esc(kw)} — frequently asked questions</h2>${faqList(faqs)}</div></section>`;
   const title = h1.length <= 50 ? `${h1} | OSHA SCORM` : h1.length <= 65 ? h1 : h1.replace(/\s*\(Capacitación en Español\)/, '').replace(/ — SCORM Courses?$/, ' SCORM Courses');
   const desc = seoDesc(`${kw} SCORM courses for your LMS: ${items.length} course${items.length === 1 ? '' : 's'}${per ? ` from ${money(per)}/seat` : ''}. ${lead}`);
@@ -461,7 +477,7 @@ collections.forEach(collectionPage);
     const lead = `${cat.items.length} ${cat.name} courses delivered as LMS-ready SCORM 1.2 and SCORM 2004 packages${durs.length ? `, from ${Math.min(...durs)} to ${Math.max(...durs)} hours each` : ''}, starting at ${money(per)} per learner seat.`;
     const faqs = [
       { q: `What ${cat.name} courses are available in SCORM format?`, a: `<p>${cat.items.length} courses, including ${cat.items.slice(0, 5).map((c) => esc(c.title)).join(', ')}${cat.items.length > 5 ? ' and more' : ''}.</p>` },
-      { q: `How much do ${cat.name} SCORM courses cost?`, a: `<p>From ${money(per)} per learner seat for a 12-month license, with volume pricing from 10 to 200 seats on every course page.</p>` },
+      { q: `How much do ${cat.name} SCORM courses cost?`, a: `<p>From ${money(per)} per learner seat for a 12-month license. Each course page shows its per-seat price and totals for common seat counts.</p>` },
       cites.length && { q: 'Which regulations and standards are covered?', a: `<p>${cites.map(esc).join('; ')}.</p>` },
     ].filter(Boolean);
     const bodyC = `<section class="hero hero--page"><div class="wrap">${breadcrumbs(crumbsC)}<h1>${esc(h1)}</h1><p class="lead">${esc(lead)}</p><ul class="chips kpis"><li class="chip chip--dark">${cat.items.length} courses</li><li class="chip chip--dark">From ${money(per)}/seat</li><li class="chip chip--dark">English · Español</li></ul></div></section>
@@ -491,11 +507,35 @@ const pageBy = Object.fromEntries(rawPages.map((p) => [p.handle, p]));
   simplePage({ urlPath: '/pages/faq', title: 'SCORM Training FAQ | Pricing, LMS & Delivery | OSHA SCORM', h1: 'Frequently asked questions', lead: 'Everything you need to know about buying, deploying and tracking OSHASCORM.org SCORM courses in your LMS.', faqs, crumbsName: 'FAQ', priority: 0.7 });
 }
 {
-  const ok = `<p class="notice" data-contact-ok hidden>Thanks — your message has been sent. We’ll reply within one business day.</p>`;
-  const form = `<form class="form panel" method="post" action="${esc(cfg.shopPrimaryOrigin || 'https://shop.oshascorm.org')}/contact#contact_form" accept-charset="UTF-8"><input type="hidden" name="form_type" value="contact"><input type="hidden" name="utf8" value="✓"><input type="hidden" name="return_to" value="${esc(cfg.siteUrl)}/pages/contact?contact_posted=true"><label>Name<input name="contact[name]" autocomplete="name" required></label><label>Work email<input type="email" name="contact[email]" autocomplete="email" required></label><label>Phone<input type="tel" name="contact[phone]" autocomplete="tel"></label><label>How can we help?<textarea name="contact[body]" rows="5" required placeholder="Courses, seat counts, LMS, white-label needs…"></textarea></label><button class="btn btn--primary" type="submit">Send message</button></form>`;
-  const html = `${ok}<div class="split" style="align-items:start"><div>${pageBy.contact?.html || ''}<h2>Sales &amp; support hours</h2><p>Monday–Friday, 7:00 AM – 5:00 PM (Pacific). Installation support is free for one year from purchase.</p><ul class="assure"><li>${icon.phone}<span><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a></span></li><li>${icon.mail}<span><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></span></li></ul></div>${form}</div>`;
+  const ok = `<p class="notice" data-contact-ok hidden>Your email app should now be open with your message ready to send. If it didn’t open, email <a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a> or call ${esc(cfg.contact.phone)}.</p>`;
+  // No form backend on static hosting: the form composes an email to the team.
+  const form = `<form class="form panel" data-contact action="mailto:${esc(cfg.contact.email)}" method="post" enctype="text/plain"><label>Name<input name="name" autocomplete="name" required></label><label>Work email<input type="email" name="email" autocomplete="email" required></label><label>Phone<input type="tel" name="phone" autocomplete="tel"></label><label>How can we help?<textarea name="message" rows="5" required placeholder="Courses, seat counts, LMS, white-label needs…"></textarea></label><button class="btn btn--primary" type="submit">Email our team</button><p class="small muted mb-0">Opens your email app addressed to ${esc(cfg.contact.email)}.</p></form>`;
+  const html = `${ok}<div class="split" style="align-items:start"><div>${pageBy.contact?.html || ''}<h2>Sales &amp; support hours</h2><p>Phone support 7:00 AM – 5:00 PM CST. Technical and installation support is free for one year from purchase.</p><ul class="assure"><li>${icon.phone}<span><a href="tel:${cfg.contact.phoneE164}">${esc(cfg.contact.phone)}</a></span></li><li>${icon.mail}<span><a href="mailto:${cfg.contact.email}">${esc(cfg.contact.email)}</a></span></li></ul></div>${form}</div>`;
   simplePage({ urlPath: '/pages/contact', title: 'Contact OSHA SCORM | SCORM Course Quotes & Support', h1: 'Contact us', lead: 'Questions about courses, seat counts, enterprise licensing or LMS installation? Our team is ready to help.', html, type: 'ContactPage', crumbsName: 'Contact', priority: 0.6 });
 }
+// About page: company facts for trust / E-E-A-T (all sourced from the store).
+{
+  const facts = [
+    ['Company', `${cfg.legalName} — a private provider of OSHA-compliant safety training in SCORM format`],
+    ['Parent company', `${cfg.parentOrg.name}`],
+    ['Training partner', `${cfg.partnerOrg.name}`],
+    ['Accreditation', 'IACET accredited provider'],
+    ['Headquarters', 'Los Angeles, California, USA'],
+    ['Catalog', `${TOTAL} SCORM 1.2 / 2004 courses across ${categoryList.length + navCollections.length} topic areas`],
+    ['Phone', `${cfg.contact.phone} (7:00 AM – 5:00 PM CST)`],
+    ['Email', cfg.contact.email],
+  ];
+  const html = `<p class="lead mt-0">OSHASCORM.org develops and licenses OSHA, EPA, DOT, NFPA and USACE-aligned safety training as ready-to-deploy SCORM packages, so employers, training providers and LMS operators can deliver compliance training without building courses from scratch.</p>
+<h2>Company facts</h2><ul class="details">${facts.map(([k, v]) => `<li><b>${esc(k)}</b><span>${esc(v)}</span></li>`).join('')}</ul>
+<h2>Who we are</h2><p>OSHASCORM.org operates as a subsidiary of <a href="${esc(cfg.parentOrg.url)}" rel="noopener">${esc(cfg.parentOrg.name)}</a>, a company specializing in workplace safety training, and partners with <a href="${esc(cfg.partnerOrg.url)}" rel="noopener">${esc(cfg.partnerOrg.name)}</a> to provide a comprehensive selection of OSHA compliance courses. Our training is <a href="${esc(cfg.trust.iacet)}" rel="noopener">IACET accredited</a>, and you can review our <a href="${esc(cfg.trust.bbb)}" rel="noopener">Better Business Bureau profile</a>.</p>
+<h2>How courses are built and maintained</h2><ul><li>Each course page lists the regulation or standard it is aligned with (for example 29 CFR 1910.120 for HAZWOPER or NFPA 70E for electrical safety).</li><li>Courses include knowledge checks, a final exam and a certificate of completion to support recordkeeping and audits.</li><li>We regularly review OSHA, DOT, EPA and other state and federal regulations and update our courses to reflect changes. An optional annual maintenance plan delivers those updates to your LMS automatically — see the <a href="/pages/faq">FAQ</a>.</li></ul>
+<h2 id="security">Security &amp; payments</h2><p>Card payments are processed by Stripe, a PCI DSS Level 1 certified payment processor, and orders are recorded directly in our learning management system. Your card details go straight from your browser to Stripe — we never see or store your full card number. We accept ${PAYMENTS.join(', ')}. Purchase-order and invoice billing are available on request.</p>
+<h2>Our 360° Guarantee®</h2><ul><li><b>Guaranteed delivery</b> — SCORM package delivered within 24 hours after successful payment, or your order is free.</li><li><b>Guaranteed value</b> — find a lower price within 30 days and we’ll refund the difference and then some.</li><li><b>Guaranteed happiness</b> — not 100% satisfied? We’ll make it right or refund your money within 30 days. <a href="/policies/refund-policy">Refund policy</a></li></ul>
+<h2>Independence</h2><p>OSHASCORM.org is a private company. We are not affiliated with, or endorsed by, the U.S. Occupational Safety and Health Administration (OSHA) or the U.S. Department of Labor.</p>`;
+  const about = { '@type': 'AboutPage', '@id': `${cfg.siteUrl}/pages/about-us#about`, url: `${cfg.siteUrl}/pages/about-us`, mainEntity: { '@id': `${cfg.siteUrl}/#org` } };
+  simplePage({ urlPath: '/pages/about-us', title: 'About OSHASCORM.org | IACET-Accredited SCORM Safety Training', h1: 'About OSHASCORM.org', lead: 'IACET-accredited, OSHA-aligned SCORM safety training for employers, training providers and LMS operators — backed by our 360° Guarantee®.', html, crumbsName: 'About us', extraJsonld: [about], priority: 0.5 });
+}
+
 for (const h of ['return-policy', 'terms-of-service']) {
   const p = pageBy[h];
   if (p) simplePage({ urlPath: `/pages/${h}`, title: `${p.title} | OSHA SCORM`, h1: p.title, lead: null, html: fixHeadings(p.html), priority: 0.3 });
@@ -526,13 +566,42 @@ for (const p of rawPolicies.filter((x) => x.handle !== 'terms-of-service')) simp
   const body = `<section class="hero hero--page"><div class="wrap">${breadcrumbs([{ name: 'Home', url: '/' }, { name: 'Search', url: '/search' }])}<h1>Search ${TOTAL_LABEL} SCORM courses</h1></div></section><section class="section"><div class="wrap" data-search><form class="toolbar" role="search" action="/search" onsubmit="return false"><label class="search-input"><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search by topic, regulation or job role" autocomplete="off" autofocus></label></form><p class="results-count" data-status aria-live="polite"></p><div class="dir" style="columns:1"><ul data-results></ul></div><noscript><p>Search needs JavaScript. Browse the <a href="/pages/courses-directory">course directory</a> instead.</p></noscript></div></section>`;
   emit('/search', { html: page(ctx, { title: 'Search SCORM Courses | OSHA SCORM', description: `Search ${TOTAL_LABEL} OSHA-compliant SCORM safety training courses by topic, regulation or job role.`, path: '/search', body, jsonld: core, noindex: true }), noindex: true });
 
-  const cart = `<section class="hero hero--page"><div class="wrap"><h1>Your cart</h1></div></section><section class="section"><div class="wrap" data-cart><ul class="cart-list"></ul><div class="empty" hidden>Your cart is empty. <a href="/collections/all">Browse SCORM courses</a>.</div><div class="cart-summary" hidden><div><span class="muted">Total (USD, before tax)</span><div style="font-size:1.6rem;font-weight:800;color:var(--ink)" data-cart-total>$0.00</div></div><a class="btn btn--primary" data-checkout href="#" rel="nofollow">Secure checkout ${icon.arrow}</a></div><p class="small muted mt-2">Checkout is processed securely by Shopify. Directory courses are purchased individually from their course page.</p></div></section>`;
+  const cart = `<section class="hero hero--page"><div class="wrap"><h1>Your cart</h1></div></section><section class="section"><div class="wrap" data-cart><ul class="cart-list"></ul><div class="empty" hidden>Your cart is empty. <a href="/collections/all">Browse SCORM courses</a>.</div><div class="cart-summary" hidden><div><span class="muted">Total (USD, before tax)</span><div style="font-size:1.6rem;font-weight:800;color:var(--ink)" data-cart-total>$0.00</div></div><a class="btn btn--primary" data-checkout href="/checkout?cart=1" rel="nofollow">Continue to checkout ${icon.arrow}</a></div><p class="small muted mt-2">Card payments are processed securely by Stripe. Prices are per learner seat for a 12-month license.</p></div></section>`;
   emit('/cart', { html: page(ctx, { title: 'Cart | OSHA SCORM', description: 'Review your SCORM course selections and continue to secure checkout.', path: '/cart', body: cart, jsonld: core, noindex: true }), noindex: true });
+
+  // Checkout: same LMS flow as the sister sites (see src/assets/js/checkout.js).
+  const countries = [['US', 'United States'], ['CA', 'Canada'], ['GB', 'United Kingdom'], ['AU', 'Australia'], ['NZ', 'New Zealand'], ['IE', 'Ireland'], ['MX', 'Mexico'], ['PR', 'Puerto Rico'], ['AE', 'United Arab Emirates'], ['SA', 'Saudi Arabia'], ['QA', 'Qatar'], ['KW', 'Kuwait'], ['IN', 'India'], ['PK', 'Pakistan'], ['PH', 'Philippines'], ['SG', 'Singapore'], ['MY', 'Malaysia'], ['ZA', 'South Africa'], ['NG', 'Nigeria'], ['DE', 'Germany'], ['FR', 'France'], ['NL', 'Netherlands'], ['ES', 'Spain'], ['IT', 'Italy']];
+  const field = (id, label, attrs = '') => `<label>${label}<input id="${id}" ${attrs}></label>`;
+  const checkout = `<section class="hero hero--page"><div class="wrap">${breadcrumbs([{ name: 'Home', url: '/' }, { name: 'Checkout', url: '/checkout' }])}<h1>Secure checkout</h1><p class="lead">Complete your order and your SCORM package is emailed within 24 hours of payment.</p></div></section>
+<section class="section"><div class="wrap" data-checkout-root>
+<div class="checkout">
+<form class="form panel" id="checkout-form" novalidate>
+<h2>Billing details</h2>
+<div class="form-row">${field('billingFirstName', 'First name', 'autocomplete="given-name" required')}${field('billingLastName', 'Last name', 'autocomplete="family-name" required')}</div>
+${field('billingCompany', 'Company / organization', 'autocomplete="organization"')}
+<div class="form-row">${field('billingEmail', 'Work email', 'type="email" autocomplete="email" required')}${field('billingPhone', 'Phone', 'type="tel" autocomplete="tel" required')}</div>
+${field('billingAddress', 'Street address', 'autocomplete="address-line1" required')}
+${field('billingAddress2', 'Apartment, suite, etc. (optional)', 'autocomplete="address-line2"')}
+<div class="form-row form-row--3">${field('billingCity', 'City', 'autocomplete="address-level2" required')}${field('billingState', 'State / province', 'autocomplete="address-level1" required')}${field('billingZip', 'ZIP / postal code', 'autocomplete="postal-code" required')}</div>
+<label>Country<select id="billingCountry" class="select" autocomplete="country">${countries.map(([c, n]) => `<option value="${c}">${esc(n)}</option>`).join('')}</select></label>
+<div data-card-only hidden><h2 class="mt-2">Payment</h2><div class="card-field" id="card-element" aria-label="Card details"></div></div>
+<p class="notice notice--info" data-request-only hidden>This order will be sent to our team as an order request. We’ll confirm availability and email an invoice or secure payment link within one business day — no card is charged now.</p>
+<p class="buybox__err" role="alert" data-err></p>
+<button class="btn btn--primary btn--block" type="submit" data-submit disabled>Loading…</button>
+<p class="secure">${icon.shield}<span><b>Secure card checkout by Stripe</b> (PCI DSS Level 1). Your card details go directly to Stripe. Purchase orders: call ${esc(cfg.contact.phone)} or email ${esc(cfg.lms.requestEmail)}.</span></p>
+</form>
+<aside class="panel order-summary" aria-labelledby="summary-h"><h2 id="summary-h">Order summary</h2><ul class="summary-lines" data-lines></ul><div class="summary-total"><span>Total (USD)</span><b data-total>$0.00</b></div><ul class="assure"><li>${icon.check}<span>12-month license per learner seat</span></li><li>${icon.check}<span>SCORM 1.2 &amp; 2004 ZIP emailed within 24 hours</span></li><li>${icon.check}<span>30-day money-back guarantee</span></li></ul></aside>
+</div>
+<div class="checkout-done panel" data-done hidden tabindex="-1"><h2 data-done-title>Thank you — your order is confirmed</h2><p data-done-text></p><p><a class="btn btn--dark" href="/collections/all">Continue browsing</a></p></div>
+<noscript><p class="notice">Checkout needs JavaScript. To order, email ${esc(cfg.lms.requestEmail)} or call ${esc(cfg.contact.phone)}.</p></noscript>
+</div></section>
+<script>window.__LMS__=${JSON.stringify({ apiBase: cfg.lms.apiBase, stripeKey: cfg.lms.stripeKey, orderFrom: cfg.lms.orderFrom, requestEmail: cfg.lms.requestEmail })}</script>
+<script src="/assets/js/checkout.js?v=${crypto.createHash('sha1').update(checkoutJs).digest('hex').slice(0, 10)}" defer></script>`;
+  emit('/checkout', { html: page(ctx, { title: 'Secure Checkout | OSHA SCORM', description: 'Secure checkout for OSHASCORM.org SCORM course licenses.', path: '/checkout', body: checkout, jsonld: core, noindex: true }), noindex: true });
 
   const nf = `<section class="section notfound"><div class="wrap"><p class="eyebrow">404</p><h1>We couldn’t find that page</h1><p class="lead" style="margin:0 auto">The course may have moved. Search the catalog or browse the directory.</p><form class="search-input" action="/search" role="search"><label><span class="sr-only">Search courses</span>${icon.search}<input type="search" name="q" placeholder="Search courses"></label></form><p class="mt-2"><a class="btn btn--dark" href="/collections/all">All courses</a> <a class="btn btn--ghost" href="/pages/courses-directory">Course directory</a></p></div></section>
 <script>(function(){var B=${JSON.stringify(cfg.basePath || '')},p=location.pathname.slice(B.length).replace(/\\/+$/,''),m;
 if((m=p.match(/^\\/collections\\/[^/]+\\/products\\/([^/]+)/)))return location.replace(B+'/products/'+m[1]+location.search);
-if(/^\\/(account|checkouts?|orders)(\\/|$)/.test(p))return location.replace(${JSON.stringify(cfg.checkoutOrigin)}+p+location.search);
 if(/^\\/products$/.test(p))return location.replace(B+'/collections/all');
 var q=p.split('/').pop().replace(/[-_]+/g,' ');var i=document.querySelector('.notfound input');if(i&&q)i.value=q;})();</script>`;
   put('404.html', page(ctx, { title: 'Page not found | OSHA SCORM', description: 'The page you requested could not be found.', path: '/404', body: nf, jsonld: [], noindex: true }));
@@ -561,10 +630,15 @@ const catalogCourses = allItems.map((c) => ({
   format: ['SCORM 1.2', 'SCORM 2004'],
   license: '12 months per learner seat',
   currency: 'USD',
-  fromPerSeat: minPer(c),
-  tiers: c.tiers.map((t) => ({ seats: t.seats, perSeat: t.perSeat, total: t.subtotal, ...(t.variantId ? { variantId: t.variantId, checkout: `${cfg.checkoutOrigin}/cart/${t.variantId}:1` } : {}) })),
+  pricePerSeat: c.price,
+  minSeats: cfg.minSeats,
+  examples: c.tiers.map((t) => ({ seats: t.seats, total: t.subtotal })),
+  checkout: `${cfg.siteUrl}/checkout?item=${c.handle}&seats=${cfg.minSeats}`,
+  payment: c.lmsId ? 'card' : 'order-request',
   summary: truncate(c.descriptionText, 300),
 }));
+// Compact data the checkout page needs: handle -> [title, price, lmsId, url].
+put('api/checkout-data.json', JSON.stringify(Object.fromEntries(allItems.map((c) => [c.handle, [c.title, c.price, c.lmsId || null, c.url]]))));
 put('api/catalog.json', JSON.stringify({ generatedAt: BUILD_DATE, publisher: cfg.legalName, site: cfg.siteUrl, count: catalogCourses.length, courses: catalogCourses }));
 put('api/search.json', JSON.stringify(allItems.map((c) => ({ t: c.title, u: c.url, c: c.category, d: c.duration, p: minPer(c), s: `${c.title} ${c.category} ${c.citation || ''} ${(c.collections || []).join(' ')} ${c.handle.replace(/-/g, ' ')}`.toLowerCase() }))));
 put('api/openapi.json', JSON.stringify({
@@ -577,19 +651,19 @@ put('api/openapi.json', JSON.stringify({
   },
 }, null, 1));
 put('.well-known/api-catalog', JSON.stringify({ linkset: [{ anchor: `${cfg.siteUrl}/api/catalog.json`, 'service-desc': [{ href: `${cfg.siteUrl}/api/openapi.json`, type: 'application/vnd.oai.openapi+json' }], 'service-doc': [{ href: `${cfg.siteUrl}/agents.md`, type: 'text/markdown' }, { href: `${cfg.siteUrl}/llms.txt`, type: 'text/plain' }] }] }, null, 1));
-if (ucp) put('.well-known/ucp', JSON.stringify(ucp, null, 1));
 put('.well-known/security.txt', `Contact: mailto:${cfg.contact.email}\nExpires: ${NEXT_YEAR_END}T23:59:59.000Z\nPreferred-Languages: en\nCanonical: ${cfg.siteUrl}/.well-known/security.txt\n`);
 
 // robots.txt — explicitly welcome search + AI assistants, declare content signals.
 const aiBots = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-User', 'Claude-SearchBot', 'anthropic-ai', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'GoogleOther', 'Applebot', 'Applebot-Extended', 'Bingbot', 'DuckAssistBot', 'Amazonbot', 'meta-externalagent', 'Meta-ExternalFetcher', 'MistralAI-User', 'cohere-ai', 'YouBot', 'CCBot'];
 put('robots.txt', `# oshascorm.org — search engines and AI assistants are welcome.
 # AI index: ${cfg.siteUrl}/llms.txt · Full catalog: ${cfg.siteUrl}/llms-full.txt
-# Agent guide: ${cfg.siteUrl}/agents.md · Commerce (UCP): ${cfg.siteUrl}/.well-known/ucp
+# Agent guide: ${cfg.siteUrl}/agents.md · JSON catalog: ${cfg.siteUrl}/api/catalog.json
 
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 Disallow: /cart
+Disallow: /checkout
 Disallow: /search
 
 ${aiBots.map((b) => `User-agent: ${b}`).join('\n')}
@@ -604,12 +678,12 @@ put('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http:
 // llms.txt (spec: https://llmstxt.org) and llms-full.txt
 const llms = `# OSHA SCORM (oshascorm.org)
 
-> OSHASCORM.org sells ${TOTAL} OSHA-compliant safety training courses as SCORM 1.2 and SCORM 2004 packages for corporate learning management systems (LMS). Courses are IACET accredited, licensed per learner seat for 12 months (10–200+ seats), delivered by email within 24 hours, and most are available in English and Spanish.
+> OSHASCORM.org sells ${TOTAL} OSHA-compliant safety training courses as SCORM 1.2 and SCORM 2004 packages for corporate learning management systems (LMS). Courses are IACET accredited, priced per learner seat for a 12-month license (minimum ${cfg.minSeats} seats; total = price × seats, no volume tiers), delivered by email within 24 hours, and most are available in English and Spanish.
 
 Key facts for assistants:
 - Buyers: employers, EHS/HR/L&D teams, training providers and LMS operators. Individuals needing fewer than 10 seats can enroll via the partner site hazwoper-osha.com.
 - Compatible with any SCORM-compliant LMS, including ${LMS.slice(0, 8).join(', ')}.
-- Every course page lists exact USD pricing for every seat tier and has a Markdown version (append \`.md\` to the URL).
+- Every course page lists its exact USD price per seat and has a Markdown version (append \`.md\` to the URL).
 - Machine-readable catalog with all prices: ${cfg.siteUrl}/api/catalog.json (OpenAPI: ${cfg.siteUrl}/api/openapi.json).
 - OSHASCORM.org is a private company, a subsidiary of ${cfg.parentOrg.name}; it is not affiliated with OSHA.
 - Contact: ${cfg.contact.phone} · ${cfg.contact.email}
@@ -640,10 +714,10 @@ ${categoryList.map((c) => `- [${c.name}](${cfg.siteUrl}${c.url}.md): ${c.items.l
 - [Course directory A–Z](${cfg.siteUrl}/pages/courses-directory.md)
 `;
 put('llms.txt', llms);
-put('llms-full.txt', `# OSHA SCORM — full course catalog\n\n> Generated ${isoDate(BUILD_DATE)} from the live store. ${TOTAL} SCORM 1.2 / SCORM 2004 courses. Prices in USD for a 12-month license per learner seat.\n\n` +
+put('llms-full.txt', `# OSHA SCORM — full course catalog\n\n> Updated ${isoDate(BUILD_DATE)}. ${TOTAL} SCORM 1.2 / SCORM 2004 courses. Prices in USD per learner seat for a 12-month license; total = price × seats (minimum ${cfg.minSeats}).\n\n` +
   Object.entries(allItems.reduce((acc, c) => ((acc[c.category] ||= []).push(c), acc), {}))
     .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([cat, items]) => `## ${cat}\n\n${items.map((c) => `### ${c.title}\n\n- URL: ${cfg.siteUrl}${c.url}\n${c.duration ? `- Duration: ${c.duration}\n` : ''}${c.citation ? `- Regulation: ${c.citation}\n` : ''}- Languages: ${c.languages.join(', ')}\n- Pricing: ${c.tiers.map((t) => `${t.seats} seats ${money(t.subtotal)} (${money(t.perSeat)}/seat)`).join('; ')}\n- Summary: ${truncate(c.descriptionText, 400)}\n`).join('\n')}`)
+    .map(([cat, items]) => `## ${cat}\n\n${items.map((c) => `### ${c.title}\n\n- URL: ${cfg.siteUrl}${c.url}\n${c.duration ? `- Duration: ${c.duration}\n` : ''}${c.citation ? `- Regulation: ${c.citation}\n` : ''}- Languages: ${c.languages.join(', ')}\n- Price: ${money(c.price)} per seat (e.g. ${c.tiers.map((t) => `${t.seats} seats ${money(t.subtotal)}`).join('; ')})\n- Summary: ${truncate(c.descriptionText, 400)}\n`).join('\n')}`)
     .join('\n'));
 
 put('agents.md', `# Agent guide — OSHASCORM.org
@@ -652,19 +726,18 @@ You may browse and research this site on behalf of a user. This store sells SCOR
 
 ## Discover
 - Index: ${cfg.siteUrl}/llms.txt · full catalog: ${cfg.siteUrl}/llms-full.txt
-- JSON catalog (all courses, tiers, prices, checkout links): ${cfg.siteUrl}/api/catalog.json — described by ${cfg.siteUrl}/api/openapi.json and listed in ${cfg.siteUrl}/.well-known/api-catalog
+- JSON catalog (all courses, prices, checkout links): ${cfg.siteUrl}/api/catalog.json — described by ${cfg.siteUrl}/api/openapi.json and listed in ${cfg.siteUrl}/.well-known/api-catalog
 - Every HTML page has a Markdown twin: append \`.md\` (e.g. ${cfg.siteUrl}/products/osha-40-hour-hazwoper-training-29-cfr-1910-120.md)
 - Sitemap: ${cfg.siteUrl}/sitemap.xml
 
 ## Pricing model
-- License = 1 learner seat for 12 months. Choose a seat tier (usually 10, 25, 50, 75, 100, 150, 200).
-- Prices on the page, in the JSON catalog and in JSON-LD (schema.org Product/AggregateOffer) are identical.
+- License = 1 learner seat for 12 months. Total = price per seat × seats. Minimum ${cfg.minSeats} seats; no volume tiers.
+- Prices on the page, in the JSON catalog and in JSON-LD (schema.org Product/Offer) are identical.
 - Fewer than 10 learners: most course pages link to individual enrollment on hazwoper-osha.com.
 
 ## Buying (buyer approval required)
-- Flagship courses (\`/products/…\`): each tier has a Shopify checkout link (\`${cfg.checkoutOrigin}/cart/{variantId}:1\`). Open it and let the buyer review and pay.
-- Directory courses (\`/pages/courses/…\`): open the course page with \`?seats=N#buy\` and ask the buyer to press “Buy now”.
-- Commerce protocol: this store’s Shopify backend publishes a Universal Commerce Protocol profile at ${cfg.siteUrl}/.well-known/ucp (MCP endpoint: https://${cfg.shopifyStore}/api/ucp/mcp).
+- Open \`${cfg.siteUrl}/checkout?item={handle}&seats={N}\` (the \`checkout\` field in the JSON catalog) and let the buyer enter their details and pay.
+- Courses marked \`"payment": "card"\` are paid by card (Stripe); others are submitted as an order request and invoiced.
 - In WebMCP-capable browsers, pages register the tools \`search_courses\`, \`get_course_pricing\` and \`open_checkout\`.
 
 ## Rules

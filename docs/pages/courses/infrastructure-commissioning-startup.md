@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – ASHRAE Guideline 0 / ASHRAE 90.4 / Level 1-5 Commissioning
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $267.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/infrastructure-commissioning-startup#buy
+- **Buy:** https://oshascorm.org/checkout?item=infrastructure-commissioning-startup&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $214.39 | $2,143.92 |
-| 25 | $116.88 | $2,922.03 |
-| 50 | $84.38 | $4,218.88 |
-| 75 | $73.54 | $5,515.74 |
-| 100 | $68.13 | $6,812.59 |
-| 150 | $62.71 | $9,406.29 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $267.99 | $2,679.90 |
+| 25 | $267.99 | $6,699.75 |
+| 50 | $267.99 | $13,399.50 |
+| 100 | $267.99 | $26,799.00 |
+| 200 | $267.99 | $53,598.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Infrastructure Commissioning & Startup is delivered as an LMS-ready SCORM packag
 
 ### How much does Infrastructure Commissioning & Startup cost?
 
-Pricing is per learner seat for a 12-month license: $2,143.92 for 10 seats ($214.39 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$267.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,679.90 for 10 seats or $53,598.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Infrastructure Commissioning & Startup course?
 

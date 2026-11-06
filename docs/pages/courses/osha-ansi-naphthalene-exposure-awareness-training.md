@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** 29 CFR 1910.1000 Table Z-1
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $19.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-ansi-naphthalene-exposure-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-ansi-naphthalene-exposure-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $17.99 | $179.91 |
-| 25 | $16.10 | $402.43 |
-| 50 | $15.47 | $773.30 |
-| 75 | $15.26 | $1,144.16 |
-| 100 | $15.15 | $1,515.03 |
-| 150 | $15.05 | $2,256.77 |
-| 200 | $14.99 | $2,998.50 |
+| 10 | $19.99 | $199.90 |
+| 25 | $19.99 | $499.75 |
+| 50 | $19.99 | $999.50 |
+| 100 | $19.99 | $1,999.00 |
+| 200 | $19.99 | $3,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA/ANSI Naphthalene Exposure Awareness Training is delivered as an LMS-ready S
 
 ### How much does OSHA/ANSI Naphthalene Exposure Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $179.91 for 10 seats ($17.99 per seat), down to $14.99 per seat at 200 seats ($2,998.50). Need more seats? Contact us for enterprise pricing.
+$19.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $199.90 for 10 seats or $3,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA/ANSI Naphthalene Exposure Awareness Training course?
 

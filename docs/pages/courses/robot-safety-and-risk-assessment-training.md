@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** OSHA/ANSI – ANSI/RIA R15.06 / ISO 10218 / OSHA Directive STD 01-12-002
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $299.00 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/robot-safety-and-risk-assessment-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=robot-safety-and-risk-assessment-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $239.20 | $2,392.00 |
-| 25 | $126.02 | $3,150.53 |
-| 50 | $88.29 | $4,414.74 |
-| 75 | $75.72 | $5,678.95 |
-| 100 | $69.43 | $6,943.16 |
-| 150 | $63.14 | $9,471.58 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $299.00 | $2,990.00 |
+| 25 | $299.00 | $7,475.00 |
+| 50 | $299.00 | $14,950.00 |
+| 100 | $299.00 | $29,900.00 |
+| 200 | $299.00 | $59,800.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Robot Safety and Risk Assessment Training is delivered as an LMS-ready SCORM pac
 
 ### How much does Robot Safety and Risk Assessment Training cost?
 
-Pricing is per learner seat for a 12-month license: $2,392.00 for 10 seats ($239.20 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$299.00 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,990.00 for 10 seats or $59,800.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Robot Safety and Risk Assessment Training course?
 

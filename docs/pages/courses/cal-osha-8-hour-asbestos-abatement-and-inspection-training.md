@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Cal/OSHA – 8 CCR 1529 / 341.6-341.15
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $229.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cal-osha-8-hour-asbestos-abatement-and-inspection-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-8-hour-asbestos-abatement-and-inspection-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $135.99 | $1,359.92 |
-| 25 | $88.00 | $2,199.93 |
-| 50 | $72.00 | $3,599.94 |
-| 75 | $66.67 | $4,999.95 |
-| 100 | $64.00 | $6,399.96 |
-| 150 | $61.33 | $9,199.98 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $229.99 | $2,299.90 |
+| 25 | $229.99 | $5,749.75 |
+| 50 | $229.99 | $11,499.50 |
+| 100 | $229.99 | $22,999.00 |
+| 200 | $229.99 | $45,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Cal/OSHA 8-Hour Asbestos Abatement and Inspection Training is delivered as an LM
 
 ### How much does Cal/OSHA 8-Hour Asbestos Abatement and Inspection Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,359.92 for 10 seats ($135.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$229.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,299.90 for 10 seats or $45,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cal/OSHA 8-Hour Asbestos Abatement and Inspection Training course?
 

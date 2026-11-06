@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** OSHA General Duty Clause
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $24.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-back-safety-safe-lifting-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-back-safety-safe-lifting-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $26.99 | $269.91 |
-| 25 | $21.31 | $532.72 |
-| 50 | $19.41 | $970.73 |
-| 75 | $18.78 | $1,408.74 |
-| 100 | $18.47 | $1,846.75 |
-| 150 | $18.15 | $2,722.78 |
-| 200 | $17.99 | $3,598.80 |
+| 10 | $24.99 | $249.90 |
+| 25 | $24.99 | $624.75 |
+| 50 | $24.99 | $1,249.50 |
+| 100 | $24.99 | $2,499.00 |
+| 200 | $24.99 | $4,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA Back Safety & Safe Lifting Training is delivered as an LMS-ready SCORM pack
 
 ### How much does OSHA Back Safety & Safe Lifting Training cost?
 
-Pricing is per learner seat for a 12-month license: $269.91 for 10 seats ($26.99 per seat), down to $17.99 per seat at 200 seats ($3,598.80). Need more seats? Contact us for enterprise pricing.
+$24.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $249.90 for 10 seats or $4,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Back Safety & Safe Lifting Training course?
 

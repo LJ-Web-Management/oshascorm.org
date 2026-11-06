@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 16 hours
 - **Regulation:** Cal/OSHA – 8 CCR 3203 (IIPP) / 8 CCR 342 (Reporting) / ANSI Z10
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $899.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cal-osha-incident-investigation-train-the-trainer-mastery#buy
+- **Buy:** https://oshascorm.org/checkout?item=cal-osha-incident-investigation-train-the-trainer-mastery&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $674.99 | $6,749.92 |
-| 25 | $286.58 | $7,164.40 |
-| 50 | $157.10 | $7,855.20 |
-| 75 | $113.95 | $8,546.00 |
-| 100 | $92.37 | $9,236.80 |
-| 150 | $70.79 | $10,618.40 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $899.99 | $8,999.90 |
+| 25 | $899.99 | $22,499.75 |
+| 50 | $899.99 | $44,999.50 |
+| 100 | $899.99 | $89,999.00 |
+| 200 | $899.99 | $179,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ CAL/OSHA Incident Investigation: Train-the-Trainer Mastery is delivered as an LM
 
 ### How much does CAL/OSHA Incident Investigation: Train-the-Trainer Mastery cost?
 
-Pricing is per learner seat for a 12-month license: $6,749.92 for 10 seats ($674.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$899.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $8,999.90 for 10 seats or $179,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the CAL/OSHA Incident Investigation: Train-the-Trainer Mastery course?
 

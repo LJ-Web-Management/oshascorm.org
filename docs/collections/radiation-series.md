@@ -1,13 +1,13 @@
 ---
 title: "Radiation Safety Training — SCORM Courses"
 url: https://oshascorm.org/collections/radiation-series
-description: "radiation safety training SCORM courses for your LMS: 1 course from $60.00/seat. LMS-ready Radiation Series courses delivered as SCORM 1.2 and SCORM 2004…"
+description: "radiation safety training SCORM courses for your LMS: 1 course from $179.99/seat. LMS-ready Radiation Series courses delivered as SCORM 1.2 and SCORM 2004…"
 updated: 2026-11-06
 ---
 
 # Radiation Safety Training — SCORM Courses
 
-> radiation safety training SCORM courses for your LMS: 1 course from $60.00/seat. LMS-ready Radiation Series courses delivered as SCORM 1.2 and SCORM 2004…
+> radiation safety training SCORM courses for your LMS: 1 course from $179.99/seat. LMS-ready Radiation Series courses delivered as SCORM 1.2 and SCORM 2004…
 
 LMS-ready Radiation Series courses delivered as SCORM 1.2 and SCORM 2004 packages.
 
@@ -15,7 +15,7 @@ LMS-ready Radiation Series courses delivered as SCORM 1.2 and SCORM 2004 package
 
 ## Courses
 
-- [NORM Worker Safety Training](https://oshascorm.org/products/norm-worker-safety-training) — 8 hours, from $60.00/seat
+- [NORM Worker Safety Training](https://oshascorm.org/products/norm-worker-safety-training) — 8 hours, from $179.99/seat
 
 ## FAQ
 
@@ -25,7 +25,7 @@ Each radiation safety training course is delivered as a SCORM 1.2 or SCORM 2004 
 
 ### How much do radiation safety training courses cost?
 
-This series includes 1 course, starting from $60.00 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
+This series includes 1 course, starting from $179.99 per learner seat for a 12-month license. Every course page shows exact pricing for 10 to 200 seats.
 
 ### Which regulations do these courses cover?
 

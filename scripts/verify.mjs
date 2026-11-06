@@ -90,7 +90,7 @@ for (const f of html) {
       if (t === 'Product') {
         if (!n.name) err(r, 'Product.name missing');
         if (!n.image) warn(r, 'Product.image missing');
-        const offers = n.offers?.offers || [];
+        const offers = n.offers?.offers || (n.offers ? [n.offers] : []);
         if (!offers.length) err(r, 'Product has no offers');
         for (const o of offers) if (!(Number(o.price) > 0) || o.priceCurrency !== 'USD' || !o.availability) err(r, `bad offer ${JSON.stringify(o).slice(0, 80)}`);
       }
@@ -98,6 +98,14 @@ for (const f of html) {
       if (t === 'BreadcrumbList') for (const li of n.itemListElement) if (!resolves(li.item.replace(cfg.siteUrl, ''))) err(r, `breadcrumb target missing ${li.item}`);
     }
   });
+}
+
+// The site must not depend on, link to, or embed the former Shopify store or
+// any chat widget (text files only; images are binary).
+for (const f of all.filter((x) => /\.(html|md|txt|json|js|xml|webmanifest)$/.test(x) || /\.well-known/.test(x))) {
+  const t = await fs.readFile(f, 'utf8');
+  if (/shopify|myshopify/i.test(t)) err(rel(f), 'references Shopify');
+  if (/<(shopify|chat)-[a-z-]+|embed\.tawk\.to|widget\.intercom|code\.tidio|client\.crisp\.chat|zopim|livechatinc/i.test(t)) err(rel(f), 'contains a chat widget');
 }
 
 // Sitemap ⊆ existing pages

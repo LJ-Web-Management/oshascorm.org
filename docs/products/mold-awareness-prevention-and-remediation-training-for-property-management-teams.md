@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 4 hours
 - **Regulation:** EPA/State – EPA Mold Guidance / State licensing
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $59.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/mold-awareness-prevention-and-remediation-training-for-property-management-teams#buy
+- **Buy:** https://oshascorm.org/checkout?item=mold-awareness-prevention-and-remediation-training-for-property-management-teams&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $225.39 | $2,253.90 |
-| 25 | $225.39 | $5,634.76 |
-| 50 | $151.05 | $7,552.50 |
-| 75 | $117.20 | $8,789.90 |
-| 100 | $97.90 | $9,789.90 |
-| 150 | $73.33 | $10,999.00 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $59.99 | $599.90 |
+| 25 | $59.99 | $1,499.75 |
+| 50 | $59.99 | $2,999.50 |
+| 100 | $59.99 | $5,999.00 |
+| 200 | $59.99 | $11,998.00 |
 
 ## Overview
 
@@ -90,7 +88,7 @@ Mold Awareness, Prevention, and Remediation Training for Property Management Tea
 
 ### How much does Mold Awareness, Prevention, and Remediation Training for Property Management Teams cost?
 
-Pricing is per learner seat for a 12-month license: $2,253.90 for 10 seats ($225.39 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$59.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $599.90 for 10 seats or $11,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Mold Awareness, Prevention, and Remediation Training for Property Management Teams course?
 

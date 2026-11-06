@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** 29 CFR 1910.120(e)(4)/(e)(8)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $149.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-8-hour-hazwoper-supervisor-refresher-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-8-hour-hazwoper-supervisor-refresher-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $58.79 | $587.90 |
-| 25 | $58.79 | $1,469.76 |
-| 50 | $56.99 | $2,849.53 |
-| 75 | $53.99 | $4,049.33 |
-| 100 | $53.99 | $5,399.10 |
-| 150 | $50.99 | $7,648.73 |
-| 200 | $50.99 | $10,198.30 |
+| 10 | $149.99 | $1,499.90 |
+| 25 | $149.99 | $3,749.75 |
+| 50 | $149.99 | $7,499.50 |
+| 100 | $149.99 | $14,999.00 |
+| 200 | $149.99 | $29,998.00 |
 
 ## Overview
 
@@ -99,7 +97,7 @@ OSHA 8 Hour HAZWOPER Supervisor Refresher Training is delivered as an LMS-ready 
 
 ### How much does OSHA 8 Hour HAZWOPER Supervisor Refresher Training cost?
 
-Pricing is per learner seat for a 12-month license: $587.90 for 10 seats ($58.79 per seat), down to $50.99 per seat at 200 seats ($10,198.30). Need more seats? Contact us for enterprise pricing.
+$149.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,499.90 for 10 seats or $29,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 8 Hour HAZWOPER Supervisor Refresher Training course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** N/A (Voluntary/Technical Skills) – No specific regulation - foundational trade skill
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $169.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/plc-programming-intermediate-advanced#buy
+- **Buy:** https://oshascorm.org/checkout?item=plc-programming-intermediate-advanced&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $135.99 | $1,359.92 |
-| 25 | $88.00 | $2,199.93 |
-| 50 | $72.00 | $3,599.94 |
-| 75 | $66.67 | $4,999.95 |
-| 100 | $64.00 | $6,399.96 |
-| 150 | $61.33 | $9,199.98 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $169.99 | $1,699.90 |
+| 25 | $169.99 | $4,249.75 |
+| 50 | $169.99 | $8,499.50 |
+| 100 | $169.99 | $16,999.00 |
+| 200 | $169.99 | $33,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ PLC Programming - Intermediate/Advanced is delivered as an LMS-ready SCORM packa
 
 ### How much does PLC Programming - Intermediate/Advanced cost?
 
-Pricing is per learner seat for a 12-month license: $1,359.92 for 10 seats ($135.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$169.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,699.90 for 10 seats or $33,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the PLC Programming - Intermediate/Advanced course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 0.25 hours
 - **Regulation:** 29 CFR 1910.95
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $9.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/orientation-video-hearing-protection#buy
+- **Buy:** https://oshascorm.org/checkout?item=orientation-video-hearing-protection&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $8.99 | $89.91 |
-| 25 | $8.04 | $201.11 |
-| 50 | $7.73 | $386.46 |
-| 75 | $7.62 | $571.80 |
-| 100 | $7.57 | $757.14 |
-| 150 | $7.52 | $1,127.82 |
-| 200 | $7.49 | $1,498.50 |
+| 10 | $9.99 | $99.90 |
+| 25 | $9.99 | $249.75 |
+| 50 | $9.99 | $499.50 |
+| 100 | $9.99 | $999.00 |
+| 200 | $9.99 | $1,998.00 |
 
 ## Overview
 
@@ -53,7 +51,7 @@ Orientation Video – Hearing Protection is delivered as an LMS-ready SCORM pack
 
 ### How much does Orientation Video – Hearing Protection cost?
 
-Pricing is per learner seat for a 12-month license: $89.91 for 10 seats ($8.99 per seat), down to $7.49 per seat at 200 seats ($1,498.50). Need more seats? Contact us for enterprise pricing.
+$9.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $99.90 for 10 seats or $1,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Orientation Video – Hearing Protection course?
 

@@ -4,19 +4,18 @@ You may browse and research this site on behalf of a user. This store sells SCOR
 
 ## Discover
 - Index: https://oshascorm.org/llms.txt · full catalog: https://oshascorm.org/llms-full.txt
-- JSON catalog (all courses, tiers, prices, checkout links): https://oshascorm.org/api/catalog.json — described by https://oshascorm.org/api/openapi.json and listed in https://oshascorm.org/.well-known/api-catalog
+- JSON catalog (all courses, prices, checkout links): https://oshascorm.org/api/catalog.json — described by https://oshascorm.org/api/openapi.json and listed in https://oshascorm.org/.well-known/api-catalog
 - Every HTML page has a Markdown twin: append `.md` (e.g. https://oshascorm.org/products/osha-40-hour-hazwoper-training-29-cfr-1910-120.md)
 - Sitemap: https://oshascorm.org/sitemap.xml
 
 ## Pricing model
-- License = 1 learner seat for 12 months. Choose a seat tier (usually 10, 25, 50, 75, 100, 150, 200).
-- Prices on the page, in the JSON catalog and in JSON-LD (schema.org Product/AggregateOffer) are identical.
+- License = 1 learner seat for 12 months. Total = price per seat × seats. Minimum 10 seats; no volume tiers.
+- Prices on the page, in the JSON catalog and in JSON-LD (schema.org Product/Offer) are identical.
 - Fewer than 10 learners: most course pages link to individual enrollment on hazwoper-osha.com.
 
 ## Buying (buyer approval required)
-- Flagship courses (`/products/…`): each tier has a Shopify checkout link (`https://scorm-online.myshopify.com/cart/{variantId}:1`). Open it and let the buyer review and pay.
-- Directory courses (`/pages/courses/…`): open the course page with `?seats=N#buy` and ask the buyer to press “Buy now”.
-- Commerce protocol: this store’s Shopify backend publishes a Universal Commerce Protocol profile at https://oshascorm.org/.well-known/ucp (MCP endpoint: https://scorm-online.myshopify.com/api/ucp/mcp).
+- Open `https://oshascorm.org/checkout?item={handle}&seats={N}` (the `checkout` field in the JSON catalog) and let the buyer enter their details and pay.
+- Courses marked `"payment": "card"` are paid by card (Stripe); others are submitted as an order request and invoiced.
 - In WebMCP-capable browsers, pages register the tools `search_courses`, `get_course_pricing` and `open_checkout`.
 
 ## Rules

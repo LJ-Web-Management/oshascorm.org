@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** NFPA 70E Electrical & Arc Flash Safety
 - **Duration:** 1 hour
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $29.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-ground-fault-protection-gfci-safety-training-nfpa-70e-2024#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-ground-fault-protection-gfci-safety-training-nfpa-70e-2024&seats=10
 
 ## Key details
 
@@ -29,19 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $58.79 | $587.90 |
-| 25 | $51.59 | $1,289.79 |
-| 50 | $50.99 | $2,549.58 |
-| 75 | $47.99 | $3,599.40 |
-| 100 | $44.99 | $4,499.25 |
-| 150 | $35.99 | $5,399.10 |
-| 200 | $32.99 | $6,598.90 |
-| 250 | $31.19 | $7,798.70 |
-| 300 | $30.00 | $8,998.50 |
-| 350 | $28.20 | $9,868.36 |
-| 400 | $27.00 | $10,798.20 |
-| 450 | $25.20 | $11,338.11 |
-| 500 | $24.00 | $11,998.00 |
+| 10 | $29.99 | $299.90 |
+| 25 | $29.99 | $749.75 |
+| 50 | $29.99 | $1,499.50 |
+| 100 | $29.99 | $2,999.00 |
+| 200 | $29.99 | $5,998.00 |
 
 ## Overview
 
@@ -117,7 +109,7 @@ OSHA Ground Fault Protection/GFCI Safety Training (NFPA 70E 2024) is delivered a
 
 ### How much does OSHA Ground Fault Protection/GFCI Safety Training (NFPA 70E 2024) cost?
 
-Pricing is per learner seat for a 12-month license: $587.90 for 10 seats ($58.79 per seat), down to $24.00 per seat at 500 seats ($11,998.00). Need more seats? Contact us for enterprise pricing.
+$29.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $299.90 for 10 seats or $5,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Ground Fault Protection/GFCI Safety Training (NFPA 70E 2024) course?
 

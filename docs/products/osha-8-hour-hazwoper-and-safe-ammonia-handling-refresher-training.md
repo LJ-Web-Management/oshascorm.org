@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** HAZWOPER Training (29 CFR 1910.120)
 - **Duration:** 8 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $109.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-8-hour-hazwoper-and-safe-ammonia-handling-refresher-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-8-hour-hazwoper-and-safe-ammonia-handling-refresher-training&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $48.99 | $489.90 |
-| 25 | $48.99 | $1,224.76 |
-| 50 | $47.49 | $2,374.53 |
-| 75 | $44.99 | $3,374.33 |
-| 100 | $44.99 | $4,499.10 |
-| 150 | $42.49 | $6,373.73 |
-| 200 | $42.49 | $8,498.30 |
+| 10 | $109.99 | $1,099.90 |
+| 25 | $109.99 | $2,749.75 |
+| 50 | $109.99 | $5,499.50 |
+| 100 | $109.99 | $10,999.00 |
+| 200 | $109.99 | $21,998.00 |
 
 ## Overview
 
@@ -81,7 +79,7 @@ OSHA 8-Hour HAZWOPER and Safe Ammonia Handling Refresher Training is delivered a
 
 ### How much does OSHA 8-Hour HAZWOPER and Safe Ammonia Handling Refresher Training cost?
 
-Pricing is per learner seat for a 12-month license: $489.90 for 10 seats ($48.99 per seat), down to $42.49 per seat at 200 seats ($8,498.30). Need more seats? Contact us for enterprise pricing.
+$109.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,099.90 for 10 seats or $21,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 8-Hour HAZWOPER and Safe Ammonia Handling Refresher Training course?
 

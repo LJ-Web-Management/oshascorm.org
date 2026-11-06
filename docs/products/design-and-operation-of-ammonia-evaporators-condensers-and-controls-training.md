@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1910.111
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $99.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/design-and-operation-of-ammonia-evaporators-condensers-and-controls-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=design-and-operation-of-ammonia-evaporators-condensers-and-controls-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $78.39 | $783.90 |
-| 25 | $78.39 | $1,959.76 |
-| 50 | $75.99 | $3,799.53 |
-| 75 | $71.99 | $5,399.33 |
-| 100 | $71.99 | $7,199.10 |
-| 150 | $67.99 | $10,198.73 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $99.99 | $999.90 |
+| 25 | $99.99 | $2,499.75 |
+| 50 | $99.99 | $4,999.50 |
+| 100 | $99.99 | $9,999.00 |
+| 200 | $99.99 | $19,998.00 |
 
 ## Overview
 
@@ -87,7 +85,7 @@ Design and Operation of Ammonia Evaporators, Condensers, and Controls Training i
 
 ### How much does Design and Operation of Ammonia Evaporators, Condensers, and Controls Training cost?
 
-Pricing is per learner seat for a 12-month license: $783.90 for 10 seats ($78.39 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$99.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $999.90 for 10 seats or $19,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Design and Operation of Ammonia Evaporators, Condensers, and Controls Training course?
 

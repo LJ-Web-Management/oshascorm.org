@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** OSHA Construction Safety Training Series
 - **Duration:** 3 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $29.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-asbestos-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-asbestos-awareness-training&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $48.99 | $489.90 |
-| 25 | $48.99 | $1,224.76 |
-| 50 | $47.49 | $2,374.53 |
-| 75 | $44.99 | $3,374.33 |
-| 100 | $44.99 | $4,499.10 |
-| 150 | $42.49 | $6,373.73 |
-| 200 | $42.49 | $8,498.30 |
+| 10 | $29.99 | $299.90 |
+| 25 | $29.99 | $749.75 |
+| 50 | $29.99 | $1,499.50 |
+| 100 | $29.99 | $2,999.00 |
+| 200 | $29.99 | $5,998.00 |
 
 ## Overview
 
@@ -95,7 +93,7 @@ OSHA Asbestos Awareness Training is delivered as an LMS-ready SCORM package — 
 
 ### How much does OSHA Asbestos Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $489.90 for 10 seats ($48.99 per seat), down to $42.49 per seat at 200 seats ($8,498.30). Need more seats? Contact us for enterprise pricing.
+$29.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $299.90 for 10 seats or $5,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Asbestos Awareness Training course?
 

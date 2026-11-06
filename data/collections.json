@@ -1,13 +1,8 @@
 [
  {
-  "id": 300446646438,
   "handle": "ammonia-refrigeration-training",
   "title": "Ammonia Refrigeration Training",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/ammonia-refrigeration-basics-and-safety-awareness.jpg?v=1781031264",
-   "alt": "Ammonia Refrigeration Training Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:24-05:00",
   "seo": {
    "title": "Ammonia Refrigeration Training",
@@ -22,8 +17,7 @@
    {
     "type": "intro",
     "heading": "Protecting People, Systems, and Operations in Ammonia Refrigeration Environments",
-    "html": "<div><p>Industrial ammonia refrigeration systems require specialized knowledge, strict safety procedures, and regulatory compliance to operate safely and efficiently.</p><p>Our Industrial Ammonia Refrigeration Safety and Operational Training programs are designed to support compliance with OSHA regulations and IIAR guidelines while helping facilities reduce operational, environmental, and safety risks.</p><p>These courses provide employees, operators, maintenance personnel, and supervisors with the critical skills needed to safely operate, inspect, maintain, and respond to hazards within ammonia refrigeration systems and related equipment.</p><p>Training covers essential topics such as ammonia system safety, leak prevention, emergency response procedures, mechanical integrity, process safety awareness, safe operating practices, and hazard recognition in industrial refrigeration environments.</p><p>By completing this training, organizations strengthen workplace safety, improve system reliability, support OSHA and IIAR compliance efforts, and build a safer, more prepared workforce for high-risk refrigeration operations.</p></div>",
-    "image": "https://cdn.shopify.com/s/files/1/0644/3211/1782/files/AdobeStock_1534229791.jpg?v=1779190010&width=1500"
+    "html": "<div><p>Industrial ammonia refrigeration systems require specialized knowledge, strict safety procedures, and regulatory compliance to operate safely and efficiently.</p><p>Our Industrial Ammonia Refrigeration Safety and Operational Training programs are designed to support compliance with OSHA regulations and IIAR guidelines while helping facilities reduce operational, environmental, and safety risks.</p><p>These courses provide employees, operators, maintenance personnel, and supervisors with the critical skills needed to safely operate, inspect, maintain, and respond to hazards within ammonia refrigeration systems and related equipment.</p><p>Training covers essential topics such as ammonia system safety, leak prevention, emergency response procedures, mechanical integrity, process safety awareness, safe operating practices, and hazard recognition in industrial refrigeration environments.</p><p>By completing this training, organizations strengthen workplace safety, improve system reliability, support OSHA and IIAR compliance efforts, and build a safer, more prepared workforce for high-risk refrigeration operations.</p></div>"
    },
    {
     "type": "audience",
@@ -53,11 +47,9 @@
   ]
  },
  {
-  "id": 303415558310,
   "handle": "best-selling-courses",
   "title": "Best Selling Courses",
   "description_html": "",
-  "image": null,
   "updated_at": "2026-09-02T12:19:14-05:00",
   "seo": {
    "title": "Best Selling Courses",
@@ -86,14 +78,9 @@
   ]
  },
  {
-  "id": 302720024742,
   "handle": "cdl-entry-level-driver-training-eldt",
   "title": "CDL Entry-Level Driver Training (ELDT)",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_596889440.jpg?v=1781031264",
-   "alt": "CDL Entry-Level Driver Training (ELDT) Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:24-05:00",
   "seo": {
    "title": "CDL Entry-Level Driver Training (ELDT)",
@@ -118,14 +105,9 @@
   ]
  },
  {
-  "id": 311853875366,
   "handle": "competent-person-training",
   "title": "Competent Person Training",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_1079700969.jpg?v=1781031263",
-   "alt": "Competent Person Training Collection Graphic"
-  },
   "updated_at": "2026-09-02T08:12:53-05:00",
   "seo": {
    "title": "Competent Person Training",
@@ -151,14 +133,9 @@
   ]
  },
  {
-  "id": 317577363622,
   "handle": "confined-space-trainings",
   "title": "Confined Space Trainings",
   "description_html": "<p><strong>Confined Space Training</strong> is essential for workers and supervisors who enter, monitor, or oversee confined space operations in the workplace. Confined spaces are areas that are not designed for continuous occupancy, have limited entry or exit points, and may present serious hazards such as toxic atmospheres, low oxygen levels, or physical entrapment risks.</p>",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_411458057.jpg?v=1781031264",
-   "alt": "Confined Space Trainings Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:24-05:00",
   "seo": {
    "title": "Confined Space Trainings",
@@ -180,14 +157,9 @@
   ]
  },
  {
-  "id": 317579296934,
   "handle": "em385-trainings",
   "title": "EM385 Trainings",
   "description_html": "<p>The <strong>EM 385-1-1 Safety and Health Training</strong> course is designed to help workers, contractors, and supervisors meet the safety and health requirements set forth by the <strong>U.S. Army Corps of Engineers (USACE)</strong>. This standard is mandatory for anyone working on military or federal construction projects.</p>",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_1011395661.jpg?v=1781031264",
-   "alt": "EM385 Trainings Collection Graphic"
-  },
   "updated_at": "2026-09-25T08:29:57-05:00",
   "seo": {
    "title": "EM385 Trainings",
@@ -209,14 +181,9 @@
   ]
  },
  {
-  "id": 691275464870,
   "handle": "epa-regulated-trainings",
   "title": "EPA Regulated Trainings",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/ChatGPTImageAug20_2026_12_24_05AM.jpg?v=1787218631",
-   "alt": "OSHA Process Safety Management Training - Product Graphic"
-  },
   "updated_at": "2026-08-20T04:38:29-05:00",
   "seo": {
    "title": "EPA Regulated Trainings",
@@ -234,14 +201,9 @@
   ]
  },
  {
-  "id": 311853777062,
   "handle": "ergonomics-training",
   "title": "Ergonomics Training",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_1133619244.jpg?v=1781031264",
-   "alt": "Ergonomics Training Collection Graphic"
-  },
   "updated_at": "2026-08-20T04:39:35-05:00",
   "seo": {
    "title": "Ergonomics Training",
@@ -260,14 +222,9 @@
   ]
  },
  {
-  "id": 311853711526,
   "handle": "hazard-communication-hazcom-ghs",
   "title": "Hazard Communication (HazCom) & GHS",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_831107555.jpg?v=1781031264",
-   "alt": "Hazard Communication (HazCom) & GHS Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:24-05:00",
   "seo": {
    "title": "Hazard Communication (HazCom) & GHS",
@@ -285,14 +242,9 @@
   ]
  },
  {
-  "id": 300446711974,
   "handle": "hazmat-training-dot-iata-imdg-transportation",
   "title": "Hazmat Training: DOT, IATA, IMDG Transportation",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/dot-general-awareness.webp?v=1781031264",
-   "alt": "Hazmat Training: DOT, IATA, IMDG Transportation Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:24-05:00",
   "seo": {
    "title": "Hazmat Training: DOT, IATA, IMDG Transportation",
@@ -307,8 +259,7 @@
    {
     "type": "intro",
     "heading": "Stay Compliant. Ship Safely. Protect Your Workforce.",
-    "html": "<div><p>Our HAZMAT &amp; RCRA / DOT / IMDG / Lithium Battery Training programs are designed to help organizations maintain full compliance with key regulatory standards governing the safe transportation, handling, storage, and disposal of hazardous materials across ground, air, and sea operations.</p><p>These courses equip employees with the essential knowledge and practical procedures needed to properly classify, package, label, mark, document, and transport hazardous materials while reducing the risk of accidents, environmental harm, and costly violations.</p><p>From hazardous waste management under RCRA to DOT shipping requirements, IMDG maritime regulations, and lithium battery transportation safety, our training prepares workers to recognize hazards, follow compliance protocols, and respond confidently in high-risk situations.</p><p>By completing these training programs, companies strengthen workplace safety, improve operational compliance, protect their workforce, and reduce environmental and transportation-related risks.</p></div>",
-    "image": "https://cdn.shopify.com/s/files/1/0644/3211/1782/files/AdobeStock_1997666901.jpg?v=1779188068&width=1500"
+    "html": "<div><p>Our HAZMAT &amp; RCRA / DOT / IMDG / Lithium Battery Training programs are designed to help organizations maintain full compliance with key regulatory standards governing the safe transportation, handling, storage, and disposal of hazardous materials across ground, air, and sea operations.</p><p>These courses equip employees with the essential knowledge and practical procedures needed to properly classify, package, label, mark, document, and transport hazardous materials while reducing the risk of accidents, environmental harm, and costly violations.</p><p>From hazardous waste management under RCRA to DOT shipping requirements, IMDG maritime regulations, and lithium battery transportation safety, our training prepares workers to recognize hazards, follow compliance protocols, and respond confidently in high-risk situations.</p><p>By completing these training programs, companies strengthen workplace safety, improve operational compliance, protect their workforce, and reduce environmental and transportation-related risks.</p></div>"
    },
    {
     "type": "audience",
@@ -348,14 +299,9 @@
   ]
  },
  {
-  "id": 300446056614,
   "handle": "hazwoper-training-29-cfr-1910-120",
   "title": "HAZWOPER Training (29 CFR 1910.120)",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/40-hour.webp?v=1781031263",
-   "alt": "HAZWOPER Training (29 CFR 1910.120) Collection Graphic"
-  },
   "updated_at": "2026-09-02T08:05:30-05:00",
   "seo": {
    "title": "HAZWOPER Training (29 CFR 1910.120)",
@@ -370,8 +316,7 @@
    {
     "type": "intro",
     "heading": "Safety in hazardous environments isn’t optional—it’s essential.",
-    "html": "<div><p>Our training ensures full compliance with OSHA 29 CFR 1910.120 (e), (p), and (q), which govern safe practices for hazardous waste operations, emergency response, and treatment, storage, and disposal (TSD) environments.</p><p>This training equips workers with the critical skills and procedures needed to identify risks, prevent exposure, and respond effectively during hazardous situations.</p><p>By completing these courses, companies strengthen their safety culture, protect their workforce, and stay fully aligned with OSHA requirements—while minimizing environmental and operational risks.</p></div>",
-    "image": "https://cdn.shopify.com/s/files/1/0644/3211/1782/files/ChatGPT_Image_Aug_21_2026_08_26_07_PM.jpg?v=1787326155&width=1500"
+    "html": "<div><p>Our training ensures full compliance with OSHA 29 CFR 1910.120 (e), (p), and (q), which govern safe practices for hazardous waste operations, emergency response, and treatment, storage, and disposal (TSD) environments.</p><p>This training equips workers with the critical skills and procedures needed to identify risks, prevent exposure, and respond effectively during hazardous situations.</p><p>By completing these courses, companies strengthen their safety culture, protect their workforce, and stay fully aligned with OSHA requirements—while minimizing environmental and operational risks.</p></div>"
    },
    {
     "type": "audience",
@@ -407,14 +352,9 @@
   ]
  },
  {
-  "id": 679829897382,
   "handle": "healthcare-industry-training",
   "title": "Healthcare Industry Training",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_1103921044.jpg?v=1781031264",
-   "alt": "Healthcare Industry Training Collection Graphic"
-  },
   "updated_at": "2026-09-02T12:20:04-05:00",
   "seo": {
    "title": "Healthcare Industry Training",
@@ -434,14 +374,9 @@
   ]
  },
  {
-  "id": 300446154918,
   "handle": "hydrogen-sulfide-h2s-training",
   "title": "Hydrogen Sulfide (H2S) Training",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/24-hour-rcra-tsd.webp?v=1781031264",
-   "alt": "Hydrogen Sulfide (H2S) Training Collection Graphic"
-  },
   "updated_at": "2026-07-07T07:30:16-05:00",
   "seo": {
    "title": "Hydrogen Sulfide (H2S) Training",
@@ -460,14 +395,9 @@
   ]
  },
  {
-  "id": 300446744742,
   "handle": "lithium-battery-shipping-training",
   "title": "Lithium Battery Shipping Training",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/lithium_thumbnail.webp?v=1781031264",
-   "alt": "Lithium Battery Shipping Training Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:24-05:00",
   "seo": {
    "title": "Lithium Battery Shipping Training",
@@ -488,14 +418,9 @@
   ]
  },
  {
-  "id": 311853613222,
   "handle": "mold-inspection-remediation-certification",
   "title": "Mold Inspection & Remediation Certification",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_1159133688.jpg?v=1781031264",
-   "alt": "Mold Inspection & Remediation Certification Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:24-05:00",
   "seo": {
    "title": "Mold Inspection & Remediation Certification",
@@ -515,14 +440,9 @@
   ]
  },
  {
-  "id": 300446351526,
   "handle": "nfpa-70e-electrical-arc-flash-safety",
   "title": "NFPA 70E Electrical & Arc Flash Safety",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/electrical-safety.webp?v=1781031264",
-   "alt": "NFPA 70E Electrical & Arc Flash Safety Collection Graphic"
-  },
   "updated_at": "2026-07-27T11:21:10-05:00",
   "seo": {
    "title": "NFPA 70E Electrical & Arc Flash Safety",
@@ -537,8 +457,7 @@
    {
     "type": "intro",
     "heading": "Electrical Hazards Can Be Invisible—Training Makes the Difference.",
-    "html": "<div><p>Electrical hazards can lead to serious injuries, arc flash incidents, equipment damage, and even fatalities—making proper electrical safety training essential for any workplace working on or near energized equipment.</p><p>Our NFPA 70E Electrical &amp; Arc Flash Safety Training helps workers understand electrical hazards, implement safe work practices, and comply with OSHA 1910 Subpart S and NFPA 70E 2024 standards.</p><p>These courses cover critical topics including arc flash and shock hazard awareness, approach boundaries, lockout/tagout procedures, energized electrical work permits, PPE selection, and safe troubleshooting practices.</p><p>By completing this training, employers can reduce workplace incidents, improve compliance, strengthen their electrical safety program, and ensure employees are equipped to work safely in high-risk electrical environments.</p></div>",
-    "image": "https://cdn.shopify.com/s/files/1/0644/3211/1782/files/AdobeStock_626350944.jpg?v=1779189002&width=1500"
+    "html": "<div><p>Electrical hazards can lead to serious injuries, arc flash incidents, equipment damage, and even fatalities—making proper electrical safety training essential for any workplace working on or near energized equipment.</p><p>Our NFPA 70E Electrical &amp; Arc Flash Safety Training helps workers understand electrical hazards, implement safe work practices, and comply with OSHA 1910 Subpart S and NFPA 70E 2024 standards.</p><p>These courses cover critical topics including arc flash and shock hazard awareness, approach boundaries, lockout/tagout procedures, energized electrical work permits, PPE selection, and safe troubleshooting practices.</p><p>By completing this training, employers can reduce workplace incidents, improve compliance, strengthen their electrical safety program, and ensure employees are equipped to work safely in high-risk electrical environments.</p></div>"
    },
    {
     "type": "audience",
@@ -568,14 +487,9 @@
   ]
  },
  {
-  "id": 300446810278,
   "handle": "osha-10-30-hour-outreach-training",
   "title": "OSHA 10 & 30 Hour Outreach Training",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/general-18.png?v=1781031263",
-   "alt": "OSHA 10 & 30 Hour Outreach Training Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:23-05:00",
   "seo": {
    "title": "OSHA 10 & 30 Hour Outreach Training",
@@ -594,14 +508,9 @@
   ]
  },
  {
-  "id": 300446384294,
   "handle": "osha-construction-safety-training-series",
   "title": "OSHA Construction Safety Training Series",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/asbestos.webp?v=1781031265",
-   "alt": "OSHA Construction Safety Training Series Collection Graphic"
-  },
   "updated_at": "2026-09-16T06:16:35-05:00",
   "seo": {
    "title": "OSHA Construction Safety Training Series",
@@ -616,8 +525,7 @@
    {
     "type": "intro",
     "heading": "Building Safer Jobsites Through OSHA-Aligned Construction Safety Training",
-    "html": "<div><p>Our OSHA Construction Safety Training Series offers a comprehensive lineup of courses designed to strengthen jobsite safety, hazard recognition, and regulatory compliance across essential construction operations.</p><p>These programs are developed to help construction professionals understand and apply OSHA standards effectively, reduce workplace incidents, and maintain safe working conditions in high-risk environments.</p><p>Training focuses on real-world construction hazards including falls, scaffolding risks, excavation and trenching safety, electrical hazards, PPE usage, tool and equipment safety, and site-specific risk control measures. Participants gain practical knowledge to identify dangers early, follow safe work practices, and respond appropriately to incidents on active construction sites.</p><p>By completing this training series, organizations improve workforce competency, enhance compliance with OSHA requirements, reduce accident rates, and build a stronger culture of safety across all construction activities.</p></div>",
-    "image": "https://cdn.shopify.com/s/files/1/0644/3211/1782/files/Palletjack.webp?v=1766080178&width=1500"
+    "html": "<div><p>Our OSHA Construction Safety Training Series offers a comprehensive lineup of courses designed to strengthen jobsite safety, hazard recognition, and regulatory compliance across essential construction operations.</p><p>These programs are developed to help construction professionals understand and apply OSHA standards effectively, reduce workplace incidents, and maintain safe working conditions in high-risk environments.</p><p>Training focuses on real-world construction hazards including falls, scaffolding risks, excavation and trenching safety, electrical hazards, PPE usage, tool and equipment safety, and site-specific risk control measures. Participants gain practical knowledge to identify dangers early, follow safe work practices, and respond appropriately to incidents on active construction sites.</p><p>By completing this training series, organizations improve workforce competency, enhance compliance with OSHA requirements, reduce accident rates, and build a stronger culture of safety across all construction activities.</p></div>"
    },
    {
     "type": "audience",
@@ -682,14 +590,9 @@
   ]
  },
  {
-  "id": 300446515366,
   "handle": "osha-general-safety-training-series",
   "title": "OSHA General Industry Safety Training Series",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/bloodborne.webp?v=1781031264",
-   "alt": "OSHA General Industry Safety Training Series Collection Graphic"
-  },
   "updated_at": "2026-09-03T06:20:36-05:00",
   "seo": {
    "title": "OSHA General Industry Safety Training Series",
@@ -734,14 +637,9 @@
   ]
  },
  {
-  "id": 300446482598,
   "handle": "osha-safety-training-in-spanish",
   "title": "OSHA Safety Training in Spanish",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/excavation.jpg?v=1781031263",
-   "alt": "OSHA Safety Training in Spanish Collection Graphic"
-  },
   "updated_at": "2026-06-09T13:54:23-05:00",
   "seo": {
    "title": "OSHA Safety Training in Spanish",
@@ -757,14 +655,9 @@
   "products": []
  },
  {
-  "id": 691279298726,
   "handle": "radiation-series",
   "title": "Radiation Series",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/ChatGPTImageAug18_2026_10_32_18PM.jpg?v=1787228375",
-   "alt": "OSHA 24 Hour HAZWOPER - RCRA TSD Operations Training - Product Graphic"
-  },
   "updated_at": "2026-08-20T07:19:57-05:00",
   "seo": {
    "title": "Radiation Series",
@@ -782,14 +675,9 @@
   ]
  },
  {
-  "id": 300446253222,
   "handle": "rcra-hazardous-waste-management",
   "title": "RCRA Hazardous Waste Management",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/hazardous_waste.webp?v=1781031264",
-   "alt": "RCRA Hazardous Waste Management Collection Graphic"
-  },
   "updated_at": "2026-07-27T11:22:02-05:00",
   "seo": {
    "title": "RCRA Hazardous Waste Management",
@@ -804,8 +692,7 @@
    {
     "type": "intro",
     "heading": "Turn Compliance into Control: RCRA Hazardous Waste Management Training",
-    "html": "<div><p>Our RCRA Hazardous Waste Management training is designed to help organizations meet EPA Resource Conservation and Recovery Act (RCRA) requirements by ensuring proper identification, handling, storage, transportation, and disposal of hazardous waste in accordance with regulatory standards.</p><p>This training equips employees and environmental teams with the knowledge to correctly classify waste, maintain accurate documentation, follow labeling and storage protocols, and prevent environmental contamination or regulatory violations. It also strengthens understanding of generator responsibilities, accumulation limits, emergency preparedness, and inspection procedures.</p><p>By implementing effective RCRA training, organizations reduce legal and financial risks, improve environmental protection, and ensure full compliance with federal hazardous waste regulations while building a stronger culture of safety and responsibility.</p></div>",
-    "image": "https://cdn.shopify.com/s/files/1/0644/3211/1782/files/AdobeStock_1254261792_3bb8aebb-a8eb-4ab5-b720-8a38a28d3998.jpg?v=1779192479&width=1500"
+    "html": "<div><p>Our RCRA Hazardous Waste Management training is designed to help organizations meet EPA Resource Conservation and Recovery Act (RCRA) requirements by ensuring proper identification, handling, storage, transportation, and disposal of hazardous waste in accordance with regulatory standards.</p><p>This training equips employees and environmental teams with the knowledge to correctly classify waste, maintain accurate documentation, follow labeling and storage protocols, and prevent environmental contamination or regulatory violations. It also strengthens understanding of generator responsibilities, accumulation limits, emergency preparedness, and inspection procedures.</p><p>By implementing effective RCRA training, organizations reduce legal and financial risks, improve environmental protection, and ensure full compliance with federal hazardous waste regulations while building a stronger culture of safety and responsibility.</p></div>"
    },
    {
     "type": "audience",
@@ -832,14 +719,9 @@
   ]
  },
  {
-  "id": 679842087078,
   "handle": "stormwater-planning-for-construction",
   "title": "Stormwater Planning for Construction",
   "description_html": "",
-  "image": {
-   "src": "https://cdn.shopify.com/s/files/1/0644/3211/1782/collections/AdobeStock_1122198392.jpg?v=1781031264",
-   "alt": "Stormwater Planning for Construction Collection Graphic"
-  },
   "updated_at": "2026-09-02T12:22:28-05:00",
   "seo": {
    "title": "Stormwater Planning for Construction",

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** OSHA/EPA – 29 CFR 1910.111 / EPA RMP (40 CFR 68)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $49.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/ammonia-refrigeration-basics-and-safety-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=ammonia-refrigeration-basics-and-safety-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $88.19 | $881.90 |
-| 25 | $88.19 | $2,204.76 |
-| 50 | $85.49 | $4,274.53 |
-| 75 | $80.99 | $6,074.33 |
-| 100 | $80.99 | $8,099.10 |
-| 150 | $76.49 | $11,473.73 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $49.99 | $499.90 |
+| 25 | $49.99 | $1,249.75 |
+| 50 | $49.99 | $2,499.50 |
+| 100 | $49.99 | $4,999.00 |
+| 200 | $49.99 | $9,998.00 |
 
 ## Overview
 
@@ -98,7 +96,7 @@ Ammonia Refrigeration Basics and Safety Awareness Training is delivered as an LM
 
 ### How much does Ammonia Refrigeration Basics and Safety Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $881.90 for 10 seats ($88.19 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$49.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $499.90 for 10 seats or $9,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Ammonia Refrigeration Basics and Safety Awareness Training course?
 

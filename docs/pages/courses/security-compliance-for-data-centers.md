@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – SOC 2 / ISO 27001 / PCI DSS / HIPAA / NIST SP 800-53
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $291.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/security-compliance-for-data-centers#buy
+- **Buy:** https://oshascorm.org/checkout?item=security-compliance-for-data-centers&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $233.59 | $2,335.92 |
-| 25 | $123.95 | $3,098.87 |
-| 50 | $87.41 | $4,370.46 |
-| 75 | $75.23 | $5,642.05 |
-| 100 | $69.14 | $6,913.64 |
-| 150 | $63.05 | $9,456.82 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $291.99 | $2,919.90 |
+| 25 | $291.99 | $7,299.75 |
+| 50 | $291.99 | $14,599.50 |
+| 100 | $291.99 | $29,199.00 |
+| 200 | $291.99 | $58,398.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Security & Compliance for Data Centers is delivered as an LMS-ready SCORM packag
 
 ### How much does Security & Compliance for Data Centers cost?
 
-Pricing is per learner seat for a 12-month license: $2,335.92 for 10 seats ($233.59 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$291.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,919.90 for 10 seats or $58,398.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Security & Compliance for Data Centers course?
 

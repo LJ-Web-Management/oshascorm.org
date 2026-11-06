@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 10 hours
 - **Regulation:** DOT – 49 CFR 172.704(a)(1)-(2)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $199.95 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/dot-hazmat-transportation-10-hour-advanced-general-awareness-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=dot-hazmat-transportation-10-hour-advanced-general-awareness-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $171.99 | $1,719.92 |
-| 25 | $101.26 | $2,531.51 |
-| 50 | $77.68 | $3,884.15 |
-| 75 | $69.82 | $5,236.79 |
-| 100 | $65.89 | $6,589.43 |
-| 150 | $61.96 | $9,294.72 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $199.95 | $1,999.50 |
+| 25 | $199.95 | $4,998.75 |
+| 50 | $199.95 | $9,997.50 |
+| 100 | $199.95 | $19,995.00 |
+| 200 | $199.95 | $39,990.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ DOT Hazmat 10-Hour Advanced General Awareness Training is delivered as an LMS-re
 
 ### How much does DOT Hazmat 10-Hour Advanced General Awareness Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,719.92 for 10 seats ($171.99 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$199.95 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,999.50 for 10 seats or $39,990.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the DOT Hazmat 10-Hour Advanced General Awareness Training course?
 

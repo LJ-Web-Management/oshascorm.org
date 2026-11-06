@@ -30,9 +30,11 @@
   });
 
   /* ----------------------------------------------------------- cart */
-  const KEY = 'oshascorm-cart-v1';
+  // Cart lines: { handle, title, price (per seat), seats, url }. Shared with
+  // /checkout (checkout.js reads the same key).
+  const KEY = 'oshascorm-cart-v2';
   const store = {
-    get() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } },
+    get() { try { const v = JSON.parse(localStorage.getItem(KEY)); return Array.isArray(v) ? v : []; } catch { return []; } },
     set(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch { /* private mode */ } paintCount(); },
   };
   function paintCount() {
@@ -40,68 +42,37 @@
     $$('.cart-count').forEach((el) => { el.textContent = String(n); el.hidden = n === 0; });
   }
   paintCount();
-  const permalink = (items) => `${CFG.checkout}/cart/${items.map((i) => `${i.variantId}:1`).join(',')}`;
+  const MIN = Number(CFG.minSeats) || 10;
+  const clampSeats = (v) => Math.max(MIN, Math.min(100000, Math.round(Number(v) || MIN)));
 
   /* -------------------------------------------------- seat picker */
+  // Every seat costs the same LMS list price: total = price × seats.
   $$('[data-buybox]').forEach((box) => {
-    const kind = box.dataset.kind; // "product" | "course"
-    const out = {
-      per: $('[data-out="per"]', box), total: $('[data-out="total"]', box),
-      regular: $('[data-out="regular"]', box), save: $('[data-out="save"]', box),
-      seats: $$('[data-out="seats"]', box),
-    };
+    const price = Number(box.dataset.price);
+    const input = $('input[name="seats"]', box);
+    const chips = $$('[data-seats]', box);
     const buy = $('[data-buy]', box);
     const add = $('[data-add]', box);
-    const err = $('.buybox__err', box);
-    const current = () => $('input[name="seats"]:checked', box) || $('input[name="seats"]', box);
+    const outTotal = $('[data-out="total"]', box);
+    const outSeats = $('[data-out="seats"]', box);
 
     function paint() {
-      const r = current();
-      if (!r) return;
-      const d = r.dataset;
-      if (out.per) out.per.textContent = fmt(d.per);
-      if (out.total) out.total.textContent = fmt(d.total);
-      if (out.regular) { out.regular.textContent = d.regular ? fmt(d.regular) : ''; out.regular.hidden = !d.regular; }
-      if (out.save) out.save.textContent = Number(d.save) > 0 ? `You save ${fmt(d.save)} vs. list price` : '';
-      out.seats.forEach((el) => { el.textContent = r.value; });
-      if (kind === 'product' && buy) buy.href = permalink([{ variantId: d.variant }]);
+      const seats = clampSeats(input.value);
+      if (outTotal) outTotal.textContent = fmt(Math.round(price * seats * 100) / 100);
+      if (outSeats) outSeats.textContent = String(seats);
+      chips.forEach((c) => { const on = Number(c.dataset.seats) === seats; c.classList.toggle('is-on', on); c.setAttribute('aria-pressed', String(on)); });
+      if (buy) buy.href = `${BASE}/checkout?item=${encodeURIComponent(box.dataset.handle)}&seats=${seats}`;
     }
-    box.addEventListener('change', (e) => { if (e.target.name === 'seats') paint(); });
+    chips.forEach((c) => c.addEventListener('click', () => { input.value = c.dataset.seats; paint(); }));
+    input.addEventListener('input', paint);
+    input.addEventListener('change', () => { input.value = clampSeats(input.value); paint(); });
     paint();
-
-    if (kind === 'course' && buy) {
-      buy.addEventListener('click', async (e) => {
-        e.preventDefault();
-        const r = current();
-        // Sub-path preview (e.g. *.github.io): the checkout service only
-        // accepts requests from the real domain, so hand off to the same
-        // course page there with the chosen seat count.
-        if (BASE) { location.href = `${CFG.site}${location.pathname.slice(BASE.length)}?seats=${r.value}`; return; }
-        if (err) err.classList.remove('is-on');
-        buy.disabled = true;
-        const label = buy.textContent;
-        buy.textContent = 'Redirecting to secure checkout…';
-        try {
-          const res = await fetch(CFG.courseCheckout, {
-            method: 'POST', headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ courseName: box.dataset.title, seats: Number(r.value), pricePerSeat: Number(r.dataset.per).toFixed(2), store: CFG.store, currency: 'USD' }),
-          });
-          const data = await res.json();
-          if (data.checkoutUrl) { location.href = data.checkoutUrl; return; }
-          throw new Error(data.details?.[0]?.message || data.error || 'Could not start checkout.');
-        } catch (ex) {
-          if (err) { err.textContent = `${ex.message || 'Network error.'} Please try again, or email ${CFG.email}.`; err.classList.add('is-on'); }
-          buy.disabled = false;
-          buy.textContent = label;
-        }
-      });
-    }
 
     if (add) {
       add.addEventListener('click', () => {
-        const r = current();
+        const seats = clampSeats(input.value);
         const items = store.get().filter((i) => i.handle !== box.dataset.handle);
-        items.push({ variantId: r.dataset.variant, handle: box.dataset.handle, title: box.dataset.title, seats: Number(r.value), price: Number(r.dataset.total), url: location.pathname });
+        items.push({ handle: box.dataset.handle, title: box.dataset.title, price, seats, url: box.dataset.url });
         store.set(items);
         add.textContent = 'Added — view cart';
         add.onclick = () => { location.href = BASE + '/cart'; };
@@ -122,19 +93,18 @@
       sum.hidden = items.length === 0;
       let total = 0;
       items.forEach((i, idx) => {
-        total += i.price;
+        const line = Math.round(i.price * i.seats * 100) / 100;
+        total += line;
         const li = document.createElement('li');
         li.className = 'cart-item';
-        li.innerHTML = `<div><a></a><div class="small muted"></div></div><b></b><button type="button">Remove</button>`;
-        const a = li.querySelector('a'); a.href = i.url; a.textContent = i.title;
-        li.querySelector('.small').textContent = `${i.seats} seats · 12-month license`;
-        li.querySelector('b').textContent = fmt(i.price);
+        li.innerHTML = '<div><a></a><div class="small muted"></div></div><b></b><button type="button">Remove</button>';
+        const a = li.querySelector('a'); a.href = BASE + i.url; a.textContent = i.title;
+        li.querySelector('.small').textContent = `${i.seats} seats × ${fmt(i.price)} · 12-month license`;
+        li.querySelector('b').textContent = fmt(line);
         li.querySelector('button').addEventListener('click', () => { const v = store.get(); v.splice(idx, 1); store.set(v); render(); });
         list.appendChild(li);
       });
       $('[data-cart-total]', cartRoot).textContent = fmt(total);
-      const go = $('[data-checkout]', cartRoot);
-      if (go) go.href = items.length ? permalink(items) : '#';
     };
     render();
   }
@@ -211,7 +181,17 @@
   }
 
   /* ------------------------------------------------- contact form */
-  if (/contact_posted=true/.test(location.search)) $('[data-contact-ok]')?.removeAttribute('hidden');
+  // Static hosting has no form backend: compose an email to the team.
+  const contact = $('form[data-contact]');
+  if (contact) {
+    contact.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const f = new FormData(contact);
+      const body = ['Name: ' + f.get('name'), 'Email: ' + f.get('email'), 'Phone: ' + (f.get('phone') || '-'), '', String(f.get('message') || '')].join('\n');
+      location.href = 'mailto:' + CFG.email + '?subject=' + encodeURIComponent('Website enquiry from ' + f.get('name')) + '&body=' + encodeURIComponent(body);
+      $('[data-contact-ok]')?.removeAttribute('hidden');
+    });
+  }
 
   /* ------------------------------------------- WebMCP (AI agents) */
   // Registers read-only discovery tools plus a checkout hand-off for agents
@@ -223,13 +203,13 @@
     const tools = [
       {
         name: 'search_courses',
-        description: 'Search the OSHA SCORM course catalog (hundreds of LMS-ready SCORM 1.2/2004 safety training courses) by topic, regulation or job role. Returns titles, URLs, durations and starting per-seat prices.',
+        description: 'Search the OSHA SCORM course catalog (hundreds of LMS-ready SCORM 1.2/2004 safety training courses) by topic, regulation or job role. Returns titles, URLs, durations and per-seat prices (USD, 12-month license).',
         inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'e.g. "HAZWOPER 40 hour", "1910.146", "forklift"' }, limit: { type: 'number', default: 10 } }, required: ['query'] },
-        async execute({ query, limit = 10 }) { return text(searchIndex(await loadIndex(), String(query), Math.min(Number(limit) || 10, 50)).map((d) => ({ title: d.t, url: new URL(BASE + d.u, location.origin).href, category: d.c, duration: d.d, fromPerSeat: d.p }))); },
+        async execute({ query, limit = 10 }) { return text(searchIndex(await loadIndex(), String(query), Math.min(Number(limit) || 10, 50)).map((d) => ({ title: d.t, url: new URL(BASE + d.u, location.origin).href, category: d.c, duration: d.d, pricePerSeat: d.p }))); },
       },
       {
         name: 'get_course_pricing',
-        description: 'Get seat-tier pricing (10–200+ seats, 12-month license) and course details for a course URL or handle.',
+        description: 'Get the per-seat price (12-month license; total = price x seats, minimum 10 seats), payment method and course details for a course URL or handle.',
         inputSchema: { type: 'object', properties: { course: { type: 'string', description: 'Course URL or handle' } }, required: ['course'] },
         async execute({ course }) {
           const h = String(course).replace(/\/$/, '').split('/').pop().replace(/\.(md|html)$/, '');
@@ -245,10 +225,9 @@
           const h = String(course).replace(/\/$/, '').split('/').pop().replace(/\.(md|html)$/, '');
           const c = (await catalog()).courses.find((x) => x.handle === h);
           if (!c) return text('Course not found.');
-          const tier = c.tiers.find((t) => t.seats === Number(seats)) || c.tiers[0];
-          if (c.type === 'product') { location.href = `${CFG.checkout}/cart/${tier.variantId}:1`; return text(`Opening checkout for ${c.title} (${tier.seats} seats).`); }
-          location.href = `${c.url}?seats=${tier.seats}#buy`;
-          return text(`Opened ${c.title}. Ask the buyer to press "Buy now" to continue to checkout.`);
+          const n = clampSeats(seats);
+          location.href = `${BASE}/checkout?item=${encodeURIComponent(c.handle)}&seats=${n}`;
+          return text(`Opened checkout for ${c.title} (${n} seats). Ask the buyer to enter their details and confirm payment.`);
         },
       },
     ];
@@ -257,7 +236,7 @@
 
   // Preselect seats from ?seats= (used by agent hand-off links).
   const qsSeats = new URLSearchParams(location.search).get('seats');
-  if (qsSeats) { const r = $(`input[name="seats"][value="${CSS.escape(qsSeats)}"]`); if (r) { r.checked = true; r.dispatchEvent(new Event('change', { bubbles: true })); } }
+  if (qsSeats) { const r = $('[data-buybox] input[name="seats"]'); if (r) { r.value = clampSeats(qsSeats); r.dispatchEvent(new Event('change', { bubbles: true })); } }
 
   /* ----------------------------------------- deferred analytics */
   if (CFG.ga4) {

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 2 hours
 - **Regulation:** 29 CFR 1910.178
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $29.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/forklift-operator-safety-class-iii-electric-motor-hand-rider-trucks#buy
+- **Buy:** https://oshascorm.org/checkout?item=forklift-operator-safety-class-iii-electric-motor-hand-rider-trucks&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $26.99 | $269.91 |
-| 25 | $21.31 | $532.72 |
-| 50 | $19.41 | $970.73 |
-| 75 | $18.78 | $1,408.74 |
-| 100 | $18.47 | $1,846.75 |
-| 150 | $18.15 | $2,722.78 |
-| 200 | $17.99 | $3,598.80 |
+| 10 | $29.99 | $299.90 |
+| 25 | $29.99 | $749.75 |
+| 50 | $29.99 | $1,499.50 |
+| 100 | $29.99 | $2,999.00 |
+| 200 | $29.99 | $5,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ Forklift Operator Safety - Class III: Electric Motor Hand/Rider Trucks is delive
 
 ### How much does Forklift Operator Safety - Class III: Electric Motor Hand/Rider Trucks cost?
 
-Pricing is per learner seat for a 12-month license: $269.91 for 10 seats ($26.99 per seat), down to $17.99 per seat at 200 seats ($3,598.80). Need more seats? Contact us for enterprise pricing.
+$29.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $299.90 for 10 seats or $5,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Forklift Operator Safety - Class III: Electric Motor Hand/Rider Trucks course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 3 hours
 - **Regulation:** 29 CFR 1910.146(g)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $69.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-permit-required-confined-space-entry-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-permit-required-confined-space-entry-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $58.79 | $587.90 |
-| 25 | $58.79 | $1,469.76 |
-| 50 | $56.99 | $2,849.53 |
-| 75 | $53.99 | $4,049.33 |
-| 100 | $53.99 | $5,399.10 |
-| 150 | $50.99 | $7,648.73 |
-| 200 | $50.99 | $10,198.30 |
+| 10 | $69.99 | $699.90 |
+| 25 | $69.99 | $1,749.75 |
+| 50 | $69.99 | $3,499.50 |
+| 100 | $69.99 | $6,999.00 |
+| 200 | $69.99 | $13,998.00 |
 
 ## Overview
 
@@ -107,7 +105,7 @@ OSHA Permit-Required Confined Space Entry Training is delivered as an LMS-ready 
 
 ### How much does OSHA Permit-Required Confined Space Entry Training cost?
 
-Pricing is per learner seat for a 12-month license: $587.90 for 10 seats ($58.79 per seat), down to $50.99 per seat at 200 seats ($10,198.30). Need more seats? Contact us for enterprise pricing.
+$69.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $699.90 for 10 seats or $13,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Permit-Required Confined Space Entry Training course?
 

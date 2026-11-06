@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 15 hours
 - **Regulation:** FMCSA/DOT – 49 CFR Part 380 Subpart F
 - **Languages:** English
-- **License:** 12 months per learner seat
+- **Price:** $199.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/eldt-class-b-to-class-a-upgrade-training-fmcsa#buy
+- **Buy:** https://oshascorm.org/checkout?item=eldt-class-b-to-class-a-upgrade-training-fmcsa&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $110.49 | $1,104.91 |
-| 25 | $78.60 | $1,965.05 |
-| 50 | $67.97 | $3,398.62 |
-| 75 | $64.43 | $4,832.18 |
-| 100 | $62.66 | $6,265.74 |
-| 150 | $60.89 | $9,132.87 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $199.99 | $1,999.90 |
+| 25 | $199.99 | $4,999.75 |
+| 50 | $199.99 | $9,999.50 |
+| 100 | $199.99 | $19,999.00 |
+| 200 | $199.99 | $39,998.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ ELDT Class B to Class A Upgrade Training (FMCSA) is delivered as an LMS-ready SC
 
 ### How much does ELDT Class B to Class A Upgrade Training (FMCSA) cost?
 
-Pricing is per learner seat for a 12-month license: $1,104.91 for 10 seats ($110.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$199.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $1,999.90 for 10 seats or $39,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the ELDT Class B to Class A Upgrade Training (FMCSA) course?
 

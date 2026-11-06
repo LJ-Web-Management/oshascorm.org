@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 10 hours
 - **Regulation:** 29 CFR 1910 (OSHA Outreach Program)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $89.00 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/osha-10-hour-general-industry-outreach-training-with-dol-card#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-10-hour-general-industry-outreach-training-with-dol-card&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $76.49 | $764.91 |
-| 25 | $66.08 | $1,651.90 |
-| 50 | $62.60 | $3,130.20 |
-| 75 | $61.45 | $4,608.50 |
-| 100 | $60.87 | $6,086.80 |
-| 150 | $60.29 | $9,043.40 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $89.00 | $890.00 |
+| 25 | $89.00 | $2,225.00 |
+| 50 | $89.00 | $4,450.00 |
+| 100 | $89.00 | $8,900.00 |
+| 200 | $89.00 | $17,800.00 |
 
 ## Overview
 
@@ -55,7 +53,7 @@ OSHA 10-Hour General Industry Training (DOL Card) is delivered as an LMS-ready S
 
 ### How much does OSHA 10-Hour General Industry Training (DOL Card) cost?
 
-Pricing is per learner seat for a 12-month license: $764.91 for 10 seats ($76.49 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$89.00 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $890.00 for 10 seats or $17,800.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 10-Hour General Industry Training (DOL Card) course?
 

@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1 hour
 - **Regulation:** OSHA/EPA – 29 CFR 1910.120 / 40 CFR 112
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $49.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-spill-prevention-and-response-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-spill-prevention-and-response-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $29.39 | $293.90 |
-| 25 | $29.39 | $734.76 |
-| 50 | $28.49 | $1,424.53 |
-| 75 | $26.99 | $2,024.33 |
-| 100 | $26.99 | $2,699.10 |
-| 150 | $25.49 | $3,823.73 |
-| 200 | $25.49 | $5,098.30 |
+| 10 | $49.99 | $499.90 |
+| 25 | $49.99 | $1,249.75 |
+| 50 | $49.99 | $2,499.50 |
+| 100 | $49.99 | $4,999.00 |
+| 200 | $49.99 | $9,998.00 |
 
 ## Overview
 
@@ -103,7 +101,7 @@ OSHA Spill Prevention and Response Safety Training is delivered as an LMS-ready 
 
 ### How much does OSHA Spill Prevention and Response Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $293.90 for 10 seats ($29.39 per seat), down to $25.49 per seat at 200 seats ($5,098.30). Need more seats? Contact us for enterprise pricing.
+$49.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $499.90 for 10 seats or $9,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Spill Prevention and Response Safety Training course?
 

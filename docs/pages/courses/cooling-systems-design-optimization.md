@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 8 hours
 - **Regulation:** Industry Standard – ASHRAE TC 9.9 Thermal Guidelines / ASHRAE 90.4
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $298.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/cooling-systems-design-optimization#buy
+- **Buy:** https://oshascorm.org/checkout?item=cooling-systems-design-optimization&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $239.19 | $2,391.92 |
-| 25 | $126.02 | $3,150.45 |
-| 50 | $88.29 | $4,414.67 |
-| 75 | $75.72 | $5,678.89 |
-| 100 | $69.43 | $6,943.12 |
-| 150 | $63.14 | $9,471.56 |
-| 200 | $60.00 | $12,000.00 |
+| 10 | $298.99 | $2,989.90 |
+| 25 | $298.99 | $7,474.75 |
+| 50 | $298.99 | $14,949.50 |
+| 100 | $298.99 | $29,899.00 |
+| 200 | $298.99 | $59,798.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Cooling Systems Design & Optimization is delivered as an LMS-ready SCORM package
 
 ### How much does Cooling Systems Design & Optimization cost?
 
-Pricing is per learner seat for a 12-month license: $2,391.92 for 10 seats ($239.19 per seat), down to $60.00 per seat at 200 seats ($12,000.00). Need more seats? Contact us for enterprise pricing.
+$298.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $2,989.90 for 10 seats or $59,798.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Cooling Systems Design & Optimization course?
 

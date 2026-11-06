@@ -14,9 +14,9 @@ updated: 2026-11-06
 - **Duration:** 1.4 hours
 - **Regulation:** 29 CFR 1910 (general industry, multi-standard)
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $39.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-warehouse-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-warehouse-safety-training&seats=10
 
 ## Key details
 
@@ -30,19 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $119.96 | $1,199.60 |
-| 25 | $106.63 | $2,665.75 |
-| 50 | $86.64 | $4,332.00 |
-| 75 | $73.31 | $5,498.25 |
-| 100 | $59.98 | $5,998.00 |
-| 150 | $53.32 | $7,998.00 |
-| 200 | $49.98 | $9,996.00 |
-| 250 | $44.80 | $11,199.20 |
-| 300 | $39.20 | $11,759.16 |
-| 350 | $35.00 | $12,249.13 |
-| 400 | $35.00 | $13,999.00 |
-| 450 | $33.60 | $15,118.92 |
-| 500 | $30.80 | $15,398.90 |
+| 10 | $39.99 | $399.90 |
+| 25 | $39.99 | $999.75 |
+| 50 | $39.99 | $1,999.50 |
+| 100 | $39.99 | $3,999.00 |
+| 200 | $39.99 | $7,998.00 |
 
 ## Overview
 
@@ -118,7 +110,7 @@ OSHA Warehouse Safety Training is delivered as an LMS-ready SCORM package — yo
 
 ### How much does OSHA Warehouse Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $1,199.60 for 10 seats ($119.96 per seat), down to $30.80 per seat at 500 seats ($15,398.90). Need more seats? Contact us for enterprise pricing.
+$39.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $399.90 for 10 seats or $7,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA Warehouse Safety Training course?
 

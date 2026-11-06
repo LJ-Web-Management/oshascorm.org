@@ -1,22 +1,22 @@
 ---
 title: "Loading Dock Safety Training"
 url: https://oshascorm.org/pages/courses/loading-dock-safety-training
-description: "Loading Dock Safety Training SCORM course (OSHA General Duty Clause): 1 hour online training for your LMS. SCORM 1.2 & 2004, certificate of completion, from…"
+description: "Loading Dock Safety Training SCORM course (OSHA General Duty Clause): 1 hour online training for your LMS. SCORM 1.2 & 2004, certificate of completion…"
 updated: 2026-11-06
 ---
 
 # Loading Dock Safety Training
 
-> Loading Dock Safety Training SCORM course (OSHA General Duty Clause): 1 hour online training for your LMS. SCORM 1.2 & 2004, certificate of completion, from…
+> Loading Dock Safety Training SCORM course (OSHA General Duty Clause): 1 hour online training for your LMS. SCORM 1.2 & 2004, certificate of completion…
 
 - **Type:** SCORM course (SCORM 1.2 and SCORM 2004 ZIP)
 - **Category:** Warehousing & Logistics Operations
 - **Duration:** 1 hour
 - **Regulation:** OSHA General Duty Clause
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $24.99 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/pages/courses/loading-dock-safety-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=loading-dock-safety-training&seats=10
 
 ## Key details
 
@@ -30,13 +30,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $22.49 | $224.91 |
-| 25 | $17.76 | $443.90 |
-| 50 | $16.18 | $808.89 |
-| 75 | $15.65 | $1,173.87 |
-| 100 | $15.39 | $1,538.86 |
-| 150 | $15.13 | $2,268.83 |
-| 200 | $14.99 | $2,998.80 |
+| 10 | $24.99 | $249.90 |
+| 25 | $24.99 | $624.75 |
+| 50 | $24.99 | $1,249.50 |
+| 100 | $24.99 | $2,499.00 |
+| 200 | $24.99 | $4,998.00 |
 
 ## Overview
 
@@ -54,7 +52,7 @@ Loading Dock Safety Training is delivered as an LMS-ready SCORM package — you 
 
 ### How much does Loading Dock Safety Training cost?
 
-Pricing is per learner seat for a 12-month license: $224.91 for 10 seats ($22.49 per seat), down to $14.99 per seat at 200 seats ($2,998.80). Need more seats? Contact us for enterprise pricing.
+$24.99 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $249.90 for 10 seats or $4,998.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the Loading Dock Safety Training course?
 

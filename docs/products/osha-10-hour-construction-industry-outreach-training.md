@@ -13,9 +13,9 @@ updated: 2026-11-06
 - **Category:** OSHA 10 & 30 Hour Outreach Training
 - **Duration:** 10 hours
 - **Languages:** English, Español
-- **License:** 12 months per learner seat
+- **Price:** $89.00 per learner seat (12-month license, minimum 10 seats)
 - **Delivery:** emailed within 24 hours of purchase
-- **Buy:** https://oshascorm.org/products/osha-10-hour-construction-industry-outreach-training#buy
+- **Buy:** https://oshascorm.org/checkout?item=osha-10-hour-construction-industry-outreach-training&seats=10
 
 ## Key details
 
@@ -29,13 +29,11 @@ updated: 2026-11-06
 
 | Seats | Per seat | Total |
 | --- | --- | --- |
-| 10 | $58.79 | $587.90 |
-| 25 | $58.79 | $1,469.76 |
-| 50 | $56.99 | $2,849.53 |
-| 75 | $53.99 | $4,049.33 |
-| 100 | $53.99 | $5,399.10 |
-| 150 | $50.99 | $7,648.73 |
-| 200 | $50.99 | $10,198.30 |
+| 10 | $89.00 | $890.00 |
+| 25 | $89.00 | $2,225.00 |
+| 50 | $89.00 | $4,450.00 |
+| 100 | $89.00 | $8,900.00 |
+| 200 | $89.00 | $17,800.00 |
 
 ## Overview
 
@@ -82,7 +80,7 @@ OSHA 10-Hour Outreach Training for Construction Industry with DOL Card is delive
 
 ### How much does OSHA 10-Hour Outreach Training for Construction Industry with DOL Card cost?
 
-Pricing is per learner seat for a 12-month license: $587.90 for 10 seats ($58.79 per seat), down to $50.99 per seat at 200 seats ($10,198.30). Need more seats? Contact us for enterprise pricing.
+$89.00 per learner seat for a 12-month license. Your total is the per-seat price × the number of seats — for example $890.00 for 10 seats or $17,800.00 for 200 seats. Organizations order a minimum of 10 seats.
 
 ### How long is the OSHA 10-Hour Outreach Training for Construction Industry with DOL Card course?
 

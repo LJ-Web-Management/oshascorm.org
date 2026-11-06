@@ -2,15 +2,15 @@
   "name": "oshascorm.org",
   "version": "1.0.0",
   "private": true,
-  "description": "Static site for oshascorm.org: OSHA-compliant SCORM safety training packages. Shopify remains the commerce back office; this repo renders a fast, SEO/AI-optimized storefront for GitHub Pages.",
+  "description": "Static site for oshascorm.org: OSHA-compliant SCORM safety training packages. Orders go straight to the HAZWOPER-OSHA LMS (Stripe + add_order), the same way as the sister sites.",
   "type": "module",
   "scripts": {
-    "sync": "node scripts/sync.mjs",
     "build": "node scripts/build.mjs",
-    "build:preview": "BASE_PATH=/oshascorm.org SHOP_PRIMARY_ORIGIN=https://oshascorm.org OUT_DIR=.cache/preview node scripts/build.mjs",
+    "build:preview": "BASE_PATH=/oshascorm.org/preview OUT_DIR=preview node scripts/build.mjs",
     "verify": "node scripts/verify.mjs",
     "serve": "node scripts/serve.mjs",
-    "all": "npm run sync && npm run build && npm run verify"
+    "all": "npm run build && npm run verify",
+    "build:ghpages": "BASE_PATH=/oshascorm.org OUT_DIR=.cache/gh-pages node scripts/build.mjs"
   },
   "engines": {
     "node": ">=20"
